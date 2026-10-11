@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T13:37:36.173285+00:00",
+  "generated_at": "2026-10-11T13:42:44.551761+00:00",
   "runner": "github-actions",
   "goofish_login_configured": false,
   "goofish_status": "home_exit_unavailable",
@@ -105,6 +105,16 @@
       "used_price": null,
       "quote_type": "public_buyback",
       "source_url": "https://komehyo.jp/kaitori/watch/"
+    },
+    {
+      "source": "QUARK",
+      "ref": "126334",
+      "variant": "",
+      "label": "126334",
+      "new_price": null,
+      "used_price": 1480000,
+      "quote_type": "public_buyback",
+      "source_url": "https://www.909.co.jp/rolex_buy.html"
     },
     {
       "source": "大黒屋",
