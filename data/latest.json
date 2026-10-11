@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-11T13:17:14.484683+00:00",
-  "runner": "github-actions-home-exit",
-  "goofish_login_configured": true,
-  "goofish_status": "ok",
+  "generated_at": "2026-10-11T13:37:36.173285+00:00",
+  "runner": "github-actions",
+  "goofish_login_configured": false,
+  "goofish_status": "home_exit_unavailable",
   "items": [
     {
       "item_id": "1058910542134",
@@ -127,6 +127,7 @@
       "source_url": "https://kaitori.e-daikoku.com/brand/shop/ikebukuro-higashiguchi/"
     }
   ],
-  "errors": [],
-  "goofish_home_exit_ip": "106.136.2.116"
+  "errors": [
+    "goofish: HOME_EXIT_UNAVAILABLE"
+  ]
 }
