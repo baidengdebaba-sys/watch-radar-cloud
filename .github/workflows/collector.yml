@@ -29,7 +29,6 @@ jobs:
           pip install playwright
           python -m playwright install --with-deps chromium
 
-      # Existing collector.py remains untouched and keeps collecting JP public sources directly.
       - name: Collect Japanese market data
         run: python collector.py
 
@@ -123,6 +122,10 @@ jobs:
               d.setdefault("errors",[]).append("goofish: HOME_EXIT_UNAVAILABLE")
               p.write_text(json.dumps(d,ensure_ascii=False,indent=2),encoding="utf-8")
           PY
+
+      - name: Prepare top manual buyback inquiry drafts
+        if: always()
+        run: python inquiry_queue.py
 
       - name: Publish latest data
         if: always()
