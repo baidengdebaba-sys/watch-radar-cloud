@@ -15,7 +15,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 55
     steps:
       - uses: actions/checkout@v4
 
@@ -29,7 +29,9 @@ jobs:
           pip install playwright
           python -m playwright install --with-deps chromium
 
-      # Existing collector.py remains untouched and keeps collecting JP public sources directly.
+      - name: Preserve previous Goofish snapshot
+        run: python preserve_items.py
+
       - name: Collect Japanese market data
         run: python collector.py
 
@@ -44,63 +46,37 @@ jobs:
           set +e
           mkdir -p ~/.ssh
           chmod 700 ~/.ssh
-
+          python resolve_home.py
+          if [ $? -ne 0 ]; then
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
           python - <<'PY'
           import os
           from pathlib import Path
-          home = Path.home() / ".ssh"
-          key = os.environ.get("HOME_SSH_PRIVATE_KEY", "").lstrip("\ufeff")
-          key = key.replace("\r\n", "\n").replace("\r", "\n").strip("\n") + "\n"
-          known = os.environ.get("HOME_SSH_KNOWN_HOSTS", "").lstrip("\ufeff")
-          known = known.replace("\r\n", "\n").replace("\r", "\n").strip("\n") + "\n"
-          (home / "be3600_watchradar").write_text(key, encoding="utf-8")
-          (home / "known_hosts").write_text(known, encoding="utf-8")
+          key=os.environ.get('HOME_SSH_PRIVATE_KEY','').lstrip('\ufeff').replace('\r\n','\n').replace('\r','\n').strip('\n')+'\n'
+          (Path.home()/'.ssh'/'be3600_watchradar').write_text(key,encoding='utf-8')
           PY
-
+          cp /tmp/watchradar_known_hosts ~/.ssh/known_hosts
           chmod 600 ~/.ssh/be3600_watchradar ~/.ssh/known_hosts
-          HOME_HOST="$(python - <<'PY'
-          import os
-          print(os.environ.get('HOME_SSH_HOST','').lstrip('\ufeff').strip())
-          PY
-          )"
-
-          if [ -z "$HOME_HOST" ]; then
+          HOME_HOST="$(cat /tmp/watchradar_home_host)"
+          ssh -fNT -D 127.0.0.1:1080 -p 40222 -i ~/.ssh/be3600_watchradar \
+            -o BatchMode=yes -o PasswordAuthentication=no \
+            -o HostKeyAlgorithms=+ssh-rsa -o PubkeyAcceptedAlgorithms=+ssh-rsa \
+            -o StrictHostKeyChecking=yes -o UserKnownHostsFile=~/.ssh/known_hosts \
+            -o ExitOnForwardFailure=yes -o ConnectTimeout=15 \
+            -o ServerAliveInterval=30 -o ServerAliveCountMax=3 root@"$HOME_HOST"
+          if [ $? -ne 0 ]; then
             echo "available=false" >> "$GITHUB_OUTPUT"
-            echo "HOME_SSH_HOST is empty"
             exit 0
           fi
-
-          ssh -fNT \
-            -D 127.0.0.1:1080 \
-            -p 40222 \
-            -i ~/.ssh/be3600_watchradar \
-            -o BatchMode=yes \
-            -o PasswordAuthentication=no \
-            -o HostKeyAlgorithms=+ssh-rsa \
-            -o PubkeyAcceptedAlgorithms=+ssh-rsa \
-            -o StrictHostKeyChecking=yes \
-            -o UserKnownHostsFile=~/.ssh/known_hosts \
-            -o ExitOnForwardFailure=yes \
-            -o ConnectTimeout=15 \
-            -o ServerAliveInterval=30 \
-            -o ServerAliveCountMax=3 \
-            root@"$HOME_HOST"
-
-          rc=$?
-          if [ "$rc" -ne 0 ]; then
-            echo "available=false" >> "$GITHUB_OUTPUT"
-            echo "Home SSH tunnel failed; JP collection will still publish."
-            exit 0
-          fi
-
           sleep 2
-          EXIT_IP="$(curl -fsS --max-time 15 --socks5-hostname 127.0.0.1:1080 https://api.ipify.org)"
-          if [ -n "$EXIT_IP" ]; then
-            echo "Home exit IP: $EXIT_IP"
+          curl -fsS --max-time 15 --socks5-hostname 127.0.0.1:1080 https://api.ipify.org >/dev/null
+          if [ $? -eq 0 ]; then
+            echo "Home residential exit verified"
             echo "available=true" >> "$GITHUB_OUTPUT"
           else
             echo "available=false" >> "$GITHUB_OUTPUT"
-            echo "SOCKS tunnel opened but proxy check failed."
           fi
 
       - name: Collect Goofish through home residential exit
@@ -108,21 +84,12 @@ jobs:
         env:
           GOOFISH_STORAGE_STATE_B64: ${{ secrets.GOOFISH_STORAGE_STATE_B64 }}
           WATCH_SOCKS_PROXY: socks5://127.0.0.1:1080
+          WATCH_PREVIOUS_DATA: /tmp/watchradar_previous.json
         run: xvfb-run -a python goofish_home.py
 
-      - name: Mark home exit unavailable
+      - name: Restore previous Goofish items if home exit unavailable
         if: steps.home.outputs.available != 'true'
-        run: |
-          python - <<'PY'
-          import json
-          from pathlib import Path
-          p=Path("data/latest.json")
-          if p.exists():
-              d=json.loads(p.read_text(encoding="utf-8"))
-              d["goofish_status"]="home_exit_unavailable"
-              d.setdefault("errors",[]).append("goofish: HOME_EXIT_UNAVAILABLE")
-              p.write_text(json.dumps(d,ensure_ascii=False,indent=2),encoding="utf-8")
-          PY
+        run: python preserve_items.py restore
 
       - name: Publish latest data
         if: always()
