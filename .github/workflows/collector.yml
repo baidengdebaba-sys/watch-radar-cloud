@@ -29,12 +29,83 @@ jobs:
           pip install playwright
           python -m playwright install --with-deps chromium
 
-      - name: Collect market data
-        env:
-          GOOFISH_STORAGE_STATE_B64: ${{ secrets.GOOFISH_STORAGE_STATE_B64 }}
+      # Existing collector.py remains untouched and keeps collecting JP public sources directly.
+      - name: Collect Japanese market data
         run: python collector.py
 
+      - name: Start home SOCKS tunnel
+        id: home
+        env:
+          HOME_SSH_HOST: ${{ secrets.HOME_SSH_HOST }}
+          HOME_SSH_PORT: ${{ secrets.HOME_SSH_PORT }}
+          HOME_SSH_PRIVATE_KEY: ${{ secrets.HOME_SSH_PRIVATE_KEY }}
+          HOME_SSH_KNOWN_HOSTS: ${{ secrets.HOME_SSH_KNOWN_HOSTS }}
+        shell: bash
+        run: |
+          set +e
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          printf '%s\n' "$HOME_SSH_PRIVATE_KEY" > ~/.ssh/be3600_watchradar
+          chmod 600 ~/.ssh/be3600_watchradar
+          printf '%s\n' "$HOME_SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/known_hosts
+
+          ssh -fNT \
+            -D 127.0.0.1:1080 \
+            -p "${HOME_SSH_PORT:-40222}" \
+            -i ~/.ssh/be3600_watchradar \
+            -o BatchMode=yes \
+            -o PasswordAuthentication=no \
+            -o HostKeyAlgorithms=+ssh-rsa \
+            -o PubkeyAcceptedAlgorithms=+ssh-rsa \
+            -o StrictHostKeyChecking=yes \
+            -o UserKnownHostsFile=~/.ssh/known_hosts \
+            -o ExitOnForwardFailure=yes \
+            -o ConnectTimeout=15 \
+            -o ServerAliveInterval=30 \
+            -o ServerAliveCountMax=3 \
+            root@"$HOME_SSH_HOST"
+
+          rc=$?
+          if [ "$rc" -ne 0 ]; then
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            echo "Home SSH tunnel failed; JP collection will still publish."
+            exit 0
+          fi
+
+          sleep 2
+          EXIT_IP="$(curl -fsS --max-time 15 --socks5-hostname 127.0.0.1:1080 https://api.ipify.org)"
+          if [ -n "$EXIT_IP" ]; then
+            echo "Home exit IP: $EXIT_IP"
+            echo "available=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            echo "SOCKS tunnel opened but proxy check failed."
+          fi
+
+      - name: Collect Goofish through home residential exit
+        if: steps.home.outputs.available == 'true'
+        env:
+          GOOFISH_STORAGE_STATE_B64: ${{ secrets.GOOFISH_STORAGE_STATE_B64 }}
+          WATCH_SOCKS_PROXY: socks5://127.0.0.1:1080
+        run: xvfb-run -a python goofish_home.py
+
+      - name: Mark home exit unavailable
+        if: steps.home.outputs.available != 'true'
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path("data/latest.json")
+          if p.exists():
+              d=json.loads(p.read_text(encoding="utf-8"))
+              d["goofish_status"]="home_exit_unavailable"
+              d.setdefault("errors",[]).append("goofish: HOME_EXIT_UNAVAILABLE")
+              p.write_text(json.dumps(d,ensure_ascii=False,indent=2),encoding="utf-8")
+          PY
+
       - name: Publish latest data
+        if: always()
         run: |
           git config user.name "Watch Radar Cloud"
           git config user.email "watch-radar@users.noreply.github.com"
