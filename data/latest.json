@@ -1,20 +1,10 @@
 {
-  "generated_at": "2026-10-11T12:44:56.116865+00:00",
+  "generated_at": "2026-10-11T12:55:34.341537+00:00",
   "runner": "github-actions",
-  "goofish_login_configured": true,
-  "goofish_status": "blocked_or_expired",
+  "goofish_login_configured": false,
+  "goofish_status": "home_exit_unavailable",
   "items": [],
   "jp_quotes": [
-    {
-      "source": "KOMEHYO",
-      "ref": "126500LN",
-      "variant": "",
-      "label": "126500LN",
-      "new_price": 5800000,
-      "used_price": null,
-      "quote_type": "public_buyback",
-      "source_url": "https://komehyo.jp/kaitori/watch/"
-    },
     {
       "source": "QUARK",
       "ref": "126334",
@@ -47,6 +37,7 @@
     }
   ],
   "errors": [
-    "goofish 126500LN: GOOFISH_SECURITY_VERIFICATION"
+    "KOMEHYO: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://komehyo.jp/kaitori/watch/\", waiting until \"domcontentloaded\"\n",
+    "goofish: HOME_EXIT_UNAVAILABLE"
   ]
 }
