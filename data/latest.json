@@ -1,9 +1,100 @@
 {
-  "generated_at": "2026-10-11T13:02:20.237695+00:00",
-  "runner": "github-actions",
-  "goofish_login_configured": false,
-  "goofish_status": "home_exit_unavailable",
-  "items": [],
+  "generated_at": "2026-10-11T13:17:14.484683+00:00",
+  "runner": "github-actions-home-exit",
+  "goofish_login_configured": true,
+  "goofish_status": "ok",
+  "items": [
+    {
+      "item_id": "1058910542134",
+      "keyword": "126500LN",
+      "title": "个人自用劳力士宇宙计型迪通拿 126500LN-0001 白 熊猫，2025年6月卡，二手，带原装盒子、保卡、吊牌、全套全长，40mm表径，自动机械机芯，蚝式钢表壳表带。很少用，需要的朋友联系。",
+      "price_cny": 210000,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1058910542134&categoryId=126916028",
+      "image_url": "",
+      "publish_time": null,
+      "parsed_ref": "126500LN",
+      "suspicious_keyword": "表带",
+      "risk_level": "high"
+    },
+    {
+      "item_id": "1081178857925",
+      "keyword": "126710BLRO",
+      "title": "2025年Rolex 126710blro 可乐圈五珠链 劳力士126710五珠链可乐圈 全套未使用 大部分原膜在，需要的朋友联系。",
+      "price_cny": 130000,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1081178857925&categoryId=126916028",
+      "image_url": "",
+      "publish_time": null,
+      "parsed_ref": "126710BLRO",
+      "suspicious_keyword": null,
+      "risk_level": "low"
+    },
+    {
+      "item_id": "1072759954209",
+      "keyword": "126710BLRO",
+      "title": "2023年126710blro-0001五珠可乐圈，23年1 1月卡，全套全长国行双吊牌，个人自用，上手非常少，成色不错，需要的朋友联系。",
+      "price_cny": 128000,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1072759954209&categoryId=126916028",
+      "image_url": "",
+      "publish_time": null,
+      "parsed_ref": null,
+      "suspicious_keyword": null,
+      "risk_level": "medium"
+    },
+    {
+      "item_id": "1080817469714",
+      "keyword": "126710BLRO",
+      "title": "2025年劳力士126710blro-0002 板带可乐圈 2025年国行全新 双吊牌不截带自动机械 黑盘 红蓝陶瓷圈 40mm全套附件 带盒子 陶瓷圈无损伤 成色非常好需要的朋友联系。",
+      "price_cny": 134000,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1080817469714&categoryId=126916028",
+      "image_url": "",
+      "publish_time": null,
+      "parsed_ref": null,
+      "suspicious_keyword": null,
+      "risk_level": "medium"
+    },
+    {
+      "item_id": "1067140388617",
+      "keyword": "126710BLRO",
+      "title": "个人自用一手22年劳力士可乐圈GMT，型号126710BLR O，22年的表，盒子、保卡、发票全都齐全，大全套。五珠表带，红蓝陶瓷圈，40表盘，钢款机械表，平时很爱惜，成色很新。手表走时准，所有功能都没问题，需要的朋友联系。",
+      "price_cny": 135000,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1067140388617&categoryId=126916028",
+      "image_url": "",
+      "publish_time": null,
+      "parsed_ref": null,
+      "suspicious_keyword": "表带",
+      "risk_level": "high"
+    },
+    {
+      "item_id": "1035709431926",
+      "keyword": "126710BLNR",
+      "title": "全新劳力士126710格林尼治，国米圈，北京专柜购入，202 6年1月保卡，大全套齐全，购物小票+双吊牌，发票未开（随时可以帮你开）。国米圈是劳力士格林尼治系列最好看的配色，专卖店最难入的钢款之一，需要的朋友联系。",
+      "price_cny": 115000,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1035709431926&categoryId=126916028",
+      "image_url": "",
+      "publish_time": null,
+      "parsed_ref": null,
+      "suspicious_keyword": null,
+      "risk_level": "medium"
+    }
+  ],
   "jp_quotes": [
     {
       "source": "KOMEHYO",
@@ -36,7 +127,6 @@
       "source_url": "https://kaitori.e-daikoku.com/brand/shop/ikebukuro-higashiguchi/"
     }
   ],
-  "errors": [
-    "goofish: HOME_EXIT_UNAVAILABLE"
-  ]
+  "errors": [],
+  "goofish_home_exit_ip": "106.136.2.116"
 }
