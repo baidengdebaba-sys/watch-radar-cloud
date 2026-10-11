@@ -44,10 +44,31 @@ jobs:
           set +e
           mkdir -p ~/.ssh
           chmod 700 ~/.ssh
-          printf '%s\n' "$HOME_SSH_PRIVATE_KEY" > ~/.ssh/be3600_watchradar
-          chmod 600 ~/.ssh/be3600_watchradar
-          printf '%s\n' "$HOME_SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
-          chmod 600 ~/.ssh/known_hosts
+
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          home = Path.home() / ".ssh"
+          key = os.environ.get("HOME_SSH_PRIVATE_KEY", "").lstrip("\ufeff")
+          key = key.replace("\r\n", "\n").replace("\r", "\n").strip("\n") + "\n"
+          known = os.environ.get("HOME_SSH_KNOWN_HOSTS", "").lstrip("\ufeff")
+          known = known.replace("\r\n", "\n").replace("\r", "\n").strip("\n") + "\n"
+          (home / "be3600_watchradar").write_text(key, encoding="utf-8")
+          (home / "known_hosts").write_text(known, encoding="utf-8")
+          PY
+
+          chmod 600 ~/.ssh/be3600_watchradar ~/.ssh/known_hosts
+          HOME_HOST="$(python - <<'PY'
+          import os
+          print(os.environ.get('HOME_SSH_HOST','').lstrip('\ufeff').strip())
+          PY
+          )"
+
+          if [ -z "$HOME_HOST" ]; then
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            echo "HOME_SSH_HOST is empty"
+            exit 0
+          fi
 
           ssh -fNT \
             -D 127.0.0.1:1080 \
@@ -63,7 +84,7 @@ jobs:
             -o ConnectTimeout=15 \
             -o ServerAliveInterval=30 \
             -o ServerAliveCountMax=3 \
-            root@"$HOME_SSH_HOST"
+            root@"$HOME_HOST"
 
           rc=$?
           if [ "$rc" -ne 0 ]; then
