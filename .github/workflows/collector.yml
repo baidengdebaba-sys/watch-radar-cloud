@@ -37,7 +37,6 @@ jobs:
         id: home
         env:
           HOME_SSH_HOST: ${{ secrets.HOME_SSH_HOST }}
-          HOME_SSH_PORT: ${{ secrets.HOME_SSH_PORT }}
           HOME_SSH_PRIVATE_KEY: ${{ secrets.HOME_SSH_PRIVATE_KEY }}
           HOME_SSH_KNOWN_HOSTS: ${{ secrets.HOME_SSH_KNOWN_HOSTS }}
         shell: bash
@@ -52,7 +51,7 @@ jobs:
 
           ssh -fNT \
             -D 127.0.0.1:1080 \
-            -p "${HOME_SSH_PORT:-40222}" \
+            -p 40222 \
             -i ~/.ssh/be3600_watchradar \
             -o BatchMode=yes \
             -o PasswordAuthentication=no \
