@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-11T03:36:59.573649+00:00",
+  "runner": "github-actions",
+  "goofish_login_configured": true,
+  "goofish_status": "blocked_or_expired",
+  "items": [],
+  "jp_quotes": [
+    {
+      "source": "KOMEHYO",
+      "ref": "126500LN",
+      "variant": "",
+      "label": "126500LN",
+      "new_price": 5800000,
+      "used_price": null,
+      "quote_type": "public_buyback",
+      "source_url": "https://komehyo.jp/kaitori/watch/"
+    },
+    {
+      "source": "QUARK",
+      "ref": "126334",
+      "variant": "",
+      "label": "126334",
+      "new_price": null,
+      "used_price": 1480000,
+      "quote_type": "public_buyback",
+      "source_url": "https://www.909.co.jp/rolex_buy.html"
+    },
+    {
+      "source": "大黒屋",
+      "ref": "126500LN",
+      "variant": "白 黑",
+      "label": "126500LN",
+      "new_price": 5000000,
+      "used_price": 4750000,
+      "quote_type": "public_buyback",
+      "source_url": "https://kaitori.e-daikoku.com/brand/shop/ikebukuro-higashiguchi/"
+    },
+    {
+      "source": "大黒屋",
+      "ref": "124060",
+      "variant": "白 黑",
+      "label": "124060",
+      "new_price": 5000000,
+      "used_price": 4750000,
+      "quote_type": "public_buyback",
+      "source_url": "https://kaitori.e-daikoku.com/brand/shop/ikebukuro-higashiguchi/"
+    }
+  ],
+  "errors": [
+    "goofish 126500LN: GOOFISH_SECURITY_VERIFICATION"
+  ]
+}
