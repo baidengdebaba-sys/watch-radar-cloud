@@ -12,6 +12,7 @@ MIN_PRICE = 30000
 MAX_PRICE = 20000000
 MAX_SAVED_ITEMS = 2500
 RETENTION_DAYS = 14
+DETAIL_VERIFY_LIMIT = 300
 
 # These are annotations only. They DO NOT exclude an item from collection.
 WARNING_WORDS = ["高仿","复刻","仿品","假表","定制","后改","改装","拆件","故障","待修","机芯单卖","仅配件"]
@@ -55,23 +56,19 @@ def ref_from_text(text: str):
     return None
 
 def parse_price(s: str):
-    """Parse only the actual price token, never a year/model/list-price number elsewhere."""
+    """Search-card parser. This is not authoritative until detail-page verification."""
     raw=(s or "").replace(",","").replace("，","").replace("￥","¥").strip()
     if not raw:
         return None
-
-    # Prefer an explicit currency token. The 万 multiplier applies only to that token.
     m=re.search(r"¥\s*([0-9]+(?:\.[0-9]+)?)\s*(万)?", raw)
     if not m:
         m=re.search(r"(?<![0-9])([0-9]+(?:\.[0-9]+)?)\s*(万)\s*(?:元)?", raw)
     if not m:
         m=re.search(r"(?<![0-9])([0-9]{4,9})\s*元(?![0-9])", raw)
     if not m:
-        # Price widgets sometimes contain just the numeric value.
         m=re.fullmatch(r"\s*([0-9]+(?:\.[0-9]+)?)\s*(万)?\s*", raw)
     if not m:
         return None
-
     v=float(m.group(1))
     suffix=m.group(2) if m.lastindex and m.lastindex >= 2 else None
     if suffix == "万":
@@ -80,6 +77,24 @@ def parse_price(s: str):
     if price <= 0 or price > MAX_PRICE:
         return None
     return price
+
+def parse_detail_integer_price(text: str):
+    """Detail pages show integer CNY prices; only accept explicit integer currency values."""
+    raw=(text or "").replace(",","").replace("，","").replace("￥","¥").strip()
+    if not raw:
+        return None
+    patterns=[
+        r"(?:当前价|现价|价格|售价)\s*[:：]?\s*¥?\s*([0-9]{4,9})(?![0-9.万wW])",
+        r"¥\s*([0-9]{4,9})(?![0-9.万wW])",
+        r"^\s*([0-9]{4,9})\s*$",
+    ]
+    for p in patterns:
+        m=re.search(p,raw,re.I)
+        if m:
+            v=int(m.group(1))
+            if 1 <= v <= MAX_PRICE:
+                return v
+    return None
 
 def item_id(url):
     try:return str((parse_qs(urlparse(url).query).get("id") or [""])[0])
@@ -116,7 +131,6 @@ def detect_year(title: str):
     t=title or ""
     m=re.search(r"(?<!\d)(20(?:0\d|1\d|2[0-6]))\s*年?", t)
     if m:return m.group(1)
-    # Common marketplace shorthand: 17年全套 / 23年5月 / 23年卡.
     m=re.search(r"(?<!\d)(0\d|1\d|2[0-6])\s*年(?:\s*\d{1,2}\s*月)?", t)
     if m:return "20"+m.group(1)
     return None
@@ -153,6 +167,20 @@ def jp_compare_for(ref, condition, quotes):
         "sources":sources[:8]
     }
 
+def candidate_score(x):
+    title=str(x.get("title") or "")
+    raw=str(x.get("price_raw_text") or "")
+    return len(title)*3 + min(len(raw),120) + (80 if x.get("parsed_ref") else 0) + (20 if x.get("image_url") else 0)
+
+def dedupe_best(items):
+    best={}
+    for x in items:
+        iid=str(x.get("item_id") or "")
+        if not iid:continue
+        if iid not in best or candidate_score(x)>candidate_score(best[iid]):
+            best[iid]=x
+    return list(best.values())
+
 def scan_goofish(page, keyword, quotes, limit=120):
     page.goto("https://www.goofish.com/search?q="+quote(keyword),wait_until="domcontentloaded",timeout=45000)
     page.wait_for_timeout(1500)
@@ -188,11 +216,12 @@ def scan_goofish(page, keyword, quotes, limit=120):
             if not title:title=text[:260]
 
             pw=c.locator('[class*="price-wrap"], [class*="price"]')
-            ptxt=pw.first.inner_text(timeout=800) if pw.count() else text
+            ptxt=re.sub(r"\s+"," ",pw.first.inner_text(timeout=800)).strip() if pw.count() else text
             price=parse_price(ptxt)
             if not price or price<MIN_PRICE:continue
 
-            ref=ref_from_text(title) or ref_from_text(keyword)
+            # Never inherit an exact Ref from the search keyword. The Ref must exist in this title.
+            ref=ref_from_text(title)
             meta=annotate(title)
             img=""
             try:
@@ -204,6 +233,9 @@ def scan_goofish(page, keyword, quotes, limit=120):
             risk="high" if warnings else ("low" if ref else "medium")
             out.append({
                 "item_id":iid,"keyword":keyword,"title":title,"price_cny":price,
+                "search_price_cny":price,"price_verified":False,
+                "price_source":"search_card_unverified","price_raw_text":ptxt,
+                "detail_title_match":False,
                 "seller":"","area":"","badge":"","item_url":href,"image_url":img,
                 "publish_time":None,"parsed_ref":ref,"risk_level":risk,
                 "first_seen_at":now,"last_seen_at":now,"seen_in_latest_scan":True,
@@ -211,7 +243,78 @@ def scan_goofish(page, keyword, quotes, limit=120):
             })
         except Exception:
             continue
-    return list({x["item_id"]:x for x in out}.values())
+    return dedupe_best(out)
+
+def compact_text(s):
+    return re.sub(r"\s+","",str(s or "")).lower()
+
+def title_matches_detail(title, ref, body):
+    b=compact_text(body)
+    r=compact_text(ref)
+    if r and r in b:
+        return True
+    key=compact_text(title)
+    if len(key)>=10 and key[:10] in b:
+        return True
+    return False
+
+def verify_detail_price(page, item):
+    result=dict(item)
+    result["price_verified"]=False
+    result["price_source"]="search_card_unverified"
+    result["detail_title_match"]=False
+    try:
+        page.goto(result["item_url"],wait_until="domcontentloaded",timeout=25000)
+        page.wait_for_timeout(500)
+        body=page.locator("body").inner_text(timeout=8000) or ""
+        if re.search(r"验证码|安全验证|异常访问|非法访问",body):
+            raise RuntimeError("GOOFISH_SECURITY_VERIFICATION")
+        matched=title_matches_detail(result.get("title"),result.get("parsed_ref"),body)
+        result["detail_title_match"]=matched
+        price=None
+        raw_price=""
+        loc=page.locator('[class*="price"], [class*="Price"]')
+        for i in range(min(loc.count(),30)):
+            try:
+                txt=re.sub(r"\s+"," ",loc.nth(i).inner_text(timeout=500)).strip()
+            except Exception:
+                continue
+            p=parse_detail_integer_price(txt)
+            if p:
+                price,raw_price=p,txt
+                break
+        if not price:
+            top=body[:5000]
+            m=re.search(r"¥\s*([0-9]{4,9})(?![0-9.万wW])",top.replace(",","").replace("，",""))
+            if m:
+                p=int(m.group(1))
+                if 1<=p<=MAX_PRICE:
+                    price,raw_price=p,m.group(0)
+        if price and matched:
+            result["search_price_cny"]=result.get("search_price_cny") or result.get("price_cny")
+            result["price_cny"]=price
+            result["price_verified"]=True
+            result["price_source"]="item_detail"
+            result["price_raw_text"]=raw_price
+        return result
+    except RuntimeError:
+        raise
+    except Exception as e:
+        result["price_verify_error"]=type(e).__name__
+        return result
+
+def reannotate_item(x, quotes):
+    y=dict(x)
+    title=str(y.get("title") or "")
+    meta=annotate(title)
+    y.update(meta)
+    ref=ref_from_text(title)
+    y["parsed_ref"]=ref
+    y["jp_compare"]=jp_compare_for(ref,meta["condition_label"],quotes)
+    if y.get("price_verified") is not True:
+        y["price_verified"]=False
+        y["price_source"]=str(y.get("price_source") or "historical_unverified")
+    return y
 
 def load_state():
     raw=os.environ.get("GOOFISH_STORAGE_STATE_B64","").strip()
@@ -232,7 +335,7 @@ def load_existing():
     if d:return d
     return {"generated_at":datetime.now(timezone.utc).isoformat(),"runner":"github-actions","items":[],"jp_quotes":[],"errors":[]}
 
-def merge_recent(current_items, previous_items):
+def merge_recent(current_items, previous_items, quotes):
     now=datetime.now(timezone.utc)
     cutoff=now-timedelta(days=RETENTION_DAYS)
     merged={}
@@ -244,13 +347,16 @@ def merge_recent(current_items, previous_items):
             dt=datetime.fromisoformat(str(seen).replace("Z","+00:00")) if seen else now
             if dt<cutoff:continue
         except Exception:pass
-        y=dict(x);y["seen_in_latest_scan"]=False;merged[iid]=y
+        y=reannotate_item(x,quotes)
+        y["seen_in_latest_scan"]=False
+        merged[iid]=y
     for x in current_items:
         iid=str(x.get("item_id") or "")
         if not iid:continue
         old=merged.get(iid)
         if old and old.get("first_seen_at"):x["first_seen_at"]=old["first_seen_at"]
-        merged[iid]=x
+        merged[iid]=reannotate_item(x,quotes)
+        merged[iid]["seen_in_latest_scan"]=True
     rows=list(merged.values())
     rows.sort(key=lambda x:str(x.get("last_seen_at") or ""),reverse=True)
     return rows[:MAX_SAVED_ITEMS]
@@ -276,9 +382,10 @@ def main():
         return
 
     keywords=[x.strip() for x in os.environ.get("WATCH_KEYWORDS",",".join(DEFAULT_KEYWORDS)).split(",") if x.strip()][:60]
-    quotes= data.get("jp_quotes") if isinstance(data.get("jp_quotes"),list) else []
+    quotes=data.get("jp_quotes") if isinstance(data.get("jp_quotes"),list) else []
     all_items=[]
     errors=[]
+    verify_blocked=False
 
     with sync_playwright() as p:
         browser=p.chromium.launch(headless=False,args=["--disable-dev-shm-usage"])
@@ -302,14 +409,36 @@ def main():
                 log("goofish ERROR",k,e)
                 if "LOGIN_EXPIRED" in str(e) or "SECURITY" in str(e):break
 
+        unique_current=dedupe_best(all_items)
+        order=sorted(unique_current,key=lambda x:(0 if x.get("parsed_ref") else 1,-candidate_score(x)))
+        detail_page=ctx.new_page()
+        verified_by_id={}
+        verified_count=0
+        for idx,x in enumerate(order[:DETAIL_VERIFY_LIMIT],1):
+            if verify_blocked:break
+            try:
+                y=verify_detail_price(detail_page,x)
+                verified_by_id[y["item_id"]]=y
+                if y.get("price_verified"):verified_count+=1
+                if idx%25==0:log("detail_verify",idx,"verified",verified_count)
+            except RuntimeError as e:
+                if "SECURITY" in str(e):
+                    verify_blocked=True
+                    errors.append("goofish detail verify: SECURITY_VERIFICATION")
+                    log("detail verify stopped by security verification")
+                    break
+        detail_page.close()
+        unique_current=[verified_by_id.get(x["item_id"],x) for x in unique_current]
         browser.close()
 
-    unique_current=list({x["item_id"]:x for x in all_items}.values())
-    data["items"]=merge_recent(unique_current,previous_items)
+    data["items"]=merge_recent(unique_current,previous_items,quotes)
     data["goofish_status"]="ok" if unique_current else ("blocked_or_expired" if errors else "empty")
     data["goofish_scan"]={
         "keywords":len(keywords),"current_scan_items":len(unique_current),
-        "saved_recent_items":len(data["items"]),"min_price_cny":MIN_PRICE,"retention_days":RETENTION_DAYS
+        "saved_recent_items":len(data["items"]),"min_price_cny":MIN_PRICE,"retention_days":RETENTION_DAYS,
+        "detail_verify_limit":DETAIL_VERIFY_LIMIT,
+        "detail_verified_items":sum(1 for x in unique_current if x.get("price_verified") is True),
+        "detail_unverified_items":sum(1 for x in unique_current if x.get("price_verified") is not True)
     }
     data.pop("goofish_home_exit_ip",None)
     data["errors"].extend(errors)
@@ -318,7 +447,8 @@ def main():
 
     OUT.parent.mkdir(parents=True,exist_ok=True)
     OUT.write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding="utf-8")
-    log("wrote",len(unique_current),"current Goofish items; saved",len(data["items"]),"recent items; preserved",len(quotes),"JP quotes")
+    log("wrote",len(unique_current),"current Goofish items; verified",data["goofish_scan"]["detail_verified_items"],
+        "saved",len(data["items"]),"recent items; preserved",len(quotes),"JP quotes")
 
 if __name__=="__main__":
     main()
