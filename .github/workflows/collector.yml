@@ -29,6 +29,9 @@ jobs:
           pip install playwright
           python -m playwright install --with-deps chromium
 
+      - name: Preserve previous market snapshot
+        run: python preserve_items.py
+
       - name: Collect Japanese market data
         run: python collector.py
 
@@ -109,19 +112,9 @@ jobs:
           WATCH_SOCKS_PROXY: socks5://127.0.0.1:1080
         run: xvfb-run -a python goofish_home.py
 
-      - name: Mark home exit unavailable
+      - name: Restore previous items if home exit unavailable
         if: steps.home.outputs.available != 'true'
-        run: |
-          python - <<'PY'
-          import json
-          from pathlib import Path
-          p=Path("data/latest.json")
-          if p.exists():
-              d=json.loads(p.read_text(encoding="utf-8"))
-              d["goofish_status"]="home_exit_unavailable"
-              d.setdefault("errors",[]).append("goofish: HOME_EXIT_UNAVAILABLE")
-              p.write_text(json.dumps(d,ensure_ascii=False,indent=2),encoding="utf-8")
-          PY
+        run: python preserve_items.py restore
 
       - name: Prepare top manual buyback inquiry drafts
         if: always()
