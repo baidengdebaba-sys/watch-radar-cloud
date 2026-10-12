@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T07:00:51.011384+00:00",
+  "generated_at": "2026-10-12T07:54:40.900397+00:00",
   "runner": "github-actions-home-exit",
   "goofish_status": "ok",
   "items": [
@@ -22,7 +22,7 @@
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:41:54.629721+00:00",
-      "last_seen_at": "2026-10-12T06:57:36.883725+00:00",
+      "last_seen_at": "2026-10-12T07:51:21.087008+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -54,7 +54,7 @@
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T06:57:36.883725+00:00",
-      "last_seen_at": "2026-10-12T06:57:36.883725+00:00",
+      "last_seen_at": "2026-10-12T07:51:21.087008+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -73,10 +73,10 @@
       "title": "罗杰杜彼RDDBEX0988 尺寸: 47毫米 防水性能: 5 巴 (50米) 2023年 库存未使用 全套现货",
       "price_cny": 4380000,
       "search_price_cny": 4380000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 438 万 12人想要",
-      "detail_title_match": false,
+      "price_verified": true,
+      "price_source": "item_detail",
+      "price_raw_text": "4380000",
+      "detail_title_match": true,
       "seller": "",
       "area": "",
       "badge": "",
@@ -86,7 +86,7 @@
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T01:48:17.641903+00:00",
-      "last_seen_at": "2026-10-12T06:57:31.715821+00:00",
+      "last_seen_at": "2026-10-12T07:51:16.112919+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -100,15 +100,113 @@
       "suspicious_keyword": null
     },
     {
+      "item_id": "1086388597291",
+      "keyword": "罗杰杜彼",
+      "title": "罗杰杜彼圆桌骑士RDDBEX0511 限量28块 玫瑰金 自动 45mm表径 大明火珐琅表桌圆制盘 墨玉圆桌雕工手制12个不各同相的古铜时为作士骑标 骑士手握十二生肖铜像 2018年保卡有盒 专柜定价193万",
+      "price_cny": 1150000,
+      "search_price_cny": 1150000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 115 万 累计降价99%",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1086388597291&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": null,
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-12T00:56:28.896141+00:00",
+      "last_seen_at": "2026-10-12T07:51:16.112919+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": false,
+        "ref": null,
+        "quote_count": 0
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "盒卡",
+      "year_label": "2018",
+      "warning_keywords": [],
+      "suspicious_keyword": null
+    },
+    {
+      "item_id": "1039584622863",
+      "keyword": "罗杰杜彼",
+      "title": "罗杰杜彼圆桌骑士蓝色珐琅PieceUnique1/1唯一定制 款的圆桌骑士，普通款200万定制款1.5倍定价，18K白金盘年蓝紫色珐琅，全球唯一表盘上代表12位传奇人物每位骑士雕像皆展现独有的造型高度仅为6.5毫米骑士雕像以玫瑰金为材质细致镌刻手工精修",
+      "price_cny": 1980000,
+      "search_price_cny": 1980000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 198 万",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1039584622863&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": null,
+      "risk_level": "high",
+      "first_seen_at": "2026-10-12T07:51:16.112919+00:00",
+      "last_seen_at": "2026-10-12T07:51:16.112919+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": false,
+        "ref": null,
+        "quote_count": 0
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "附件未注明",
+      "year_label": null,
+      "warning_keywords": [
+        "定制"
+      ],
+      "suspicious_keyword": "定制"
+    },
+    {
+      "item_id": "1075229102530",
+      "keyword": "罗杰杜彼",
+      "title": "罗杰杜彼王者竞速系列RDDBEX0774自动机械男士腕表，N TPT碳纤维/黑色DLC涂层钛合金材质，表径47mm，三问陀飞轮功能，背透机芯双珍珠陀，折叠扣，盒子保卡全套附件，全网唯一，完美极品，公价5040000。",
+      "price_cny": 1480000,
+      "search_price_cny": 1480000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 148 万",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1075229102530&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": null,
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-12T07:51:16.112919+00:00",
+      "last_seen_at": "2026-10-12T07:51:16.112919+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": false,
+        "ref": null,
+        "quote_count": 0
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "全套",
+      "year_label": null,
+      "warning_keywords": [],
+      "suspicious_keyword": null
+    },
+    {
       "item_id": "1091088897789",
       "keyword": "香奈儿",
       "title": "Chanel香奈儿CF白色荔枝皮链条包 银扣 经典菱格纹 36开全套",
       "price_cny": 30000,
       "search_price_cny": 30000,
-      "price_verified": true,
-      "price_source": "item_detail",
-      "price_raw_text": "30000",
-      "detail_title_match": true,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 3 万 1人想要",
+      "detail_title_match": false,
       "seller": "",
       "area": "",
       "badge": "",
@@ -118,7 +216,7 @@
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T06:57:21.284058+00:00",
-      "last_seen_at": "2026-10-12T06:57:21.284058+00:00",
+      "last_seen_at": "2026-10-12T07:51:06.091979+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -150,7 +248,7 @@
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:41:17.951775+00:00",
-      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
+      "last_seen_at": "2026-10-12T07:50:45.475755+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -182,7 +280,7 @@
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:41:17.951775+00:00",
-      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
+      "last_seen_at": "2026-10-12T07:50:45.475755+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -201,10 +299,10 @@
       "title": "型号740.056朗格大头三文鱼，全新全套，22年7月卡 走徐不天，已售1.10",
       "price_cny": 2250000,
       "search_price_cny": 2250000,
-      "price_verified": true,
-      "price_source": "item_detail",
-      "price_raw_text": "2250000",
-      "detail_title_match": true,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 225 万 22人想要",
+      "detail_title_match": false,
       "seller": "",
       "area": "",
       "badge": "",
@@ -214,7 +312,7 @@
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:41:17.951775+00:00",
-      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
+      "last_seen_at": "2026-10-12T07:50:45.475755+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -246,7 +344,7 @@
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:41:17.951775+00:00",
-      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
+      "last_seen_at": "2026-10-12T07:50:45.475755+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -278,39 +376,7 @@
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:41:17.951775+00:00",
-      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
-      "seen_in_latest_scan": true,
-      "jp_compare": {
-        "matched": false,
-        "ref": null,
-        "quote_count": 0
-      },
-      "condition_label": "全新/未使用",
-      "completeness_label": "全套",
-      "year_label": "2026",
-      "warning_keywords": [],
-      "suspicious_keyword": null
-    },
-    {
-      "item_id": "1087300638650",
-      "keyword": "朗格",
-      "title": "朗格ZEITWERK系列147.050 / LS1476AA 腕表 26年全套未使用、现货",
-      "price_cny": 4200000,
-      "search_price_cny": 4200000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 420 万",
-      "detail_title_match": false,
-      "seller": "",
-      "area": "",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1087300638650&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": null,
-      "risk_level": "medium",
-      "first_seen_at": "2026-10-11T23:41:17.951775+00:00",
-      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
+      "last_seen_at": "2026-10-12T07:50:45.475755+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -337,12 +403,12 @@
       "area": "",
       "badge": "",
       "item_url": "https://www.goofish.com/item?id=1076630787425&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "image_url": "//img.alicdn.com/bao/uploaded/i4/617588753/O1CN01tTHLw1yrzzE2vHAO_!!4611686018427381777-0-xy_item.jpg_450x10000Q90.jpg_.webp",
       "publish_time": null,
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:41:17.951775+00:00",
-      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
+      "last_seen_at": "2026-10-12T07:50:45.475755+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -374,7 +440,7 @@
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:41:17.951775+00:00",
-      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
+      "last_seen_at": "2026-10-12T07:50:45.475755+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -401,12 +467,12 @@
       "area": "",
       "badge": "",
       "item_url": "https://www.goofish.com/item?id=907977251256&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "image_url": "//img.alicdn.com/bao/uploaded/i1/O1CN01a8JiTL1NboOZcfQpS_!!4611686018427385173-53-fleamarket.heic_450x10000Q90.jpg_.webp",
       "publish_time": null,
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:41:17.951775+00:00",
-      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
+      "last_seen_at": "2026-10-12T07:50:45.475755+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -433,12 +499,12 @@
       "area": "",
       "badge": "",
       "item_url": "https://www.goofish.com/item?id=693538346860&categoryId=126916028",
-      "image_url": "//img.alicdn.com/bao/uploaded/i2/O1CN01RaFSIG1D64XdAGhzt_!!0-fleamarket.jpg_450x10000Q90.jpg_.webp",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
       "publish_time": null,
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:41:17.951775+00:00",
-      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
+      "last_seen_at": "2026-10-12T07:50:45.475755+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -470,7 +536,7 @@
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T00:55:57.866707+00:00",
-      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
+      "last_seen_at": "2026-10-12T07:50:45.475755+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -497,12 +563,12 @@
       "area": "",
       "badge": "",
       "item_url": "https://www.goofish.com/item?id=1076383983103&categoryId=126916028",
-      "image_url": "//img.alicdn.com/bao/uploaded/i1/2215701485687/O1CN01vKuFlSiZ1tH1nHbD_!!4611686018427385975-0-xy_item.jpg_450x10000Q90.jpg_.webp",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
       "publish_time": null,
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T02:45:45.141045+00:00",
-      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
+      "last_seen_at": "2026-10-12T07:50:45.475755+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -521,10 +587,10 @@
       "title": "【极品单表】朗格883.046F，全球限量一枚，专柜隐藏款， 整表T钻，成色几乎全新，保存很到位，细节都在图里。 现货好价，支持包邮，也可以自提。 喜欢直接拍，细节私聊发图～",
       "price_cny": 2700000,
       "search_price_cny": 2700000,
-      "price_verified": true,
-      "price_source": "item_detail",
-      "price_raw_text": "2700000",
-      "detail_title_match": true,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 270 万 2人想要",
+      "detail_title_match": false,
       "seller": "",
       "area": "",
       "badge": "",
@@ -534,7 +600,7 @@
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T00:55:57.866707+00:00",
-      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
+      "last_seen_at": "2026-10-12T07:50:45.475755+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -566,7 +632,7 @@
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T03:48:48.260173+00:00",
-      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
+      "last_seen_at": "2026-10-12T07:50:45.475755+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -598,7 +664,7 @@
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T02:45:45.141045+00:00",
-      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
+      "last_seen_at": "2026-10-12T07:50:45.475755+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -630,7 +696,7 @@
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T01:47:45.745023+00:00",
-      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
+      "last_seen_at": "2026-10-12T07:50:45.475755+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -649,20 +715,20 @@
       "title": "朗格607.091FE 盒证齐全 全新未使用 国行正品 26年保卡",
       "price_cny": 8800000,
       "search_price_cny": 8800000,
-      "price_verified": true,
-      "price_source": "item_detail",
-      "price_raw_text": "8800000",
-      "detail_title_match": true,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 880 万 3人想要",
+      "detail_title_match": false,
       "seller": "",
       "area": "",
       "badge": "",
       "item_url": "https://www.goofish.com/item?id=1082867511198&categoryId=126916028",
-      "image_url": "//img.alicdn.com/bao/uploaded/i4/824326133/O1CN01Cm7NXu5KWoG2GcGr_!!4611686018427385845-0-xy_item.jpg_450x10000Q90.jpg_.webp",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
       "publish_time": null,
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T05:45:19.414540+00:00",
-      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
+      "last_seen_at": "2026-10-12T07:50:45.475755+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -681,10 +747,10 @@
       "title": "朗格/A.Lange & Söhne ZEITWERK 14 0.029，手动机械机芯，18k白金材质，表径41.9毫米。黑盘背透设计，数字跳时功能搭配动力储备显示，德国制造，2021年全套附件齐全。 这款是朗格极具辨识度的ZEITWERK系列，标志性的数字跳时显示，读时直观又充满机械美感。手动上链机...",
       "price_cny": 460000,
       "search_price_cny": 460000,
-      "price_verified": true,
-      "price_source": "item_detail",
-      "price_raw_text": "460000",
-      "detail_title_match": true,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 46 万",
+      "detail_title_match": false,
       "seller": "",
       "area": "",
       "badge": "",
@@ -694,7 +760,7 @@
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T05:45:19.414540+00:00",
-      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
+      "last_seen_at": "2026-10-12T07:50:45.475755+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -726,7 +792,7 @@
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T05:45:19.414540+00:00",
-      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
+      "last_seen_at": "2026-10-12T07:50:45.475755+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -736,71 +802,6 @@
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
       "year_label": "2026",
-      "warning_keywords": [],
-      "suspicious_keyword": null
-    },
-    {
-      "item_id": "845034503844",
-      "keyword": "朗格",
-      "title": "朗格606.079 24年8月全新全套国行保卡未使用品 大明 火珐琅陶瓷白色表盘 鳄鱼皮表带 背透手动上链机芯 搭载三问功能 直线对标百达翡丽5078G 现货秒发#春日出游必备 #Patek Philippe/百达翡丽 #热销男表大集合",
-      "price_cny": 3380000,
-      "search_price_cny": 3380000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 338 万 ¥4960000",
-      "detail_title_match": false,
-      "seller": "",
-      "area": "",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=845034503844&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "5078G",
-      "risk_level": "medium",
-      "first_seen_at": "2026-10-12T05:45:19.414540+00:00",
-      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
-      "seen_in_latest_scan": true,
-      "jp_compare": {
-        "matched": false,
-        "ref": "5078G",
-        "quote_count": 0
-      },
-      "condition_label": "全新/未使用",
-      "completeness_label": "全套",
-      "year_label": "2024",
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
-      "item_id": "772252276167",
-      "keyword": "朗格",
-      "title": "朗格-顶级制表，德国天花板，低调而奢华！ 朗格猫头鹰铂金三问(全球限量30) Y2018 new 朗格一号 ，136.032，22new 朗格猫头鹰自鸣 145.032 Y2017new 朗格猫头鹰蓝盘白金三问(全球限量30) 具体私",
-      "price_cny": 800000,
-      "search_price_cny": 800000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 80 万 11人想要",
-      "detail_title_match": false,
-      "seller": "",
-      "area": "",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=772252276167&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": null,
-      "risk_level": "medium",
-      "first_seen_at": "2026-10-11T23:41:17.951775+00:00",
-      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
-      "seen_in_latest_scan": true,
-      "jp_compare": {
-        "matched": false,
-        "ref": null,
-        "quote_count": 0
-      },
-      "condition_label": "成色未注明",
-      "completeness_label": "附件未注明",
-      "year_label": "2018",
       "warning_keywords": [],
       "suspicious_keyword": null
     },
@@ -823,7 +824,7 @@
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:41:17.951775+00:00",
-      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
+      "last_seen_at": "2026-10-12T07:50:45.475755+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -833,38 +834,6 @@
       "condition_label": "成色未注明",
       "completeness_label": "附件未注明",
       "year_label": null,
-      "warning_keywords": [],
-      "suspicious_keyword": null
-    },
-    {
-      "item_id": "1089823957527",
-      "keyword": "朗格",
-      "title": "朗格ZEITWERK系列147.050 / LS1476AA 腕表 26年未使用、主要是能秒发货",
-      "price_cny": 4200000,
-      "search_price_cny": 4200000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 420 万",
-      "detail_title_match": false,
-      "seller": "",
-      "area": "",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1089823957527&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": null,
-      "risk_level": "medium",
-      "first_seen_at": "2026-10-12T01:47:45.745023+00:00",
-      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
-      "seen_in_latest_scan": true,
-      "jp_compare": {
-        "matched": false,
-        "ref": null,
-        "quote_count": 0
-      },
-      "condition_label": "全新/未使用",
-      "completeness_label": "附件未注明",
-      "year_label": "2026",
       "warning_keywords": [],
       "suspicious_keyword": null
     },
@@ -887,7 +856,7 @@
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T06:57:00.386235+00:00",
-      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
+      "last_seen_at": "2026-10-12T07:50:45.475755+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -901,15 +870,143 @@
       "suspicious_keyword": null
     },
     {
+      "item_id": "1087345807797",
+      "keyword": "朗格",
+      "title": "现货❗️26年全套未使用，朗格/A.Lange & Sohn e ODYSSEUS奥德修斯系列 363.117 自动上链机芯 钛金属 40.5毫米 蓝灰盘面搭配小秒针与日期显示，钛金属表壳表带轻盈耐磨，自动机械机芯走时稳定。成色全新，附件齐全含质保卡、防尘袋、包装盒，专柜正品渠道购入，支持验货鉴定。...",
+      "price_cny": 1410000,
+      "search_price_cny": 1410000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 141 万",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1087345807797&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": null,
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-11T23:41:17.951775+00:00",
+      "last_seen_at": "2026-10-12T07:50:45.475755+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": false,
+        "ref": null,
+        "quote_count": 0
+      },
+      "condition_label": "全新/未使用",
+      "completeness_label": "全套",
+      "year_label": "2026",
+      "warning_keywords": [],
+      "suspicious_keyword": null
+    },
+    {
+      "item_id": "757911322318",
+      "keyword": "朗格",
+      "title": "朗格卡巴莱陀飞轮 极其少见的钻石宝盖装于正面的陀飞轮之上！卡巴莱也属于“传说中”的系列。具备停秒功能的陀飞轮机芯，修长的机芯被徐步天老师大加赞许过。 · 一个完美匹配的“满膛机芯”，如...",
+      "price_cny": 880000,
+      "search_price_cny": 880000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 88 万 ¥2200000",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=757911322318&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": null,
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-12T01:47:45.745023+00:00",
+      "last_seen_at": "2026-10-12T07:50:45.475755+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": false,
+        "ref": null,
+        "quote_count": 0
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "附件未注明",
+      "year_label": null,
+      "warning_keywords": [],
+      "suspicious_keyword": null
+    },
+    {
+      "item_id": "948960515366",
+      "keyword": "朗格",
+      "title": "朗格1815系列421.025/LS4212AB 男士 手动机械 950铂金材质 41.9mm表径 表盘以实心银铸造 指针以18K黄金镀铑、蓝钢、镀18K金钢制成 蓝宝石水晶玻璃 日期 星期 月份 动力储备显示 月相 长动力 双追针计时 万年历 集众多复杂功能于一身 ...",
+      "price_cny": 1020000,
+      "search_price_cny": 1020000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 102 万 3人想要",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=948960515366&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": null,
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-12T01:47:45.745023+00:00",
+      "last_seen_at": "2026-10-12T07:50:45.475755+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": false,
+        "ref": null,
+        "quote_count": 0
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "附件未注明",
+      "year_label": null,
+      "warning_keywords": [],
+      "suspicious_keyword": null
+    },
+    {
+      "item_id": "1077488466638",
+      "keyword": "朗格",
+      "title": "朗格883.046F，专柜隐藏款，整表全部T钻镶嵌。 单表，极品成色，全球限量一枚。 见过的人不多，拥有的更是少数中的少数。 上手存在感极强，但又不张扬。 只给真正懂朗格的人看。 有兴趣私信交流，非诚勿扰。",
+      "price_cny": 2680000,
+      "search_price_cny": 2680000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 268 万 2人想要",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1077488466638&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": null,
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-12T07:50:45.475755+00:00",
+      "last_seen_at": "2026-10-12T07:50:45.475755+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": false,
+        "ref": null,
+        "quote_count": 0
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "单表",
+      "year_label": null,
+      "warning_keywords": [],
+      "suspicious_keyword": null
+    },
+    {
       "item_id": "1087172760705",
       "keyword": "宝玑",
       "title": "宝玑/Breguet Classique Complicat ions 经典复杂系列 5359BB/6B/9V6/DD0D 手动上链 白色金 40,3 专柜价2854400 2020年全套现货好价",
       "price_cny": 680000,
       "search_price_cny": 680000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 68 万",
-      "detail_title_match": false,
+      "price_verified": true,
+      "price_source": "item_detail",
+      "price_raw_text": "680000",
+      "detail_title_match": true,
       "seller": "",
       "area": "",
       "badge": "",
@@ -919,7 +1016,7 @@
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:41:12.649098+00:00",
-      "last_seen_at": "2026-10-12T06:56:55.203673+00:00",
+      "last_seen_at": "2026-10-12T07:50:40.376261+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -951,7 +1048,7 @@
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:41:12.649098+00:00",
-      "last_seen_at": "2026-10-12T06:56:55.203673+00:00",
+      "last_seen_at": "2026-10-12T07:50:40.376261+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -983,7 +1080,7 @@
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:41:12.649098+00:00",
-      "last_seen_at": "2026-10-12T06:56:55.203673+00:00",
+      "last_seen_at": "2026-10-12T07:50:40.376261+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -1015,7 +1112,7 @@
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T00:55:52.683666+00:00",
-      "last_seen_at": "2026-10-12T06:56:55.203673+00:00",
+      "last_seen_at": "2026-10-12T07:50:40.376261+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -1034,10 +1131,10 @@
       "title": "宝玑/Breguet 航海 Marine 系列 5829BR -8R-9ZU 自动机械机芯 18kt 玫瑰金 43 MM 专柜价2284500单表，",
       "price_cny": 840000,
       "search_price_cny": 840000,
-      "price_verified": true,
-      "price_source": "item_detail",
-      "price_raw_text": "840000",
-      "detail_title_match": true,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 84 万 1人想要",
+      "detail_title_match": false,
       "seller": "",
       "area": "",
       "badge": "",
@@ -1047,7 +1144,7 @@
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T00:55:52.683666+00:00",
-      "last_seen_at": "2026-10-12T06:56:55.203673+00:00",
+      "last_seen_at": "2026-10-12T07:50:40.376261+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -1079,7 +1176,7 @@
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T00:55:52.683666+00:00",
-      "last_seen_at": "2026-10-12T06:56:55.203673+00:00",
+      "last_seen_at": "2026-10-12T07:50:40.376261+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -1093,25 +1190,25 @@
       "suspicious_keyword": null
     },
     {
-      "item_id": "1088811791572",
-      "keyword": "宝玑",
-      "title": "宝玑/Breguet Classique Complicat ions 经典复杂系列 5359BB/6B/9V6/DD0D 手动上链 白色金 40,3 专柜价2854400 2020年全套现货好价",
-      "price_cny": 720000,
-      "search_price_cny": 720000,
+      "item_id": "921742984612",
+      "keyword": "沛纳海",
+      "title": "沛纳海SUBMERSIBLE潜行系列 PAM00973男士自 动机械机械腕表，42mm表径，21年全套，已延保八年，原始品相，精钢材质、黑色字面、走时精准，工价72400！杭州自提，外地可以验货宝！捡漏的别来！",
+      "price_cny": 30000,
+      "search_price_cny": 30000,
       "price_verified": false,
       "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 72 万",
+      "price_raw_text": "¥ 3 万 累计降价10%",
       "detail_title_match": false,
       "seller": "",
       "area": "",
       "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1088811791572&categoryId=126916028",
+      "item_url": "https://www.goofish.com/item?id=921742984612&categoryId=126916028",
       "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
       "publish_time": null,
       "parsed_ref": null,
       "risk_level": "medium",
-      "first_seen_at": "2026-10-12T06:56:55.203673+00:00",
-      "last_seen_at": "2026-10-12T06:56:55.203673+00:00",
+      "first_seen_at": "2026-10-12T00:55:32.501255+00:00",
+      "last_seen_at": "2026-10-12T07:50:19.844228+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -1120,39 +1217,7 @@
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
-      "year_label": "2020",
-      "warning_keywords": [],
-      "suspicious_keyword": null
-    },
-    {
-      "item_id": "1088818274260",
-      "keyword": "宝珀",
-      "title": "22年宝珀五十㖊5100-1140-O52A，蓝盘自动机械， 精钢表壳，表径38mm，背透设计，日历显示，陶瓷单向表圈，蓝织纹表带，柔软舒适度极棒，附件齐全，带包装盒和保卡，专柜价82000",
-      "price_cny": 30000,
-      "search_price_cny": 30000,
-      "price_verified": true,
-      "price_source": "item_detail",
-      "price_raw_text": "30000",
-      "detail_title_match": true,
-      "seller": "",
-      "area": "",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1088818274260&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": null,
-      "risk_level": "medium",
-      "first_seen_at": "2026-10-12T05:44:43.783884+00:00",
-      "last_seen_at": "2026-10-12T06:56:24.104614+00:00",
-      "seen_in_latest_scan": true,
-      "jp_compare": {
-        "matched": false,
-        "ref": null,
-        "quote_count": 0
-      },
-      "condition_label": "成色未注明",
-      "completeness_label": "全套",
-      "year_label": "2022",
+      "year_label": "2021",
       "warning_keywords": [],
       "suspicious_keyword": null
     },
@@ -1175,7 +1240,7 @@
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T02:45:04.542414+00:00",
-      "last_seen_at": "2026-10-12T06:56:18.903945+00:00",
+      "last_seen_at": "2026-10-12T07:50:04.475343+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -1207,7 +1272,7 @@
       "parsed_ref": "5271P",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:40:14.902288+00:00",
-      "last_seen_at": "2026-10-12T06:55:58.270733+00:00",
+      "last_seen_at": "2026-10-12T07:49:43.842004+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -1220,38 +1285,6 @@
       "warning_keywords": [],
       "suspicious_keyword": null,
       "ref_source": "keyword_or_title_repair"
-    },
-    {
-      "item_id": "1088571490942",
-      "keyword": "百达翡丽",
-      "title": "百达翡丽鹦鹉螺7118/1A，白钢白盘，表径35.2mm，自 动机械，背透，精钢表带，折叠扣，324 S V机芯，30m防水，大日历窗。成色几乎全新，保存很好，走时正常，附件齐全，原装盒子证书说明书都有，正品保证，价格可聊，喜欢私聊。",
-      "price_cny": 520000,
-      "search_price_cny": 520000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 52 万 累计降价8000.00元",
-      "detail_title_match": false,
-      "seller": "",
-      "area": "",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1088571490942&categoryId=126916028",
-      "image_url": "//img.alicdn.com/bao/uploaded/i2/867000095/O1CN01zOuIwOx7gvG2vHAO_!!4611686018427387679-0-xy_item.jpg_450x10000Q90.jpg_.webp",
-      "publish_time": null,
-      "parsed_ref": null,
-      "risk_level": "medium",
-      "first_seen_at": "2026-10-12T06:55:58.270733+00:00",
-      "last_seen_at": "2026-10-12T06:55:58.270733+00:00",
-      "seen_in_latest_scan": true,
-      "jp_compare": {
-        "matched": false,
-        "ref": null,
-        "quote_count": 0
-      },
-      "condition_label": "全新/未使用",
-      "completeness_label": "全套",
-      "year_label": null,
-      "warning_keywords": [],
-      "suspicious_keyword": null
     },
     {
       "item_id": "680721120217",
@@ -1272,7 +1305,7 @@
       "parsed_ref": "5167A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:39:47.835447+00:00",
-      "last_seen_at": "2026-10-12T06:55:32.856794+00:00",
+      "last_seen_at": "2026-10-12T07:49:18.227905+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -1311,7 +1344,7 @@
       "parsed_ref": "5167A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:39:47.835447+00:00",
-      "last_seen_at": "2026-10-12T06:55:32.856794+00:00",
+      "last_seen_at": "2026-10-12T07:49:18.227905+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -1350,7 +1383,7 @@
       "parsed_ref": "5167A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:39:47.835447+00:00",
-      "last_seen_at": "2026-10-12T06:55:32.856794+00:00",
+      "last_seen_at": "2026-10-12T07:49:18.227905+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -1389,7 +1422,7 @@
       "parsed_ref": "5167A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:39:47.835447+00:00",
-      "last_seen_at": "2026-10-12T06:55:32.856794+00:00",
+      "last_seen_at": "2026-10-12T07:49:18.227905+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -1415,10 +1448,10 @@
       "title": "百达翡丽5167A-001钢手雷，25年全套，现货在店，欢迎 来询！。",
       "price_cny": 610000,
       "search_price_cny": 610000,
-      "price_verified": true,
-      "price_source": "item_detail",
-      "price_raw_text": "610000",
-      "detail_title_match": true,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 61 万 6人想要",
+      "detail_title_match": false,
       "seller": "",
       "area": "",
       "badge": "",
@@ -1428,7 +1461,7 @@
       "parsed_ref": "5167A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:39:47.835447+00:00",
-      "last_seen_at": "2026-10-12T06:55:32.856794+00:00",
+      "last_seen_at": "2026-10-12T07:49:18.227905+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -1467,7 +1500,7 @@
       "parsed_ref": "5167A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:39:47.835447+00:00",
-      "last_seen_at": "2026-10-12T06:55:32.856794+00:00",
+      "last_seen_at": "2026-10-12T07:49:18.227905+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -1501,12 +1534,12 @@
       "area": "",
       "badge": "",
       "item_url": "https://www.goofish.com/item?id=1088175983805&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "image_url": "//img.alicdn.com/bao/uploaded/i2/2620822182/O1CN01f42TmWYqIgD1sRWU_!!4611686018427384486-0-xy_item.jpg_450x10000Q90.jpg_.webp",
       "publish_time": null,
       "parsed_ref": "5167A",
       "risk_level": "low",
       "first_seen_at": "2026-10-11T23:39:47.835447+00:00",
-      "last_seen_at": "2026-10-12T06:55:32.856794+00:00",
+      "last_seen_at": "2026-10-12T07:49:18.227905+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -1531,10 +1564,10 @@
       "title": "百达翡丽AQUANAUT 5167A-001 黑盘精钢 40 mm 自动机械 日期窗 橡胶表带 全套附件都在 9成新 表带没换过 没啥明显瑕疵 个人闲置 支持包邮 价格可聊 买了1年半 经常带 很爱惜",
       "price_cny": 450000,
       "search_price_cny": 450000,
-      "price_verified": true,
-      "price_source": "item_detail",
-      "price_raw_text": "450000",
-      "detail_title_match": true,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 45 万 84人想要",
+      "detail_title_match": false,
       "seller": "",
       "area": "",
       "badge": "",
@@ -1544,7 +1577,7 @@
       "parsed_ref": "5167A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:39:47.835447+00:00",
-      "last_seen_at": "2026-10-12T06:55:32.856794+00:00",
+      "last_seen_at": "2026-10-12T07:49:18.227905+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -1578,12 +1611,12 @@
       "area": "",
       "badge": "",
       "item_url": "https://www.goofish.com/item?id=837204604076&categoryId=126916028",
-      "image_url": "//img.alicdn.com/bao/uploaded/i3/O1CN01q6fl5g24IbGeA2TQJ_!!4611686018427381480-53-fleamarket.heic_450x10000Q90.jpg_.webp",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
       "publish_time": null,
       "parsed_ref": "5167A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:39:47.835447+00:00",
-      "last_seen_at": "2026-10-12T06:55:32.856794+00:00",
+      "last_seen_at": "2026-10-12T07:49:18.227905+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -1622,7 +1655,7 @@
       "parsed_ref": "5167A",
       "risk_level": "low",
       "first_seen_at": "2026-10-11T23:39:47.835447+00:00",
-      "last_seen_at": "2026-10-12T06:55:32.856794+00:00",
+      "last_seen_at": "2026-10-12T07:49:18.227905+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -1660,7 +1693,7 @@
       "parsed_ref": "5167A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:39:47.835447+00:00",
-      "last_seen_at": "2026-10-12T06:55:32.856794+00:00",
+      "last_seen_at": "2026-10-12T07:49:18.227905+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -1686,10 +1719,10 @@
       "title": "百达翡丽 5167A，21年全套，老扣40mm自动机械，黑盘 胶带款，背透设计，324机芯，73字头，保存很好，附件齐全，原装盒子、质保卡都在，专柜正品，有徐步天证书，好价~~",
       "price_cny": 520000,
       "search_price_cny": 520000,
-      "price_verified": true,
-      "price_source": "item_detail",
-      "price_raw_text": "520000",
-      "detail_title_match": true,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 52 万",
+      "detail_title_match": false,
       "seller": "",
       "area": "",
       "badge": "",
@@ -1699,7 +1732,7 @@
       "parsed_ref": "5167A",
       "risk_level": "low",
       "first_seen_at": "2026-10-12T01:46:15.213132+00:00",
-      "last_seen_at": "2026-10-12T06:55:32.856794+00:00",
+      "last_seen_at": "2026-10-12T07:49:18.227905+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -1737,7 +1770,7 @@
       "parsed_ref": "5167A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T01:46:15.213132+00:00",
-      "last_seen_at": "2026-10-12T06:55:32.856794+00:00",
+      "last_seen_at": "2026-10-12T07:49:18.227905+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -1776,7 +1809,7 @@
       "parsed_ref": "5167A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T03:47:22.345536+00:00",
-      "last_seen_at": "2026-10-12T06:55:32.856794+00:00",
+      "last_seen_at": "2026-10-12T07:49:18.227905+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -1792,45 +1825,6 @@
       "condition_label": "二手/自用",
       "completeness_label": "全套",
       "year_label": "2021",
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
-      "item_id": "1013906361196",
-      "keyword": "5167A",
-      "title": "百达翡丽5167A胶带手雷 2023年全套未使用品 广州现货 支持徐步天、云鱼鉴定",
-      "price_cny": 580000,
-      "search_price_cny": 580000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 58 万 6人想要",
-      "detail_title_match": false,
-      "seller": "",
-      "area": "",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1013906361196&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "5167A",
-      "risk_level": "medium",
-      "first_seen_at": "2026-10-12T05:43:53.000441+00:00",
-      "last_seen_at": "2026-10-12T06:55:32.856794+00:00",
-      "seen_in_latest_scan": true,
-      "jp_compare": {
-        "matched": true,
-        "ref": "5167A",
-        "quote_count": 1,
-        "basis": "used",
-        "conservative_jpy": 11000000,
-        "best_jpy": 11000000,
-        "sources": [
-          "ブラリバ"
-        ]
-      },
-      "condition_label": "全新/未使用",
-      "completeness_label": "全套",
-      "year_label": "2023",
       "warning_keywords": [],
       "suspicious_keyword": null,
       "ref_source": "keyword_or_title_repair"
@@ -1854,7 +1848,7 @@
       "parsed_ref": "5167A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T00:54:32.401655+00:00",
-      "last_seen_at": "2026-10-12T06:55:32.856794+00:00",
+      "last_seen_at": "2026-10-12T07:49:18.227905+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -1875,25 +1869,25 @@
       "ref_source": "keyword_or_title_repair"
     },
     {
-      "item_id": "1071429604685",
+      "item_id": "1079266400197",
       "keyword": "5167A",
-      "title": "百达翡丽5167a，鹦鹉螺，自动机械，40mm表径，背透，全 套附件：盒子、证书、保卡、说明书、表布都在，保存很好，没怎么戴，成色几乎全新。 24年国行大全套 正品支持验货，包邮，可自提，喜欢直接拍，细节图私聊～",
-      "price_cny": 560000,
-      "search_price_cny": 560000,
+      "title": "百达翡丽5167a 新加坡限定 2020年全套二手",
+      "price_cny": 1280000,
+      "search_price_cny": 1280000,
       "price_verified": false,
       "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 56 万 5人想要",
+      "price_raw_text": "¥ 128 万 2人想要",
       "detail_title_match": false,
       "seller": "",
       "area": "",
       "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1071429604685&categoryId=126916028",
+      "item_url": "https://www.goofish.com/item?id=1079266400197&categoryId=126916028",
       "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
       "publish_time": null,
       "parsed_ref": "5167A",
       "risk_level": "medium",
-      "first_seen_at": "2026-10-12T06:55:32.856794+00:00",
-      "last_seen_at": "2026-10-12T06:55:32.856794+00:00",
+      "first_seen_at": "2026-10-12T00:54:32.401655+00:00",
+      "last_seen_at": "2026-10-12T07:49:18.227905+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -1906,9 +1900,48 @@
           "ブラリバ"
         ]
       },
-      "condition_label": "全新/未使用",
+      "condition_label": "二手/自用",
       "completeness_label": "全套",
-      "year_label": "2024",
+      "year_label": "2020",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1044666905977",
+      "keyword": "5167A",
+      "title": "百达翡丽5167A手雷 23年全套附件 感兴趣的话点“我想要”和我私聊吧～",
+      "price_cny": 560000,
+      "search_price_cny": 560000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 56 万 6人想要",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1044666905977&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "5167A",
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-12T07:49:18.227905+00:00",
+      "last_seen_at": "2026-10-12T07:49:18.227905+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": true,
+        "ref": "5167A",
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 11000000,
+        "best_jpy": 11000000,
+        "sources": [
+          "ブラリバ"
+        ]
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "全套",
+      "year_label": "2023",
       "warning_keywords": [],
       "suspicious_keyword": null,
       "ref_source": "keyword_or_title_repair"
@@ -1932,7 +1965,7 @@
       "parsed_ref": "5712/1A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:39:42.518338+00:00",
-      "last_seen_at": "2026-10-12T06:55:27.689759+00:00",
+      "last_seen_at": "2026-10-12T07:49:13.125817+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -1958,10 +1991,10 @@
       "title": "百达翡丽5712/1a 鹦鹉螺 22年大全套 完美品相 现货 好价",
       "price_cny": 950000,
       "search_price_cny": 950000,
-      "price_verified": true,
-      "price_source": "item_detail",
-      "price_raw_text": "950000",
-      "detail_title_match": true,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 95 万",
+      "detail_title_match": false,
       "seller": "",
       "area": "",
       "badge": "",
@@ -1971,7 +2004,7 @@
       "parsed_ref": "5712/1A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T00:54:27.337751+00:00",
-      "last_seen_at": "2026-10-12T06:55:27.689759+00:00",
+      "last_seen_at": "2026-10-12T07:49:13.125817+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -2010,7 +2043,7 @@
       "parsed_ref": "5712/1A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T00:54:27.337751+00:00",
-      "last_seen_at": "2026-10-12T06:55:27.689759+00:00",
+      "last_seen_at": "2026-10-12T07:49:13.125817+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -2049,7 +2082,7 @@
       "parsed_ref": "5712/1A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T01:46:09.716554+00:00",
-      "last_seen_at": "2026-10-12T06:55:27.689759+00:00",
+      "last_seen_at": "2026-10-12T07:49:13.125817+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -2088,7 +2121,7 @@
       "parsed_ref": "5711/1A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:39:37.136261+00:00",
-      "last_seen_at": "2026-10-12T06:55:22.571088+00:00",
+      "last_seen_at": "2026-10-12T07:49:07.976896+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -2127,7 +2160,7 @@
       "parsed_ref": "5711/1A",
       "risk_level": "low",
       "first_seen_at": "2026-10-11T23:39:37.136261+00:00",
-      "last_seen_at": "2026-10-12T06:55:22.571088+00:00",
+      "last_seen_at": "2026-10-12T07:49:07.976896+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -2152,10 +2185,10 @@
       "title": "百达翡丽鹦鹉螺5711/1A 010，自动机械背透机芯(停产 热门款)动力储备45小时，40mm表径，深蓝色表盘，简单大方，折叠扣，防水深度120米，不锈钢材质，功能：日期显示，专柜价262800元，20年国行未使用带票带云鱼报告。",
       "price_cny": 1090000,
       "search_price_cny": 1090000,
-      "price_verified": true,
-      "price_source": "item_detail",
-      "price_raw_text": "1090000",
-      "detail_title_match": true,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 109 万",
+      "detail_title_match": false,
       "seller": "",
       "area": "",
       "badge": "",
@@ -2165,7 +2198,7 @@
       "parsed_ref": "5711/1A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:39:37.136261+00:00",
-      "last_seen_at": "2026-10-12T06:55:22.571088+00:00",
+      "last_seen_at": "2026-10-12T07:49:07.976896+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -2199,12 +2232,12 @@
       "area": "",
       "badge": "",
       "item_url": "https://www.goofish.com/item?id=1079113085199&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "image_url": "//img.alicdn.com/bao/uploaded/i1/2206654381611/O1CN0113pYMwXEQpD2vHAO_!!4611686018427387435-0-xy_item.jpg_450x10000Q90.jpg_.webp",
       "publish_time": null,
       "parsed_ref": "5711/1A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:39:37.136261+00:00",
-      "last_seen_at": "2026-10-12T06:55:22.571088+00:00",
+      "last_seen_at": "2026-10-12T07:49:07.976896+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -2243,7 +2276,7 @@
       "parsed_ref": "5711/1A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:39:37.136261+00:00",
-      "last_seen_at": "2026-10-12T06:55:22.571088+00:00",
+      "last_seen_at": "2026-10-12T07:49:07.976896+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -2269,10 +2302,10 @@
       "title": "百达翡丽鹦鹉螺5711/1A 010，自动机械背透机芯(停产 热门款)动力储备45小时，40mm表径，深蓝色表盘，简单大方，折叠扣，防水深度120米，不锈钢材质，功能：日期显示，专柜价262800元，19年4月全套。",
       "price_cny": 880000,
       "search_price_cny": 880000,
-      "price_verified": true,
-      "price_source": "item_detail",
-      "price_raw_text": "880000",
-      "detail_title_match": true,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 88 万",
+      "detail_title_match": false,
       "seller": "",
       "area": "",
       "badge": "",
@@ -2282,7 +2315,7 @@
       "parsed_ref": "5711/1A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T00:54:22.321494+00:00",
-      "last_seen_at": "2026-10-12T06:55:22.571088+00:00",
+      "last_seen_at": "2026-10-12T07:49:07.976896+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -2321,7 +2354,7 @@
       "parsed_ref": "5711/1A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T03:47:12.362010+00:00",
-      "last_seen_at": "2026-10-12T06:55:22.571088+00:00",
+      "last_seen_at": "2026-10-12T07:49:07.976896+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -2347,20 +2380,20 @@
       "title": "百达翡丽鹦鹉螺5711/1A 010，自动机械背透机芯(停产 热门款)动力储备45小时，40mm表径，深蓝色表盘，简单大方，折叠扣，防水深度120米，不锈钢材质，功能：日期显示，专柜价262800元；20年7月国行全套全长",
       "price_cny": 1000000,
       "search_price_cny": 1000000,
-      "price_verified": true,
-      "price_source": "item_detail",
-      "price_raw_text": "1000000",
-      "detail_title_match": true,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 100 万",
+      "detail_title_match": false,
       "seller": "",
       "area": "",
       "badge": "",
       "item_url": "https://www.goofish.com/item?id=1086916130609&categoryId=126916028",
-      "image_url": "//img.alicdn.com/bao/uploaded/i3/2364452424/O1CN01H1JDPqp2fCI2vHAO_!!4611686018427383368-0-xy_item.jpg_450x10000Q90.jpg_.webp",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
       "publish_time": null,
       "parsed_ref": "5711/1A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:39:37.136261+00:00",
-      "last_seen_at": "2026-10-12T06:55:22.571088+00:00",
+      "last_seen_at": "2026-10-12T07:49:07.976896+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -2381,44 +2414,6 @@
       "ref_source": "keyword_or_title_repair"
     },
     {
-      "item_id": "1002913224252",
-      "keyword": "5711/1A",
-      "title": "5711/1A-011白钢，17年二手全套全长 Patek Philippe Ref. 5711/1A-011 White Steel Year: 2017 Used 现货好价",
-      "price_cny": 770000,
-      "search_price_cny": 770000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 77 万 累计降价20000.00元",
-      "detail_title_match": false,
-      "seller": "",
-      "area": "",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1002913224252&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "5711/1A",
-      "risk_level": "low",
-      "first_seen_at": "2026-10-12T00:54:22.321494+00:00",
-      "last_seen_at": "2026-10-12T06:55:22.571088+00:00",
-      "seen_in_latest_scan": true,
-      "jp_compare": {
-        "matched": true,
-        "ref": "5711/1A",
-        "quote_count": 1,
-        "basis": "used",
-        "conservative_jpy": 20000000,
-        "best_jpy": 20000000,
-        "sources": [
-          "ブラリバ"
-        ]
-      },
-      "condition_label": "二手/自用",
-      "completeness_label": "全套",
-      "year_label": "2017",
-      "warning_keywords": [],
-      "suspicious_keyword": null
-    },
-    {
       "item_id": "1042648188722",
       "keyword": "5711/1A",
       "title": "16年全套百达翡丽鹦鹉螺5711/1A 010 自动机械背透 机芯（停产热门款）动力储备45小时 40mm表径 深蓝色表盘 简单大方 折叠扣 防水120米 不锈钢材质 功能：日期显示 专柜价262800元 全套25节 带原装盒、证书、说明书、防尘袋、收藏册等配件齐全 正品保证 支持鉴定 喜欢直接...",
@@ -2437,7 +2432,7 @@
       "parsed_ref": "5711/1A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:39:37.136261+00:00",
-      "last_seen_at": "2026-10-12T06:55:22.571088+00:00",
+      "last_seen_at": "2026-10-12T07:49:07.976896+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -2463,20 +2458,20 @@
       "title": "百达翡丽鹦鹉螺5711/1A 010，自动机械背透机芯(停产 热门款)动力储备45小时，40mm表径，深蓝色表盘，简单大方，折叠扣，防水深度120米，不锈钢材质，功能：日期显示，专柜价262800元，现货19年全套25节",
       "price_cny": 850000,
       "search_price_cny": 850000,
-      "price_verified": true,
-      "price_source": "item_detail",
-      "price_raw_text": "850000",
-      "detail_title_match": true,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 85 万 1人想要",
+      "detail_title_match": false,
       "seller": "",
       "area": "",
       "badge": "",
       "item_url": "https://www.goofish.com/item?id=1009246018073&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "image_url": "//img.alicdn.com/bao/uploaded/i1/2208158672/O1CN01WQotwS2DvpnZZ393m_!!4611686018427384784-53-xy_item.heic_450x10000Q90.jpg_.webp",
       "publish_time": null,
       "parsed_ref": "5711/1A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T05:43:42.851126+00:00",
-      "last_seen_at": "2026-10-12T06:55:22.571088+00:00",
+      "last_seen_at": "2026-10-12T07:49:07.976896+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -2515,7 +2510,7 @@
       "parsed_ref": "5711/1A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T05:43:42.851126+00:00",
-      "last_seen_at": "2026-10-12T06:55:22.571088+00:00",
+      "last_seen_at": "2026-10-12T07:49:07.976896+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -2531,45 +2526,6 @@
       "condition_label": "成色未注明",
       "completeness_label": "全套",
       "year_label": "2017",
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
-      "item_id": "660858399371",
-      "keyword": "5711/1A",
-      "title": "百达翡丽鹦鹉螺 PP 5711/1A 原始品无打磨、无磕碰、无硬伤 16年全套全长 单表高性价比 通勤首选",
-      "price_cny": 680000,
-      "search_price_cny": 680000,
-      "price_verified": true,
-      "price_source": "item_detail",
-      "price_raw_text": "680000",
-      "detail_title_match": true,
-      "seller": "",
-      "area": "",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=660858399371&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "5711/1A",
-      "risk_level": "medium",
-      "first_seen_at": "2026-10-12T05:43:42.851126+00:00",
-      "last_seen_at": "2026-10-12T06:55:22.571088+00:00",
-      "seen_in_latest_scan": true,
-      "jp_compare": {
-        "matched": true,
-        "ref": "5711/1A",
-        "quote_count": 1,
-        "basis": "used",
-        "conservative_jpy": 20000000,
-        "best_jpy": 20000000,
-        "sources": [
-          "ブラリバ"
-        ]
-      },
-      "condition_label": "有使用痕迹",
-      "completeness_label": "单表",
-      "year_label": "2016",
       "warning_keywords": [],
       "suspicious_keyword": null,
       "ref_source": "keyword_or_title_repair"
@@ -2593,7 +2549,7 @@
       "parsed_ref": "5711/1A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T05:43:42.851126+00:00",
-      "last_seen_at": "2026-10-12T06:55:22.571088+00:00",
+      "last_seen_at": "2026-10-12T07:49:07.976896+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -2632,7 +2588,7 @@
       "parsed_ref": "5711/1A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T05:43:42.851126+00:00",
-      "last_seen_at": "2026-10-12T06:55:22.571088+00:00",
+      "last_seen_at": "2026-10-12T07:49:07.976896+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -2648,45 +2604,6 @@
       "condition_label": "全新/未使用",
       "completeness_label": "附件未注明",
       "year_label": "2020",
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
-      "item_id": "1001089650561",
-      "keyword": "5711/1A",
-      "title": "百达翡丽5711/1a蓝 5711a钢蓝 ​24年国行带发票 极品成色 ​好价好价",
-      "price_cny": 1100000,
-      "search_price_cny": 1100000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 110 万 4人想要",
-      "detail_title_match": false,
-      "seller": "",
-      "area": "",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1001089650561&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "5711/1A",
-      "risk_level": "medium",
-      "first_seen_at": "2026-10-12T05:43:42.851126+00:00",
-      "last_seen_at": "2026-10-12T06:55:22.571088+00:00",
-      "seen_in_latest_scan": true,
-      "jp_compare": {
-        "matched": true,
-        "ref": "5711/1A",
-        "quote_count": 1,
-        "basis": "used",
-        "conservative_jpy": 20000000,
-        "best_jpy": 20000000,
-        "sources": [
-          "ブラリバ"
-        ]
-      },
-      "condition_label": "成色未注明",
-      "completeness_label": "附件未注明",
-      "year_label": "2024",
       "warning_keywords": [],
       "suspicious_keyword": null,
       "ref_source": "keyword_or_title_repair"
@@ -2710,7 +2627,7 @@
       "parsed_ref": "5711/1A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T05:43:42.851126+00:00",
-      "last_seen_at": "2026-10-12T06:55:22.571088+00:00",
+      "last_seen_at": "2026-10-12T07:49:07.976896+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -2736,10 +2653,10 @@
       "title": "百达翡丽鹦鹉螺5711/1A 010，自动机械背透机芯(停产 热门款)动力储备45小时，40mm表径，深蓝色表盘，简单大方，折叠扣，防水深度120米，不锈钢材质，功能：日期显示，专柜价262800元；20年7月国行全套全长。",
       "price_cny": 1010000,
       "search_price_cny": 1010000,
-      "price_verified": true,
-      "price_source": "item_detail",
-      "price_raw_text": "1010000",
-      "detail_title_match": true,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 101 万",
+      "detail_title_match": false,
       "seller": "",
       "area": "",
       "badge": "",
@@ -2749,7 +2666,7 @@
       "parsed_ref": "5711/1A",
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T06:55:22.571088+00:00",
-      "last_seen_at": "2026-10-12T06:55:22.571088+00:00",
+      "last_seen_at": "2026-10-12T07:49:07.976896+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -2765,6 +2682,162 @@
       "condition_label": "成色未注明",
       "completeness_label": "全套",
       "year_label": "2020",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1076334834715",
+      "keyword": "5711/1A",
+      "title": "百达翡丽鹦鹉螺5711/1A 010，自动机械背透机芯(停产 热门款)动力储备45小时，40mm表径，深蓝色表盘，简单大方，折叠扣，防水深度120米，不锈钢材质，功能：日期显示，专柜价262800元，19年4月全套。",
+      "price_cny": 880000,
+      "search_price_cny": 880000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 88 万",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1076334834715&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "5711/1A",
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-11T23:39:37.136261+00:00",
+      "last_seen_at": "2026-10-12T07:49:07.976896+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": true,
+        "ref": "5711/1A",
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 20000000,
+        "best_jpy": 20000000,
+        "sources": [
+          "ブラリバ"
+        ]
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "全套",
+      "year_label": "2019",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1055679554150",
+      "keyword": "5711/1A",
+      "title": "百达翡丽鹦鹉螺5711/1A 010，自动机械背透机芯(停产 热门款)动力储备45小时，40mm表径，深蓝色表盘，简单大方，折叠扣，防水深度120米，不锈钢材质，功能：日期显示，专柜价262800元，20年国行未使用带票带云鱼报告",
+      "price_cny": 1100000,
+      "search_price_cny": 1100000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 110 万 4人想要",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1055679554150&categoryId=126916028",
+      "image_url": "//img.alicdn.com/bao/uploaded/i3/2222200493693/O1CN012kdVQz1d9RoePIqsF_!!4611686018427385469-53-xy_item.heic_450x10000Q90.jpg_.webp",
+      "publish_time": null,
+      "parsed_ref": "5711/1A",
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-12T07:49:07.976896+00:00",
+      "last_seen_at": "2026-10-12T07:49:07.976896+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": true,
+        "ref": "5711/1A",
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 20000000,
+        "best_jpy": 20000000,
+        "sources": [
+          "ブラリバ"
+        ]
+      },
+      "condition_label": "全新/未使用",
+      "completeness_label": "附件未注明",
+      "year_label": "2020",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1076901540497",
+      "keyword": "5711/1A",
+      "title": "百达翡丽鹦鹉螺5711/1A 010，自动机械背透机芯(停产 热门款)动力储备45小时，40mm表径，深蓝色表盘，简单大方，折叠扣，防水深度120米，不锈钢材质，功能：日期显示，专柜价262800元，18年12月国行全套。",
+      "price_cny": 880000,
+      "search_price_cny": 880000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 88 万",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1076901540497&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "5711/1A",
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-12T07:49:07.976896+00:00",
+      "last_seen_at": "2026-10-12T07:49:07.976896+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": true,
+        "ref": "5711/1A",
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 20000000,
+        "best_jpy": 20000000,
+        "sources": [
+          "ブラリバ"
+        ]
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "全套",
+      "year_label": "2018",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1078503749386",
+      "keyword": "5711/1A",
+      "title": "百达翡丽鹦鹉螺5711/1A 010，自动机械背透机芯(停产 热门款)动力储备45小时，40mm表径，深蓝色表盘，简单大方，折叠扣，防水深度120米，不锈钢材质，功能：日期显示，专柜价262800元，19年4月全套。",
+      "price_cny": 880000,
+      "search_price_cny": 880000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 88 万",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1078503749386&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "5711/1A",
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-12T07:49:07.976896+00:00",
+      "last_seen_at": "2026-10-12T07:49:07.976896+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": true,
+        "ref": "5711/1A",
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 20000000,
+        "best_jpy": 20000000,
+        "sources": [
+          "ブラリバ"
+        ]
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "全套",
+      "year_label": "2019",
       "warning_keywords": [],
       "suspicious_keyword": null,
       "ref_source": "keyword_or_title_repair"
@@ -2788,7 +2861,7 @@
       "parsed_ref": "26240ST",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:39:31.752110+00:00",
-      "last_seen_at": "2026-10-12T06:55:17.505897+00:00",
+      "last_seen_at": "2026-10-12T07:49:02.843157+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -2814,10 +2887,10 @@
       "title": "爱彼 26240ST.OO.1320ST.06 26年二月2 6240st黑钢 现货秒发 全新未使用 爱彼/Audemars Piguet 皇家橡树系列 26240ST.OO.1320ST.06 26年二月26240st黑钢 未使用#Audemars Piguet/爱彼 #热销男表大...",
       "price_cny": 440000,
       "search_price_cny": 440000,
-      "price_verified": true,
-      "price_source": "item_detail",
-      "price_raw_text": "440000",
-      "detail_title_match": true,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 44 万",
+      "detail_title_match": false,
       "seller": "",
       "area": "",
       "badge": "",
@@ -2827,7 +2900,7 @@
       "parsed_ref": "26240ST",
       "risk_level": "low",
       "first_seen_at": "2026-10-11T23:39:31.752110+00:00",
-      "last_seen_at": "2026-10-12T06:55:17.505897+00:00",
+      "last_seen_at": "2026-10-12T07:49:02.843157+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -2860,12 +2933,12 @@
       "area": "",
       "badge": "",
       "item_url": "https://www.goofish.com/item?id=750535123932&categoryId=126916028",
-      "image_url": "//img.alicdn.com/bao/uploaded/i2/O1CN01jE5m0i23XsiJMvIYM_!!53-fleamarket.heic_450x10000Q90.jpg_.webp",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
       "publish_time": null,
       "parsed_ref": "26240ST",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:39:31.752110+00:00",
-      "last_seen_at": "2026-10-12T06:55:17.505897+00:00",
+      "last_seen_at": "2026-10-12T07:49:02.843157+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -2891,10 +2964,10 @@
       "title": "爱彼皇家橡树系列26240st黑盘，自动机械，41表径，22 年50周年全套35.5w",
       "price_cny": 3550000,
       "search_price_cny": 3550000,
-      "price_verified": true,
-      "price_source": "item_detail",
-      "price_raw_text": "3550000",
-      "detail_title_match": true,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 355 万",
+      "detail_title_match": false,
       "seller": "",
       "area": "",
       "badge": "",
@@ -2904,7 +2977,7 @@
       "parsed_ref": "26240ST",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:39:31.752110+00:00",
-      "last_seen_at": "2026-10-12T06:55:17.505897+00:00",
+      "last_seen_at": "2026-10-12T07:49:02.843157+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -2930,10 +3003,10 @@
       "title": "爱彼皇家橡树系列26240ST绿钢，五十周年限定，三眼计时， 22年极品全套，现货好价36.5万 芝麻分800 信誉保证 好评过800 产品保真 利润微薄 价格透明 记者及同行大刀勿扰 南京/上海/重庆500平实体店，欢迎到店品鉴 支持云鱼/徐步天/劳服任何鉴定",
       "price_cny": 360000,
       "search_price_cny": 360000,
-      "price_verified": true,
-      "price_source": "item_detail",
-      "price_raw_text": "360000",
-      "detail_title_match": true,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 36 万 56人想要",
+      "detail_title_match": false,
       "seller": "",
       "area": "",
       "badge": "",
@@ -2943,7 +3016,7 @@
       "parsed_ref": "26240ST",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:39:31.752110+00:00",
-      "last_seen_at": "2026-10-12T06:55:17.505897+00:00",
+      "last_seen_at": "2026-10-12T07:49:02.843157+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -2982,7 +3055,7 @@
       "parsed_ref": "26240ST",
       "risk_level": "low",
       "first_seen_at": "2026-10-11T23:39:31.752110+00:00",
-      "last_seen_at": "2026-10-12T06:55:17.505897+00:00",
+      "last_seen_at": "2026-10-12T07:49:02.843157+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -3020,7 +3093,7 @@
       "parsed_ref": "26240ST",
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T00:54:17.318106+00:00",
-      "last_seen_at": "2026-10-12T06:55:17.505897+00:00",
+      "last_seen_at": "2026-10-12T07:49:02.843157+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -3059,7 +3132,7 @@
       "parsed_ref": "26240ST",
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T03:47:06.434129+00:00",
-      "last_seen_at": "2026-10-12T06:55:17.505897+00:00",
+      "last_seen_at": "2026-10-12T07:49:02.843157+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -3085,10 +3158,10 @@
       "title": "爱彼15500ST 精品全套全长2021年 完美成色 个人一 手 没有拆过 修过 没任何问题",
       "price_cny": 320000,
       "search_price_cny": 320000,
-      "price_verified": true,
-      "price_source": "item_detail",
-      "price_raw_text": "320000",
-      "detail_title_match": true,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 32 万 累计降价5000.00元",
+      "detail_title_match": false,
       "seller": "",
       "area": "",
       "badge": "",
@@ -3098,7 +3171,7 @@
       "parsed_ref": "15500ST",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:39:26.388277+00:00",
-      "last_seen_at": "2026-10-12T06:55:12.487663+00:00",
+      "last_seen_at": "2026-10-12T07:48:57.776961+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -3137,7 +3210,7 @@
       "parsed_ref": "15500ST",
       "risk_level": "low",
       "first_seen_at": "2026-10-11T23:39:26.388277+00:00",
-      "last_seen_at": "2026-10-12T06:55:12.487663+00:00",
+      "last_seen_at": "2026-10-12T07:48:57.776961+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -3175,7 +3248,7 @@
       "parsed_ref": "15500ST",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:39:26.388277+00:00",
-      "last_seen_at": "2026-10-12T06:55:12.487663+00:00",
+      "last_seen_at": "2026-10-12T07:48:57.776961+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -3201,10 +3274,10 @@
       "title": "国行双卡/爱彼皇家橡树系列男士腕表 型号：15500ST.O O.1220ST.01/精钢材质 自动机芯 41mm表径 功能：日期显示、附件：购票、盒子、说明书、2019年5月",
       "price_cny": 300000,
       "search_price_cny": 300000,
-      "price_verified": true,
-      "price_source": "item_detail",
-      "price_raw_text": "300000",
-      "detail_title_match": true,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 30 万 2人想要",
+      "detail_title_match": false,
       "seller": "",
       "area": "",
       "badge": "",
@@ -3214,7 +3287,7 @@
       "parsed_ref": "15500ST",
       "risk_level": "low",
       "first_seen_at": "2026-10-12T00:54:12.251105+00:00",
-      "last_seen_at": "2026-10-12T06:55:12.487663+00:00",
+      "last_seen_at": "2026-10-12T07:48:57.776961+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -3239,10 +3312,10 @@
       "title": "爱彼15500st黑盘，21年8月全膜 感兴趣的话点“我想要”和我私聊吧～",
       "price_cny": 520000,
       "search_price_cny": 520000,
-      "price_verified": true,
-      "price_source": "item_detail",
-      "price_raw_text": "520000",
-      "detail_title_match": true,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 52 万 5人想要",
+      "detail_title_match": false,
       "seller": "",
       "area": "",
       "badge": "",
@@ -3252,7 +3325,7 @@
       "parsed_ref": "15500ST",
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T06:55:12.487663+00:00",
-      "last_seen_at": "2026-10-12T06:55:12.487663+00:00",
+      "last_seen_at": "2026-10-12T07:48:57.776961+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -3291,7 +3364,7 @@
       "parsed_ref": "15510ST",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:39:21.069151+00:00",
-      "last_seen_at": "2026-10-12T06:55:07.438391+00:00",
+      "last_seen_at": "2026-10-12T07:48:52.663970+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -3307,45 +3380,6 @@
       "condition_label": "成色未注明",
       "completeness_label": "全套",
       "year_label": "2024",
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
-      "item_id": "1075243054246",
-      "keyword": "15510ST",
-      "title": "爱彼皇家橡树系列15510ST黑盘，41mm表径，精钢材质， 背透自动机械，日期显示 26年近期卡全套未使用品，专柜价240000，好价秒发 Audemars Piguet/爱彼 皇家橡树系列推荐",
-      "price_cny": 340000,
-      "search_price_cny": 340000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 34 万 ¥388000",
-      "detail_title_match": false,
-      "seller": "",
-      "area": "",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1075243054246&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "15510ST",
-      "risk_level": "medium",
-      "first_seen_at": "2026-10-11T23:39:21.069151+00:00",
-      "last_seen_at": "2026-10-12T06:55:07.438391+00:00",
-      "seen_in_latest_scan": true,
-      "jp_compare": {
-        "matched": true,
-        "ref": "15510ST",
-        "quote_count": 1,
-        "basis": "new",
-        "conservative_jpy": 10000000,
-        "best_jpy": 10000000,
-        "sources": [
-          "RASIN"
-        ]
-      },
-      "condition_label": "全新/未使用",
-      "completeness_label": "全套",
-      "year_label": "2026",
       "warning_keywords": [],
       "suspicious_keyword": null,
       "ref_source": "keyword_or_title_repair"
@@ -3369,7 +3403,7 @@
       "parsed_ref": "15510ST",
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T00:54:07.202348+00:00",
-      "last_seen_at": "2026-10-12T06:55:07.438391+00:00",
+      "last_seen_at": "2026-10-12T07:48:52.663970+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -3390,44 +3424,6 @@
       "ref_source": "keyword_or_title_repair"
     },
     {
-      "item_id": "975228125092",
-      "keyword": "15510ST",
-      "title": "爱彼/Audemars Piguet 皇家橡树系列 1551 0ST.OO.1320ST.07 专柜价230000 2023年全套全长国行，带发票现货直发",
-      "price_cny": 300000,
-      "search_price_cny": 300000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 30 万 累计降价10000.00元",
-      "detail_title_match": false,
-      "seller": "",
-      "area": "",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=975228125092&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "15510ST",
-      "risk_level": "low",
-      "first_seen_at": "2026-10-12T04:45:02.652456+00:00",
-      "last_seen_at": "2026-10-12T06:55:07.438391+00:00",
-      "seen_in_latest_scan": true,
-      "jp_compare": {
-        "matched": true,
-        "ref": "15510ST",
-        "quote_count": 1,
-        "basis": "used",
-        "conservative_jpy": 8000000,
-        "best_jpy": 8000000,
-        "sources": [
-          "RASIN"
-        ]
-      },
-      "condition_label": "成色未注明",
-      "completeness_label": "全套",
-      "year_label": "2023",
-      "warning_keywords": [],
-      "suspicious_keyword": null
-    },
-    {
       "item_id": "1080889625720",
       "keyword": "15510ST",
       "title": "AP皇家橡树15510ST 灰盘 41mm精钢 自动机械 几乎全新 附件齐全 成色看图 经典款 男女都能戴 手感超棒 包邮 支持自提 不议价 售出不退不换 喜欢直接拍 细节私聊发图 ap 皇家橡树 腕表 机械表 闲置转让",
@@ -3446,7 +3442,7 @@
       "parsed_ref": "15510ST",
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T01:45:48.514706+00:00",
-      "last_seen_at": "2026-10-12T06:55:07.438391+00:00",
+      "last_seen_at": "2026-10-12T07:48:52.663970+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -3467,6 +3463,123 @@
       "ref_source": "keyword_or_title_repair"
     },
     {
+      "item_id": "1063801550075",
+      "keyword": "15510ST",
+      "title": "爱彼15510ST 黑色盘面 2026年6月全套未使用 感兴趣的话点“我想要”和我私聊吧～",
+      "price_cny": 340000,
+      "search_price_cny": 340000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 34 万",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1063801550075&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "15510ST",
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-11T23:39:21.069151+00:00",
+      "last_seen_at": "2026-10-12T07:48:52.663970+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": true,
+        "ref": "15510ST",
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 10000000,
+        "best_jpy": 10000000,
+        "sources": [
+          "RASIN"
+        ]
+      },
+      "condition_label": "全新/未使用",
+      "completeness_label": "全套",
+      "year_label": "2026",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "760704441335",
+      "keyword": "15510ST",
+      "title": "爱彼皇家橡树系列15510st，41表径，自动机械，灰色精钢 材质，22年全套",
+      "price_cny": 280000,
+      "search_price_cny": 280000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 28 万 60人想要",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=760704441335&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "15510ST",
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-12T07:48:52.663970+00:00",
+      "last_seen_at": "2026-10-12T07:48:52.663970+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": true,
+        "ref": "15510ST",
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "全套",
+      "year_label": "2022",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1078430431375",
+      "keyword": "124060",
+      "title": "劳力士潜航者 124060 无历黑，专柜购入 2026 年 1 月 15 号专柜买的，吊牌、盒子、保卡、发票、收据都在，资料齐全。 编号注意看：5 个 8，寓意很好，喜欢这种号码的可以重点看。 支持验货宝，包邮，大连本地也可自提。 一直自带，喜欢直接拍，不讲价，这就是最低...",
+      "price_cny": 80000,
+      "search_price_cny": 80000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 8 万 46人想要",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1078430431375&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "124060",
+      "risk_level": "low",
+      "first_seen_at": "2026-10-12T07:48:37.227695+00:00",
+      "last_seen_at": "2026-10-12T07:48:37.227695+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": true,
+        "ref": "124060",
+        "quote_count": 2,
+        "basis": "used",
+        "conservative_jpy": 1950000,
+        "best_jpy": 4750000,
+        "sources": [
+          "大黒屋",
+          "PREMIER VALUE"
+        ]
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "盒卡",
+      "year_label": "2026",
+      "warning_keywords": [],
+      "suspicious_keyword": null
+    },
+    {
       "item_id": "678646449261",
       "keyword": "116500LN",
       "title": "19年全套劳力士宇宙计型迪通拿熊猫迪 型号m116500ln-0001 成色非常好 钢带全长 劳力士4130机芯 40毫米表径 支持云鱼 徐步天 验货宝鉴定 北京地区支持当面交易",
@@ -3485,7 +3598,7 @@
       "parsed_ref": "116500LN",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:38:59.321796+00:00",
-      "last_seen_at": "2026-10-12T06:54:47.190119+00:00",
+      "last_seen_at": "2026-10-12T07:48:31.997868+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -3525,7 +3638,7 @@
       "parsed_ref": "116500LN",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:38:59.321796+00:00",
-      "last_seen_at": "2026-10-12T06:54:47.190119+00:00",
+      "last_seen_at": "2026-10-12T07:48:31.997868+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -3565,7 +3678,7 @@
       "parsed_ref": "116500LN",
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T01:45:27.767152+00:00",
-      "last_seen_at": "2026-10-12T06:54:47.190119+00:00",
+      "last_seen_at": "2026-10-12T07:48:31.997868+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -3605,7 +3718,7 @@
       "parsed_ref": "116500",
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T05:43:06.937389+00:00",
-      "last_seen_at": "2026-10-12T06:54:47.190119+00:00",
+      "last_seen_at": "2026-10-12T07:48:31.997868+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -3613,121 +3726,6 @@
         "quote_count": 0
       },
       "condition_label": "有使用痕迹",
-      "completeness_label": "附件未注明",
-      "year_label": null,
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
-      "item_id": "1078961547027",
-      "keyword": "116500LN",
-      "title": "劳力士迪通拿126500黑钢迪！全新未拆封，国行26年4月卡 ，专柜价135500，现货秒发！ 自动机械机芯，40mm表径，精钢+陶瓷圈，黑盘，蚝式钢带，附件全套：盒子、保卡、绿吊牌、说明书都在！ 包邮 支持自提 不议价 售出不退不换 喜欢直接拍 细节私聊发图 劳力士 迪通拿 黑钢迪 126500",
-      "price_cny": 210000,
-      "search_price_cny": 210000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 21 万 11人想要",
-      "detail_title_match": false,
-      "seller": "",
-      "area": "",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1078961547027&categoryId=126916028",
-      "image_url": "//img.alicdn.com/bao/uploaded/i4/O1CN01ukMqOfISwEF1zkPC~livephoto~_!!4611686018427387532-0-fleamarket.jpg_450x10000Q90.jpg_.webp",
-      "publish_time": null,
-      "parsed_ref": "126500",
-      "risk_level": "low",
-      "first_seen_at": "2026-10-11T23:38:59.321796+00:00",
-      "last_seen_at": "2026-10-12T06:54:47.190119+00:00",
-      "seen_in_latest_scan": true,
-      "jp_compare": {
-        "matched": false,
-        "ref": "126500",
-        "quote_count": 0
-      },
-      "condition_label": "全新/未使用",
-      "completeness_label": "全套",
-      "year_label": "2026",
-      "warning_keywords": [],
-      "suspicious_keyword": null
-    },
-    {
-      "item_id": "1064209508815",
-      "keyword": "116500LN",
-      "title": "劳力士/Rolex 宇宙计型迪通拿 m116500ln-00 01 自动机械 904L不锈钢(蚝式钢) 40毫米 22年全套",
-      "price_cny": 210000,
-      "search_price_cny": 210000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 21 万 1人想要",
-      "detail_title_match": false,
-      "seller": "",
-      "area": "",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1064209508815&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "116500LN",
-      "risk_level": "medium",
-      "first_seen_at": "2026-10-12T00:53:21.742826+00:00",
-      "last_seen_at": "2026-10-12T06:54:47.190119+00:00",
-      "seen_in_latest_scan": true,
-      "jp_compare": {
-        "matched": true,
-        "ref": "116500LN",
-        "quote_count": 4,
-        "basis": "used",
-        "conservative_jpy": 1250000,
-        "best_jpy": 7450000,
-        "sources": [
-          "RASIN",
-          "PREMIER VALUE"
-        ]
-      },
-      "condition_label": "成色未注明",
-      "completeness_label": "全套",
-      "year_label": "2022",
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
-      "item_id": "1061731780511",
-      "keyword": "116500LN",
-      "title": "劳力士/Rolex 宇宙计型迪通拿 m126500ln-00 02 自动机械 蚝式钢 40毫米 专柜价135500",
-      "price_cny": 220000,
-      "search_price_cny": 220000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 22 万",
-      "detail_title_match": false,
-      "seller": "",
-      "area": "",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1061731780511&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "126500LN",
-      "risk_level": "medium",
-      "first_seen_at": "2026-10-12T02:43:06.347512+00:00",
-      "last_seen_at": "2026-10-12T06:54:47.190119+00:00",
-      "seen_in_latest_scan": true,
-      "jp_compare": {
-        "matched": true,
-        "ref": "126500LN",
-        "quote_count": 7,
-        "basis": "used",
-        "conservative_jpy": 700000,
-        "best_jpy": 6080000,
-        "sources": [
-          "KOMEHYO",
-          "大黒屋",
-          "RASIN",
-          "なんぼや",
-          "PREMIER VALUE"
-        ]
-      },
-      "condition_label": "成色未注明",
       "completeness_label": "附件未注明",
       "year_label": null,
       "warning_keywords": [],
@@ -3753,7 +3751,7 @@
       "parsed_ref": "116500LN",
       "risk_level": "low",
       "first_seen_at": "2026-10-11T23:38:59.321796+00:00",
-      "last_seen_at": "2026-10-12T06:54:47.190119+00:00",
+      "last_seen_at": "2026-10-12T07:48:31.997868+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -3792,7 +3790,7 @@
       "parsed_ref": "126500LN",
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T06:54:47.190119+00:00",
-      "last_seen_at": "2026-10-12T06:54:47.190119+00:00",
+      "last_seen_at": "2026-10-12T07:48:31.997868+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -3800,7 +3798,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5952000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -3835,7 +3833,7 @@
       "parsed_ref": "116500LN",
       "risk_level": "low",
       "first_seen_at": "2026-10-12T06:54:47.190119+00:00",
-      "last_seen_at": "2026-10-12T06:54:47.190119+00:00",
+      "last_seen_at": "2026-10-12T07:48:31.997868+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -3874,7 +3872,7 @@
       "parsed_ref": "126710",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:38:53.787584+00:00",
-      "last_seen_at": "2026-10-12T06:54:42.125125+00:00",
+      "last_seen_at": "2026-10-12T07:48:26.819788+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -3907,7 +3905,7 @@
       "parsed_ref": null,
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:38:53.787584+00:00",
-      "last_seen_at": "2026-10-12T06:54:42.125125+00:00",
+      "last_seen_at": "2026-10-12T07:48:26.819788+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -3939,7 +3937,7 @@
       "parsed_ref": "126710BLNR",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:38:53.787584+00:00",
-      "last_seen_at": "2026-10-12T06:54:42.125125+00:00",
+      "last_seen_at": "2026-10-12T07:48:26.819788+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -3960,40 +3958,34 @@
       "ref_source": "keyword_or_title_repair"
     },
     {
-      "item_id": "1008661974476",
+      "item_id": "1035709431926",
       "keyword": "126710BLNR",
-      "title": "全新劳力士 m126710blnr-0002 格林尼治型II 蓝黑圈 国米圈 五格链节 表径40mm 全套25年12月 支持本地面交或徐步天云鱼",
-      "price_cny": 130000,
-      "search_price_cny": 130000,
+      "title": "全新劳力士126710格林尼治，国米圈，北京专柜购入，202 6年1月保卡，大全套齐全，购物小票+双吊牌，发票未开（随时可以帮你开）。国米圈是劳力士格林尼治系列最好看的配色，专卖店最难入的钢款之一，需要的朋友联系。",
+      "price_cny": 115000,
+      "search_price_cny": 115000,
       "price_verified": false,
       "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 13 万 ¥136000",
+      "price_raw_text": "¥ 115000 7人想要",
       "detail_title_match": false,
       "seller": "",
       "area": "",
       "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1008661974476&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "item_url": "https://www.goofish.com/item?id=1035709431926&categoryId=126916028",
+      "image_url": "//img.alicdn.com/bao/uploaded/i2/2221458372255/O1CN01zp9Zb71SWqG5nSYuE_!!4611686018427385503-0-xy_item.jpg_450x10000Q90.jpg_.webp",
       "publish_time": null,
-      "parsed_ref": "126710BLNR",
+      "parsed_ref": "126710",
       "risk_level": "medium",
-      "first_seen_at": "2026-10-12T06:54:42.125125+00:00",
-      "last_seen_at": "2026-10-12T06:54:42.125125+00:00",
+      "first_seen_at": "2026-10-12T07:48:26.819788+00:00",
+      "last_seen_at": "2026-10-12T07:48:26.819788+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
-        "matched": true,
-        "ref": "126710BLNR",
-        "quote_count": 1,
-        "basis": "new",
-        "conservative_jpy": 4767000,
-        "best_jpy": 4767000,
-        "sources": [
-          "なんぼや"
-        ]
+        "matched": false,
+        "ref": "126710",
+        "quote_count": 0
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
-      "year_label": "2025",
+      "year_label": null,
       "warning_keywords": [],
       "suspicious_keyword": null,
       "ref_source": "keyword_or_title_repair"
@@ -4017,7 +4009,7 @@
       "parsed_ref": "126710BLRO",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:38:48.346121+00:00",
-      "last_seen_at": "2026-10-12T06:54:36.996460+00:00",
+      "last_seen_at": "2026-10-12T07:48:21.677556+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -4038,45 +4030,6 @@
       "ref_source": "keyword_or_title_repair"
     },
     {
-      "item_id": "1081698584865",
-      "keyword": "126710BLRO",
-      "title": "劳力士 m126710blro-0002可乐圈 26年全套全长未使用现货好价",
-      "price_cny": 170000,
-      "search_price_cny": 170000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 17 万",
-      "detail_title_match": false,
-      "seller": "",
-      "area": "",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1081698584865&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "126710BLRO",
-      "risk_level": "medium",
-      "first_seen_at": "2026-10-12T04:44:32.272246+00:00",
-      "last_seen_at": "2026-10-12T06:54:36.996460+00:00",
-      "seen_in_latest_scan": true,
-      "jp_compare": {
-        "matched": true,
-        "ref": "126710BLRO",
-        "quote_count": 1,
-        "basis": "new",
-        "conservative_jpy": 13000000,
-        "best_jpy": 13000000,
-        "sources": [
-          "RASIN"
-        ]
-      },
-      "condition_label": "全新/未使用",
-      "completeness_label": "全套",
-      "year_label": "2026",
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
       "item_id": "1087253875178",
       "keyword": "126710BLRO",
       "title": "劳力士格林尼治系列126710-0001五珠可乐圈，自动机械 ，40表径，2025年全新全套现货19w，22年全套双牌15.8万，25年全套现货",
@@ -4090,12 +4043,12 @@
       "area": "",
       "badge": "",
       "item_url": "https://www.goofish.com/item?id=1087253875178&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "image_url": "//img.alicdn.com/bao/uploaded/i1/160250073/O1CN015YXtgt35f8D2BxHU_!!4611686018427386073-0-xy_item.jpg_450x10000Q90.jpg_.webp",
       "publish_time": null,
       "parsed_ref": "126710",
       "risk_level": "medium",
       "first_seen_at": "2026-10-11T23:38:48.346121+00:00",
-      "last_seen_at": "2026-10-12T06:54:36.996460+00:00",
+      "last_seen_at": "2026-10-12T07:48:21.677556+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -4128,7 +4081,7 @@
       "parsed_ref": "126710BLRO",
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T05:42:56.496656+00:00",
-      "last_seen_at": "2026-10-12T06:54:36.996460+00:00",
+      "last_seen_at": "2026-10-12T07:48:21.677556+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -4167,7 +4120,7 @@
       "parsed_ref": "126710",
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T06:54:36.996460+00:00",
-      "last_seen_at": "2026-10-12T06:54:36.996460+00:00",
+      "last_seen_at": "2026-10-12T07:48:21.677556+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -4187,10 +4140,10 @@
       "title": "劳力士 潜航者型 126610LN 黑水鬼 99新 带原装盒 子 附件齐全 自动机械机芯 40mm表径 豪华款 保存完好",
       "price_cny": 70000,
       "search_price_cny": 70000,
-      "price_verified": true,
-      "price_source": "item_detail",
-      "price_raw_text": "70000",
-      "detail_title_match": true,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 7 万 20人想要",
+      "detail_title_match": false,
       "seller": "",
       "area": "",
       "badge": "",
@@ -4200,7 +4153,7 @@
       "parsed_ref": "126610LN",
       "risk_level": "low",
       "first_seen_at": "2026-10-11T23:38:37.053830+00:00",
-      "last_seen_at": "2026-10-12T06:54:26.783884+00:00",
+      "last_seen_at": "2026-10-12T07:48:11.217234+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": true,
@@ -4240,7 +4193,7 @@
       "parsed_ref": "116610NL",
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T03:46:15.799082+00:00",
-      "last_seen_at": "2026-10-12T06:54:26.783884+00:00",
+      "last_seen_at": "2026-10-12T07:48:11.217234+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -4250,6 +4203,780 @@
       "condition_label": "成色未注明",
       "completeness_label": "附件未注明",
       "year_label": "2017",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1064209508815",
+      "keyword": "126500LN",
+      "title": "劳力士/Rolex 宇宙计型迪通拿 m116500ln-00 01 自动机械 904L不锈钢(蚝式钢) 40毫米 22年全套",
+      "price_cny": 210000,
+      "search_price_cny": 210000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 21 万 1人想要",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1064209508815&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "116500LN",
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-12T00:53:21.742826+00:00",
+      "last_seen_at": "2026-10-12T07:48:06.047098+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": true,
+        "ref": "116500LN",
+        "quote_count": 4,
+        "basis": "used",
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
+        "sources": [
+          "RASIN",
+          "PREMIER VALUE"
+        ]
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "全套",
+      "year_label": "2022",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1061731780511",
+      "keyword": "126500LN",
+      "title": "劳力士/Rolex 宇宙计型迪通拿 m126500ln-00 02 自动机械 蚝式钢 40毫米 专柜价135500",
+      "price_cny": 220000,
+      "search_price_cny": 220000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 22 万",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1061731780511&categoryId=126916028",
+      "image_url": "//img.alicdn.com/bao/uploaded/i2/105532397/O1CN015G9ZOr1TZsWBBQL8X_!!4611686018427382765-53-xy_item.heic_450x10000Q90.jpg_.webp",
+      "publish_time": null,
+      "parsed_ref": "126500LN",
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-12T02:43:06.347512+00:00",
+      "last_seen_at": "2026-10-12T07:48:06.047098+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": true,
+        "ref": "126500LN",
+        "quote_count": 7,
+        "basis": "used",
+        "conservative_jpy": 700000,
+        "best_jpy": 5952000,
+        "sources": [
+          "KOMEHYO",
+          "大黒屋",
+          "RASIN",
+          "なんぼや",
+          "PREMIER VALUE"
+        ]
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "附件未注明",
+      "year_label": null,
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1080320839781",
+      "keyword": "126500LN",
+      "title": "劳力士M126500LN-0001白熊猫 26年全新全套。 专柜自提",
+      "price_cny": 260000,
+      "search_price_cny": 260000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 26 万 1人想要",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1080320839781&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "126500LN",
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-12T00:53:21.742826+00:00",
+      "last_seen_at": "2026-10-12T07:48:06.047098+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": true,
+        "ref": "126500LN",
+        "quote_count": 7,
+        "basis": "new",
+        "conservative_jpy": 770000,
+        "best_jpy": 6060000,
+        "sources": [
+          "KOMEHYO",
+          "大黒屋",
+          "RASIN",
+          "なんぼや",
+          "PREMIER VALUE"
+        ]
+      },
+      "condition_label": "全新/未使用",
+      "completeness_label": "全套",
+      "year_label": "2026",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1006212818951",
+      "keyword": "126500LN",
+      "title": "劳力士 126500LN 熊猫迪 白迪 大热门款 未使用正品 带云鱼 全套近期卡 11月卡 编号不错 现货 好价",
+      "price_cny": 240000,
+      "search_price_cny": 240000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 24 万 累计降价4000.00元",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1006212818951&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "126500LN",
+      "risk_level": "low",
+      "first_seen_at": "2026-10-11T23:38:31.376743+00:00",
+      "last_seen_at": "2026-10-12T07:48:06.047098+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": true,
+        "ref": "126500LN",
+        "quote_count": 7,
+        "basis": "new",
+        "conservative_jpy": 770000,
+        "best_jpy": 6060000,
+        "sources": [
+          "KOMEHYO",
+          "大黒屋",
+          "RASIN",
+          "なんぼや",
+          "PREMIER VALUE"
+        ]
+      },
+      "condition_label": "全新/未使用",
+      "completeness_label": "全套",
+      "year_label": null,
+      "warning_keywords": [],
+      "suspicious_keyword": null
+    },
+    {
+      "item_id": "1087300638650",
+      "keyword": "朗格",
+      "title": "朗格ZEITWERK系列147.050 / LS1476AA 腕表 26年全套未使用、现货",
+      "price_cny": 4200000,
+      "search_price_cny": 4200000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 420 万",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1087300638650&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": null,
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-11T23:41:17.951775+00:00",
+      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
+      "seen_in_latest_scan": false,
+      "jp_compare": {
+        "matched": false,
+        "ref": null,
+        "quote_count": 0
+      },
+      "condition_label": "全新/未使用",
+      "completeness_label": "全套",
+      "year_label": "2026",
+      "warning_keywords": [],
+      "suspicious_keyword": null
+    },
+    {
+      "item_id": "845034503844",
+      "keyword": "朗格",
+      "title": "朗格606.079 24年8月全新全套国行保卡未使用品 大明 火珐琅陶瓷白色表盘 鳄鱼皮表带 背透手动上链机芯 搭载三问功能 直线对标百达翡丽5078G 现货秒发#春日出游必备 #Patek Philippe/百达翡丽 #热销男表大集合",
+      "price_cny": 3380000,
+      "search_price_cny": 3380000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 338 万 ¥4960000",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=845034503844&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "5078G",
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-12T05:45:19.414540+00:00",
+      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
+      "seen_in_latest_scan": false,
+      "jp_compare": {
+        "matched": false,
+        "ref": "5078G",
+        "quote_count": 0
+      },
+      "condition_label": "全新/未使用",
+      "completeness_label": "全套",
+      "year_label": "2024",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "772252276167",
+      "keyword": "朗格",
+      "title": "朗格-顶级制表，德国天花板，低调而奢华！ 朗格猫头鹰铂金三问(全球限量30) Y2018 new 朗格一号 ，136.032，22new 朗格猫头鹰自鸣 145.032 Y2017new 朗格猫头鹰蓝盘白金三问(全球限量30) 具体私",
+      "price_cny": 800000,
+      "search_price_cny": 800000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 80 万 11人想要",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=772252276167&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": null,
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-11T23:41:17.951775+00:00",
+      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
+      "seen_in_latest_scan": false,
+      "jp_compare": {
+        "matched": false,
+        "ref": null,
+        "quote_count": 0
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "附件未注明",
+      "year_label": "2018",
+      "warning_keywords": [],
+      "suspicious_keyword": null
+    },
+    {
+      "item_id": "1089823957527",
+      "keyword": "朗格",
+      "title": "朗格ZEITWERK系列147.050 / LS1476AA 腕表 26年未使用、主要是能秒发货",
+      "price_cny": 4200000,
+      "search_price_cny": 4200000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 420 万",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1089823957527&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": null,
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-12T01:47:45.745023+00:00",
+      "last_seen_at": "2026-10-12T06:57:00.386235+00:00",
+      "seen_in_latest_scan": false,
+      "jp_compare": {
+        "matched": false,
+        "ref": null,
+        "quote_count": 0
+      },
+      "condition_label": "全新/未使用",
+      "completeness_label": "附件未注明",
+      "year_label": "2026",
+      "warning_keywords": [],
+      "suspicious_keyword": null
+    },
+    {
+      "item_id": "1088811791572",
+      "keyword": "宝玑",
+      "title": "宝玑/Breguet Classique Complicat ions 经典复杂系列 5359BB/6B/9V6/DD0D 手动上链 白色金 40,3 专柜价2854400 2020年全套现货好价",
+      "price_cny": 720000,
+      "search_price_cny": 720000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 72 万",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1088811791572&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": null,
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-12T06:56:55.203673+00:00",
+      "last_seen_at": "2026-10-12T06:56:55.203673+00:00",
+      "seen_in_latest_scan": false,
+      "jp_compare": {
+        "matched": false,
+        "ref": null,
+        "quote_count": 0
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "全套",
+      "year_label": "2020",
+      "warning_keywords": [],
+      "suspicious_keyword": null
+    },
+    {
+      "item_id": "1088818274260",
+      "keyword": "宝珀",
+      "title": "22年宝珀五十㖊5100-1140-O52A，蓝盘自动机械， 精钢表壳，表径38mm，背透设计，日历显示，陶瓷单向表圈，蓝织纹表带，柔软舒适度极棒，附件齐全，带包装盒和保卡，专柜价82000",
+      "price_cny": 30000,
+      "search_price_cny": 30000,
+      "price_verified": true,
+      "price_source": "item_detail",
+      "price_raw_text": "30000",
+      "detail_title_match": true,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1088818274260&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": null,
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-12T05:44:43.783884+00:00",
+      "last_seen_at": "2026-10-12T06:56:24.104614+00:00",
+      "seen_in_latest_scan": false,
+      "jp_compare": {
+        "matched": false,
+        "ref": null,
+        "quote_count": 0
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "全套",
+      "year_label": "2022",
+      "warning_keywords": [],
+      "suspicious_keyword": null
+    },
+    {
+      "item_id": "1088571490942",
+      "keyword": "百达翡丽",
+      "title": "百达翡丽鹦鹉螺7118/1A，白钢白盘，表径35.2mm，自 动机械，背透，精钢表带，折叠扣，324 S V机芯，30m防水，大日历窗。成色几乎全新，保存很好，走时正常，附件齐全，原装盒子证书说明书都有，正品保证，价格可聊，喜欢私聊。",
+      "price_cny": 520000,
+      "search_price_cny": 520000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 52 万 累计降价8000.00元",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1088571490942&categoryId=126916028",
+      "image_url": "//img.alicdn.com/bao/uploaded/i2/867000095/O1CN01zOuIwOx7gvG2vHAO_!!4611686018427387679-0-xy_item.jpg_450x10000Q90.jpg_.webp",
+      "publish_time": null,
+      "parsed_ref": null,
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-12T06:55:58.270733+00:00",
+      "last_seen_at": "2026-10-12T06:55:58.270733+00:00",
+      "seen_in_latest_scan": false,
+      "jp_compare": {
+        "matched": false,
+        "ref": null,
+        "quote_count": 0
+      },
+      "condition_label": "全新/未使用",
+      "completeness_label": "全套",
+      "year_label": null,
+      "warning_keywords": [],
+      "suspicious_keyword": null
+    },
+    {
+      "item_id": "1013906361196",
+      "keyword": "5167A",
+      "title": "百达翡丽5167A胶带手雷 2023年全套未使用品 广州现货 支持徐步天、云鱼鉴定",
+      "price_cny": 580000,
+      "search_price_cny": 580000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 58 万 6人想要",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1013906361196&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "5167A",
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-12T05:43:53.000441+00:00",
+      "last_seen_at": "2026-10-12T06:55:32.856794+00:00",
+      "seen_in_latest_scan": false,
+      "jp_compare": {
+        "matched": true,
+        "ref": "5167A",
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 11000000,
+        "best_jpy": 11000000,
+        "sources": [
+          "ブラリバ"
+        ]
+      },
+      "condition_label": "全新/未使用",
+      "completeness_label": "全套",
+      "year_label": "2023",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1071429604685",
+      "keyword": "5167A",
+      "title": "百达翡丽5167a，鹦鹉螺，自动机械，40mm表径，背透，全 套附件：盒子、证书、保卡、说明书、表布都在，保存很好，没怎么戴，成色几乎全新。 24年国行大全套 正品支持验货，包邮，可自提，喜欢直接拍，细节图私聊～",
+      "price_cny": 560000,
+      "search_price_cny": 560000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 56 万 5人想要",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1071429604685&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "5167A",
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-12T06:55:32.856794+00:00",
+      "last_seen_at": "2026-10-12T06:55:32.856794+00:00",
+      "seen_in_latest_scan": false,
+      "jp_compare": {
+        "matched": true,
+        "ref": "5167A",
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 11000000,
+        "best_jpy": 11000000,
+        "sources": [
+          "ブラリバ"
+        ]
+      },
+      "condition_label": "全新/未使用",
+      "completeness_label": "全套",
+      "year_label": "2024",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1002913224252",
+      "keyword": "5711/1A",
+      "title": "5711/1A-011白钢，17年二手全套全长 Patek Philippe Ref. 5711/1A-011 White Steel Year: 2017 Used 现货好价",
+      "price_cny": 770000,
+      "search_price_cny": 770000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 77 万 累计降价20000.00元",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1002913224252&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "5711/1A",
+      "risk_level": "low",
+      "first_seen_at": "2026-10-12T00:54:22.321494+00:00",
+      "last_seen_at": "2026-10-12T06:55:22.571088+00:00",
+      "seen_in_latest_scan": false,
+      "jp_compare": {
+        "matched": true,
+        "ref": "5711/1A",
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 20000000,
+        "best_jpy": 20000000,
+        "sources": [
+          "ブラリバ"
+        ]
+      },
+      "condition_label": "二手/自用",
+      "completeness_label": "全套",
+      "year_label": "2017",
+      "warning_keywords": [],
+      "suspicious_keyword": null
+    },
+    {
+      "item_id": "660858399371",
+      "keyword": "5711/1A",
+      "title": "百达翡丽鹦鹉螺 PP 5711/1A 原始品无打磨、无磕碰、无硬伤 16年全套全长 单表高性价比 通勤首选",
+      "price_cny": 680000,
+      "search_price_cny": 680000,
+      "price_verified": true,
+      "price_source": "item_detail",
+      "price_raw_text": "680000",
+      "detail_title_match": true,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=660858399371&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "5711/1A",
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-12T05:43:42.851126+00:00",
+      "last_seen_at": "2026-10-12T06:55:22.571088+00:00",
+      "seen_in_latest_scan": false,
+      "jp_compare": {
+        "matched": true,
+        "ref": "5711/1A",
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 20000000,
+        "best_jpy": 20000000,
+        "sources": [
+          "ブラリバ"
+        ]
+      },
+      "condition_label": "有使用痕迹",
+      "completeness_label": "单表",
+      "year_label": "2016",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1001089650561",
+      "keyword": "5711/1A",
+      "title": "百达翡丽5711/1a蓝 5711a钢蓝 ​24年国行带发票 极品成色 ​好价好价",
+      "price_cny": 1100000,
+      "search_price_cny": 1100000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 110 万 4人想要",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1001089650561&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "5711/1A",
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-12T05:43:42.851126+00:00",
+      "last_seen_at": "2026-10-12T06:55:22.571088+00:00",
+      "seen_in_latest_scan": false,
+      "jp_compare": {
+        "matched": true,
+        "ref": "5711/1A",
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 20000000,
+        "best_jpy": 20000000,
+        "sources": [
+          "ブラリバ"
+        ]
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "附件未注明",
+      "year_label": "2024",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1075243054246",
+      "keyword": "15510ST",
+      "title": "爱彼皇家橡树系列15510ST黑盘，41mm表径，精钢材质， 背透自动机械，日期显示 26年近期卡全套未使用品，专柜价240000，好价秒发 Audemars Piguet/爱彼 皇家橡树系列推荐",
+      "price_cny": 340000,
+      "search_price_cny": 340000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 34 万 ¥388000",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1075243054246&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "15510ST",
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-11T23:39:21.069151+00:00",
+      "last_seen_at": "2026-10-12T06:55:07.438391+00:00",
+      "seen_in_latest_scan": false,
+      "jp_compare": {
+        "matched": true,
+        "ref": "15510ST",
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 10000000,
+        "best_jpy": 10000000,
+        "sources": [
+          "RASIN"
+        ]
+      },
+      "condition_label": "全新/未使用",
+      "completeness_label": "全套",
+      "year_label": "2026",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "975228125092",
+      "keyword": "15510ST",
+      "title": "爱彼/Audemars Piguet 皇家橡树系列 1551 0ST.OO.1320ST.07 专柜价230000 2023年全套全长国行，带发票现货直发",
+      "price_cny": 300000,
+      "search_price_cny": 300000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 30 万 累计降价10000.00元",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=975228125092&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "15510ST",
+      "risk_level": "low",
+      "first_seen_at": "2026-10-12T04:45:02.652456+00:00",
+      "last_seen_at": "2026-10-12T06:55:07.438391+00:00",
+      "seen_in_latest_scan": false,
+      "jp_compare": {
+        "matched": true,
+        "ref": "15510ST",
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "全套",
+      "year_label": "2023",
+      "warning_keywords": [],
+      "suspicious_keyword": null
+    },
+    {
+      "item_id": "1078961547027",
+      "keyword": "116500LN",
+      "title": "劳力士迪通拿126500黑钢迪！全新未拆封，国行26年4月卡 ，专柜价135500，现货秒发！ 自动机械机芯，40mm表径，精钢+陶瓷圈，黑盘，蚝式钢带，附件全套：盒子、保卡、绿吊牌、说明书都在！ 包邮 支持自提 不议价 售出不退不换 喜欢直接拍 细节私聊发图 劳力士 迪通拿 黑钢迪 126500",
+      "price_cny": 210000,
+      "search_price_cny": 210000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 21 万 11人想要",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1078961547027&categoryId=126916028",
+      "image_url": "//img.alicdn.com/bao/uploaded/i4/O1CN01ukMqOfISwEF1zkPC~livephoto~_!!4611686018427387532-0-fleamarket.jpg_450x10000Q90.jpg_.webp",
+      "publish_time": null,
+      "parsed_ref": "126500",
+      "risk_level": "low",
+      "first_seen_at": "2026-10-11T23:38:59.321796+00:00",
+      "last_seen_at": "2026-10-12T06:54:47.190119+00:00",
+      "seen_in_latest_scan": false,
+      "jp_compare": {
+        "matched": false,
+        "ref": "126500",
+        "quote_count": 0
+      },
+      "condition_label": "全新/未使用",
+      "completeness_label": "全套",
+      "year_label": "2026",
+      "warning_keywords": [],
+      "suspicious_keyword": null
+    },
+    {
+      "item_id": "1008661974476",
+      "keyword": "126710BLNR",
+      "title": "全新劳力士 m126710blnr-0002 格林尼治型II 蓝黑圈 国米圈 五格链节 表径40mm 全套25年12月 支持本地面交或徐步天云鱼",
+      "price_cny": 130000,
+      "search_price_cny": 130000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 13 万 ¥136000",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1008661974476&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "126710BLNR",
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-12T06:54:42.125125+00:00",
+      "last_seen_at": "2026-10-12T06:54:42.125125+00:00",
+      "seen_in_latest_scan": false,
+      "jp_compare": {
+        "matched": true,
+        "ref": "126710BLNR",
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 4767000,
+        "best_jpy": 4767000,
+        "sources": [
+          "なんぼや"
+        ]
+      },
+      "condition_label": "全新/未使用",
+      "completeness_label": "全套",
+      "year_label": "2025",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1081698584865",
+      "keyword": "126710BLRO",
+      "title": "劳力士 m126710blro-0002可乐圈 26年全套全长未使用现货好价",
+      "price_cny": 170000,
+      "search_price_cny": 170000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 17 万",
+      "detail_title_match": false,
+      "seller": "",
+      "area": "",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1081698584865&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "126710BLRO",
+      "risk_level": "medium",
+      "first_seen_at": "2026-10-12T04:44:32.272246+00:00",
+      "last_seen_at": "2026-10-12T06:54:36.996460+00:00",
+      "seen_in_latest_scan": false,
+      "jp_compare": {
+        "matched": true,
+        "ref": "126710BLRO",
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 13000000,
+        "best_jpy": 13000000,
+        "sources": [
+          "RASIN"
+        ]
+      },
+      "condition_label": "全新/未使用",
+      "completeness_label": "全套",
+      "year_label": "2026",
       "warning_keywords": [],
       "suspicious_keyword": null,
       "ref_source": "keyword_or_title_repair"
@@ -4274,7 +5001,7 @@
       "risk_level": "medium",
       "first_seen_at": "2026-10-12T05:42:45.905535+00:00",
       "last_seen_at": "2026-10-12T06:54:26.783884+00:00",
-      "seen_in_latest_scan": true,
+      "seen_in_latest_scan": false,
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
@@ -4294,38 +5021,6 @@
       "warning_keywords": [],
       "suspicious_keyword": null,
       "ref_source": "keyword_or_title_repair"
-    },
-    {
-      "item_id": "1086388597291",
-      "keyword": "罗杰杜彼",
-      "title": "罗杰杜彼圆桌骑士RDDBEX0511 限量28块 玫瑰金 自动 45mm表径 大明火珐琅表桌圆制盘 墨玉圆桌雕工手制12个不各同相的古铜时为作士骑标 骑士手握十二生肖铜像 2018年保卡有盒 专柜定价193万",
-      "price_cny": 1150000,
-      "search_price_cny": 1150000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 115 万 累计降价99%",
-      "detail_title_match": false,
-      "seller": "",
-      "area": "",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1086388597291&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": null,
-      "risk_level": "medium",
-      "first_seen_at": "2026-10-12T00:56:28.896141+00:00",
-      "last_seen_at": "2026-10-12T05:45:49.747286+00:00",
-      "seen_in_latest_scan": false,
-      "jp_compare": {
-        "matched": false,
-        "ref": null,
-        "quote_count": 0
-      },
-      "condition_label": "成色未注明",
-      "completeness_label": "盒卡",
-      "year_label": "2018",
-      "warning_keywords": [],
-      "suspicious_keyword": null
     },
     {
       "item_id": "1082260117256",
@@ -4656,45 +5351,6 @@
       "suspicious_keyword": null
     },
     {
-      "item_id": "1063801550075",
-      "keyword": "15510ST",
-      "title": "爱彼15510ST 黑色盘面 2026年6月全套未使用 感兴趣的话点“我想要”和我私聊吧～",
-      "price_cny": 340000,
-      "search_price_cny": 340000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 34 万",
-      "detail_title_match": false,
-      "seller": "",
-      "area": "",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1063801550075&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "15510ST",
-      "risk_level": "medium",
-      "first_seen_at": "2026-10-11T23:39:21.069151+00:00",
-      "last_seen_at": "2026-10-12T05:43:27.587872+00:00",
-      "seen_in_latest_scan": false,
-      "jp_compare": {
-        "matched": true,
-        "ref": "15510ST",
-        "quote_count": 1,
-        "basis": "new",
-        "conservative_jpy": 10000000,
-        "best_jpy": 10000000,
-        "sources": [
-          "RASIN"
-        ]
-      },
-      "condition_label": "全新/未使用",
-      "completeness_label": "全套",
-      "year_label": "2026",
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
       "item_id": "948255331305",
       "keyword": "116500LN",
       "title": "劳力士116500黑钢迪，22年12月27号保卡，全套双吊牌 ，自用，南京本地可自提",
@@ -4832,7 +5488,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5952000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -4875,7 +5531,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5952000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -4887,49 +5543,6 @@
       "condition_label": "成色未注明",
       "completeness_label": "全套",
       "year_label": "2024",
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
-      "item_id": "1080320839781",
-      "keyword": "126500LN",
-      "title": "劳力士M126500LN-0001白熊猫 26年全新全套。 专柜自提",
-      "price_cny": 260000,
-      "search_price_cny": 260000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 26 万 1人想要",
-      "detail_title_match": false,
-      "seller": "",
-      "area": "",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1080320839781&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "126500LN",
-      "risk_level": "medium",
-      "first_seen_at": "2026-10-12T00:53:21.742826+00:00",
-      "last_seen_at": "2026-10-12T05:42:40.335502+00:00",
-      "seen_in_latest_scan": false,
-      "jp_compare": {
-        "matched": true,
-        "ref": "126500LN",
-        "quote_count": 7,
-        "basis": "new",
-        "conservative_jpy": 770000,
-        "best_jpy": 6060000,
-        "sources": [
-          "KOMEHYO",
-          "大黒屋",
-          "RASIN",
-          "なんぼや",
-          "PREMIER VALUE"
-        ]
-      },
-      "condition_label": "全新/未使用",
-      "completeness_label": "全套",
-      "year_label": "2026",
       "warning_keywords": [],
       "suspicious_keyword": null,
       "ref_source": "keyword_or_title_repair"
@@ -4961,7 +5574,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5952000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -5239,7 +5852,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5952000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -5282,7 +5895,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5952000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -5373,38 +5986,6 @@
       "suspicious_keyword": null
     },
     {
-      "item_id": "1087345807797",
-      "keyword": "朗格",
-      "title": "现货❗️26年全套未使用，朗格/A.Lange & Sohn e ODYSSEUS奥德修斯系列 363.117 自动上链机芯 钛金属 40.5毫米 蓝灰盘面搭配小秒针与日期显示，钛金属表壳表带轻盈耐磨，自动机械机芯走时稳定。成色全新，附件齐全含质保卡、防尘袋、包装盒，专柜正品渠道购入，支持验货鉴定。...",
-      "price_cny": 1410000,
-      "search_price_cny": 1410000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 141 万",
-      "detail_title_match": false,
-      "seller": "",
-      "area": "",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1087345807797&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": null,
-      "risk_level": "medium",
-      "first_seen_at": "2026-10-11T23:41:17.951775+00:00",
-      "last_seen_at": "2026-10-12T03:48:48.260173+00:00",
-      "seen_in_latest_scan": false,
-      "jp_compare": {
-        "matched": false,
-        "ref": null,
-        "quote_count": 0
-      },
-      "condition_label": "全新/未使用",
-      "completeness_label": "全套",
-      "year_label": "2026",
-      "warning_keywords": [],
-      "suspicious_keyword": null
-    },
-    {
       "item_id": "1085994687266",
       "keyword": "朗格",
       "title": "新收朗格奥德修斯363.117 钛金属 全球限量250枚，V IP累计消费500W才可购买 23年全套极品成色 一手现货 带徐步天报告 可面交 可走第三方鉴定 想要的老板随时联系。",
@@ -5433,38 +6014,6 @@
       "condition_label": "成色未注明",
       "completeness_label": "全套",
       "year_label": "2023",
-      "warning_keywords": [],
-      "suspicious_keyword": null
-    },
-    {
-      "item_id": "757911322318",
-      "keyword": "朗格",
-      "title": "朗格卡巴莱陀飞轮 极其少见的钻石宝盖装于正面的陀飞轮之上！卡巴莱也属于“传说中”的系列。具备停秒功能的陀飞轮机芯，修长的机芯被徐步天老师大加赞许过。 · 一个完美匹配的“满膛机芯”，如...",
-      "price_cny": 880000,
-      "search_price_cny": 880000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 88 万 ¥2200000",
-      "detail_title_match": false,
-      "seller": "",
-      "area": "",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=757911322318&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": null,
-      "risk_level": "medium",
-      "first_seen_at": "2026-10-12T01:47:45.745023+00:00",
-      "last_seen_at": "2026-10-12T03:48:48.260173+00:00",
-      "seen_in_latest_scan": false,
-      "jp_compare": {
-        "matched": false,
-        "ref": null,
-        "quote_count": 0
-      },
-      "condition_label": "成色未注明",
-      "completeness_label": "附件未注明",
-      "year_label": null,
       "warning_keywords": [],
       "suspicious_keyword": null
     },
@@ -5689,45 +6238,6 @@
       "condition_label": "成色未注明",
       "completeness_label": "单表",
       "year_label": null,
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
-      "item_id": "1079266400197",
-      "keyword": "5167A",
-      "title": "百达翡丽5167a 新加坡限定 2020年全套二手",
-      "price_cny": 1280000,
-      "search_price_cny": 1280000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 128 万 2人想要",
-      "detail_title_match": false,
-      "seller": "",
-      "area": "",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1079266400197&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "5167A",
-      "risk_level": "medium",
-      "first_seen_at": "2026-10-12T00:54:32.401655+00:00",
-      "last_seen_at": "2026-10-12T03:47:22.345536+00:00",
-      "seen_in_latest_scan": false,
-      "jp_compare": {
-        "matched": true,
-        "ref": "5167A",
-        "quote_count": 1,
-        "basis": "used",
-        "conservative_jpy": 11000000,
-        "best_jpy": 11000000,
-        "sources": [
-          "ブラリバ"
-        ]
-      },
-      "condition_label": "二手/自用",
-      "completeness_label": "全套",
-      "year_label": "2020",
       "warning_keywords": [],
       "suspicious_keyword": null,
       "ref_source": "keyword_or_title_repair"
@@ -6269,48 +6779,6 @@
       "suspicious_keyword": null
     },
     {
-      "item_id": "1006212818951",
-      "keyword": "126500LN",
-      "title": "劳力士 126500LN 熊猫迪 白迪 大热门款 未使用正品 带云鱼 全套近期卡 11月卡 编号不错 现货 好价",
-      "price_cny": 240000,
-      "search_price_cny": 240000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 24 万 累计降价4000.00元",
-      "detail_title_match": false,
-      "seller": "",
-      "area": "",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1006212818951&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "126500LN",
-      "risk_level": "low",
-      "first_seen_at": "2026-10-11T23:38:31.376743+00:00",
-      "last_seen_at": "2026-10-12T02:43:06.347512+00:00",
-      "seen_in_latest_scan": false,
-      "jp_compare": {
-        "matched": true,
-        "ref": "126500LN",
-        "quote_count": 7,
-        "basis": "new",
-        "conservative_jpy": 770000,
-        "best_jpy": 6060000,
-        "sources": [
-          "KOMEHYO",
-          "大黒屋",
-          "RASIN",
-          "なんぼや",
-          "PREMIER VALUE"
-        ]
-      },
-      "condition_label": "全新/未使用",
-      "completeness_label": "全套",
-      "year_label": null,
-      "warning_keywords": [],
-      "suspicious_keyword": null
-    },
-    {
       "item_id": "1092105104944",
       "keyword": "Cartier",
       "title": "全新Cartier卡地亚LOVE戒指 小号 玫瑰金满钻款 正品 750/1000玫瑰金 镶嵌88颗钻石 总重0.31克拉 尺寸52经典满天星设计 男女都能戴 送礼自用都合适包邮 支持自提喜欢直接拍 细节私聊 一次也没带过 发票证书都在",
@@ -6392,64 +6860,6 @@
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
       "year_label": "2026",
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "price_verified": false,
-      "price_source": "historical_unverified"
-    },
-    {
-      "item_id": "948960515366",
-      "keyword": "朗格",
-      "title": "朗格1815系列421.025/LS4212AB 男士 手动机械 950铂金材质 41.9mm表径 表盘以实心银铸造 指针以18K黄金镀铑、蓝钢、镀18K金钢制成 蓝宝石水晶玻璃 日期 星期 月份 动力储备显示 月相 长动力 双追针计时 万年历 集众多复杂功能于一身 ...",
-      "price_cny": 1020000,
-      "seller": "",
-      "area": "",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=948960515366&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": null,
-      "risk_level": "medium",
-      "first_seen_at": "2026-10-12T01:47:45.745023+00:00",
-      "last_seen_at": "2026-10-12T01:47:45.745023+00:00",
-      "seen_in_latest_scan": false,
-      "jp_compare": {
-        "matched": false,
-        "ref": null,
-        "quote_count": 0
-      },
-      "condition_label": "成色未注明",
-      "completeness_label": "附件未注明",
-      "year_label": null,
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "price_verified": false,
-      "price_source": "historical_unverified"
-    },
-    {
-      "item_id": "921742984612",
-      "keyword": "沛纳海",
-      "title": "沛纳海SUBMERSIBLE潜行系列 PAM00973男士自 动机械机械腕表，42mm表径，21年全套，已延保八年，原始品相，精钢材质、黑色字面、走时精准，工价72400！杭州自提，外地可以验货宝！捡漏的别来！",
-      "price_cny": 30000,
-      "seller": "",
-      "area": "",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=921742984612&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": null,
-      "risk_level": "medium",
-      "first_seen_at": "2026-10-12T00:55:32.501255+00:00",
-      "last_seen_at": "2026-10-12T01:47:19.029074+00:00",
-      "seen_in_latest_scan": false,
-      "jp_compare": {
-        "matched": false,
-        "ref": null,
-        "quote_count": 0
-      },
-      "condition_label": "成色未注明",
-      "completeness_label": "全套",
-      "year_label": "2021",
       "warning_keywords": [],
       "suspicious_keyword": null,
       "price_verified": false,
@@ -16459,42 +16869,6 @@
       "ref_source": "keyword_or_title_repair"
     },
     {
-      "item_id": "1076334834715",
-      "keyword": "5711/1A",
-      "title": "百达翡丽鹦鹉螺5711/1A 010，自动机械背透机芯(停产 热门款)动力储备45小时，40mm表径，深蓝色表盘，简单大方，折叠扣，防水深度120米，不锈钢材质，功能：日期显示，专柜价262800元，19年4月全套。",
-      "price_cny": 880000,
-      "seller": "",
-      "area": "",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1076334834715&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "5711/1A",
-      "risk_level": "low",
-      "first_seen_at": "2026-10-11T23:39:37.136261+00:00",
-      "last_seen_at": "2026-10-11T23:39:37.136261+00:00",
-      "seen_in_latest_scan": false,
-      "jp_compare": {
-        "matched": true,
-        "ref": "5711/1A",
-        "quote_count": 1,
-        "basis": "used",
-        "conservative_jpy": 20000000,
-        "best_jpy": 20000000,
-        "sources": [
-          "ブラリバ"
-        ]
-      },
-      "condition_label": "成色未注明",
-      "completeness_label": "全套",
-      "year_label": "2019",
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "price_verified": false,
-      "price_source": "historical_unverified",
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
       "item_id": "1091261520275",
       "keyword": "5711/1A",
       "title": "百达翡丽/Patek Philippe 运动优雅 5711/ 1A-011 自动机械 不锈钢 40毫米 专柜价220100。",
@@ -19220,11 +19594,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
-        "best_jpy": 2000000,
+        "conservative_jpy": 1480000,
+        "best_jpy": 3200000,
         "sources": [
+          "QUARK",
           "PREMIER VALUE"
         ]
       },
@@ -19328,11 +19703,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
-        "best_jpy": 2000000,
+        "conservative_jpy": 1480000,
+        "best_jpy": 3200000,
         "sources": [
+          "QUARK",
           "PREMIER VALUE"
         ]
       },
@@ -19471,11 +19847,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
-        "best_jpy": 2000000,
+        "conservative_jpy": 1480000,
+        "best_jpy": 3200000,
         "sources": [
+          "QUARK",
           "PREMIER VALUE"
         ]
       },
@@ -19507,11 +19884,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
-        "best_jpy": 2000000,
+        "conservative_jpy": 1480000,
+        "best_jpy": 3200000,
         "sources": [
+          "QUARK",
           "PREMIER VALUE"
         ]
       },
@@ -19651,11 +20029,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
-        "best_jpy": 2000000,
+        "conservative_jpy": 1480000,
+        "best_jpy": 3200000,
         "sources": [
+          "QUARK",
           "PREMIER VALUE"
         ]
       },
@@ -19687,11 +20066,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
-        "best_jpy": 2000000,
+        "conservative_jpy": 1480000,
+        "best_jpy": 3200000,
         "sources": [
+          "QUARK",
           "PREMIER VALUE"
         ]
       },
@@ -19759,11 +20139,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
-        "best_jpy": 2000000,
+        "conservative_jpy": 1480000,
+        "best_jpy": 3200000,
         "sources": [
+          "QUARK",
           "PREMIER VALUE"
         ]
       },
@@ -19795,11 +20176,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
-        "best_jpy": 2000000,
+        "conservative_jpy": 1480000,
+        "best_jpy": 3200000,
         "sources": [
+          "QUARK",
           "PREMIER VALUE"
         ]
       },
@@ -19831,11 +20213,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
-        "best_jpy": 2000000,
+        "conservative_jpy": 1480000,
+        "best_jpy": 3200000,
         "sources": [
+          "QUARK",
           "PREMIER VALUE"
         ]
       },
@@ -19903,11 +20286,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
-        "best_jpy": 2000000,
+        "conservative_jpy": 1480000,
+        "best_jpy": 3200000,
         "sources": [
+          "QUARK",
           "PREMIER VALUE"
         ]
       },
@@ -19939,11 +20323,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
-        "best_jpy": 2000000,
+        "conservative_jpy": 1480000,
+        "best_jpy": 3200000,
         "sources": [
+          "QUARK",
           "PREMIER VALUE"
         ]
       },
@@ -19975,11 +20360,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
-        "best_jpy": 2000000,
+        "conservative_jpy": 1480000,
+        "best_jpy": 3200000,
         "sources": [
+          "QUARK",
           "PREMIER VALUE"
         ]
       },
@@ -20011,11 +20397,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
-        "best_jpy": 2000000,
+        "conservative_jpy": 1480000,
+        "best_jpy": 3200000,
         "sources": [
+          "QUARK",
           "PREMIER VALUE"
         ]
       },
@@ -20047,11 +20434,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
-        "best_jpy": 2000000,
+        "conservative_jpy": 1480000,
+        "best_jpy": 3200000,
         "sources": [
+          "QUARK",
           "PREMIER VALUE"
         ]
       },
@@ -20083,11 +20471,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
-        "best_jpy": 2000000,
+        "conservative_jpy": 1480000,
+        "best_jpy": 3200000,
         "sources": [
+          "QUARK",
           "PREMIER VALUE"
         ]
       },
@@ -20119,11 +20508,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
-        "best_jpy": 2000000,
+        "conservative_jpy": 1480000,
+        "best_jpy": 3200000,
         "sources": [
+          "QUARK",
           "PREMIER VALUE"
         ]
       },
@@ -20190,11 +20580,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
-        "best_jpy": 2000000,
+        "conservative_jpy": 1480000,
+        "best_jpy": 3200000,
         "sources": [
+          "QUARK",
           "PREMIER VALUE"
         ]
       },
@@ -20227,7 +20618,7 @@
         "ref": "124060",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 1850000,
+        "conservative_jpy": 1950000,
         "best_jpy": 4750000,
         "sources": [
           "大黒屋",
@@ -20264,7 +20655,7 @@
         "ref": "124060",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 1850000,
+        "conservative_jpy": 1950000,
         "best_jpy": 4750000,
         "sources": [
           "大黒屋",
@@ -20301,7 +20692,7 @@
         "ref": "124060",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 1850000,
+        "conservative_jpy": 1950000,
         "best_jpy": 4750000,
         "sources": [
           "大黒屋",
@@ -20404,7 +20795,7 @@
         "ref": "124060",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 1850000,
+        "conservative_jpy": 1950000,
         "best_jpy": 4750000,
         "sources": [
           "大黒屋",
@@ -20478,7 +20869,7 @@
         "ref": "124060",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 1850000,
+        "conservative_jpy": 1950000,
         "best_jpy": 4750000,
         "sources": [
           "大黒屋",
@@ -20515,7 +20906,7 @@
         "ref": "124060",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 1850000,
+        "conservative_jpy": 1950000,
         "best_jpy": 4750000,
         "sources": [
           "大黒屋",
@@ -20552,7 +20943,7 @@
         "ref": "124060",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 1850000,
+        "conservative_jpy": 1950000,
         "best_jpy": 4750000,
         "sources": [
           "大黒屋",
@@ -20589,7 +20980,7 @@
         "ref": "124060",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 1850000,
+        "conservative_jpy": 1950000,
         "best_jpy": 4750000,
         "sources": [
           "大黒屋",
@@ -20625,7 +21016,7 @@
         "ref": "124060",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 1850000,
+        "conservative_jpy": 1950000,
         "best_jpy": 4750000,
         "sources": [
           "大黒屋",
@@ -20662,7 +21053,7 @@
         "ref": "124060",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 1850000,
+        "conservative_jpy": 1950000,
         "best_jpy": 4750000,
         "sources": [
           "大黒屋",
@@ -20765,7 +21156,7 @@
         "ref": "124060",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 1850000,
+        "conservative_jpy": 1950000,
         "best_jpy": 4750000,
         "sources": [
           "大黒屋",
@@ -20831,7 +21222,7 @@
         "ref": "124060",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 1850000,
+        "conservative_jpy": 1950000,
         "best_jpy": 4750000,
         "sources": [
           "大黒屋",
@@ -20868,7 +21259,7 @@
         "ref": "124060",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 1850000,
+        "conservative_jpy": 1950000,
         "best_jpy": 4750000,
         "sources": [
           "大黒屋",
@@ -20905,7 +21296,7 @@
         "ref": "124060",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 1850000,
+        "conservative_jpy": 1950000,
         "best_jpy": 4750000,
         "sources": [
           "大黒屋",
@@ -20941,7 +21332,7 @@
         "ref": "124060",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 1850000,
+        "conservative_jpy": 1950000,
         "best_jpy": 4750000,
         "sources": [
           "大黒屋",
@@ -21015,7 +21406,7 @@
         "ref": "124060",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 1850000,
+        "conservative_jpy": 1950000,
         "best_jpy": 4750000,
         "sources": [
           "大黒屋",
@@ -21090,7 +21481,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5952000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -21130,7 +21521,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5952000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -21672,7 +22063,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5952000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -24629,7 +25020,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5952000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -24669,7 +25060,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5952000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -24749,7 +25140,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5952000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -24789,7 +25180,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5952000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -24828,7 +25219,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5952000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -24868,7 +25259,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5952000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -24908,7 +25299,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5952000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -24948,7 +25339,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5952000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -25068,7 +25459,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5952000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -25215,7 +25606,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5952000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -25246,7 +25637,20 @@
       "condition_label": "中古（使用感少）",
       "condition_rank": null,
       "source_url": "https://komehyo.jp/kaitori/watch/",
-      "observed_at": "2026-10-12T06:53:06.532129+00:00"
+      "observed_at": "2026-10-12T07:45:15.812083+00:00"
+    },
+    {
+      "source": "QUARK",
+      "ref": "126334",
+      "variant": "银",
+      "label": "126334",
+      "new_price": null,
+      "used_price": 1480000,
+      "quote_type": "public_buyback",
+      "condition_label": "中古",
+      "condition_rank": null,
+      "source_url": "https://www.909.co.jp/rolex_buy.html",
+      "observed_at": "2026-10-12T07:45:18.658994+00:00"
     },
     {
       "source": "大黒屋",
@@ -25259,7 +25663,7 @@
       "condition_label": "中古",
       "condition_rank": null,
       "source_url": "https://kaitori.e-daikoku.com/brand/shop/ikebukuro-higashiguchi/",
-      "observed_at": "2026-10-12T06:53:12.023875+00:00"
+      "observed_at": "2026-10-12T07:45:22.391327+00:00"
     },
     {
       "source": "大黒屋",
@@ -25272,7 +25676,7 @@
       "condition_label": "中古",
       "condition_rank": null,
       "source_url": "https://kaitori.e-daikoku.com/brand/shop/ikebukuro-higashiguchi/",
-      "observed_at": "2026-10-12T06:53:12.024077+00:00"
+      "observed_at": "2026-10-12T07:45:22.391491+00:00"
     },
     {
       "source": "RASIN",
@@ -25285,7 +25689,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-12T06:53:14.945058+00:00"
+      "observed_at": "2026-10-12T07:45:44.431382+00:00"
     },
     {
       "source": "RASIN",
@@ -25298,7 +25702,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-12T06:53:14.945248+00:00"
+      "observed_at": "2026-10-12T07:45:44.431519+00:00"
     },
     {
       "source": "RASIN",
@@ -25311,7 +25715,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-12T06:53:14.945436+00:00"
+      "observed_at": "2026-10-12T07:45:44.431655+00:00"
     },
     {
       "source": "RASIN",
@@ -25324,7 +25728,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-12T06:53:14.945624+00:00"
+      "observed_at": "2026-10-12T07:45:44.431789+00:00"
     },
     {
       "source": "RASIN",
@@ -25337,7 +25741,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-12T06:53:14.945768+00:00"
+      "observed_at": "2026-10-12T07:45:44.431896+00:00"
     },
     {
       "source": "RASIN",
@@ -25350,7 +25754,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-12T06:53:14.945915+00:00"
+      "observed_at": "2026-10-12T07:45:44.432004+00:00"
     },
     {
       "source": "RASIN",
@@ -25363,7 +25767,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-12T06:53:14.946211+00:00"
+      "observed_at": "2026-10-12T07:45:44.432235+00:00"
     },
     {
       "source": "RASIN",
@@ -25376,7 +25780,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/audemarspiguet_price/",
-      "observed_at": "2026-10-12T06:53:16.968883+00:00"
+      "observed_at": "2026-10-12T07:46:22.801583+00:00"
     },
     {
       "source": "RASIN",
@@ -25389,7 +25793,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/audemarspiguet_price/",
-      "observed_at": "2026-10-12T06:53:16.969194+00:00"
+      "observed_at": "2026-10-12T07:46:22.801820+00:00"
     },
     {
       "source": "RASIN",
@@ -25402,7 +25806,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/audemarspiguet_price/",
-      "observed_at": "2026-10-12T06:53:16.969347+00:00"
+      "observed_at": "2026-10-12T07:46:22.801931+00:00"
     },
     {
       "source": "RASIN",
@@ -25415,7 +25819,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/omega_price/",
-      "observed_at": "2026-10-12T06:53:21.469131+00:00"
+      "observed_at": "2026-10-12T07:47:07.599785+00:00"
     },
     {
       "source": "なんぼや",
@@ -25428,7 +25832,7 @@
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-10-12T06:53:23.535708+00:00"
+      "observed_at": "2026-10-12T07:47:09.982905+00:00"
     },
     {
       "source": "なんぼや",
@@ -25441,7 +25845,7 @@
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-10-12T06:53:23.535922+00:00"
+      "observed_at": "2026-10-12T07:47:09.983025+00:00"
     },
     {
       "source": "なんぼや",
@@ -25454,7 +25858,7 @@
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-10-12T06:53:23.536094+00:00"
+      "observed_at": "2026-10-12T07:47:09.983102+00:00"
     },
     {
       "source": "なんぼや",
@@ -25467,7 +25871,7 @@
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-10-12T06:53:23.536342+00:00"
+      "observed_at": "2026-10-12T07:47:09.983246+00:00"
     },
     {
       "source": "ブラリバ",
@@ -25480,7 +25884,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/purchase-watch/rolex",
-      "observed_at": "2026-10-12T06:53:31.202224+00:00"
+      "observed_at": "2026-10-12T07:47:16.871891+00:00"
     },
     {
       "source": "ブラリバ",
@@ -25493,7 +25897,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/patek-philippe",
-      "observed_at": "2026-10-12T06:53:34.173943+00:00"
+      "observed_at": "2026-10-12T07:47:20.369270+00:00"
     },
     {
       "source": "ブラリバ",
@@ -25506,7 +25910,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/patek-philippe",
-      "observed_at": "2026-10-12T06:53:34.174086+00:00"
+      "observed_at": "2026-10-12T07:47:20.369387+00:00"
     },
     {
       "source": "ブラリバ",
@@ -25519,7 +25923,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/patek-philippe",
-      "observed_at": "2026-10-12T06:53:34.174224+00:00"
+      "observed_at": "2026-10-12T07:47:20.369489+00:00"
     },
     {
       "source": "ブラリバ",
@@ -25532,7 +25936,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/omega",
-      "observed_at": "2026-10-12T06:53:35.439079+00:00"
+      "observed_at": "2026-10-12T07:47:21.588848+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -25540,12 +25944,12 @@
       "variant": "白 黑",
       "label": "126500LN",
       "new_price": 6060000,
-      "used_price": 6080000,
+      "used_price": 5800000,
       "quote_type": "public_buyback",
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/daytona/ref_126500LN/",
-      "observed_at": "2026-10-12T06:53:49.496608+00:00"
+      "observed_at": "2026-10-12T07:47:34.071008+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -25558,7 +25962,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/daytona/ref_116500LN/",
-      "observed_at": "2026-10-12T06:53:52.542619+00:00"
+      "observed_at": "2026-10-12T07:47:36.278960+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -25571,7 +25975,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/submariner/ref_126610LN/",
-      "observed_at": "2026-10-12T06:53:56.332606+00:00"
+      "observed_at": "2026-10-12T07:47:40.274973+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -25584,7 +25988,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/submariner/ref_126610LV/",
-      "observed_at": "2026-10-12T06:53:59.878228+00:00"
+      "observed_at": "2026-10-12T07:47:45.526242+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -25592,12 +25996,12 @@
       "variant": "黑",
       "label": "124060",
       "new_price": 1950000,
-      "used_price": 1850000,
+      "used_price": 1950000,
       "quote_type": "public_buyback",
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/submariner/ref_124060/",
-      "observed_at": "2026-10-12T06:54:02.098450+00:00"
+      "observed_at": "2026-10-12T07:47:47.664947+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -25605,40 +26009,39 @@
       "variant": "白 黑",
       "label": "126334",
       "new_price": 1500000,
-      "used_price": 2000000,
+      "used_price": 3200000,
       "quote_type": "public_buyback",
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/datejust/ref_126334/",
-      "observed_at": "2026-10-12T06:54:07.361333+00:00"
+      "observed_at": "2026-10-12T07:47:53.417529+00:00"
     }
   ],
   "jp_source_summary": {
     "KOMEHYO": 1,
+    "QUARK": 1,
     "大黒屋": 2,
     "RASIN": 11,
     "なんぼや": 4,
     "ブラリバ": 5,
     "PREMIER VALUE": 6
   },
-  "errors": [
-    "goofish 冠蓝狮: GOOFISH_LOGIN_EXPIRED"
-  ],
+  "errors": [],
   "goofish_login_configured": true,
   "goofish_scan": {
     "keywords": 56,
-    "current_scan_items": 118,
-    "saved_recent_items": 752,
+    "current_scan_items": 120,
+    "saved_recent_items": 762,
     "min_price_cny": 30000,
     "retention_days": 14,
     "detail_verify_limit": 300,
-    "detail_verified_items": 24,
-    "detail_unverified_items": 94
+    "detail_verified_items": 2,
+    "detail_unverified_items": 118
   },
   "goofish_ref_repair": {
-    "repaired_items": 403,
-    "items_with_ref": 464,
-    "total_items": 752
+    "repaired_items": 409,
+    "items_with_ref": 471,
+    "total_items": 762
   },
   "manual_inquiry_queue": [
     {
@@ -25682,27 +26085,6 @@
       "source_item_url": "https://www.goofish.com/item?id=660858399371&categoryId=126916028",
       "status": "draft_ready",
       "rank": 2
-    },
-    {
-      "item_id": "731652800939",
-      "ref": "15500ST",
-      "condition_label": "成色未注明",
-      "completeness_label": "附件未注明",
-      "year_label": "2019",
-      "price_cny": 300000,
-      "jp_public_floor_jpy": 8000000,
-      "jp_quote_count": 1,
-      "safe_roi_pct": 0.77,
-      "needs_manual_quote": true,
-      "price_anomaly_checked": true,
-      "price_verified": true,
-      "price_source": "item_detail",
-      "reason": "捡漏榜Top候选：公开报价不足/成色附件需复核",
-      "message_ja": "お世話になっております。\nオーデマ ピゲ 15500ST、2019年頃、中古・状態詳細未確認、付属品詳細未確認の時計について、現物確認前の概算買取価格を伺いたくご連絡しました。\n写真なし・上記情報のみで構いませんので、現在の買取目安をご教示いただけますでしょうか。\n相場変動や実物査定で金額が変わる点は承知しております。よろしくお願いいたします。",
-      "image_included": false,
-      "source_item_url": "https://www.goofish.com/item?id=731652800939&categoryId=126916028",
-      "status": "draft_ready",
-      "rank": 3
     }
   ],
   "manual_inquiry_blocked_price_anomalies": [
@@ -25731,6 +26113,12 @@
       "reason": "price_not_detail_verified"
     },
     {
+      "item_id": "1076142877529",
+      "ref": "5167A",
+      "price_cny": 610000,
+      "reason": "price_not_detail_verified"
+    },
+    {
       "item_id": "667307034002",
       "ref": "5167A",
       "price_cny": 620000,
@@ -25740,6 +26128,12 @@
       "item_id": "1088175983805",
       "ref": "5167A",
       "price_cny": 680000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1048861585283",
+      "ref": "5167A",
+      "price_cny": 450000,
       "reason": "price_not_detail_verified"
     },
     {
@@ -25761,6 +26155,12 @@
       "reason": "price_not_detail_verified"
     },
     {
+      "item_id": "1061134724830",
+      "ref": "5167A",
+      "price_cny": 520000,
+      "reason": "price_not_detail_verified"
+    },
+    {
       "item_id": "1065149526365",
       "ref": "5167A",
       "price_cny": 570000,
@@ -25773,19 +26173,19 @@
       "reason": "price_not_detail_verified"
     },
     {
-      "item_id": "1013906361196",
-      "ref": "5167A",
-      "price_cny": 580000,
-      "reason": "price_not_detail_verified"
-    },
-    {
       "item_id": "1066106029593",
       "ref": "5167A",
       "price_cny": 690000,
       "reason": "price_not_detail_verified"
     },
     {
-      "item_id": "1071429604685",
+      "item_id": "1079266400197",
+      "ref": "5167A",
+      "price_cny": 1280000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1044666905977",
       "ref": "5167A",
       "price_cny": 560000,
       "reason": "price_not_detail_verified"
@@ -25794,6 +26194,12 @@
       "item_id": "820010387702",
       "ref": "5712/1A",
       "price_cny": 890000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1073498817545",
+      "ref": "5712/1A",
+      "price_cny": 950000,
       "reason": "price_not_detail_verified"
     },
     {
@@ -25821,6 +26227,12 @@
       "reason": "price_not_detail_verified"
     },
     {
+      "item_id": "1056412533198",
+      "ref": "5711/1A",
+      "price_cny": 1090000,
+      "reason": "price_not_detail_verified"
+    },
+    {
       "item_id": "1079113085199",
       "ref": "5711/1A",
       "price_cny": 880000,
@@ -25833,21 +26245,33 @@
       "reason": "price_not_detail_verified"
     },
     {
+      "item_id": "1079524209475",
+      "ref": "5711/1A",
+      "price_cny": 880000,
+      "reason": "price_not_detail_verified"
+    },
+    {
       "item_id": "1087605159304",
       "ref": "5711/1A",
       "price_cny": 720000,
       "reason": "price_not_detail_verified"
     },
     {
-      "item_id": "1002913224252",
+      "item_id": "1086916130609",
       "ref": "5711/1A",
-      "price_cny": 770000,
+      "price_cny": 1000000,
       "reason": "price_not_detail_verified"
     },
     {
       "item_id": "1042648188722",
       "ref": "5711/1A",
       "price_cny": 820000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1009246018073",
+      "ref": "5711/1A",
+      "price_cny": 850000,
       "reason": "price_not_detail_verified"
     },
     {
@@ -25869,13 +26293,37 @@
       "reason": "price_not_detail_verified"
     },
     {
-      "item_id": "1001089650561",
+      "item_id": "1074275881848",
+      "ref": "5711/1A",
+      "price_cny": 880000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1087683985011",
+      "ref": "5711/1A",
+      "price_cny": 1010000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1076334834715",
+      "ref": "5711/1A",
+      "price_cny": 880000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1055679554150",
       "ref": "5711/1A",
       "price_cny": 1100000,
       "reason": "price_not_detail_verified"
     },
     {
-      "item_id": "1074275881848",
+      "item_id": "1076901540497",
+      "ref": "5711/1A",
+      "price_cny": 880000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1078503749386",
       "ref": "5711/1A",
       "price_cny": 880000,
       "reason": "price_not_detail_verified"
@@ -25887,9 +26335,27 @@
       "reason": "price_not_detail_verified"
     },
     {
+      "item_id": "1032898124947",
+      "ref": "26240ST",
+      "price_cny": 440000,
+      "reason": "price_not_detail_verified"
+    },
+    {
       "item_id": "750535123932",
       "ref": "26240ST",
       "price_cny": 440000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1056254416118",
+      "ref": "26240ST",
+      "price_cny": 3550000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "835551584142",
+      "ref": "26240ST",
+      "price_cny": 360000,
       "reason": "price_not_detail_verified"
     },
     {
@@ -25911,6 +26377,12 @@
       "reason": "price_not_detail_verified"
     },
     {
+      "item_id": "1068495308027",
+      "ref": "15500ST",
+      "price_cny": 320000,
+      "reason": "price_not_detail_verified"
+    },
+    {
       "item_id": "851346006353",
       "ref": "15500ST",
       "price_cny": 230000,
@@ -25923,15 +26395,21 @@
       "reason": "price_not_detail_verified"
     },
     {
-      "item_id": "965695975517",
-      "ref": "15510ST",
-      "price_cny": 270000,
+      "item_id": "731652800939",
+      "ref": "15500ST",
+      "price_cny": 300000,
       "reason": "price_not_detail_verified"
     },
     {
-      "item_id": "1075243054246",
+      "item_id": "668460351635",
+      "ref": "15500ST",
+      "price_cny": 520000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "965695975517",
       "ref": "15510ST",
-      "price_cny": 340000,
+      "price_cny": 270000,
       "reason": "price_not_detail_verified"
     },
     {
@@ -25941,15 +26419,27 @@
       "reason": "price_not_detail_verified"
     },
     {
-      "item_id": "975228125092",
+      "item_id": "1080889625720",
       "ref": "15510ST",
       "price_cny": 300000,
       "reason": "price_not_detail_verified"
     },
     {
-      "item_id": "1080889625720",
+      "item_id": "1063801550075",
       "ref": "15510ST",
-      "price_cny": 300000,
+      "price_cny": 340000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "760704441335",
+      "ref": "15510ST",
+      "price_cny": 280000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1078430431375",
+      "ref": "124060",
+      "price_cny": 80000,
       "reason": "price_not_detail_verified"
     },
     {
@@ -25968,18 +26458,6 @@
       "item_id": "1091768904164",
       "ref": "116500LN",
       "price_cny": 200000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1064209508815",
-      "ref": "116500LN",
-      "price_cny": 210000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1061731780511",
-      "ref": "126500LN",
-      "price_cny": 220000,
       "reason": "price_not_detail_verified"
     },
     {
@@ -26007,25 +26485,91 @@
       "reason": "price_not_detail_verified"
     },
     {
-      "item_id": "1008661974476",
-      "ref": "126710BLNR",
-      "price_cny": 130000,
-      "reason": "price_not_detail_verified"
-    },
-    {
       "item_id": "1080817469714",
       "ref": "126710BLRO",
       "price_cny": 134000,
       "reason": "price_not_detail_verified"
     },
     {
-      "item_id": "1081698584865",
+      "item_id": "1037214502169",
       "ref": "126710BLRO",
       "price_cny": 170000,
       "reason": "price_not_detail_verified"
     },
     {
-      "item_id": "1037214502169",
+      "item_id": "1085028101576",
+      "ref": "126610LN",
+      "price_cny": 70000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1064209508815",
+      "ref": "116500LN",
+      "price_cny": 210000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1061731780511",
+      "ref": "126500LN",
+      "price_cny": 220000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1080320839781",
+      "ref": "126500LN",
+      "price_cny": 260000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1006212818951",
+      "ref": "126500LN",
+      "price_cny": 240000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1013906361196",
+      "ref": "5167A",
+      "price_cny": 580000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1071429604685",
+      "ref": "5167A",
+      "price_cny": 560000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1002913224252",
+      "ref": "5711/1A",
+      "price_cny": 770000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1001089650561",
+      "ref": "5711/1A",
+      "price_cny": 1100000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1075243054246",
+      "ref": "15510ST",
+      "price_cny": 340000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "975228125092",
+      "ref": "15510ST",
+      "price_cny": 300000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1008661974476",
+      "ref": "126710BLNR",
+      "price_cny": 130000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1081698584865",
       "ref": "126710BLRO",
       "price_cny": 170000,
       "reason": "price_not_detail_verified"
@@ -26073,12 +26617,6 @@
       "reason": "price_not_detail_verified"
     },
     {
-      "item_id": "1063801550075",
-      "ref": "15510ST",
-      "price_cny": 340000,
-      "reason": "price_not_detail_verified"
-    },
-    {
       "item_id": "1088094898498",
       "ref": "126710BLNR",
       "price_cny": 110000,
@@ -26100,12 +26638,6 @@
       "item_id": "1034888345461",
       "ref": "126500LN",
       "price_cny": 215000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1080320839781",
-      "ref": "126500LN",
-      "price_cny": 260000,
       "reason": "price_not_detail_verified"
     },
     {
@@ -26155,156 +26687,6 @@
       "ref": "126500LN",
       "price_cny": 210000,
       "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1091987944137",
-      "ref": "126500LN",
-      "price_cny": 240000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1079266400197",
-      "ref": "5167A",
-      "price_cny": 1280000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1058852142892",
-      "ref": "5167A",
-      "price_cny": 560000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1089316770242",
-      "ref": "5711/1A",
-      "price_cny": 1010000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "698347205728",
-      "ref": "116500LN",
-      "price_cny": 230000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1078767046180",
-      "ref": "126710BLNR",
-      "price_cny": 130000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1090277589904",
-      "ref": "126710BLRO",
-      "price_cny": 140000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1063972862406",
-      "ref": "126500LN",
-      "price_cny": 250000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1053163567717",
-      "ref": "5167A",
-      "price_cny": 630000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "658999571953",
-      "ref": "5712/1A",
-      "price_cny": 680000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1008767444563",
-      "ref": "5712/1A",
-      "price_cny": 1180000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "583791553937",
-      "ref": "15500ST",
-      "price_cny": 380000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1059417552319",
-      "ref": "116500LN",
-      "price_cny": 160000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1006212818951",
-      "ref": "126500LN",
-      "price_cny": 240000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1068147205322",
-      "ref": "5712/1A",
-      "price_cny": 950000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1049253092685",
-      "ref": "26240ST",
-      "price_cny": 390000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1072759954209",
-      "ref": "126710BLRO",
-      "price_cny": 128000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "785657980210",
-      "ref": "126610LV",
-      "price_cny": 110000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1087446399236",
-      "ref": "126610LV",
-      "price_cny": 90000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1074620267746",
-      "ref": "310.30.42.50.01.002",
-      "price_cny": 9900000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1030386237773",
-      "ref": "310.30.42.50.01.002",
-      "price_cny": 300000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1085562944978",
-      "ref": "310.30.42.50.01.002",
-      "price_cny": 290000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1088901389505",
-      "ref": "310.30.42.50.01.002",
-      "price_cny": 50000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1007015538659",
-      "ref": "310.30.42.50.01.002",
-      "price_cny": 647000000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1086762158761",
-      "ref": "310.30.42.50.01.002",
-      "price_cny": 90000,
-      "reason": "price_not_detail_verified"
     }
   ],
   "manual_inquiry_policy": {
@@ -26319,7 +26701,7 @@
     "require_ref_in_title": true,
     "exclude_collection_floor_price": true,
     "send_status": "draft_only_until_channel_connected",
-    "generated_at": "2026-10-12T07:00:51.392205+00:00",
+    "generated_at": "2026-10-12T07:54:41.672817+00:00",
     "fx_jpy_to_cny": 0.042322
   }
 }
