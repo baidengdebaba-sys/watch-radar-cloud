@@ -116,6 +116,10 @@ jobs:
         if: steps.home.outputs.available != 'true'
         run: python preserve_items.py restore
 
+      - name: Repair Goofish model references
+        if: always()
+        run: python repair_refs.py
+
       - name: Prepare top manual buyback inquiry drafts
         if: always()
         run: python inquiry_queue.py
