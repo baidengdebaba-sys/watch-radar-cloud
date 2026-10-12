@@ -1,5 +1,5 @@
 from __future__ import annotations
-import json
+import json, re, statistics
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.request import Request, urlopen
@@ -8,6 +8,8 @@ LATEST = Path("data/latest.json")
 TOP_N = 3
 CROSS_BORDER_COST_RATE = 0.12
 MAX_SAFE_ROI = 30.0
+MIN_COLLECTION_PRICE_CNY = 30000
+MAX_INQUIRY_PRICE_CNY = 10000000
 
 REF_BRAND_JA = {
     "126500LN":"ロレックス","126610LN":"ロレックス","126610LV":"ロレックス",
@@ -34,6 +36,51 @@ def fx_jpy_to_cny():
         except Exception:
             pass
     return 0.042
+
+def normalize_ref(raw):
+    return re.sub(r"[^A-Z0-9/.]", "", str(raw or "").upper())
+
+def title_contains_ref(item):
+    ref=normalize_ref(item.get("parsed_ref"))
+    if not ref:
+        return False
+    title=normalize_ref(item.get("title"))
+    return ref in title
+
+def build_ref_price_medians(items):
+    by_ref={}
+    for x in items:
+        ref=normalize_ref(x.get("parsed_ref"))
+        price=float(x.get("price_cny") or 0)
+        if not ref or price < MIN_COLLECTION_PRICE_CNY or price > MAX_INQUIRY_PRICE_CNY:
+            continue
+        if x.get("warning_keywords") or x.get("suspicious_keyword"):
+            continue
+        if not title_contains_ref(x):
+            continue
+        by_ref.setdefault(ref,[]).append(price)
+    return {
+        ref: statistics.median(vals)
+        for ref,vals in by_ref.items()
+        if len(vals) >= 4
+    }
+
+def price_anomaly_reason(item, ref_medians):
+    price=float(item.get("price_cny") or 0)
+    if price <= MIN_COLLECTION_PRICE_CNY:
+        return "price_at_collection_floor"
+    if price > MAX_INQUIRY_PRICE_CNY:
+        return "price_above_inquiry_ceiling"
+    if not title_contains_ref(item):
+        return "ref_not_present_in_title"
+    ref=normalize_ref(item.get("parsed_ref"))
+    med=ref_medians.get(ref)
+    if med:
+        if price < med * 0.50:
+            return "price_below_50pct_of_ref_median"
+        if price > med * 3.00:
+            return "price_above_300pct_of_ref_median"
+    return None
 
 def ja_condition(label):
     m = {
@@ -87,6 +134,8 @@ def main():
     items = data.get("items") if isinstance(data.get("items"), list) else []
     fx = fx_jpy_to_cny()
     candidates = []
+    blocked = []
+    ref_medians = build_ref_price_medians(items)
 
     for x in items:
         if x.get("warning_keywords") or x.get("suspicious_keyword"):
@@ -97,7 +146,17 @@ def main():
         price_cny = float(x.get("price_cny") or 0)
         jp = x.get("jp_compare") or {}
         floor = float(jp.get("conservative_jpy") or 0)
-        if not ref or price_cny < 30000 or floor <= 0 or fx <= 0:
+        if not ref or price_cny < MIN_COLLECTION_PRICE_CNY or floor <= 0 or fx <= 0:
+            continue
+
+        anomaly = price_anomaly_reason(x, ref_medians)
+        if anomaly:
+            blocked.append({
+                "item_id": x.get("item_id"),
+                "ref": ref,
+                "price_cny": int(price_cny),
+                "reason": anomaly,
+            })
             continue
 
         china_cost_jpy = price_cny / fx
@@ -124,6 +183,7 @@ def main():
             "jp_quote_count": quote_count,
             "safe_roi_pct": round(roi, 2),
             "needs_manual_quote": needs_manual,
+            "price_anomaly_checked": True,
             "reason": "捡漏榜Top候选：公开报价不足/成色附件需复核" if needs_manual else "捡漏榜Top候选：人工复核公开报价",
             "message_ja": make_message(x),
             "image_included": False,
@@ -137,18 +197,22 @@ def main():
         x["rank"] = i
 
     data["manual_inquiry_queue"] = queue
+    data["manual_inquiry_blocked_price_anomalies"] = blocked[:50]
     data["manual_inquiry_policy"] = {
         "top_n": TOP_N,
         "no_images": True,
         "same_item_same_dealer_cooldown_hours": 24,
         "daily_send_cap": 6,
         "only_safe_roi_lte_pct": MAX_SAFE_ROI,
+        "price_anomaly_gate": True,
+        "require_ref_in_title": True,
+        "exclude_collection_floor_price": True,
         "send_status": "draft_only_until_channel_connected",
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "fx_jpy_to_cny": fx,
     }
     LATEST.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"prepared {len(queue)} manual inquiry drafts")
+    print(f"prepared {len(queue)} manual inquiry drafts; blocked {len(blocked)} price anomalies")
 
 if __name__ == "__main__":
     main()
