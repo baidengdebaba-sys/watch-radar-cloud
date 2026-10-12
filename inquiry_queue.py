@@ -50,6 +50,8 @@ def title_contains_ref(item):
 def build_ref_price_medians(items):
     by_ref={}
     for x in items:
+        if x.get("price_verified") is not True or x.get("detail_title_match") is not True:
+            continue
         ref=normalize_ref(x.get("parsed_ref"))
         price=float(x.get("price_cny") or 0)
         if not ref or price < MIN_COLLECTION_PRICE_CNY or price > MAX_INQUIRY_PRICE_CNY:
@@ -66,6 +68,10 @@ def build_ref_price_medians(items):
     }
 
 def price_anomaly_reason(item, ref_medians):
+    if item.get("price_verified") is not True:
+        return "price_not_detail_verified"
+    if item.get("detail_title_match") is not True:
+        return "detail_title_not_matched"
     price=float(item.get("price_cny") or 0)
     if price <= MIN_COLLECTION_PRICE_CNY:
         return "price_at_collection_floor"
@@ -184,6 +190,8 @@ def main():
             "safe_roi_pct": round(roi, 2),
             "needs_manual_quote": needs_manual,
             "price_anomaly_checked": True,
+            "price_verified": True,
+            "price_source": x.get("price_source") or "item_detail",
             "reason": "捡漏榜Top候选：公开报价不足/成色附件需复核" if needs_manual else "捡漏榜Top候选：人工复核公开报价",
             "message_ja": make_message(x),
             "image_included": False,
@@ -197,7 +205,7 @@ def main():
         x["rank"] = i
 
     data["manual_inquiry_queue"] = queue
-    data["manual_inquiry_blocked_price_anomalies"] = blocked[:50]
+    data["manual_inquiry_blocked_price_anomalies"] = blocked[:100]
     data["manual_inquiry_policy"] = {
         "top_n": TOP_N,
         "no_images": True,
@@ -205,6 +213,8 @@ def main():
         "daily_send_cap": 6,
         "only_safe_roi_lte_pct": MAX_SAFE_ROI,
         "price_anomaly_gate": True,
+        "require_detail_price_verification": True,
+        "require_detail_title_match": True,
         "require_ref_in_title": True,
         "exclude_collection_floor_price": True,
         "send_status": "draft_only_until_channel_connected",
@@ -212,7 +222,7 @@ def main():
         "fx_jpy_to_cny": fx,
     }
     LATEST.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"prepared {len(queue)} manual inquiry drafts; blocked {len(blocked)} price anomalies")
+    print(f"prepared {len(queue)} manual inquiry drafts; blocked {len(blocked)} price anomalies/unverified items")
 
 if __name__ == "__main__":
     main()
