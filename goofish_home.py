@@ -9,6 +9,7 @@ OUT = Path("data/latest.json")
 PREV = Path(os.environ.get("WATCH_PREVIOUS_DATA", "/tmp/watchradar_previous.json"))
 STATE_FILE = Path("/tmp/goofish_state.json")
 MIN_PRICE = 30000
+MAX_PRICE = 20000000
 MAX_SAVED_ITEMS = 2500
 RETENTION_DAYS = 14
 
@@ -54,12 +55,31 @@ def ref_from_text(text: str):
     return None
 
 def parse_price(s: str):
-    s=(s or "").replace(",","").replace("￥","¥").replace("元","")
-    nums=re.findall(r"([0-9]+(?:\.[0-9]+)?)",s)
-    if not nums:return None
-    v=float(nums[-1])
-    if "万" in s:v*=10000
-    return int(round(v))
+    """Parse only the actual price token, never a year/model/list-price number elsewhere."""
+    raw=(s or "").replace(",","").replace("，","").replace("￥","¥").strip()
+    if not raw:
+        return None
+
+    # Prefer an explicit currency token. The 万 multiplier applies only to that token.
+    m=re.search(r"¥\s*([0-9]+(?:\.[0-9]+)?)\s*(万)?", raw)
+    if not m:
+        m=re.search(r"(?<![0-9])([0-9]+(?:\.[0-9]+)?)\s*(万)\s*(?:元)?", raw)
+    if not m:
+        m=re.search(r"(?<![0-9])([0-9]{4,9})\s*元(?![0-9])", raw)
+    if not m:
+        # Price widgets sometimes contain just the numeric value.
+        m=re.fullmatch(r"\s*([0-9]+(?:\.[0-9]+)?)\s*(万)?\s*", raw)
+    if not m:
+        return None
+
+    v=float(m.group(1))
+    suffix=m.group(2) if m.lastindex and m.lastindex >= 2 else None
+    if suffix == "万":
+        v*=10000
+    price=int(round(v))
+    if price <= 0 or price > MAX_PRICE:
+        return None
+    return price
 
 def item_id(url):
     try:return str((parse_qs(urlparse(url).query).get("id") or [""])[0])
@@ -87,15 +107,17 @@ def detect_condition(title: str):
 def detect_completeness(title: str):
     t=title or ""
     if re.search(r"单表|裸表|只有表|仅手表|无盒无卡|无盒.*无卡|无附件",t,re.I):return "单表"
-    if re.search(r"大全套|全套全长|全套齐全|附件齐全|全套附件|双吊牌",t,re.I):return "全套"
+    if re.search(r"大全套|全套全长|全套齐全|附件齐全|全套附件|双吊牌|(?<!非)全套|有盒.*有卡|有卡.*有盒",t,re.I):return "全套"
     if re.search(r"盒卡齐|盒证齐|盒子.*保卡|保卡.*盒",t,re.I):return "盒卡"
     if re.search(r"无保卡|无卡|缺卡|无盒|缺盒",t,re.I):return "附件不全"
     return "附件未注明"
 
 def detect_year(title: str):
-    m=re.search(r"\b(20(?:0\d|1\d|2\d))\s*年?",title or "")
+    t=title or ""
+    m=re.search(r"(?<!\d)(20(?:0\d|1\d|2[0-6]))\s*年?", t)
     if m:return m.group(1)
-    m=re.search(r"\b(0\d|1\d|2[0-6])\s*年(?:卡|保卡|的表)",title or "")
+    # Common marketplace shorthand: 17年全套 / 23年5月 / 23年卡.
+    m=re.search(r"(?<!\d)(0\d|1\d|2[0-6])\s*年(?:\s*\d{1,2}\s*月)?", t)
     if m:return "20"+m.group(1)
     return None
 
