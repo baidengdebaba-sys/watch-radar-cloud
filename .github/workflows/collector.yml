@@ -2,6 +2,11 @@ name: Watch Radar Cloud Collector
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "goofish_board_collector.py"
+      - ".github/workflows/collector.yml"
   schedule:
     - cron: "23 * * * *"
 
