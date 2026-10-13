@@ -110,7 +110,7 @@ jobs:
         env:
           GOOFISH_STORAGE_STATE_B64: ${{ secrets.GOOFISH_STORAGE_STATE_B64 }}
           WATCH_SOCKS_PROXY: socks5://127.0.0.1:1080
-        run: xvfb-run -a python goofish_home.py
+        run: xvfb-run -a python goofish_targeted.py
 
       - name: Restore previous items if home exit unavailable
         if: steps.home.outputs.available != 'true'
