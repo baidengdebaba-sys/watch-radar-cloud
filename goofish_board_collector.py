@@ -63,7 +63,12 @@ def board_fallback():
     global LAST_ORIGIN
     # Mirrors the two board sources: trend reference seeds + Catamap luxury take-board.
     # Never use generic brand-only discovery queries.
-    fixed = [(r, b, "trend-fallback") for r, b in collector.PRIORITY_TARGETS]
+    positive_trend_refs = {
+        "5066/1A", "5396R", "5065/1A", "126500LN",
+        "15550ST.OO.1356ST.08", "26240ST.OO.1320ST.08",
+        "W62054V3", "W6206006", "W62017V3", "126334", "214270",
+    }
+    fixed = [(r, b, "trend-fallback") for r, b in collector.PRIORITY_TARGETS if r in positive_trend_refs]
     market = collector.fetch_catamap_targets()
     take = []
     for ref, brand, label in market:
@@ -73,7 +78,6 @@ def board_fallback():
         if len(take) >= 40:
             break
     fixed.extend(take)
-    fixed.extend((r, b, "core-fallback") for r, b in collector.CORE_TARGETS)
     targets = []
     seen = set()
     for ref, brand, source in fixed:
