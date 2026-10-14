@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T19:08:47.251283+00:00",
+  "generated_at": "2026-10-14T19:59:00.996806+00:00",
   "runner": "github-actions-home-exit-targeted",
   "goofish_status": "ok",
   "items": [
@@ -24,7 +24,7 @@
       "parsed_ref": null,
       "risk_level": "low",
       "first_seen_at": "2026-10-13T07:13:46.452720+00:00",
-      "last_seen_at": "2026-10-14T19:08:01.059045+00:00",
+      "last_seen_at": "2026-10-14T19:58:15.852070+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -58,7 +58,7 @@
       "parsed_ref": null,
       "risk_level": "low",
       "first_seen_at": "2026-10-13T07:13:46.452720+00:00",
-      "last_seen_at": "2026-10-14T19:08:01.059045+00:00",
+      "last_seen_at": "2026-10-14T19:58:15.852070+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -92,7 +92,7 @@
       "parsed_ref": null,
       "risk_level": "low",
       "first_seen_at": "2026-10-13T07:49:11.098301+00:00",
-      "last_seen_at": "2026-10-14T19:08:01.059045+00:00",
+      "last_seen_at": "2026-10-14T19:58:15.852070+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -126,7 +126,7 @@
       "parsed_ref": null,
       "risk_level": "low",
       "first_seen_at": "2026-10-14T17:03:19.187323+00:00",
-      "last_seen_at": "2026-10-14T19:08:01.059045+00:00",
+      "last_seen_at": "2026-10-14T19:58:15.852070+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -160,7 +160,7 @@
       "parsed_ref": null,
       "risk_level": "low",
       "first_seen_at": "2026-10-13T06:55:53.226678+00:00",
-      "last_seen_at": "2026-10-14T19:07:10.678211+00:00",
+      "last_seen_at": "2026-10-14T19:57:27.906699+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -194,7 +194,7 @@
       "parsed_ref": "16234",
       "risk_level": "low",
       "first_seen_at": "2026-10-14T17:02:29.374599+00:00",
-      "last_seen_at": "2026-10-14T19:07:10.678211+00:00",
+      "last_seen_at": "2026-10-14T19:57:27.906699+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -229,7 +229,7 @@
       "parsed_ref": "16570",
       "risk_level": "low",
       "first_seen_at": "2026-10-13T20:59:26.635642+00:00",
-      "last_seen_at": "2026-10-14T19:06:39.814451+00:00",
+      "last_seen_at": "2026-10-14T19:56:58.024403+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -239,6 +239,110 @@
       "condition_label": "成色未注明",
       "completeness_label": "全套",
       "year_label": "2004",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1091523332834",
+      "keyword": "劳力士 16570",
+      "target_ref": "16570",
+      "target_source": "take-fallback",
+      "title": "劳力士16570雪山白 第三代，2000年生产，有纸，机芯状态良好。 有轻微翻新，棱角都很好。 日本购入",
+      "price_cny": 50000,
+      "search_price_cny": 50000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 5 万 16人想要",
+      "detail_title_match": false,
+      "seller": "江苏 百分百好评",
+      "area": "江苏",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1091523332834&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "16570",
+      "risk_level": "low",
+      "first_seen_at": "2026-10-14T07:12:00.137485+00:00",
+      "last_seen_at": "2026-10-14T19:56:58.024403+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": false,
+        "ref": "16570",
+        "quote_count": 0
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "附件未注明",
+      "year_label": "2000",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1059483326210",
+      "keyword": "劳力士 69173G",
+      "target_ref": "69173G",
+      "target_source": "take-fallback",
+      "title": "收藏级劳力士中古，69173G，26mm，渐变红盘，十颗原钻 ，可当面交货",
+      "price_cny": 50000,
+      "search_price_cny": 50000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 5 万 ¥200000",
+      "detail_title_match": false,
+      "seller": "广西",
+      "area": "广西",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1059483326210&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": null,
+      "risk_level": "low",
+      "first_seen_at": "2026-10-14T19:56:39.388255+00:00",
+      "last_seen_at": "2026-10-14T19:56:39.388255+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": false,
+        "ref": null,
+        "quote_count": 0
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "附件未注明",
+      "year_label": null,
+      "warning_keywords": [],
+      "suspicious_keyword": null
+    },
+    {
+      "item_id": "735810851505",
+      "keyword": "百达翡丽 5065/1A",
+      "target_ref": "5065/1A",
+      "target_source": "trend-fallback",
+      "title": "百达翡丽 Aquanaut系列 Ref.5065-1A-001余文乐同款 自动机械 精钢 38mm 2005年全套 国内唯一有两条原装表带的全套现货。",
+      "price_cny": 360000,
+      "search_price_cny": 360000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 36 万 26人想要",
+      "detail_title_match": false,
+      "seller": "上海 卖家信用优秀",
+      "area": "上海",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=735810851505&categoryId=126916028",
+      "image_url": "//img.alicdn.com/bao/uploaded/i2/O1CN01yrXHvX22LE7suRyLn_!!53-fleamarket.heic_450x10000Q90.jpg_.webp",
+      "publish_time": null,
+      "parsed_ref": "5065",
+      "risk_level": "low",
+      "first_seen_at": "2026-10-13T06:54:20.542389+00:00",
+      "last_seen_at": "2026-10-14T19:56:17.271013+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": false,
+        "ref": "5065",
+        "quote_count": 0
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "全套",
+      "year_label": "2005",
       "warning_keywords": [],
       "suspicious_keyword": null,
       "ref_source": "keyword_or_title_repair"
@@ -265,7 +369,7 @@
       "risk_level": "high",
       "first_seen_at": "2026-10-14T01:08:04.592067+00:00",
       "last_seen_at": "2026-10-14T19:06:39.814451+00:00",
-      "seen_in_latest_scan": true,
+      "seen_in_latest_scan": false,
       "jp_compare": {
         "matched": false,
         "ref": "226679TBR",
@@ -278,76 +382,6 @@
         "后改"
       ],
       "suspicious_keyword": "后改",
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
-      "item_id": "1091523332834",
-      "keyword": "劳力士 16570",
-      "target_ref": "16570",
-      "target_source": "take-fallback",
-      "title": "劳力士16570雪山白 第三代，2000年生产，有纸，机芯状态良好。 有轻微翻新，棱角都很好。 日本购入",
-      "price_cny": 50000,
-      "search_price_cny": 50000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 5 万 16人想要",
-      "detail_title_match": false,
-      "seller": "江苏 百分百好评",
-      "area": "江苏",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1091523332834&categoryId=126916028",
-      "image_url": "//img.alicdn.com/bao/uploaded/i3/2209317002984/O1CN01KNYqfB8cUbC2vHAO_!!4611686018427387624-0-xy_item.jpg_450x10000Q90.jpg_.webp",
-      "publish_time": null,
-      "parsed_ref": "16570",
-      "risk_level": "low",
-      "first_seen_at": "2026-10-14T07:12:00.137485+00:00",
-      "last_seen_at": "2026-10-14T19:06:39.814451+00:00",
-      "seen_in_latest_scan": true,
-      "jp_compare": {
-        "matched": false,
-        "ref": "16570",
-        "quote_count": 0
-      },
-      "condition_label": "成色未注明",
-      "completeness_label": "附件未注明",
-      "year_label": "2000",
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
-      "item_id": "735810851505",
-      "keyword": "百达翡丽 5065/1A",
-      "target_ref": "5065/1A",
-      "target_source": "trend-fallback",
-      "title": "百达翡丽 Aquanaut系列 Ref.5065-1A-001余文乐同款 自动机械 精钢 38mm 2005年全套 国内唯一有两条原装表带的全套现货。",
-      "price_cny": 360000,
-      "search_price_cny": 360000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 36 万 26人想要",
-      "detail_title_match": false,
-      "seller": "上海 卖家信用优秀",
-      "area": "上海",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=735810851505&categoryId=126916028",
-      "image_url": "//img.alicdn.com/bao/uploaded/i2/O1CN01yrXHvX22LE7suRyLn_!!53-fleamarket.heic_450x10000Q90.jpg_.webp",
-      "publish_time": null,
-      "parsed_ref": "5065",
-      "risk_level": "low",
-      "first_seen_at": "2026-10-13T06:54:20.542389+00:00",
-      "last_seen_at": "2026-10-14T19:05:56.890945+00:00",
-      "seen_in_latest_scan": true,
-      "jp_compare": {
-        "matched": false,
-        "ref": "5065",
-        "quote_count": 0
-      },
-      "condition_label": "成色未注明",
-      "completeness_label": "全套",
-      "year_label": "2005",
-      "warning_keywords": [],
-      "suspicious_keyword": null,
       "ref_source": "keyword_or_title_repair"
     },
     {
@@ -33126,7 +33160,7 @@
       "condition_label": "中古（使用感少）",
       "condition_rank": null,
       "source_url": "https://komehyo.jp/kaitori/watch/",
-      "observed_at": "2026-10-14T19:04:04.836126+00:00"
+      "observed_at": "2026-10-14T19:54:35.255851+00:00"
     },
     {
       "source": "大黒屋",
@@ -33139,7 +33173,7 @@
       "condition_label": "中古",
       "condition_rank": null,
       "source_url": "https://kaitori.e-daikoku.com/brand/shop/ikebukuro-higashiguchi/",
-      "observed_at": "2026-10-14T19:04:12.037852+00:00"
+      "observed_at": "2026-10-14T19:54:40.620949+00:00"
     },
     {
       "source": "大黒屋",
@@ -33152,7 +33186,7 @@
       "condition_label": "中古",
       "condition_rank": null,
       "source_url": "https://kaitori.e-daikoku.com/brand/shop/ikebukuro-higashiguchi/",
-      "observed_at": "2026-10-14T19:04:12.038030+00:00"
+      "observed_at": "2026-10-14T19:54:40.621148+00:00"
     },
     {
       "source": "RASIN",
@@ -33165,7 +33199,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-14T19:04:16.416735+00:00"
+      "observed_at": "2026-10-14T19:54:44.124101+00:00"
     },
     {
       "source": "RASIN",
@@ -33178,7 +33212,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-14T19:04:16.416929+00:00"
+      "observed_at": "2026-10-14T19:54:44.124276+00:00"
     },
     {
       "source": "RASIN",
@@ -33191,7 +33225,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-14T19:04:16.417081+00:00"
+      "observed_at": "2026-10-14T19:54:44.124471+00:00"
     },
     {
       "source": "RASIN",
@@ -33204,7 +33238,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-14T19:04:16.417215+00:00"
+      "observed_at": "2026-10-14T19:54:44.124639+00:00"
     },
     {
       "source": "RASIN",
@@ -33217,7 +33251,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-14T19:04:16.417332+00:00"
+      "observed_at": "2026-10-14T19:54:44.124779+00:00"
     },
     {
       "source": "RASIN",
@@ -33230,7 +33264,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-14T19:04:16.417449+00:00"
+      "observed_at": "2026-10-14T19:54:44.124922+00:00"
     },
     {
       "source": "RASIN",
@@ -33243,7 +33277,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-14T19:04:16.417699+00:00"
+      "observed_at": "2026-10-14T19:54:44.125223+00:00"
     },
     {
       "source": "RASIN",
@@ -33256,7 +33290,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/audemarspiguet_price/",
-      "observed_at": "2026-10-14T19:04:18.484886+00:00"
+      "observed_at": "2026-10-14T19:54:46.165523+00:00"
     },
     {
       "source": "RASIN",
@@ -33269,7 +33303,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/audemarspiguet_price/",
-      "observed_at": "2026-10-14T19:04:18.485136+00:00"
+      "observed_at": "2026-10-14T19:54:46.165820+00:00"
     },
     {
       "source": "RASIN",
@@ -33282,7 +33316,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/audemarspiguet_price/",
-      "observed_at": "2026-10-14T19:04:18.485265+00:00"
+      "observed_at": "2026-10-14T19:54:46.165968+00:00"
     },
     {
       "source": "RASIN",
@@ -33295,7 +33329,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/omega_price/",
-      "observed_at": "2026-10-14T19:04:22.758078+00:00"
+      "observed_at": "2026-10-14T19:54:51.601586+00:00"
     },
     {
       "source": "なんぼや",
@@ -33308,7 +33342,7 @@
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-10-14T19:04:25.125702+00:00"
+      "observed_at": "2026-10-14T19:54:53.708262+00:00"
     },
     {
       "source": "なんぼや",
@@ -33321,7 +33355,7 @@
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-10-14T19:04:25.125850+00:00"
+      "observed_at": "2026-10-14T19:54:53.708494+00:00"
     },
     {
       "source": "なんぼや",
@@ -33334,7 +33368,7 @@
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-10-14T19:04:25.125907+00:00"
+      "observed_at": "2026-10-14T19:54:53.708605+00:00"
     },
     {
       "source": "なんぼや",
@@ -33347,7 +33381,7 @@
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-10-14T19:04:25.126028+00:00"
+      "observed_at": "2026-10-14T19:54:53.708842+00:00"
     },
     {
       "source": "ブラリバ",
@@ -33360,7 +33394,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/purchase-watch/rolex",
-      "observed_at": "2026-10-14T19:04:32.776390+00:00"
+      "observed_at": "2026-10-14T19:55:01.191386+00:00"
     },
     {
       "source": "ブラリバ",
@@ -33373,7 +33407,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/patek-philippe",
-      "observed_at": "2026-10-14T19:04:36.076415+00:00"
+      "observed_at": "2026-10-14T19:55:04.439132+00:00"
     },
     {
       "source": "ブラリバ",
@@ -33386,7 +33420,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/patek-philippe",
-      "observed_at": "2026-10-14T19:04:36.076544+00:00"
+      "observed_at": "2026-10-14T19:55:04.439276+00:00"
     },
     {
       "source": "ブラリバ",
@@ -33399,7 +33433,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/patek-philippe",
-      "observed_at": "2026-10-14T19:04:36.076654+00:00"
+      "observed_at": "2026-10-14T19:55:04.439410+00:00"
     },
     {
       "source": "ブラリバ",
@@ -33412,7 +33446,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/omega",
-      "observed_at": "2026-10-14T19:04:37.390577+00:00"
+      "observed_at": "2026-10-14T19:55:05.734180+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -33425,7 +33459,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/daytona/ref_126500LN/",
-      "observed_at": "2026-10-14T19:04:52.200918+00:00"
+      "observed_at": "2026-10-14T19:55:18.559306+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -33438,7 +33472,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/daytona/ref_116500LN/",
-      "observed_at": "2026-10-14T19:04:54.653169+00:00"
+      "observed_at": "2026-10-14T19:55:20.832617+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -33451,7 +33485,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/submariner/ref_126610LN/",
-      "observed_at": "2026-10-14T19:04:58.305722+00:00"
+      "observed_at": "2026-10-14T19:55:24.343264+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -33464,7 +33498,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/submariner/ref_126610LV/",
-      "observed_at": "2026-10-14T19:05:01.836626+00:00"
+      "observed_at": "2026-10-14T19:55:27.903984+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -33477,7 +33511,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/submariner/ref_124060/",
-      "observed_at": "2026-10-14T19:05:04.272766+00:00"
+      "observed_at": "2026-10-14T19:55:30.030413+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -33490,7 +33524,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/datejust/ref_126334/",
-      "observed_at": "2026-10-14T19:05:09.187452+00:00"
+      "observed_at": "2026-10-14T19:55:34.923190+00:00"
     }
   ],
   "jp_source_summary": {
@@ -33507,7 +33541,7 @@
     "targets_planned": 48,
     "targets_searched": 48,
     "current_scan_items": 10,
-    "saved_recent_items": 971,
+    "saved_recent_items": 972,
     "min_price_cny": 30000,
     "retention_days": 14,
     "detail_verify_limit": 140,
@@ -33562,7 +33596,7 @@
   "goofish_ref_repair": {
     "repaired_items": 524,
     "items_with_ref": 598,
-    "total_items": 971
+    "total_items": 972
   },
   "manual_inquiry_queue": [
     {
@@ -34201,7 +34235,7 @@
     "require_ref_in_title": true,
     "exclude_collection_floor_price": true,
     "send_status": "draft_only_until_channel_connected",
-    "generated_at": "2026-10-14T19:08:47.826162+00:00",
+    "generated_at": "2026-10-14T19:59:01.413073+00:00",
     "fx_jpy_to_cny": 0.042335
   }
 }
