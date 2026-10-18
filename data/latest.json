@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T18:55:21.155834+00:00",
+  "generated_at": "2026-10-18T19:45:55.370138+00:00",
   "runner": "github-actions-home-exit-targeted",
   "goofish_status": "ok",
   "items": [
@@ -24,7 +24,7 @@
       "parsed_ref": "5065",
       "risk_level": "low",
       "first_seen_at": "2026-10-13T06:54:20.542389+00:00",
-      "last_seen_at": "2026-10-18T18:55:06.608033+00:00",
+      "last_seen_at": "2026-10-18T19:45:42.791023+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -799,11 +799,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -840,13 +841,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
         "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -884,13 +886,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
         "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -927,11 +930,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -1216,9 +1220,15 @@
       "last_seen_at": "2026-10-13T09:44:14.580436+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -5395,9 +5405,15 @@
       "last_seen_at": "2026-10-13T05:44:17.685705+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -5428,9 +5444,15 @@
       "last_seen_at": "2026-10-13T05:44:17.685705+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 10000000,
+        "best_jpy": 10000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "附件未注明",
@@ -5460,9 +5482,15 @@
       "last_seen_at": "2026-10-13T05:44:17.685705+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -5493,9 +5521,15 @@
       "last_seen_at": "2026-10-13T05:44:17.685705+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -5525,9 +5559,15 @@
       "last_seen_at": "2026-10-13T05:44:17.685705+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 10000000,
+        "best_jpy": 10000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "附件未注明",
@@ -5558,9 +5598,15 @@
       "last_seen_at": "2026-10-13T05:44:17.685705+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -5591,9 +5637,15 @@
       "last_seen_at": "2026-10-13T05:44:17.685705+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -5624,9 +5676,15 @@
       "last_seen_at": "2026-10-13T05:44:12.560980+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15500ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -5657,9 +5715,15 @@
       "last_seen_at": "2026-10-13T05:44:12.560980+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15500ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -5690,9 +5754,15 @@
       "last_seen_at": "2026-10-13T05:44:12.560980+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15500ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "附件未注明",
@@ -5723,9 +5793,15 @@
       "last_seen_at": "2026-10-13T05:44:12.560980+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15500ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "附件未注明",
@@ -5755,9 +5831,15 @@
       "last_seen_at": "2026-10-13T05:44:12.560980+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15500ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -5787,9 +5869,15 @@
       "last_seen_at": "2026-10-13T05:44:07.344771+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15510ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -5820,9 +5908,15 @@
       "last_seen_at": "2026-10-13T05:44:07.344771+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15510ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 10000000,
+        "best_jpy": 10000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -5853,9 +5947,15 @@
       "last_seen_at": "2026-10-13T05:44:07.344771+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15510ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 10000000,
+        "best_jpy": 10000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -5886,9 +5986,15 @@
       "last_seen_at": "2026-10-13T05:44:07.344771+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15510ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 10000000,
+        "best_jpy": 10000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -5919,9 +6025,15 @@
       "last_seen_at": "2026-10-13T05:44:07.344771+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15510ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -5952,9 +6064,15 @@
       "last_seen_at": "2026-10-13T05:44:07.344771+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15510ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -6057,11 +6175,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -6096,11 +6215,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -6135,11 +6255,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -6174,11 +6295,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "new",
         "conservative_jpy": 4620000,
-        "best_jpy": 4620000,
+        "best_jpy": 14000000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -6213,11 +6335,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "new",
         "conservative_jpy": 4620000,
-        "best_jpy": 4620000,
+        "best_jpy": 14000000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -6252,11 +6375,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -6291,13 +6415,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
         "best_jpy": 6100000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -6333,11 +6458,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -6372,11 +6498,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -6514,9 +6641,15 @@
       "last_seen_at": "2026-10-13T05:43:35.945621+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "二手/自用",
       "completeness_label": "全套",
@@ -6547,9 +6680,15 @@
       "last_seen_at": "2026-10-13T05:43:35.945621+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 13000000,
+        "best_jpy": 13000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -6580,9 +6719,15 @@
       "last_seen_at": "2026-10-13T05:43:35.945621+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "二手/自用",
       "completeness_label": "全套",
@@ -6646,9 +6791,15 @@
       "last_seen_at": "2026-10-13T05:43:35.945621+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 13000000,
+        "best_jpy": 13000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -6760,13 +6911,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
         "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -6802,13 +6954,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
         "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -6844,13 +6997,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
         "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -6886,13 +7040,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
         "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -6928,13 +7083,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
         "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -6970,13 +7126,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
         "best_jpy": 6100000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -7389,9 +7546,15 @@
       "last_seen_at": "2026-10-13T04:47:39.880232+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "98新",
       "completeness_label": "附件未注明",
@@ -7424,11 +7587,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "new",
         "conservative_jpy": 4620000,
-        "best_jpy": 4620000,
+        "best_jpy": 14000000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -7781,11 +7945,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -7851,9 +8016,15 @@
       "last_seen_at": "2026-10-13T03:45:03.205217+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 13000000,
+        "best_jpy": 13000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -8341,9 +8512,15 @@
       "last_seen_at": "2026-10-13T01:44:34.121553+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15510ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "二手/自用",
       "completeness_label": "附件未注明",
@@ -8376,11 +8553,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -8454,11 +8632,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -8633,9 +8812,15 @@
       "last_seen_at": "2026-10-13T00:55:11.425959+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -8835,11 +9020,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -8905,13 +9091,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
         "best_jpy": 6100000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -9079,9 +9266,15 @@
       "last_seen_at": "2026-10-12T22:41:07.735751+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15510ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "附件未注明",
@@ -9151,9 +9344,15 @@
       "last_seen_at": "2026-10-12T22:40:36.287052+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -9186,13 +9385,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
         "best_jpy": 6100000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -9370,11 +9570,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "new",
         "conservative_jpy": 4620000,
-        "best_jpy": 4620000,
+        "best_jpy": 14000000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -9684,9 +9885,15 @@
       "last_seen_at": "2026-10-12T20:43:53.555813+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15500ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 11800000,
+        "best_jpy": 11800000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "附件未注明",
@@ -9950,11 +10157,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "310.30.42.50.01.002",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 800000,
+        "conservative_jpy": 470000,
         "best_jpy": 800000,
         "sources": [
+          "RASIN",
           "ブラリバ"
         ]
       },
@@ -10028,13 +10236,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
         "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -10070,11 +10279,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -10205,9 +10415,15 @@
       "last_seen_at": "2026-10-12T19:41:07.600030+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 13000000,
+        "best_jpy": 13000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -10240,13 +10456,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
         "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -10282,13 +10499,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
         "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -10676,9 +10894,15 @@
       "last_seen_at": "2026-10-12T18:48:00.254548+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 10000000,
+        "best_jpy": 10000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -10709,9 +10933,15 @@
       "last_seen_at": "2026-10-12T18:48:00.254548+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 10000000,
+        "best_jpy": 10000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "附件未注明",
@@ -10741,9 +10971,15 @@
       "last_seen_at": "2026-10-12T18:47:55.004622+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15500ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -10774,9 +11010,15 @@
       "last_seen_at": "2026-10-12T18:47:49.771593+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15510ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 10000000,
+        "best_jpy": 10000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -11309,9 +11551,15 @@
       "last_seen_at": "2026-10-12T15:45:10.716308+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15500ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 11800000,
+        "best_jpy": 11800000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -11342,9 +11590,15 @@
       "last_seen_at": "2026-10-12T15:45:10.716308+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15500ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 11800000,
+        "best_jpy": 11800000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -11375,9 +11629,15 @@
       "last_seen_at": "2026-10-12T15:45:10.716308+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15510ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 10000000,
+        "best_jpy": 10000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -11440,9 +11700,15 @@
       "last_seen_at": "2026-10-12T15:45:05.680381+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15510ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -11475,11 +11741,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -11627,13 +11894,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
         "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -12077,13 +12345,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
         "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -12284,9 +12553,15 @@
       "last_seen_at": "2026-10-12T13:55:56.187861+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 10000000,
+        "best_jpy": 10000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "单表",
@@ -12351,11 +12626,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -12608,9 +12884,15 @@
       "last_seen_at": "2026-10-12T11:45:42.654234+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "附件未注明",
@@ -12640,9 +12922,15 @@
       "last_seen_at": "2026-10-12T11:45:32.737964+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15510ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "附件未注明",
@@ -12675,11 +12963,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -13136,9 +13425,15 @@
       "last_seen_at": "2026-10-12T10:44:13.383215+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -13583,9 +13878,15 @@
       "last_seen_at": "2026-10-12T07:49:02.843157+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 10000000,
+        "best_jpy": 10000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -13615,9 +13916,15 @@
       "last_seen_at": "2026-10-12T07:49:02.843157+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 10000000,
+        "best_jpy": 10000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "附件未注明",
@@ -14258,11 +14565,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -14338,13 +14646,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
         "best_jpy": 6100000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -14644,11 +14953,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -14722,13 +15032,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
         "best_jpy": 6100000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -14800,9 +15111,15 @@
       "last_seen_at": "2026-10-12T02:43:58.059799+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15500ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 11800000,
+        "best_jpy": 11800000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "附件未注明",
@@ -14835,11 +15152,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -22422,11 +22740,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "310.30.42.50.01.002",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 800000,
+        "conservative_jpy": 470000,
         "best_jpy": 800000,
         "sources": [
+          "RASIN",
           "ブラリバ"
         ]
       },
@@ -22458,11 +22777,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "310.30.42.50.01.002",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 800000,
+        "conservative_jpy": 470000,
         "best_jpy": 800000,
         "sources": [
+          "RASIN",
           "ブラリバ"
         ]
       },
@@ -22493,11 +22813,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "310.30.42.50.01.002",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 800000,
+        "conservative_jpy": 470000,
         "best_jpy": 800000,
         "sources": [
+          "RASIN",
           "ブラリバ"
         ]
       },
@@ -22529,11 +22850,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "310.30.42.50.01.002",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 800000,
+        "conservative_jpy": 470000,
         "best_jpy": 800000,
         "sources": [
+          "RASIN",
           "ブラリバ"
         ]
       },
@@ -22566,11 +22888,11 @@
         "matched": true,
         "ref": "310.30.42.50.01.002",
         "quote_count": 1,
-        "basis": "used",
+        "basis": "new",
         "conservative_jpy": 800000,
         "best_jpy": 800000,
         "sources": [
-          "ブラリバ"
+          "RASIN"
         ]
       },
       "condition_label": "全新/未使用",
@@ -22631,11 +22953,11 @@
         "matched": true,
         "ref": "310.30.42.50.01.002",
         "quote_count": 1,
-        "basis": "used",
+        "basis": "new",
         "conservative_jpy": 800000,
         "best_jpy": 800000,
         "sources": [
-          "ブラリバ"
+          "RASIN"
         ]
       },
       "condition_label": "全新/未使用",
@@ -22666,11 +22988,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "310.30.42.50.01.002",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 800000,
+        "conservative_jpy": 470000,
         "best_jpy": 800000,
         "sources": [
+          "RASIN",
           "ブラリバ"
         ]
       },
@@ -22703,11 +23026,11 @@
         "matched": true,
         "ref": "310.30.42.50.01.002",
         "quote_count": 1,
-        "basis": "used",
+        "basis": "new",
         "conservative_jpy": 800000,
         "best_jpy": 800000,
         "sources": [
-          "ブラリバ"
+          "RASIN"
         ]
       },
       "condition_label": "全新/未使用",
@@ -22738,11 +23061,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "310.30.42.50.01.002",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 800000,
+        "conservative_jpy": 470000,
         "best_jpy": 800000,
         "sources": [
+          "RASIN",
           "ブラリバ"
         ]
       },
@@ -22773,11 +23097,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "310.30.42.50.01.002",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 800000,
+        "conservative_jpy": 470000,
         "best_jpy": 800000,
         "sources": [
+          "RASIN",
           "ブラリバ"
         ]
       },
@@ -22838,11 +23163,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "310.30.42.50.01.002",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 800000,
+        "conservative_jpy": 470000,
         "best_jpy": 800000,
         "sources": [
+          "RASIN",
           "ブラリバ"
         ]
       },
@@ -22875,11 +23201,11 @@
         "matched": true,
         "ref": "310.30.42.50.01.002",
         "quote_count": 1,
-        "basis": "used",
+        "basis": "new",
         "conservative_jpy": 800000,
         "best_jpy": 800000,
         "sources": [
-          "ブラリバ"
+          "RASIN"
         ]
       },
       "condition_label": "全新/未使用",
@@ -22910,11 +23236,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "310.30.42.50.01.002",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 800000,
+        "conservative_jpy": 470000,
         "best_jpy": 800000,
         "sources": [
+          "RASIN",
           "ブラリバ"
         ]
       },
@@ -22946,11 +23273,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "310.30.42.50.01.002",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 800000,
+        "conservative_jpy": 470000,
         "best_jpy": 800000,
         "sources": [
+          "RASIN",
           "ブラリバ"
         ]
       },
@@ -22982,11 +23310,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "310.30.42.50.01.002",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 800000,
+        "conservative_jpy": 470000,
         "best_jpy": 800000,
         "sources": [
+          "RASIN",
           "ブラリバ"
         ]
       },
@@ -23019,11 +23348,11 @@
         "matched": true,
         "ref": "310.30.42.50.01.002",
         "quote_count": 1,
-        "basis": "used",
+        "basis": "new",
         "conservative_jpy": 800000,
         "best_jpy": 800000,
         "sources": [
-          "ブラリバ"
+          "RASIN"
         ]
       },
       "condition_label": "全新/未使用",
@@ -23084,11 +23413,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "310.30.42.50.01.002",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 800000,
+        "conservative_jpy": 470000,
         "best_jpy": 800000,
         "sources": [
+          "RASIN",
           "ブラリバ"
         ]
       },
@@ -23120,11 +23450,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "310.30.42.50.01.002",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 800000,
+        "conservative_jpy": 470000,
         "best_jpy": 800000,
         "sources": [
+          "RASIN",
           "ブラリバ"
         ]
       },
@@ -23156,11 +23487,11 @@
         "matched": true,
         "ref": "310.30.42.50.01.002",
         "quote_count": 1,
-        "basis": "used",
+        "basis": "new",
         "conservative_jpy": 800000,
         "best_jpy": 800000,
         "sources": [
-          "ブラリバ"
+          "RASIN"
         ]
       },
       "condition_label": "全新/未使用",
@@ -23221,11 +23552,11 @@
         "matched": true,
         "ref": "310.30.42.50.01.002",
         "quote_count": 1,
-        "basis": "used",
+        "basis": "new",
         "conservative_jpy": 800000,
         "best_jpy": 800000,
         "sources": [
-          "ブラリバ"
+          "RASIN"
         ]
       },
       "condition_label": "全新/未使用",
@@ -24634,9 +24965,15 @@
       "last_seen_at": "2026-10-11T23:39:31.752110+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "二手/自用",
       "completeness_label": "全套",
@@ -24663,9 +25000,15 @@
       "last_seen_at": "2026-10-11T23:39:31.752110+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 10000000,
+        "best_jpy": 10000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -24693,9 +25036,15 @@
       "last_seen_at": "2026-10-11T23:39:31.752110+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 10000000,
+        "best_jpy": 10000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -24723,9 +25072,15 @@
       "last_seen_at": "2026-10-11T23:39:31.752110+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 10000000,
+        "best_jpy": 10000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -24752,9 +25107,15 @@
       "last_seen_at": "2026-10-11T23:39:31.752110+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "二手/自用",
       "completeness_label": "全套",
@@ -24781,9 +25142,15 @@
       "last_seen_at": "2026-10-11T23:39:31.752110+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "轻微使用",
       "completeness_label": "全套",
@@ -24811,9 +25178,15 @@
       "last_seen_at": "2026-10-11T23:39:31.752110+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "附件未注明",
@@ -24841,9 +25214,15 @@
       "last_seen_at": "2026-10-11T23:39:31.752110+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -24871,9 +25250,15 @@
       "last_seen_at": "2026-10-11T23:39:31.752110+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "二手/自用",
       "completeness_label": "全套",
@@ -24901,9 +25286,15 @@
       "last_seen_at": "2026-10-11T23:39:31.752110+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -24931,9 +25322,15 @@
       "last_seen_at": "2026-10-11T23:39:31.752110+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "二手/自用",
       "completeness_label": "全套",
@@ -24961,9 +25358,15 @@
       "last_seen_at": "2026-10-11T23:39:31.752110+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "附件未注明",
@@ -24991,9 +25394,15 @@
       "last_seen_at": "2026-10-11T23:39:31.752110+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "轻微使用",
       "completeness_label": "全套",
@@ -25020,9 +25429,15 @@
       "last_seen_at": "2026-10-11T23:39:31.752110+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 10000000,
+        "best_jpy": 10000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -25050,9 +25465,15 @@
       "last_seen_at": "2026-10-11T23:39:31.752110+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 10000000,
+        "best_jpy": 10000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -25079,9 +25500,15 @@
       "last_seen_at": "2026-10-11T23:39:31.752110+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "二手/自用",
       "completeness_label": "全套",
@@ -25109,9 +25536,15 @@
       "last_seen_at": "2026-10-11T23:39:31.752110+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 10000000,
+        "best_jpy": 10000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -25139,9 +25572,15 @@
       "last_seen_at": "2026-10-11T23:39:31.752110+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 10000000,
+        "best_jpy": 10000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -25168,9 +25607,15 @@
       "last_seen_at": "2026-10-11T23:39:31.752110+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "26240ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -25198,9 +25643,15 @@
       "last_seen_at": "2026-10-11T23:39:26.388277+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15500ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -25228,9 +25679,15 @@
       "last_seen_at": "2026-10-11T23:39:26.388277+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15500ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 11800000,
+        "best_jpy": 11800000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "附件未注明",
@@ -25258,9 +25715,15 @@
       "last_seen_at": "2026-10-11T23:39:26.388277+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15500ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -25288,9 +25751,15 @@
       "last_seen_at": "2026-10-11T23:39:26.388277+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15500ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 11800000,
+        "best_jpy": 11800000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -25318,9 +25787,15 @@
       "last_seen_at": "2026-10-11T23:39:26.388277+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15500ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "单表",
@@ -25378,9 +25853,15 @@
       "last_seen_at": "2026-10-11T23:39:26.388277+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15500ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 11800000,
+        "best_jpy": 11800000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -25408,9 +25889,15 @@
       "last_seen_at": "2026-10-11T23:39:26.388277+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15500ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -25438,9 +25925,15 @@
       "last_seen_at": "2026-10-11T23:39:26.388277+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15500ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 11800000,
+        "best_jpy": 11800000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -25468,9 +25961,15 @@
       "last_seen_at": "2026-10-11T23:39:26.388277+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15500ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -25498,9 +25997,15 @@
       "last_seen_at": "2026-10-11T23:39:26.388277+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15500ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 11800000,
+        "best_jpy": 11800000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -25528,9 +26033,15 @@
       "last_seen_at": "2026-10-11T23:39:26.388277+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15500ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "二手/自用",
       "completeness_label": "全套",
@@ -25558,9 +26069,15 @@
       "last_seen_at": "2026-10-11T23:39:26.388277+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15500ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -25587,9 +26104,15 @@
       "last_seen_at": "2026-10-11T23:39:26.388277+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15500ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "二手/自用",
       "completeness_label": "单表",
@@ -25617,9 +26140,15 @@
       "last_seen_at": "2026-10-11T23:39:26.388277+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15500ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "附件未注明",
@@ -25647,9 +26176,15 @@
       "last_seen_at": "2026-10-11T23:39:26.388277+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15500ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -25677,9 +26212,15 @@
       "last_seen_at": "2026-10-11T23:39:26.388277+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15500ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 11800000,
+        "best_jpy": 11800000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "附件未注明",
@@ -25707,9 +26248,15 @@
       "last_seen_at": "2026-10-11T23:39:21.069151+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15510ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 10000000,
+        "best_jpy": 10000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -25737,9 +26284,15 @@
       "last_seen_at": "2026-10-11T23:39:21.069151+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15510ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 10000000,
+        "best_jpy": 10000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -25767,9 +26320,15 @@
       "last_seen_at": "2026-10-11T23:39:21.069151+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15510ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -25797,9 +26356,15 @@
       "last_seen_at": "2026-10-11T23:39:21.069151+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15510ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -25827,9 +26392,15 @@
       "last_seen_at": "2026-10-11T23:39:21.069151+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15510ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 10000000,
+        "best_jpy": 10000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -25857,9 +26428,15 @@
       "last_seen_at": "2026-10-11T23:39:21.069151+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15510ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "附件不全",
@@ -25946,9 +26523,15 @@
       "last_seen_at": "2026-10-11T23:39:21.069151+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15510ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "附件不全",
@@ -25978,9 +26561,15 @@
       "last_seen_at": "2026-10-11T23:39:21.069151+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15510ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 10000000,
+        "best_jpy": 10000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -26007,9 +26596,15 @@
       "last_seen_at": "2026-10-11T23:39:21.069151+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15510ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -26037,9 +26632,15 @@
       "last_seen_at": "2026-10-11T23:39:21.069151+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "15510ST",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 8000000,
+        "best_jpy": 8000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "附件不全",
@@ -26099,9 +26700,15 @@
       "last_seen_at": "2026-10-11T23:39:15.639166+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "214270",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "附件未注明",
@@ -26129,9 +26736,15 @@
       "last_seen_at": "2026-10-11T23:39:15.639166+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "214270",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -26159,9 +26772,15 @@
       "last_seen_at": "2026-10-11T23:39:15.639166+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "214270",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 13000000,
+        "best_jpy": 13000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "单表",
@@ -26189,9 +26808,15 @@
       "last_seen_at": "2026-10-11T23:39:15.639166+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "214270",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "二手/自用",
       "completeness_label": "盒卡",
@@ -26219,9 +26844,15 @@
       "last_seen_at": "2026-10-11T23:39:15.639166+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "214270",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "轻微使用",
       "completeness_label": "附件未注明",
@@ -26249,9 +26880,15 @@
       "last_seen_at": "2026-10-11T23:39:15.639166+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "214270",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -26279,9 +26916,15 @@
       "last_seen_at": "2026-10-11T23:39:15.639166+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "214270",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -26309,9 +26952,15 @@
       "last_seen_at": "2026-10-11T23:39:15.639166+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "214270",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -26339,9 +26988,15 @@
       "last_seen_at": "2026-10-11T23:39:15.639166+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "214270",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 13000000,
+        "best_jpy": 13000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -26369,9 +27024,15 @@
       "last_seen_at": "2026-10-11T23:39:15.639166+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "214270",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "有使用痕迹",
       "completeness_label": "附件未注明",
@@ -26399,9 +27060,15 @@
       "last_seen_at": "2026-10-11T23:39:15.639166+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "214270",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "99新",
       "completeness_label": "全套",
@@ -26429,9 +27096,15 @@
       "last_seen_at": "2026-10-11T23:39:15.639166+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "214270",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "附件不全",
@@ -26459,9 +27132,15 @@
       "last_seen_at": "2026-10-11T23:39:15.639166+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "214270",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -26489,9 +27168,15 @@
       "last_seen_at": "2026-10-11T23:39:15.639166+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "214270",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "单表",
@@ -26519,9 +27204,15 @@
       "last_seen_at": "2026-10-11T23:39:15.639166+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "214270",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "二手/自用",
       "completeness_label": "全套",
@@ -26549,9 +27240,15 @@
       "last_seen_at": "2026-10-11T23:39:15.639166+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "214270",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "附件未注明",
@@ -26579,9 +27276,15 @@
       "last_seen_at": "2026-10-11T23:39:15.639166+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "214270",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "附件未注明",
@@ -26609,9 +27312,15 @@
       "last_seen_at": "2026-10-11T23:39:15.639166+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "214270",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "附件未注明",
@@ -26639,9 +27348,15 @@
       "last_seen_at": "2026-10-11T23:39:15.639166+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "214270",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -26669,9 +27384,15 @@
       "last_seen_at": "2026-10-11T23:39:15.639166+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "214270",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "附件未注明",
@@ -26699,9 +27420,15 @@
       "last_seen_at": "2026-10-11T23:39:15.639166+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "214270",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "附件未注明",
@@ -26729,9 +27456,15 @@
       "last_seen_at": "2026-10-11T23:39:15.639166+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "214270",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "有使用痕迹",
       "completeness_label": "全套",
@@ -26759,9 +27492,15 @@
       "last_seen_at": "2026-10-11T23:39:15.639166+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "214270",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "有使用痕迹",
       "completeness_label": "附件未注明",
@@ -26789,9 +27528,15 @@
       "last_seen_at": "2026-10-11T23:39:15.639166+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "214270",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "单表",
@@ -26819,9 +27564,15 @@
       "last_seen_at": "2026-10-11T23:39:15.639166+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "214270",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "附件未注明",
@@ -28718,13 +29469,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
         "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -28757,13 +29509,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
         "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -28826,11 +29579,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -28862,11 +29616,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -28898,11 +29653,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -28934,11 +29690,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -28999,11 +29756,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -29035,11 +29793,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -29071,11 +29830,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -29107,11 +29867,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -29143,11 +29904,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "new",
         "conservative_jpy": 4620000,
-        "best_jpy": 4620000,
+        "best_jpy": 14000000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -29178,11 +29940,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -29214,11 +29977,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "new",
         "conservative_jpy": 4620000,
-        "best_jpy": 4620000,
+        "best_jpy": 14000000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -29250,13 +30014,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
         "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -29376,9 +30141,15 @@
       "last_seen_at": "2026-10-11T23:38:53.787584+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "附件未注明",
@@ -30032,9 +30803,15 @@
       "last_seen_at": "2026-10-11T23:38:48.346121+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -30062,9 +30839,15 @@
       "last_seen_at": "2026-10-11T23:38:48.346121+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "98新",
       "completeness_label": "全套",
@@ -30092,9 +30875,15 @@
       "last_seen_at": "2026-10-11T23:38:48.346121+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "98新",
       "completeness_label": "全套",
@@ -30122,9 +30911,15 @@
       "last_seen_at": "2026-10-11T23:38:48.346121+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "二手/自用",
       "completeness_label": "全套",
@@ -30367,9 +31162,15 @@
       "last_seen_at": "2026-10-11T23:38:48.346121+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 13000000,
+        "best_jpy": 13000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -30397,9 +31198,15 @@
       "last_seen_at": "2026-10-11T23:38:48.346121+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 13000000,
+        "best_jpy": 13000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "附件未注明",
@@ -30427,9 +31234,15 @@
       "last_seen_at": "2026-10-11T23:38:48.346121+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "used",
+        "conservative_jpy": 1600000,
+        "best_jpy": 1600000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "成色未注明",
       "completeness_label": "全套",
@@ -30487,9 +31300,15 @@
       "last_seen_at": "2026-10-11T23:38:48.346121+00:00",
       "seen_in_latest_scan": false,
       "jp_compare": {
-        "matched": false,
+        "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 0
+        "quote_count": 1,
+        "basis": "new",
+        "conservative_jpy": 13000000,
+        "best_jpy": 13000000,
+        "sources": [
+          "RASIN"
+        ]
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
@@ -32072,13 +32891,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
         "best_jpy": 6100000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -32111,13 +32931,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
         "best_jpy": 6100000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -32150,13 +32971,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
         "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -32189,13 +33011,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
         "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -32228,13 +33051,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
         "best_jpy": 6100000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -32267,13 +33091,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
         "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -32306,13 +33131,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
         "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -32344,13 +33170,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
         "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -32383,13 +33210,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
         "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -32422,13 +33250,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
         "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -32461,13 +33290,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
         "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -32500,13 +33330,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
         "best_jpy": 6100000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -32539,13 +33370,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
         "best_jpy": 6100000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -32578,13 +33410,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
         "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -32647,13 +33480,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
         "best_jpy": 6100000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -32686,11 +33520,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "116500LN",
-        "quote_count": 1,
+        "quote_count": 4,
         "basis": "used",
-        "conservative_jpy": 4100000,
-        "best_jpy": 4100000,
+        "conservative_jpy": 1250000,
+        "best_jpy": 7450000,
         "sources": [
+          "RASIN",
           "PREMIER VALUE"
         ]
       },
@@ -32722,13 +33557,14 @@
       "jp_compare": {
         "matched": true,
         "ref": "126500LN",
-        "quote_count": 5,
+        "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
         "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
+          "RASIN",
           "なんぼや",
           "PREMIER VALUE"
         ]
@@ -32755,7 +33591,7 @@
       "condition_label": "中古（使用感少）",
       "condition_rank": null,
       "source_url": "https://komehyo.jp/kaitori/watch/",
-      "observed_at": "2026-10-18T18:52:09.706546+00:00"
+      "observed_at": "2026-10-18T19:44:03.659981+00:00"
     },
     {
       "source": "大黒屋",
@@ -32768,7 +33604,7 @@
       "condition_label": "中古",
       "condition_rank": null,
       "source_url": "https://kaitori.e-daikoku.com/brand/shop/ikebukuro-higashiguchi/",
-      "observed_at": "2026-10-18T18:52:17.133120+00:00"
+      "observed_at": "2026-10-18T19:44:10.020244+00:00"
     },
     {
       "source": "大黒屋",
@@ -32781,7 +33617,150 @@
       "condition_label": "中古",
       "condition_rank": null,
       "source_url": "https://kaitori.e-daikoku.com/brand/shop/ikebukuro-higashiguchi/",
-      "observed_at": "2026-10-18T18:52:17.133320+00:00"
+      "observed_at": "2026-10-18T19:44:10.020402+00:00"
+    },
+    {
+      "source": "RASIN",
+      "ref": "126500LN",
+      "variant": "白 黑",
+      "label": "126500LN",
+      "new_price": 1250000,
+      "used_price": 1050000,
+      "quote_type": "public_buyback",
+      "condition_label": "中古（定額買取条件準拠）",
+      "condition_rank": null,
+      "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
+      "observed_at": "2026-10-18T19:44:13.464342+00:00"
+    },
+    {
+      "source": "RASIN",
+      "ref": "126500LN",
+      "variant": "白 黑",
+      "label": "126500LN",
+      "new_price": 5100000,
+      "used_price": 1050000,
+      "quote_type": "public_buyback",
+      "condition_label": "中古（定額買取条件準拠）",
+      "condition_rank": null,
+      "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
+      "observed_at": "2026-10-18T19:44:13.464479+00:00"
+    },
+    {
+      "source": "RASIN",
+      "ref": "126710BLRO",
+      "variant": "白 黑",
+      "label": "126710BLRO",
+      "new_price": 13000000,
+      "used_price": 1600000,
+      "quote_type": "public_buyback",
+      "condition_label": "中古（定額買取条件準拠）",
+      "condition_rank": null,
+      "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
+      "observed_at": "2026-10-18T19:44:13.464672+00:00"
+    },
+    {
+      "source": "RASIN",
+      "ref": "116500LN",
+      "variant": "白 黑",
+      "label": "116500LN",
+      "new_price": 13000000,
+      "used_price": 1600000,
+      "quote_type": "public_buyback",
+      "condition_label": "中古（定額買取条件準拠）",
+      "condition_rank": null,
+      "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
+      "observed_at": "2026-10-18T19:44:13.464805+00:00"
+    },
+    {
+      "source": "RASIN",
+      "ref": "116500LN",
+      "variant": "白 黑",
+      "label": "116500LN",
+      "new_price": 14000000,
+      "used_price": 7450000,
+      "quote_type": "public_buyback",
+      "condition_label": "中古（定額買取条件準拠）",
+      "condition_rank": null,
+      "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
+      "observed_at": "2026-10-18T19:44:13.464931+00:00"
+    },
+    {
+      "source": "RASIN",
+      "ref": "116500LN",
+      "variant": "白 黑",
+      "label": "116500LN",
+      "new_price": 7450000,
+      "used_price": 1250000,
+      "quote_type": "public_buyback",
+      "condition_label": "中古（定額買取条件準拠）",
+      "condition_rank": null,
+      "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
+      "observed_at": "2026-10-18T19:44:13.465039+00:00"
+    },
+    {
+      "source": "RASIN",
+      "ref": "214270",
+      "variant": "白 黑",
+      "label": "214270",
+      "new_price": 13000000,
+      "used_price": 1600000,
+      "quote_type": "public_buyback",
+      "condition_label": "中古（定額買取条件準拠）",
+      "condition_rank": null,
+      "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
+      "observed_at": "2026-10-18T19:44:13.465274+00:00"
+    },
+    {
+      "source": "RASIN",
+      "ref": "15510ST",
+      "variant": "黑 蓝",
+      "label": "15510ST",
+      "new_price": 10000000,
+      "used_price": 8000000,
+      "quote_type": "public_buyback",
+      "condition_label": "中古（定額買取条件準拠）",
+      "condition_rank": null,
+      "source_url": "https://www.kaitori-ginza.com/teigaku/audemarspiguet_price/",
+      "observed_at": "2026-10-18T19:44:15.500194+00:00"
+    },
+    {
+      "source": "RASIN",
+      "ref": "15500ST",
+      "variant": "黑 蓝",
+      "label": "15500ST",
+      "new_price": 11800000,
+      "used_price": 8000000,
+      "quote_type": "public_buyback",
+      "condition_label": "中古（定額買取条件準拠）",
+      "condition_rank": null,
+      "source_url": "https://www.kaitori-ginza.com/teigaku/audemarspiguet_price/",
+      "observed_at": "2026-10-18T19:44:15.500409+00:00"
+    },
+    {
+      "source": "RASIN",
+      "ref": "26240ST",
+      "variant": "黑 蓝",
+      "label": "26240ST",
+      "new_price": 10000000,
+      "used_price": 8000000,
+      "quote_type": "public_buyback",
+      "condition_label": "中古（定額買取条件準拠）",
+      "condition_rank": null,
+      "source_url": "https://www.kaitori-ginza.com/teigaku/audemarspiguet_price/",
+      "observed_at": "2026-10-18T19:44:15.500522+00:00"
+    },
+    {
+      "source": "RASIN",
+      "ref": "310.30.42.50.01.002",
+      "variant": "白 黑",
+      "label": "310.30.42.50.01.002",
+      "new_price": 800000,
+      "used_price": 470000,
+      "quote_type": "public_buyback",
+      "condition_label": "中古（定額買取条件準拠）",
+      "condition_rank": null,
+      "source_url": "https://www.kaitori-ginza.com/teigaku/omega_price/",
+      "observed_at": "2026-10-18T19:44:19.909703+00:00"
     },
     {
       "source": "なんぼや",
@@ -32794,7 +33773,7 @@
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-10-18T18:53:43.208428+00:00"
+      "observed_at": "2026-10-18T19:44:22.006171+00:00"
     },
     {
       "source": "なんぼや",
@@ -32807,7 +33786,7 @@
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-10-18T18:53:43.208632+00:00"
+      "observed_at": "2026-10-18T19:44:22.006337+00:00"
     },
     {
       "source": "なんぼや",
@@ -32820,7 +33799,7 @@
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-10-18T18:53:43.208704+00:00"
+      "observed_at": "2026-10-18T19:44:22.006416+00:00"
     },
     {
       "source": "なんぼや",
@@ -32833,7 +33812,7 @@
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-10-18T18:53:43.208855+00:00"
+      "observed_at": "2026-10-18T19:44:22.006608+00:00"
     },
     {
       "source": "ブラリバ",
@@ -32846,7 +33825,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/purchase-watch/rolex",
-      "observed_at": "2026-10-18T18:53:50.705020+00:00"
+      "observed_at": "2026-10-18T19:44:29.235613+00:00"
     },
     {
       "source": "ブラリバ",
@@ -32859,7 +33838,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/patek-philippe",
-      "observed_at": "2026-10-18T18:53:53.873776+00:00"
+      "observed_at": "2026-10-18T19:44:32.469323+00:00"
     },
     {
       "source": "ブラリバ",
@@ -32872,7 +33851,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/patek-philippe",
-      "observed_at": "2026-10-18T18:53:53.873923+00:00"
+      "observed_at": "2026-10-18T19:44:32.469436+00:00"
     },
     {
       "source": "ブラリバ",
@@ -32885,7 +33864,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/patek-philippe",
-      "observed_at": "2026-10-18T18:53:53.874059+00:00"
+      "observed_at": "2026-10-18T19:44:32.469543+00:00"
     },
     {
       "source": "ブラリバ",
@@ -32898,7 +33877,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/omega",
-      "observed_at": "2026-10-18T18:53:55.237196+00:00"
+      "observed_at": "2026-10-18T19:44:33.824343+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -32911,7 +33890,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/daytona/ref_126500LN/",
-      "observed_at": "2026-10-18T18:54:09.936317+00:00"
+      "observed_at": "2026-10-18T19:44:44.127725+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -32924,7 +33903,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/daytona/ref_116500LN/",
-      "observed_at": "2026-10-18T18:54:12.117574+00:00"
+      "observed_at": "2026-10-18T19:44:46.091840+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -32937,7 +33916,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/submariner/ref_126610LN/",
-      "observed_at": "2026-10-18T18:54:15.188205+00:00"
+      "observed_at": "2026-10-18T19:44:49.012728+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -32950,7 +33929,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/submariner/ref_126610LV/",
-      "observed_at": "2026-10-18T18:54:18.237024+00:00"
+      "observed_at": "2026-10-18T19:44:52.052704+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -32963,7 +33942,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/submariner/ref_124060/",
-      "observed_at": "2026-10-18T18:54:20.432647+00:00"
+      "observed_at": "2026-10-18T19:44:53.959142+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -32976,12 +33955,13 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/datejust/ref_126334/",
-      "observed_at": "2026-10-18T18:54:25.555252+00:00"
+      "observed_at": "2026-10-18T19:44:58.353153+00:00"
     }
   ],
   "jp_source_summary": {
     "KOMEHYO": 1,
     "大黒屋": 2,
+    "RASIN": 11,
     "なんぼや": 4,
     "ブラリバ": 5,
     "PREMIER VALUE": 6
@@ -33040,7 +34020,29 @@
     "items_with_ref": 607,
     "total_items": 984
   },
-  "manual_inquiry_queue": [],
+  "manual_inquiry_queue": [
+    {
+      "item_id": "1086906972529",
+      "ref": "15510ST",
+      "condition_label": "二手/自用",
+      "completeness_label": "附件未注明",
+      "year_label": "2024",
+      "price_cny": 280000,
+      "jp_public_floor_jpy": 8000000,
+      "jp_quote_count": 1,
+      "safe_roi_pct": 8.17,
+      "needs_manual_quote": true,
+      "price_anomaly_checked": true,
+      "price_verified": true,
+      "price_source": "item_detail",
+      "reason": "捡漏榜Top候选：公开报价不足/成色附件需复核",
+      "message_ja": "お世話になっております。\nオーデマ ピゲ 15510ST、2024年頃、中古、付属品詳細未確認の時計について、現物確認前の概算買取価格を伺いたくご連絡しました。\n写真なし・上記情報のみで構いませんので、現在の買取目安をご教示いただけますでしょうか。\n相場変動や実物査定で金額が変わる点は承知しております。よろしくお願いいたします。",
+      "image_included": false,
+      "source_item_url": "https://www.goofish.com/item?id=1086906972529&categoryId=126916028",
+      "status": "draft_ready",
+      "rank": 1
+    }
+  ],
   "manual_inquiry_blocked_price_anomalies": [
     {
       "item_id": "1049800141255",
@@ -33076,6 +34078,12 @@
       "item_id": "978828374625",
       "ref": "126334",
       "price_cny": 110000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1079470908231",
+      "ref": "26240ST",
+      "price_cny": 420000,
       "reason": "price_not_detail_verified"
     },
     {
@@ -33361,6 +34369,108 @@
       "reason": "price_not_detail_verified"
     },
     {
+      "item_id": "1057657490931",
+      "ref": "26240ST",
+      "price_cny": 410000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1032898124947",
+      "ref": "26240ST",
+      "price_cny": 440000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1049253092685",
+      "ref": "26240ST",
+      "price_cny": 390000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "750535123932",
+      "ref": "26240ST",
+      "price_cny": 440000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1056254416118",
+      "ref": "26240ST",
+      "price_cny": 3550000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1075307691705",
+      "ref": "26240ST",
+      "price_cny": 400000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1068495308027",
+      "ref": "15500ST",
+      "price_cny": 320000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "853084010285",
+      "ref": "15500ST",
+      "price_cny": 230000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "708738376245",
+      "ref": "15500ST",
+      "price_cny": 350000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "731652800939",
+      "ref": "15500ST",
+      "price_cny": 300000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "851346006353",
+      "ref": "15500ST",
+      "price_cny": 230000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "965695975517",
+      "ref": "15510ST",
+      "price_cny": 270000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1066918180609",
+      "ref": "15510ST",
+      "price_cny": 340000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1075243054246",
+      "ref": "15510ST",
+      "price_cny": 340000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1080889625720",
+      "ref": "15510ST",
+      "price_cny": 300000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "760704441335",
+      "ref": "15510ST",
+      "price_cny": 280000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "975228125092",
+      "ref": "15510ST",
+      "price_cny": 300000,
+      "reason": "price_not_detail_verified"
+    },
+    {
       "item_id": "1085457846805",
       "ref": "126334",
       "price_cny": 90000,
@@ -33424,6 +34534,30 @@
       "item_id": "1008661974476",
       "ref": "126710BLNR",
       "price_cny": 130000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1067140388617",
+      "ref": "126710BLRO",
+      "price_cny": 135000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1081178857925",
+      "ref": "126710BLRO",
+      "price_cny": 130000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1072759954209",
+      "ref": "126710BLRO",
+      "price_cny": 128000,
+      "reason": "price_not_detail_verified"
+    },
+    {
+      "item_id": "1080817469714",
+      "ref": "126710BLRO",
+      "price_cny": 134000,
       "reason": "price_not_detail_verified"
     },
     {
@@ -33499,147 +34633,15 @@
       "reason": "price_not_detail_verified"
     },
     {
+      "item_id": "1053101783764",
+      "ref": "26240ST",
+      "price_cny": 340000,
+      "reason": "price_not_detail_verified"
+    },
+    {
       "item_id": "1050370765746",
       "ref": "116500LN",
       "price_cny": 260000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1032040010052",
-      "ref": "126610LN",
-      "price_cny": 80000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1073498817545",
-      "ref": "5712/1A",
-      "price_cny": 950000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1072961947579",
-      "ref": "5711/1A",
-      "price_cny": 780000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1009073430999",
-      "ref": "5711/1A",
-      "price_cny": 850000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1054834909374",
-      "ref": "116500LN",
-      "price_cny": 160000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "901075425416",
-      "ref": "126710BLNR",
-      "price_cny": 120000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1083104695108",
-      "ref": "116500LN",
-      "price_cny": 200000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1088094898498",
-      "ref": "126710BLNR",
-      "price_cny": 110000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1064209508815",
-      "ref": "116500LN",
-      "price_cny": 210000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "680721120217",
-      "ref": "5167A",
-      "price_cny": 680000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1068147205322",
-      "ref": "5712/1A",
-      "price_cny": 950000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1076901540497",
-      "ref": "5711/1A",
-      "price_cny": 880000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1074096250849",
-      "ref": "116500LN",
-      "price_cny": 180000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1006212818951",
-      "ref": "126500LN",
-      "price_cny": 240000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1066759974567",
-      "ref": "124060",
-      "price_cny": 80000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1080320839781",
-      "ref": "126500LN",
-      "price_cny": 260000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1085629081170",
-      "ref": "5167A",
-      "price_cny": 710000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1090052150368",
-      "ref": "126334",
-      "price_cny": 90000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1068204391256",
-      "ref": "116500LN",
-      "price_cny": 210000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "1070773350244",
-      "ref": "126610LV",
-      "price_cny": 90000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "700684161486",
-      "ref": "126610LV",
-      "price_cny": 110000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "862720284779",
-      "ref": "5167A",
-      "price_cny": 310000,
-      "reason": "price_not_detail_verified"
-    },
-    {
-      "item_id": "900853045931",
-      "ref": "126710BLNR",
-      "price_cny": 120000,
       "reason": "price_not_detail_verified"
     }
   ],
@@ -33655,7 +34657,7 @@
     "require_ref_in_title": true,
     "exclude_collection_floor_price": true,
     "send_status": "draft_only_until_channel_connected",
-    "generated_at": "2026-10-18T18:55:21.639709+00:00",
+    "generated_at": "2026-10-18T19:45:55.805043+00:00",
     "fx_jpy_to_cny": 0.042402
   }
 }
