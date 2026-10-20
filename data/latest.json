@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T02:58:38.647533+00:00",
+  "generated_at": "2026-10-20T03:58:55.731058+00:00",
   "runner": "github-actions-home-exit-targeted",
   "goofish_status": "ok",
   "items": [
@@ -24,7 +24,7 @@
       "parsed_ref": "15550ST",
       "risk_level": "low",
       "first_seen_at": "2026-10-19T08:09:47.068987+00:00",
-      "last_seen_at": "2026-10-20T02:58:18.365946+00:00",
+      "last_seen_at": "2026-10-20T03:58:43.800648+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -36,41 +36,6 @@
       "year_label": "2023",
       "warning_keywords": [],
       "suspicious_keyword": null
-    },
-    {
-      "item_id": "987967040036",
-      "keyword": "爱彼 15550ST",
-      "target_ref": "15550ST.OO.1356ST.08",
-      "target_source": "trend-fallback",
-      "title": "爱彼皇家橡树系列15550ST.00.1356ST.08，2 025年5月卡全新未使用品，好价出[超便宜][超便宜][超便宜]",
-      "price_cny": 390000,
-      "search_price_cny": 390000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 39 万 2人想要",
-      "detail_title_match": false,
-      "seller": "广东",
-      "area": "广东",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=987967040036&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "15550ST",
-      "risk_level": "low",
-      "first_seen_at": "2026-10-19T20:57:40.298286+00:00",
-      "last_seen_at": "2026-10-20T02:58:18.365946+00:00",
-      "seen_in_latest_scan": true,
-      "jp_compare": {
-        "matched": false,
-        "ref": "15550ST",
-        "quote_count": 0
-      },
-      "condition_label": "全新/未使用",
-      "completeness_label": "附件未注明",
-      "year_label": null,
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
     },
     {
       "item_id": "1094289768111",
@@ -93,7 +58,7 @@
       "parsed_ref": "5396R",
       "risk_level": "low",
       "first_seen_at": "2026-10-19T14:07:05.421397+00:00",
-      "last_seen_at": "2026-10-20T02:58:09.964118+00:00",
+      "last_seen_at": "2026-10-20T03:58:36.084117+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -128,7 +93,7 @@
       "parsed_ref": "5396R",
       "risk_level": "low",
       "first_seen_at": "2026-10-19T10:02:08.333865+00:00",
-      "last_seen_at": "2026-10-20T02:58:09.964118+00:00",
+      "last_seen_at": "2026-10-20T03:58:36.084117+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -163,7 +128,7 @@
       "parsed_ref": "5396R",
       "risk_level": "low",
       "first_seen_at": "2026-10-13T11:43:30.949883+00:00",
-      "last_seen_at": "2026-10-20T02:58:09.964118+00:00",
+      "last_seen_at": "2026-10-20T03:58:36.084117+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -172,41 +137,6 @@
       },
       "condition_label": "全新/未使用",
       "completeness_label": "全套",
-      "year_label": null,
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
-      "item_id": "1087960003057",
-      "keyword": "百达翡丽 5396R",
-      "target_ref": "5396R",
-      "target_source": "trend-fallback",
-      "title": "品牌：百达翡丽/Patek Philippe 复杂功能时计系 列 型号：5396R-011 机芯：自动上弦 材质：玫瑰金款式 表壳直径：38.5毫米。 厚度：11.2毫米。 附件：单表 专柜价579600",
-      "price_cny": 180000,
-      "search_price_cny": 180000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 18 万 1人想要",
-      "detail_title_match": false,
-      "seller": "广东 百分百好评",
-      "area": "广东",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1087960003057&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "5396R",
-      "risk_level": "low",
-      "first_seen_at": "2026-10-19T09:04:30.269591+00:00",
-      "last_seen_at": "2026-10-20T02:58:09.964118+00:00",
-      "seen_in_latest_scan": true,
-      "jp_compare": {
-        "matched": false,
-        "ref": "5396R",
-        "quote_count": 0
-      },
-      "condition_label": "成色未注明",
-      "completeness_label": "单表",
       "year_label": null,
       "warning_keywords": [],
       "suspicious_keyword": null,
@@ -233,7 +163,7 @@
       "parsed_ref": "5396R",
       "risk_level": "low",
       "first_seen_at": "2026-10-19T08:09:38.971494+00:00",
-      "last_seen_at": "2026-10-20T02:58:09.964118+00:00",
+      "last_seen_at": "2026-10-20T03:58:36.084117+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -263,12 +193,12 @@
       "area": "上海",
       "badge": "",
       "item_url": "https://www.goofish.com/item?id=839825083509&categoryId=126916028",
-      "image_url": "//img.alicdn.com/bao/uploaded/i1/O1CN01uBgJzH2HgxH6bnuhm_!!53-fleamarket.heic_450x10000Q90.jpg_.webp",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
       "publish_time": null,
       "parsed_ref": "5396R",
       "risk_level": "low",
       "first_seen_at": "2026-10-19T08:09:38.971494+00:00",
-      "last_seen_at": "2026-10-20T02:58:09.964118+00:00",
+      "last_seen_at": "2026-10-20T03:58:36.084117+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -303,7 +233,7 @@
       "parsed_ref": "5396R",
       "risk_level": "low",
       "first_seen_at": "2026-10-20T01:56:21.932633+00:00",
-      "last_seen_at": "2026-10-20T02:58:09.964118+00:00",
+      "last_seen_at": "2026-10-20T03:58:36.084117+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -338,7 +268,7 @@
       "parsed_ref": "5396R",
       "risk_level": "low",
       "first_seen_at": "2026-10-20T02:58:09.964118+00:00",
-      "last_seen_at": "2026-10-20T02:58:09.964118+00:00",
+      "last_seen_at": "2026-10-20T03:58:36.084117+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -348,6 +278,146 @@
       "condition_label": "成色未注明",
       "completeness_label": "全套",
       "year_label": "2016",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1045415647911",
+      "keyword": "百达翡丽 5396R",
+      "target_ref": "5396R",
+      "target_source": "trend-fallback",
+      "title": "百达翡丽5396r白盘 2025年库存未使用全新现货",
+      "price_cny": 340000,
+      "search_price_cny": 340000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 34 万 累计降价10000.00元",
+      "detail_title_match": false,
+      "seller": "广东 百分百好评",
+      "area": "广东",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1045415647911&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "5396R",
+      "risk_level": "low",
+      "first_seen_at": "2026-10-19T17:53:58.721598+00:00",
+      "last_seen_at": "2026-10-20T03:58:36.084117+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": false,
+        "ref": "5396R",
+        "quote_count": 0
+      },
+      "condition_label": "全新/未使用",
+      "completeness_label": "附件未注明",
+      "year_label": "2025",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "735810851505",
+      "keyword": "百达翡丽 5065/1A",
+      "target_ref": "5065/1A",
+      "target_source": "trend-fallback",
+      "title": "百达翡丽 Aquanaut系列 Ref.5065-1A-001余文乐同款 自动机械 精钢 38mm 2005年全套 国内唯一有两条原装表带的全套现货。",
+      "price_cny": 360000,
+      "search_price_cny": 360000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 36 万 26人想要",
+      "detail_title_match": false,
+      "seller": "上海 卖家信用优秀",
+      "area": "上海",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=735810851505&categoryId=126916028",
+      "image_url": "//img.alicdn.com/bao/uploaded/i2/O1CN01yrXHvX22LE7suRyLn_!!53-fleamarket.heic_450x10000Q90.jpg_.webp",
+      "publish_time": null,
+      "parsed_ref": "5065",
+      "risk_level": "low",
+      "first_seen_at": "2026-10-13T06:54:20.542389+00:00",
+      "last_seen_at": "2026-10-20T03:58:32.501968+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": false,
+        "ref": "5065",
+        "quote_count": 0
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "全套",
+      "year_label": "2005",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "987967040036",
+      "keyword": "爱彼 15550ST",
+      "target_ref": "15550ST.OO.1356ST.08",
+      "target_source": "trend-fallback",
+      "title": "爱彼皇家橡树系列15550ST.00.1356ST.08，2 025年5月卡全新未使用品，好价出[超便宜][超便宜][超便宜]",
+      "price_cny": 390000,
+      "search_price_cny": 390000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 39 万 2人想要",
+      "detail_title_match": false,
+      "seller": "广东",
+      "area": "广东",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=987967040036&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "15550ST",
+      "risk_level": "low",
+      "first_seen_at": "2026-10-19T20:57:40.298286+00:00",
+      "last_seen_at": "2026-10-20T02:58:18.365946+00:00",
+      "seen_in_latest_scan": false,
+      "jp_compare": {
+        "matched": false,
+        "ref": "15550ST",
+        "quote_count": 0
+      },
+      "condition_label": "全新/未使用",
+      "completeness_label": "附件未注明",
+      "year_label": null,
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1087960003057",
+      "keyword": "百达翡丽 5396R",
+      "target_ref": "5396R",
+      "target_source": "trend-fallback",
+      "title": "品牌：百达翡丽/Patek Philippe 复杂功能时计系 列 型号：5396R-011 机芯：自动上弦 材质：玫瑰金款式 表壳直径：38.5毫米。 厚度：11.2毫米。 附件：单表 专柜价579600",
+      "price_cny": 180000,
+      "search_price_cny": 180000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 18 万 1人想要",
+      "detail_title_match": false,
+      "seller": "广东 百分百好评",
+      "area": "广东",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1087960003057&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "5396R",
+      "risk_level": "low",
+      "first_seen_at": "2026-10-19T09:04:30.269591+00:00",
+      "last_seen_at": "2026-10-20T02:58:09.964118+00:00",
+      "seen_in_latest_scan": false,
+      "jp_compare": {
+        "matched": false,
+        "ref": "5396R",
+        "quote_count": 0
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "单表",
+      "year_label": null,
       "warning_keywords": [],
       "suspicious_keyword": null,
       "ref_source": "keyword_or_title_repair"
@@ -374,7 +444,7 @@
       "risk_level": "low",
       "first_seen_at": "2026-10-20T02:58:09.964118+00:00",
       "last_seen_at": "2026-10-20T02:58:09.964118+00:00",
-      "seen_in_latest_scan": true,
+      "seen_in_latest_scan": false,
       "jp_compare": {
         "matched": false,
         "ref": "5396G",
@@ -383,41 +453,6 @@
       "condition_label": "全新/未使用",
       "completeness_label": "附件未注明",
       "year_label": "2024",
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
-      "item_id": "735810851505",
-      "keyword": "百达翡丽 5065/1A",
-      "target_ref": "5065/1A",
-      "target_source": "trend-fallback",
-      "title": "百达翡丽 Aquanaut系列 Ref.5065-1A-001余文乐同款 自动机械 精钢 38mm 2005年全套 国内唯一有两条原装表带的全套现货。",
-      "price_cny": 360000,
-      "search_price_cny": 360000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 36 万 26人想要",
-      "detail_title_match": false,
-      "seller": "上海 卖家信用优秀",
-      "area": "上海",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=735810851505&categoryId=126916028",
-      "image_url": "//img.alicdn.com/bao/uploaded/i2/O1CN01yrXHvX22LE7suRyLn_!!53-fleamarket.heic_450x10000Q90.jpg_.webp",
-      "publish_time": null,
-      "parsed_ref": "5065",
-      "risk_level": "low",
-      "first_seen_at": "2026-10-13T06:54:20.542389+00:00",
-      "last_seen_at": "2026-10-20T02:58:06.110887+00:00",
-      "seen_in_latest_scan": true,
-      "jp_compare": {
-        "matched": false,
-        "ref": "5065",
-        "quote_count": 0
-      },
-      "condition_label": "成色未注明",
-      "completeness_label": "全套",
-      "year_label": "2005",
       "warning_keywords": [],
       "suspicious_keyword": null,
       "ref_source": "keyword_or_title_repair"
@@ -560,41 +595,6 @@
       "year_label": null,
       "warning_keywords": [],
       "suspicious_keyword": null
-    },
-    {
-      "item_id": "1045415647911",
-      "keyword": "百达翡丽 5396R",
-      "target_ref": "5396R",
-      "target_source": "trend-fallback",
-      "title": "百达翡丽5396r白盘 2025年库存未使用全新现货",
-      "price_cny": 340000,
-      "search_price_cny": 340000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 34 万 累计降价10000.00元",
-      "detail_title_match": false,
-      "seller": "广东 百分百好评",
-      "area": "广东",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1045415647911&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "5396R",
-      "risk_level": "low",
-      "first_seen_at": "2026-10-19T17:53:58.721598+00:00",
-      "last_seen_at": "2026-10-19T23:53:26.498200+00:00",
-      "seen_in_latest_scan": false,
-      "jp_compare": {
-        "matched": false,
-        "ref": "5396R",
-        "quote_count": 0
-      },
-      "condition_label": "全新/未使用",
-      "completeness_label": "附件未注明",
-      "year_label": "2025",
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
     },
     {
       "item_id": "973735548522",
@@ -1875,8 +1875,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 2390000,
-        "best_jpy": 2390000,
+        "conservative_jpy": 2382000,
+        "best_jpy": 2382000,
         "sources": [
           "なんぼや"
         ]
@@ -2101,7 +2101,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 5903000,
+        "best_jpy": 5902000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -2146,7 +2146,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 5903000,
+        "best_jpy": 5902000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -7794,8 +7794,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 4668000,
-        "best_jpy": 4668000,
+        "conservative_jpy": 4720000,
+        "best_jpy": 4720000,
         "sources": [
           "なんぼや"
         ]
@@ -8022,8 +8022,8 @@
         "ref": "126610LV",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 1450000,
-        "best_jpy": 1450000,
+        "conservative_jpy": 1840000,
+        "best_jpy": 1840000,
         "sources": [
           "PREMIER VALUE"
         ]
@@ -8062,7 +8062,7 @@
         "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 997000,
-        "best_jpy": 2390000,
+        "best_jpy": 2382000,
         "sources": [
           "なんぼや",
           "ブラリバ",
@@ -8102,7 +8102,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 5903000,
+        "best_jpy": 5902000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -8145,7 +8145,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 5903000,
+        "best_jpy": 5902000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -8188,7 +8188,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 5903000,
+        "best_jpy": 5902000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -8231,7 +8231,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 5903000,
+        "best_jpy": 5902000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -8274,7 +8274,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 5903000,
+        "best_jpy": 5902000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -8818,7 +8818,7 @@
         "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 997000,
-        "best_jpy": 2390000,
+        "best_jpy": 2382000,
         "sources": [
           "なんぼや",
           "ブラリバ",
@@ -9569,8 +9569,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 2390000,
-        "best_jpy": 2390000,
+        "conservative_jpy": 2382000,
+        "best_jpy": 2382000,
         "sources": [
           "なんぼや"
         ]
@@ -9783,8 +9783,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 2390000,
-        "best_jpy": 2390000,
+        "conservative_jpy": 2382000,
+        "best_jpy": 2382000,
         "sources": [
           "なんぼや"
         ]
@@ -10832,8 +10832,8 @@
         "ref": "126610LV",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 1450000,
-        "best_jpy": 1450000,
+        "conservative_jpy": 1840000,
+        "best_jpy": 1840000,
         "sources": [
           "PREMIER VALUE"
         ]
@@ -10871,8 +10871,8 @@
         "ref": "126610LV",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 1450000,
-        "best_jpy": 1450000,
+        "conservative_jpy": 1840000,
+        "best_jpy": 1840000,
         "sources": [
           "PREMIER VALUE"
         ]
@@ -11116,8 +11116,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 2390000,
-        "best_jpy": 2390000,
+        "conservative_jpy": 2382000,
+        "best_jpy": 2382000,
         "sources": [
           "なんぼや"
         ]
@@ -11427,7 +11427,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 5903000,
+        "best_jpy": 5902000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -11647,7 +11647,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 5903000,
+        "best_jpy": 5902000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -11690,7 +11690,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 5903000,
+        "best_jpy": 5902000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -13005,7 +13005,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 1840000,
-        "best_jpy": 4668000,
+        "best_jpy": 4720000,
         "sources": [
           "なんぼや",
           "PREMIER VALUE"
@@ -13045,7 +13045,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 1840000,
-        "best_jpy": 4668000,
+        "best_jpy": 4720000,
         "sources": [
           "なんぼや",
           "PREMIER VALUE"
@@ -13085,7 +13085,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 5903000,
+        "best_jpy": 5902000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -13536,7 +13536,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 5903000,
+        "best_jpy": 5902000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -15458,7 +15458,7 @@
         "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 997000,
-        "best_jpy": 2390000,
+        "best_jpy": 2382000,
         "sources": [
           "なんぼや",
           "ブラリバ",
@@ -15716,8 +15716,8 @@
         "ref": "126610LV",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 1450000,
-        "best_jpy": 1450000,
+        "conservative_jpy": 1840000,
+        "best_jpy": 1840000,
         "sources": [
           "PREMIER VALUE"
         ]
@@ -15796,7 +15796,7 @@
         "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 997000,
-        "best_jpy": 2390000,
+        "best_jpy": 2382000,
         "sources": [
           "なんぼや",
           "ブラリバ",
@@ -16183,8 +16183,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 4668000,
-        "best_jpy": 4668000,
+        "conservative_jpy": 4720000,
+        "best_jpy": 4720000,
         "sources": [
           "なんぼや"
         ]
@@ -16493,8 +16493,8 @@
         "ref": "126610LV",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 1450000,
-        "best_jpy": 1450000,
+        "conservative_jpy": 1840000,
+        "best_jpy": 1840000,
         "sources": [
           "PREMIER VALUE"
         ]
@@ -16529,8 +16529,8 @@
         "ref": "126610LV",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 1450000,
-        "best_jpy": 1450000,
+        "conservative_jpy": 1840000,
+        "best_jpy": 1840000,
         "sources": [
           "PREMIER VALUE"
         ]
@@ -30660,7 +30660,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 5903000,
+        "best_jpy": 5902000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -30700,7 +30700,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 5903000,
+        "best_jpy": 5902000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -31205,7 +31205,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 5903000,
+        "best_jpy": 5902000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -31398,8 +31398,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 2390000,
-        "best_jpy": 2390000,
+        "conservative_jpy": 2382000,
+        "best_jpy": 2382000,
         "sources": [
           "なんぼや"
         ]
@@ -31464,8 +31464,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 2390000,
-        "best_jpy": 2390000,
+        "conservative_jpy": 2382000,
+        "best_jpy": 2382000,
         "sources": [
           "なんぼや"
         ]
@@ -31528,8 +31528,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 2390000,
-        "best_jpy": 2390000,
+        "conservative_jpy": 2382000,
+        "best_jpy": 2382000,
         "sources": [
           "なんぼや"
         ]
@@ -31684,8 +31684,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 4668000,
-        "best_jpy": 4668000,
+        "conservative_jpy": 4720000,
+        "best_jpy": 4720000,
         "sources": [
           "なんぼや"
         ]
@@ -31720,8 +31720,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 4668000,
-        "best_jpy": 4668000,
+        "conservative_jpy": 4720000,
+        "best_jpy": 4720000,
         "sources": [
           "なんぼや"
         ]
@@ -31786,8 +31786,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 2390000,
-        "best_jpy": 2390000,
+        "conservative_jpy": 2382000,
+        "best_jpy": 2382000,
         "sources": [
           "なんぼや"
         ]
@@ -31822,8 +31822,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 4668000,
-        "best_jpy": 4668000,
+        "conservative_jpy": 4720000,
+        "best_jpy": 4720000,
         "sources": [
           "なんぼや"
         ]
@@ -31888,8 +31888,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 2390000,
-        "best_jpy": 2390000,
+        "conservative_jpy": 2382000,
+        "best_jpy": 2382000,
         "sources": [
           "なんぼや"
         ]
@@ -31924,8 +31924,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 4668000,
-        "best_jpy": 4668000,
+        "conservative_jpy": 4720000,
+        "best_jpy": 4720000,
         "sources": [
           "なんぼや"
         ]
@@ -31959,8 +31959,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 4668000,
-        "best_jpy": 4668000,
+        "conservative_jpy": 4720000,
+        "best_jpy": 4720000,
         "sources": [
           "なんぼや"
         ]
@@ -32139,8 +32139,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 2390000,
-        "best_jpy": 2390000,
+        "conservative_jpy": 2382000,
+        "best_jpy": 2382000,
         "sources": [
           "なんぼや"
         ]
@@ -32528,8 +32528,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 4668000,
-        "best_jpy": 4668000,
+        "conservative_jpy": 4720000,
+        "best_jpy": 4720000,
         "sources": [
           "なんぼや"
         ]
@@ -32624,8 +32624,8 @@
         "ref": "126610LV",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 1450000,
-        "best_jpy": 1450000,
+        "conservative_jpy": 1840000,
+        "best_jpy": 1840000,
         "sources": [
           "PREMIER VALUE"
         ]
@@ -32689,8 +32689,8 @@
         "ref": "126610LV",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 1450000,
-        "best_jpy": 1450000,
+        "conservative_jpy": 1840000,
+        "best_jpy": 1840000,
         "sources": [
           "PREMIER VALUE"
         ]
@@ -32761,8 +32761,8 @@
         "ref": "126610LV",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 1450000,
-        "best_jpy": 1450000,
+        "conservative_jpy": 1840000,
+        "best_jpy": 1840000,
         "sources": [
           "PREMIER VALUE"
         ]
@@ -32833,8 +32833,8 @@
         "ref": "126610LV",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 1450000,
-        "best_jpy": 1450000,
+        "conservative_jpy": 1840000,
+        "best_jpy": 1840000,
         "sources": [
           "PREMIER VALUE"
         ]
@@ -32868,8 +32868,8 @@
         "ref": "126610LV",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 1450000,
-        "best_jpy": 1450000,
+        "conservative_jpy": 1840000,
+        "best_jpy": 1840000,
         "sources": [
           "PREMIER VALUE"
         ]
@@ -32940,8 +32940,8 @@
         "ref": "126610LV",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 1450000,
-        "best_jpy": 1450000,
+        "conservative_jpy": 1840000,
+        "best_jpy": 1840000,
         "sources": [
           "PREMIER VALUE"
         ]
@@ -33012,8 +33012,8 @@
         "ref": "126610LV",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 1450000,
-        "best_jpy": 1450000,
+        "conservative_jpy": 1840000,
+        "best_jpy": 1840000,
         "sources": [
           "PREMIER VALUE"
         ]
@@ -33048,8 +33048,8 @@
         "ref": "126610LV",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 1450000,
-        "best_jpy": 1450000,
+        "conservative_jpy": 1840000,
+        "best_jpy": 1840000,
         "sources": [
           "PREMIER VALUE"
         ]
@@ -33084,8 +33084,8 @@
         "ref": "126610LV",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 1450000,
-        "best_jpy": 1450000,
+        "conservative_jpy": 1840000,
+        "best_jpy": 1840000,
         "sources": [
           "PREMIER VALUE"
         ]
@@ -33120,8 +33120,8 @@
         "ref": "126610LV",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 1450000,
-        "best_jpy": 1450000,
+        "conservative_jpy": 1840000,
+        "best_jpy": 1840000,
         "sources": [
           "PREMIER VALUE"
         ]
@@ -33156,8 +33156,8 @@
         "ref": "126610LV",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 1450000,
-        "best_jpy": 1450000,
+        "conservative_jpy": 1840000,
+        "best_jpy": 1840000,
         "sources": [
           "PREMIER VALUE"
         ]
@@ -33221,8 +33221,8 @@
         "ref": "126610LV",
         "quote_count": 1,
         "basis": "used",
-        "conservative_jpy": 1450000,
-        "best_jpy": 1450000,
+        "conservative_jpy": 1840000,
+        "best_jpy": 1840000,
         "sources": [
           "PREMIER VALUE"
         ]
@@ -33324,7 +33324,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 1840000,
-        "best_jpy": 4668000,
+        "best_jpy": 4720000,
         "sources": [
           "なんぼや",
           "PREMIER VALUE"
@@ -33361,7 +33361,7 @@
         "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 997000,
-        "best_jpy": 2390000,
+        "best_jpy": 2382000,
         "sources": [
           "なんぼや",
           "ブラリバ",
@@ -33399,7 +33399,7 @@
         "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 997000,
-        "best_jpy": 2390000,
+        "best_jpy": 2382000,
         "sources": [
           "なんぼや",
           "ブラリバ",
@@ -33437,7 +33437,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 1840000,
-        "best_jpy": 4668000,
+        "best_jpy": 4720000,
         "sources": [
           "なんぼや",
           "PREMIER VALUE"
@@ -33474,7 +33474,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 1840000,
-        "best_jpy": 4668000,
+        "best_jpy": 4720000,
         "sources": [
           "なんぼや",
           "PREMIER VALUE"
@@ -33511,7 +33511,7 @@
         "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 997000,
-        "best_jpy": 2390000,
+        "best_jpy": 2382000,
         "sources": [
           "なんぼや",
           "ブラリバ",
@@ -33549,7 +33549,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 1840000,
-        "best_jpy": 4668000,
+        "best_jpy": 4720000,
         "sources": [
           "なんぼや",
           "PREMIER VALUE"
@@ -33586,7 +33586,7 @@
         "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 997000,
-        "best_jpy": 2390000,
+        "best_jpy": 2382000,
         "sources": [
           "なんぼや",
           "ブラリバ",
@@ -33653,7 +33653,7 @@
         "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 997000,
-        "best_jpy": 2390000,
+        "best_jpy": 2382000,
         "sources": [
           "なんぼや",
           "ブラリバ",
@@ -33691,7 +33691,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 1840000,
-        "best_jpy": 4668000,
+        "best_jpy": 4720000,
         "sources": [
           "なんぼや",
           "PREMIER VALUE"
@@ -33728,7 +33728,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 1840000,
-        "best_jpy": 4668000,
+        "best_jpy": 4720000,
         "sources": [
           "なんぼや",
           "PREMIER VALUE"
@@ -33765,7 +33765,7 @@
         "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 997000,
-        "best_jpy": 2390000,
+        "best_jpy": 2382000,
         "sources": [
           "なんぼや",
           "ブラリバ",
@@ -33803,7 +33803,7 @@
         "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 997000,
-        "best_jpy": 2390000,
+        "best_jpy": 2382000,
         "sources": [
           "なんぼや",
           "ブラリバ",
@@ -33841,7 +33841,7 @@
         "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 997000,
-        "best_jpy": 2390000,
+        "best_jpy": 2382000,
         "sources": [
           "なんぼや",
           "ブラリバ",
@@ -33909,7 +33909,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 1840000,
-        "best_jpy": 4668000,
+        "best_jpy": 4720000,
         "sources": [
           "なんぼや",
           "PREMIER VALUE"
@@ -33976,7 +33976,7 @@
         "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 997000,
-        "best_jpy": 2390000,
+        "best_jpy": 2382000,
         "sources": [
           "なんぼや",
           "ブラリバ",
@@ -34044,7 +34044,7 @@
         "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 997000,
-        "best_jpy": 2390000,
+        "best_jpy": 2382000,
         "sources": [
           "なんぼや",
           "ブラリバ",
@@ -34162,7 +34162,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 5903000,
+        "best_jpy": 5902000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -34202,7 +34202,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 5903000,
+        "best_jpy": 5902000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -34282,7 +34282,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 5903000,
+        "best_jpy": 5902000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -34322,7 +34322,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 5903000,
+        "best_jpy": 5902000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -34361,7 +34361,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 5903000,
+        "best_jpy": 5902000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -34401,7 +34401,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 5903000,
+        "best_jpy": 5902000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -34441,7 +34441,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 5903000,
+        "best_jpy": 5902000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -34481,7 +34481,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 5903000,
+        "best_jpy": 5902000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -34601,7 +34601,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 5903000,
+        "best_jpy": 5902000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -34748,7 +34748,7 @@
         "quote_count": 7,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 5903000,
+        "best_jpy": 5902000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -34779,7 +34779,7 @@
       "condition_label": "中古（使用感少）",
       "condition_rank": null,
       "source_url": "https://komehyo.jp/kaitori/watch/",
-      "observed_at": "2026-10-20T02:55:53.637994+00:00"
+      "observed_at": "2026-10-20T03:56:52.959209+00:00"
     },
     {
       "source": "大黒屋",
@@ -34792,7 +34792,7 @@
       "condition_label": "中古",
       "condition_rank": null,
       "source_url": "https://kaitori.e-daikoku.com/brand/shop/ikebukuro-higashiguchi/",
-      "observed_at": "2026-10-20T02:56:00.968588+00:00"
+      "observed_at": "2026-10-20T03:56:59.699320+00:00"
     },
     {
       "source": "大黒屋",
@@ -34805,7 +34805,7 @@
       "condition_label": "中古",
       "condition_rank": null,
       "source_url": "https://kaitori.e-daikoku.com/brand/shop/ikebukuro-higashiguchi/",
-      "observed_at": "2026-10-20T02:56:00.968839+00:00"
+      "observed_at": "2026-10-20T03:56:59.699441+00:00"
     },
     {
       "source": "RASIN",
@@ -34818,7 +34818,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-20T02:56:04.781377+00:00"
+      "observed_at": "2026-10-20T03:57:03.539734+00:00"
     },
     {
       "source": "RASIN",
@@ -34831,7 +34831,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-20T02:56:04.781563+00:00"
+      "observed_at": "2026-10-20T03:57:03.539858+00:00"
     },
     {
       "source": "RASIN",
@@ -34844,7 +34844,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-20T02:56:04.781768+00:00"
+      "observed_at": "2026-10-20T03:57:03.539959+00:00"
     },
     {
       "source": "RASIN",
@@ -34857,7 +34857,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-20T02:56:04.781931+00:00"
+      "observed_at": "2026-10-20T03:57:03.540063+00:00"
     },
     {
       "source": "RASIN",
@@ -34870,7 +34870,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-20T02:56:04.782074+00:00"
+      "observed_at": "2026-10-20T03:57:03.540143+00:00"
     },
     {
       "source": "RASIN",
@@ -34883,7 +34883,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-20T02:56:04.782218+00:00"
+      "observed_at": "2026-10-20T03:57:03.540221+00:00"
     },
     {
       "source": "RASIN",
@@ -34896,7 +34896,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-20T02:56:04.782520+00:00"
+      "observed_at": "2026-10-20T03:57:03.540388+00:00"
     },
     {
       "source": "RASIN",
@@ -34909,7 +34909,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/audemarspiguet_price/",
-      "observed_at": "2026-10-20T02:56:07.269821+00:00"
+      "observed_at": "2026-10-20T03:57:05.769309+00:00"
     },
     {
       "source": "RASIN",
@@ -34922,7 +34922,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/audemarspiguet_price/",
-      "observed_at": "2026-10-20T02:56:07.270107+00:00"
+      "observed_at": "2026-10-20T03:57:05.769491+00:00"
     },
     {
       "source": "RASIN",
@@ -34935,7 +34935,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/audemarspiguet_price/",
-      "observed_at": "2026-10-20T02:56:07.270254+00:00"
+      "observed_at": "2026-10-20T03:57:05.769596+00:00"
     },
     {
       "source": "RASIN",
@@ -34948,59 +34948,59 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/omega_price/",
-      "observed_at": "2026-10-20T02:56:12.484183+00:00"
+      "observed_at": "2026-10-20T03:57:10.557661+00:00"
     },
     {
       "source": "なんぼや",
       "ref": "126500LN",
       "variant": "白 黑",
       "label": "126500LN",
-      "new_price": 4668000,
-      "used_price": 2390000,
+      "new_price": 4720000,
+      "used_price": 2382000,
       "quote_type": "public_buyback",
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-10-20T02:56:14.783040+00:00"
+      "observed_at": "2026-10-20T03:57:12.750704+00:00"
     },
     {
       "source": "なんぼや",
       "ref": "126500LN",
       "variant": "白 黑",
       "label": "126500LN",
-      "new_price": 5903000,
-      "used_price": 5903000,
+      "new_price": 5902000,
+      "used_price": 5902000,
       "quote_type": "public_buyback",
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-10-20T02:56:14.783176+00:00"
+      "observed_at": "2026-10-20T03:57:12.750837+00:00"
     },
     {
       "source": "なんぼや",
       "ref": "126610LN",
       "variant": "白 黑",
       "label": "126610LN",
-      "new_price": 4668000,
-      "used_price": 2390000,
+      "new_price": 4720000,
+      "used_price": 2382000,
       "quote_type": "public_buyback",
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-10-20T02:56:14.783243+00:00"
+      "observed_at": "2026-10-20T03:57:12.750896+00:00"
     },
     {
       "source": "なんぼや",
       "ref": "126710BLNR",
       "variant": "白 黑",
       "label": "126710BLNR",
-      "new_price": 4668000,
-      "used_price": 2390000,
+      "new_price": 4720000,
+      "used_price": 2382000,
       "quote_type": "public_buyback",
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-10-20T02:56:14.783391+00:00"
+      "observed_at": "2026-10-20T03:57:12.751023+00:00"
     },
     {
       "source": "ブラリバ",
@@ -35013,7 +35013,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/purchase-watch/rolex",
-      "observed_at": "2026-10-20T02:56:22.828067+00:00"
+      "observed_at": "2026-10-20T03:57:19.802321+00:00"
     },
     {
       "source": "ブラリバ",
@@ -35026,7 +35026,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/patek-philippe",
-      "observed_at": "2026-10-20T02:56:26.781249+00:00"
+      "observed_at": "2026-10-20T03:57:22.820313+00:00"
     },
     {
       "source": "ブラリバ",
@@ -35039,7 +35039,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/patek-philippe",
-      "observed_at": "2026-10-20T02:56:26.781402+00:00"
+      "observed_at": "2026-10-20T03:57:22.820401+00:00"
     },
     {
       "source": "ブラリバ",
@@ -35052,7 +35052,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/patek-philippe",
-      "observed_at": "2026-10-20T02:56:26.781533+00:00"
+      "observed_at": "2026-10-20T03:57:22.820475+00:00"
     },
     {
       "source": "ブラリバ",
@@ -35065,7 +35065,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/omega",
-      "observed_at": "2026-10-20T02:56:28.753666+00:00"
+      "observed_at": "2026-10-20T03:57:24.065956+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -35078,7 +35078,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/daytona/ref_126500LN/",
-      "observed_at": "2026-10-20T02:56:43.332497+00:00"
+      "observed_at": "2026-10-20T03:57:38.465768+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -35091,7 +35091,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/daytona/ref_116500LN/",
-      "observed_at": "2026-10-20T02:56:45.664322+00:00"
+      "observed_at": "2026-10-20T03:57:40.545529+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -35099,12 +35099,12 @@
       "variant": "黑 蓝",
       "label": "126610LN",
       "new_price": 1840000,
-      "used_price": 1450000,
+      "used_price": 1840000,
       "quote_type": "public_buyback",
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/submariner/ref_126610LN/",
-      "observed_at": "2026-10-20T02:56:48.756824+00:00"
+      "observed_at": "2026-10-20T03:57:43.572665+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -35112,12 +35112,12 @@
       "variant": "黑 蓝",
       "label": "126610LV",
       "new_price": 1840000,
-      "used_price": 1450000,
+      "used_price": 1840000,
       "quote_type": "public_buyback",
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/submariner/ref_126610LV/",
-      "observed_at": "2026-10-20T02:56:51.775932+00:00"
+      "observed_at": "2026-10-20T03:57:46.654008+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -35130,7 +35130,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/submariner/ref_124060/",
-      "observed_at": "2026-10-20T02:56:53.802847+00:00"
+      "observed_at": "2026-10-20T03:57:48.782716+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -35143,7 +35143,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/datejust/ref_126334/",
-      "observed_at": "2026-10-20T02:56:58.285266+00:00"
+      "observed_at": "2026-10-20T03:57:53.169392+00:00"
     }
   ],
   "jp_source_summary": {
@@ -35159,14 +35159,14 @@
     "strategy": "board_refs_only",
     "targets_planned": 11,
     "targets_searched": 11,
-    "current_scan_items": 12,
+    "current_scan_items": 10,
     "saved_recent_items": 1018,
     "min_price_cny": 30000,
     "retention_days": 14,
     "detail_verify_limit": 140,
     "detail_verified_items": 0,
-    "detail_unverified_items": 12,
-    "items_with_area": 12,
+    "detail_unverified_items": 10,
+    "items_with_area": 10,
     "priority_refs": [
       "126500LN",
       "214270",
@@ -35845,7 +35845,7 @@
     "require_ref_in_title": true,
     "exclude_collection_floor_price": true,
     "send_status": "draft_only_until_channel_connected",
-    "generated_at": "2026-10-20T02:58:39.147816+00:00",
+    "generated_at": "2026-10-20T03:58:56.099667+00:00",
     "fx_jpy_to_cny": 0.042249
   }
 }
