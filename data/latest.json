@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T05:56:26.450192+00:00",
+  "generated_at": "2026-10-21T07:15:03.333418+00:00",
   "runner": "github-actions-home-exit-targeted",
   "goofish_status": "ok",
   "items": [
@@ -24,7 +24,7 @@
       "parsed_ref": "15550ST",
       "risk_level": "low",
       "first_seen_at": "2026-10-20T20:57:17.999303+00:00",
-      "last_seen_at": "2026-10-21T05:56:10.522405+00:00",
+      "last_seen_at": "2026-10-21T07:14:54.331540+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -58,7 +58,7 @@
       "parsed_ref": "15550ST",
       "risk_level": "low",
       "first_seen_at": "2026-10-19T14:07:13.040433+00:00",
-      "last_seen_at": "2026-10-21T05:56:10.522405+00:00",
+      "last_seen_at": "2026-10-21T07:14:54.331540+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -92,7 +92,7 @@
       "parsed_ref": "5396R",
       "risk_level": "low",
       "first_seen_at": "2026-10-13T11:43:30.949883+00:00",
-      "last_seen_at": "2026-10-21T05:56:02.891943+00:00",
+      "last_seen_at": "2026-10-21T07:14:47.133338+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -127,7 +127,7 @@
       "parsed_ref": "5396R",
       "risk_level": "low",
       "first_seen_at": "2026-10-19T08:09:38.971494+00:00",
-      "last_seen_at": "2026-10-21T05:56:02.891943+00:00",
+      "last_seen_at": "2026-10-21T07:14:47.133338+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -162,7 +162,7 @@
       "parsed_ref": "5396R",
       "risk_level": "low",
       "first_seen_at": "2026-10-20T16:58:29.704668+00:00",
-      "last_seen_at": "2026-10-21T05:56:02.891943+00:00",
+      "last_seen_at": "2026-10-21T07:14:47.133338+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -177,51 +177,16 @@
       "ref_source": "keyword_or_title_repair"
     },
     {
-      "item_id": "1049945555625",
-      "keyword": "百达翡丽 5396R",
-      "target_ref": "5396R",
-      "target_source": "trend-fallback",
-      "title": "新款新款百达翡丽/Patek Philippe 复杂功能时计 系列 5396R-016自动上弦 玫瑰金款式 专柜价600700，2026年5月全新全套现货",
-      "price_cny": 360000,
-      "search_price_cny": 360000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 36 万 累计降价14%",
-      "detail_title_match": false,
-      "seller": "河北 百分百好评",
-      "area": "河北",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1049945555625&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "5396R",
-      "risk_level": "low",
-      "first_seen_at": "2026-10-20T11:56:38.243919+00:00",
-      "last_seen_at": "2026-10-21T05:56:02.891943+00:00",
-      "seen_in_latest_scan": true,
-      "jp_compare": {
-        "matched": false,
-        "ref": "5396R",
-        "quote_count": 0
-      },
-      "condition_label": "全新/未使用",
-      "completeness_label": "全套",
-      "year_label": "2026",
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
       "item_id": "1091578915956",
       "keyword": "百达翡丽 5396R",
       "target_ref": "5396R",
       "target_source": "trend-fallback",
-      "title": "百达翡丽5396R复杂功能时计，18K玫瑰金表壳，38.5m m表径，深蓝渐变盘面配冰糖钻刻。自动机械机芯，月相、日期、星期、月份、年历多重显示，背面透底可见机芯打磨与玫瑰金摆轮。表带全长，原装18K玫瑰金折叠扣，表带内侧有轻微使用痕迹，表壳表带整体成色很新。23年 无盒子 有发票保卡",
+      "title": "百达翡丽5396R复杂功能时计，18K玫瑰金表壳，38.5m m表径，深蓝渐变盘面配冰糖钻刻。自动机械机芯，月相、日期、星期、月份、年历多重显示，背面透底可见机芯打磨与玫瑰金摆轮。 表带全长，原装18K玫瑰金折叠扣，表带内侧有轻微使用痕迹，表壳表带整体成色很新。23年 无盒子 有发票保卡",
       "price_cny": 400000,
       "search_price_cny": 400000,
       "price_verified": false,
       "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 40 万 9人想要",
+      "price_raw_text": "¥ 40 万 10人想要",
       "detail_title_match": false,
       "seller": "湖南 百分百好评",
       "area": "湖南",
@@ -232,7 +197,7 @@
       "parsed_ref": "5396R",
       "risk_level": "low",
       "first_seen_at": "2026-10-20T16:58:29.704668+00:00",
-      "last_seen_at": "2026-10-21T05:56:02.891943+00:00",
+      "last_seen_at": "2026-10-21T07:14:47.133338+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -254,10 +219,10 @@
       "title": "百达翡丽复杂功能时计系列5396R-011白盘 38.5mm表径 自动机械 18k玫瑰金材质 16年新卡极品全套 价格不错 现货秒发",
       "price_cny": 220000,
       "search_price_cny": 220000,
-      "price_verified": true,
-      "price_source": "item_detail",
-      "price_raw_text": "220000",
-      "detail_title_match": true,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 22 万 累计降价5000.00元",
+      "detail_title_match": false,
       "seller": "上海",
       "area": "上海",
       "badge": "",
@@ -267,7 +232,7 @@
       "parsed_ref": "5396R",
       "risk_level": "low",
       "first_seen_at": "2026-10-20T02:58:09.964118+00:00",
-      "last_seen_at": "2026-10-21T05:56:02.891943+00:00",
+      "last_seen_at": "2026-10-21T07:14:47.133338+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -277,41 +242,6 @@
       "condition_label": "成色未注明",
       "completeness_label": "全套",
       "year_label": "2016",
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
-      "item_id": "1076341991923",
-      "keyword": "百达翡丽 5396R",
-      "target_ref": "5396R",
-      "target_source": "trend-fallback",
-      "title": "【个人闲置】百达翡丽COMPLICATIONS系列5396R ，38.5mm表径，18K玫瑰金材质，自动机械，2026年全套未使用，现货好价 全新未使用，正品保证，支持验货，品相极好，保存很棒 喜欢直接拍，细节图私聊发～",
-      "price_cny": 400000,
-      "search_price_cny": 400000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 40 万",
-      "detail_title_match": false,
-      "seller": "广东",
-      "area": "广东",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1076341991923&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "5396R",
-      "risk_level": "low",
-      "first_seen_at": "2026-10-20T17:54:53.720524+00:00",
-      "last_seen_at": "2026-10-21T05:56:02.891943+00:00",
-      "seen_in_latest_scan": true,
-      "jp_compare": {
-        "matched": false,
-        "ref": "5396R",
-        "quote_count": 0
-      },
-      "condition_label": "全新/未使用",
-      "completeness_label": "全套",
-      "year_label": "2026",
       "warning_keywords": [],
       "suspicious_keyword": null,
       "ref_source": "keyword_or_title_repair"
@@ -337,7 +267,7 @@
       "parsed_ref": "5396R",
       "risk_level": "low",
       "first_seen_at": "2026-10-19T08:09:38.971494+00:00",
-      "last_seen_at": "2026-10-21T05:56:02.891943+00:00",
+      "last_seen_at": "2026-10-21T07:14:47.133338+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -372,7 +302,7 @@
       "parsed_ref": "5065",
       "risk_level": "low",
       "first_seen_at": "2026-10-13T06:54:20.542389+00:00",
-      "last_seen_at": "2026-10-21T05:55:59.388386+00:00",
+      "last_seen_at": "2026-10-21T07:14:43.732741+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -382,6 +312,76 @@
       "condition_label": "成色未注明",
       "completeness_label": "全套",
       "year_label": "2005",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1049945555625",
+      "keyword": "百达翡丽 5396R",
+      "target_ref": "5396R",
+      "target_source": "trend-fallback",
+      "title": "新款新款百达翡丽/Patek Philippe 复杂功能时计 系列 5396R-016自动上弦 玫瑰金款式 专柜价600700，2026年5月全新全套现货",
+      "price_cny": 360000,
+      "search_price_cny": 360000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 36 万 累计降价14%",
+      "detail_title_match": false,
+      "seller": "河北 百分百好评",
+      "area": "河北",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1049945555625&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "5396R",
+      "risk_level": "low",
+      "first_seen_at": "2026-10-20T11:56:38.243919+00:00",
+      "last_seen_at": "2026-10-21T05:56:02.891943+00:00",
+      "seen_in_latest_scan": false,
+      "jp_compare": {
+        "matched": false,
+        "ref": "5396R",
+        "quote_count": 0
+      },
+      "condition_label": "全新/未使用",
+      "completeness_label": "全套",
+      "year_label": "2026",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1076341991923",
+      "keyword": "百达翡丽 5396R",
+      "target_ref": "5396R",
+      "target_source": "trend-fallback",
+      "title": "【个人闲置】百达翡丽COMPLICATIONS系列5396R ，38.5mm表径，18K玫瑰金材质，自动机械，2026年全套未使用，现货好价 全新未使用，正品保证，支持验货，品相极好，保存很棒 喜欢直接拍，细节图私聊发～",
+      "price_cny": 400000,
+      "search_price_cny": 400000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 40 万",
+      "detail_title_match": false,
+      "seller": "广东",
+      "area": "广东",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1076341991923&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "5396R",
+      "risk_level": "low",
+      "first_seen_at": "2026-10-20T17:54:53.720524+00:00",
+      "last_seen_at": "2026-10-21T05:56:02.891943+00:00",
+      "seen_in_latest_scan": false,
+      "jp_compare": {
+        "matched": false,
+        "ref": "5396R",
+        "quote_count": 0
+      },
+      "condition_label": "全新/未使用",
+      "completeness_label": "全套",
+      "year_label": "2026",
       "warning_keywords": [],
       "suspicious_keyword": null,
       "ref_source": "keyword_or_title_repair"
@@ -2735,7 +2735,7 @@
         "quote_count": 6,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "RASIN",
@@ -2779,7 +2779,7 @@
         "quote_count": 6,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "RASIN",
@@ -8462,11 +8462,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 1600000,
+        "conservative_jpy": 1357000,
         "best_jpy": 1600000,
         "sources": [
+          "QUARK",
           "RASIN"
         ]
       },
@@ -8540,11 +8541,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 1600000,
+        "conservative_jpy": 1357000,
         "best_jpy": 1600000,
         "sources": [
+          "QUARK",
           "RASIN"
         ]
       },
@@ -8733,7 +8735,7 @@
         "quote_count": 6,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "RASIN",
@@ -8775,7 +8777,7 @@
         "quote_count": 6,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "RASIN",
@@ -8817,7 +8819,7 @@
         "quote_count": 6,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "RASIN",
@@ -8859,7 +8861,7 @@
         "quote_count": 6,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "RASIN",
@@ -8901,7 +8903,7 @@
         "quote_count": 6,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "RASIN",
@@ -10627,11 +10629,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 1600000,
+        "conservative_jpy": 1357000,
         "best_jpy": 1600000,
         "sources": [
+          "QUARK",
           "RASIN"
         ]
       },
@@ -11157,11 +11160,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 1600000,
+        "conservative_jpy": 1357000,
         "best_jpy": 1600000,
         "sources": [
+          "QUARK",
           "RASIN"
         ]
       },
@@ -12049,7 +12053,7 @@
         "quote_count": 6,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "RASIN",
@@ -12268,7 +12272,7 @@
         "quote_count": 6,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "RASIN",
@@ -12310,7 +12314,7 @@
         "quote_count": 6,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "RASIN",
@@ -13704,7 +13708,7 @@
         "quote_count": 6,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "RASIN",
@@ -14154,7 +14158,7 @@
         "quote_count": 6,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "RASIN",
@@ -15232,11 +15236,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 1600000,
+        "conservative_jpy": 1357000,
         "best_jpy": 1600000,
         "sources": [
+          "QUARK",
           "RASIN"
         ]
       },
@@ -31253,7 +31258,7 @@
         "quote_count": 6,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "RASIN",
@@ -31292,7 +31297,7 @@
         "quote_count": 6,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "RASIN",
@@ -31796,7 +31801,7 @@
         "quote_count": 6,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "RASIN",
@@ -31921,11 +31926,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 1600000,
+        "conservative_jpy": 1357000,
         "best_jpy": 1600000,
         "sources": [
+          "QUARK",
           "RASIN"
         ]
       },
@@ -32583,11 +32589,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 1600000,
+        "conservative_jpy": 1357000,
         "best_jpy": 1600000,
         "sources": [
+          "QUARK",
           "RASIN"
         ]
       },
@@ -32619,11 +32626,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 1600000,
+        "conservative_jpy": 1357000,
         "best_jpy": 1600000,
         "sources": [
+          "QUARK",
           "RASIN"
         ]
       },
@@ -32655,11 +32663,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 1600000,
+        "conservative_jpy": 1357000,
         "best_jpy": 1600000,
         "sources": [
+          "QUARK",
           "RASIN"
         ]
       },
@@ -32691,11 +32700,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 1600000,
+        "conservative_jpy": 1357000,
         "best_jpy": 1600000,
         "sources": [
+          "QUARK",
           "RASIN"
         ]
       },
@@ -33014,11 +33024,12 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 1,
+        "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 1600000,
+        "conservative_jpy": 1357000,
         "best_jpy": 1600000,
         "sources": [
+          "QUARK",
           "RASIN"
         ]
       },
@@ -34750,7 +34761,7 @@
         "quote_count": 6,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "RASIN",
@@ -34789,7 +34800,7 @@
         "quote_count": 6,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "RASIN",
@@ -34867,7 +34878,7 @@
         "quote_count": 6,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "RASIN",
@@ -34906,7 +34917,7 @@
         "quote_count": 6,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "RASIN",
@@ -34944,7 +34955,7 @@
         "quote_count": 6,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "RASIN",
@@ -34983,7 +34994,7 @@
         "quote_count": 6,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "RASIN",
@@ -35022,7 +35033,7 @@
         "quote_count": 6,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "RASIN",
@@ -35061,7 +35072,7 @@
         "quote_count": 6,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "RASIN",
@@ -35178,7 +35189,7 @@
         "quote_count": 6,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "RASIN",
@@ -35323,7 +35334,7 @@
         "quote_count": 6,
         "basis": "used",
         "conservative_jpy": 700000,
-        "best_jpy": 6080000,
+        "best_jpy": 5903000,
         "sources": [
           "KOMEHYO",
           "RASIN",
@@ -35353,7 +35364,20 @@
       "condition_label": "中古（使用感少）",
       "condition_rank": null,
       "source_url": "https://komehyo.jp/kaitori/watch/",
-      "observed_at": "2026-10-21T05:54:27.385340+00:00"
+      "observed_at": "2026-10-21T07:13:06.993176+00:00"
+    },
+    {
+      "source": "QUARK",
+      "ref": "126710BLRO",
+      "variant": "银",
+      "label": "126710BLRO",
+      "new_price": null,
+      "used_price": 1357000,
+      "quote_type": "public_buyback",
+      "condition_label": "中古",
+      "condition_rank": null,
+      "source_url": "https://www.909.co.jp/rolex_buy.html",
+      "observed_at": "2026-10-21T07:13:10.578077+00:00"
     },
     {
       "source": "RASIN",
@@ -35366,7 +35390,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-21T05:54:34.789979+00:00"
+      "observed_at": "2026-10-21T07:13:16.265587+00:00"
     },
     {
       "source": "RASIN",
@@ -35379,7 +35403,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-21T05:54:34.790156+00:00"
+      "observed_at": "2026-10-21T07:13:16.265684+00:00"
     },
     {
       "source": "RASIN",
@@ -35392,7 +35416,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-21T05:54:34.790334+00:00"
+      "observed_at": "2026-10-21T07:13:16.265795+00:00"
     },
     {
       "source": "RASIN",
@@ -35405,7 +35429,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-21T05:54:34.790495+00:00"
+      "observed_at": "2026-10-21T07:13:16.265876+00:00"
     },
     {
       "source": "RASIN",
@@ -35418,7 +35442,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-21T05:54:34.790681+00:00"
+      "observed_at": "2026-10-21T07:13:16.265945+00:00"
     },
     {
       "source": "RASIN",
@@ -35431,7 +35455,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-21T05:54:34.790832+00:00"
+      "observed_at": "2026-10-21T07:13:16.266015+00:00"
     },
     {
       "source": "RASIN",
@@ -35444,7 +35468,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-21T05:54:34.791138+00:00"
+      "observed_at": "2026-10-21T07:13:16.266164+00:00"
     },
     {
       "source": "RASIN",
@@ -35457,7 +35481,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/audemarspiguet_price/",
-      "observed_at": "2026-10-21T05:54:36.823812+00:00"
+      "observed_at": "2026-10-21T07:13:18.417109+00:00"
     },
     {
       "source": "RASIN",
@@ -35470,7 +35494,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/audemarspiguet_price/",
-      "observed_at": "2026-10-21T05:54:36.824115+00:00"
+      "observed_at": "2026-10-21T07:13:18.417253+00:00"
     },
     {
       "source": "RASIN",
@@ -35483,7 +35507,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/audemarspiguet_price/",
-      "observed_at": "2026-10-21T05:54:36.824264+00:00"
+      "observed_at": "2026-10-21T07:13:18.417327+00:00"
     },
     {
       "source": "RASIN",
@@ -35496,7 +35520,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/omega_price/",
-      "observed_at": "2026-10-21T05:54:41.385473+00:00"
+      "observed_at": "2026-10-21T07:13:23.783870+00:00"
     },
     {
       "source": "なんぼや",
@@ -35509,7 +35533,7 @@
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-10-21T05:54:43.844878+00:00"
+      "observed_at": "2026-10-21T07:13:26.507307+00:00"
     },
     {
       "source": "なんぼや",
@@ -35522,7 +35546,7 @@
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-10-21T05:54:43.845012+00:00"
+      "observed_at": "2026-10-21T07:13:26.507387+00:00"
     },
     {
       "source": "なんぼや",
@@ -35535,7 +35559,7 @@
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-10-21T05:54:43.845079+00:00"
+      "observed_at": "2026-10-21T07:13:26.507422+00:00"
     },
     {
       "source": "なんぼや",
@@ -35548,7 +35572,7 @@
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-10-21T05:54:43.845253+00:00"
+      "observed_at": "2026-10-21T07:13:26.507504+00:00"
     },
     {
       "source": "ブラリバ",
@@ -35561,7 +35585,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/purchase-watch/rolex",
-      "observed_at": "2026-10-21T05:54:51.286609+00:00"
+      "observed_at": "2026-10-21T07:13:33.398767+00:00"
     },
     {
       "source": "ブラリバ",
@@ -35574,7 +35598,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/patek-philippe",
-      "observed_at": "2026-10-21T05:54:54.301944+00:00"
+      "observed_at": "2026-10-21T07:13:36.453272+00:00"
     },
     {
       "source": "ブラリバ",
@@ -35587,7 +35611,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/patek-philippe",
-      "observed_at": "2026-10-21T05:54:54.302149+00:00"
+      "observed_at": "2026-10-21T07:13:36.453351+00:00"
     },
     {
       "source": "ブラリバ",
@@ -35600,7 +35624,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/patek-philippe",
-      "observed_at": "2026-10-21T05:54:54.302316+00:00"
+      "observed_at": "2026-10-21T07:13:36.453416+00:00"
     },
     {
       "source": "ブラリバ",
@@ -35613,7 +35637,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/omega",
-      "observed_at": "2026-10-21T05:54:55.768058+00:00"
+      "observed_at": "2026-10-21T07:13:37.683881+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -35621,12 +35645,12 @@
       "variant": "白 黑",
       "label": "126500LN",
       "new_price": 6100000,
-      "used_price": 6080000,
+      "used_price": 5800000,
       "quote_type": "public_buyback",
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/daytona/ref_126500LN/",
-      "observed_at": "2026-10-21T05:55:06.673279+00:00"
+      "observed_at": "2026-10-21T07:13:51.820103+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -35639,7 +35663,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/daytona/ref_116500LN/",
-      "observed_at": "2026-10-21T05:55:08.872899+00:00"
+      "observed_at": "2026-10-21T07:13:53.808044+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -35652,7 +35676,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/submariner/ref_126610LN/",
-      "observed_at": "2026-10-21T05:55:11.822713+00:00"
+      "observed_at": "2026-10-21T07:13:56.702460+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -35665,7 +35689,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/submariner/ref_126610LV/",
-      "observed_at": "2026-10-21T05:55:14.519346+00:00"
+      "observed_at": "2026-10-21T07:13:59.412487+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -35678,7 +35702,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/submariner/ref_124060/",
-      "observed_at": "2026-10-21T05:55:16.537665+00:00"
+      "observed_at": "2026-10-21T07:14:01.241509+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -35691,11 +35715,12 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/datejust/ref_126334/",
-      "observed_at": "2026-10-21T05:55:20.769981+00:00"
+      "observed_at": "2026-10-21T07:14:05.371117+00:00"
     }
   ],
   "jp_source_summary": {
     "KOMEHYO": 1,
+    "QUARK": 1,
     "RASIN": 11,
     "なんぼや": 4,
     "ブラリバ": 5,
@@ -35706,14 +35731,14 @@
     "strategy": "board_refs_only",
     "targets_planned": 11,
     "targets_searched": 11,
-    "current_scan_items": 11,
+    "current_scan_items": 9,
     "saved_recent_items": 1036,
     "min_price_cny": 30000,
     "retention_days": 14,
     "detail_verify_limit": 140,
-    "detail_verified_items": 1,
-    "detail_unverified_items": 10,
-    "items_with_area": 11,
+    "detail_verified_items": 0,
+    "detail_unverified_items": 9,
+    "items_with_area": 9,
     "priority_refs": [
       "126500LN",
       "214270",
@@ -36392,7 +36417,7 @@
     "require_ref_in_title": true,
     "exclude_collection_floor_price": true,
     "send_status": "draft_only_until_channel_connected",
-    "generated_at": "2026-10-21T05:56:26.899377+00:00",
+    "generated_at": "2026-10-21T07:15:03.650926+00:00",
     "fx_jpy_to_cny": 0.042271
   }
 }
