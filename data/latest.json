@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-24T04:55:14.431099+00:00",
+  "generated_at": "2026-10-24T05:56:03.200090+00:00",
   "runner": "github-actions-home-exit-targeted",
-  "goofish_status": "blocked_or_expired",
+  "goofish_status": "ok",
   "items": [
     {
       "item_id": "979029756038",
@@ -24,8 +24,8 @@
       "parsed_ref": "15550ST",
       "risk_level": "low",
       "first_seen_at": "2026-10-19T10:02:16.557604+00:00",
-      "last_seen_at": "2026-10-24T03:58:37.843263+00:00",
-      "seen_in_latest_scan": false,
+      "last_seen_at": "2026-10-24T05:55:42.724897+00:00",
+      "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
         "ref": "15550ST",
@@ -59,8 +59,8 @@
       "parsed_ref": "15550ST",
       "risk_level": "low",
       "first_seen_at": "2026-10-23T10:57:21.531414+00:00",
-      "last_seen_at": "2026-10-24T03:58:37.843263+00:00",
-      "seen_in_latest_scan": false,
+      "last_seen_at": "2026-10-24T05:55:42.724897+00:00",
+      "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
         "ref": "15550ST",
@@ -71,6 +71,41 @@
       "year_label": "2025",
       "warning_keywords": [],
       "suspicious_keyword": null
+    },
+    {
+      "item_id": "973270034009",
+      "keyword": "爱彼 15550ST",
+      "target_ref": "15550ST.OO.1356ST.08",
+      "target_source": "trend-fallback",
+      "title": "爱彼15550st 蓝面37mm 22年50周年款 全套国行【已售 高价收同款】",
+      "price_cny": 310000,
+      "search_price_cny": 310000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 31 万 累计降价18000.00元",
+      "detail_title_match": false,
+      "seller": "广东 百分百好评",
+      "area": "广东",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=973270034009&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "15550ST",
+      "risk_level": "low",
+      "first_seen_at": "2026-10-24T05:55:42.724897+00:00",
+      "last_seen_at": "2026-10-24T05:55:42.724897+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": false,
+        "ref": "15550ST",
+        "quote_count": 0
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "全套",
+      "year_label": "2022",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
     },
     {
       "item_id": "1072321483664",
@@ -93,8 +128,8 @@
       "parsed_ref": "5396R",
       "risk_level": "low",
       "first_seen_at": "2026-10-13T11:43:30.949883+00:00",
-      "last_seen_at": "2026-10-24T03:58:29.396522+00:00",
-      "seen_in_latest_scan": false,
+      "last_seen_at": "2026-10-24T05:55:34.944418+00:00",
+      "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
         "ref": "5396R",
@@ -128,8 +163,8 @@
       "parsed_ref": "5396R",
       "risk_level": "low",
       "first_seen_at": "2026-10-13T16:45:28.521608+00:00",
-      "last_seen_at": "2026-10-24T03:58:29.396522+00:00",
-      "seen_in_latest_scan": false,
+      "last_seen_at": "2026-10-24T05:55:34.944418+00:00",
+      "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
         "ref": "5396R",
@@ -138,6 +173,426 @@
       "condition_label": "99新",
       "completeness_label": "全套",
       "year_label": "2021",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1045415647911",
+      "keyword": "百达翡丽 5396R",
+      "target_ref": "5396R",
+      "target_source": "trend-fallback",
+      "title": "百达翡丽5396r白盘 2025年库存未使用全新现货",
+      "price_cny": 340000,
+      "search_price_cny": 340000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 34 万 累计降价10000.00元",
+      "detail_title_match": false,
+      "seller": "广东 百分百好评",
+      "area": "广东",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1045415647911&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "5396R",
+      "risk_level": "low",
+      "first_seen_at": "2026-10-19T17:53:58.721598+00:00",
+      "last_seen_at": "2026-10-24T05:55:34.944418+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": false,
+        "ref": "5396R",
+        "quote_count": 0
+      },
+      "condition_label": "全新/未使用",
+      "completeness_label": "附件未注明",
+      "year_label": "2025",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1095521568246",
+      "keyword": "百达翡丽 5396R",
+      "target_ref": "5396R",
+      "target_source": "trend-fallback",
+      "title": "百达翡丽/复杂功能时计系列 5396R-016 /26年5月 全套未使用#Patek Philippe/百达翡丽 #热销男表大集合 #经典名表换新",
+      "price_cny": 360000,
+      "search_price_cny": 360000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 36 万",
+      "detail_title_match": false,
+      "seller": "北京 百分百好评",
+      "area": "北京",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1095521568246&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "5396R",
+      "risk_level": "low",
+      "first_seen_at": "2026-10-23T19:06:02.156697+00:00",
+      "last_seen_at": "2026-10-24T05:55:34.944418+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": false,
+        "ref": "5396R",
+        "quote_count": 0
+      },
+      "condition_label": "全新/未使用",
+      "completeness_label": "全套",
+      "year_label": "2026",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1091663302699",
+      "keyword": "百达翡丽 5396R",
+      "target_ref": "5396R",
+      "target_source": "trend-fallback",
+      "title": "百达翡丽5396R，满足百达翡丽正装款基本需求，深邃蓝面 T 钻刻度，盘面布局均匀，标志性灯笼扣 ，二手单表，品相完美状态，好价",
+      "price_cny": 300000,
+      "search_price_cny": 300000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 30 万 2人想要",
+      "detail_title_match": false,
+      "seller": "广东 回复超快",
+      "area": "广东",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1091663302699&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "5396R",
+      "risk_level": "low",
+      "first_seen_at": "2026-10-19T08:09:38.971494+00:00",
+      "last_seen_at": "2026-10-24T05:55:34.944418+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": false,
+        "ref": "5396R",
+        "quote_count": 0
+      },
+      "condition_label": "二手/自用",
+      "completeness_label": "单表",
+      "year_label": null,
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1085047703020",
+      "keyword": "百达翡丽 5396R",
+      "target_ref": "5396R",
+      "target_source": "trend-fallback",
+      "title": "百达翡丽5396R-011复杂功能时计，18K玫瑰金白盘面， 38.5mm表径。自动机械机芯，324S石英机芯，日期、星期、月份、年历加月相显示，专柜公价579600。 二手百达翡丽5396r白盘 23年卡 极品成色 38.5mm表径 18k玫瑰金 5396R-011 好价分享 一手现货秒发 支持...",
+      "price_cny": 310000,
+      "search_price_cny": 310000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 31 万 5人想要",
+      "detail_title_match": false,
+      "seller": "广东 百分百好评",
+      "area": "广东",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1085047703020&categoryId=126916028",
+      "image_url": "//img.alicdn.com/bao/uploaded/i2/1672803407/O1CN019fAZ8ePCaTH2vHAO_!!4611686018427384911-0-xy_item.jpg_450x10000Q90.jpg_.webp",
+      "publish_time": null,
+      "parsed_ref": "5396R",
+      "risk_level": "low",
+      "first_seen_at": "2026-10-19T10:02:08.333865+00:00",
+      "last_seen_at": "2026-10-24T05:55:34.944418+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": false,
+        "ref": "5396R",
+        "quote_count": 0
+      },
+      "condition_label": "二手/自用",
+      "completeness_label": "附件未注明",
+      "year_label": "2023",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1077465719490",
+      "keyword": "百达翡丽 5396R",
+      "target_ref": "5396R",
+      "target_source": "trend-fallback",
+      "title": "百达翡丽5396R-011玫瑰金白盘 26年4月未使用全套 灯笼折叠扣 38.5mm 公价579600 上海店现货",
+      "price_cny": 350000,
+      "search_price_cny": 350000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 35 万",
+      "detail_title_match": false,
+      "seller": "上海 百分百好评",
+      "area": "上海",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1077465719490&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "5396R",
+      "risk_level": "low",
+      "first_seen_at": "2026-10-23T08:02:52.489171+00:00",
+      "last_seen_at": "2026-10-24T05:55:34.944418+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": false,
+        "ref": "5396R",
+        "quote_count": 0
+      },
+      "condition_label": "全新/未使用",
+      "completeness_label": "全套",
+      "year_label": "2026",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1057948713994",
+      "keyword": "百达翡丽 5396R",
+      "target_ref": "5396R",
+      "target_source": "trend-fallback",
+      "title": "百达翡丽5396R-011，18K玫瑰金表壳，38.5mm表 径，自动机械机芯 乳白色表盘，星期、日期、月相、年历功能 单表，保存很好，成色几乎全新，走时精准 附件：13年全套 Patek Philippe/百达翡丽 热销男表大集合",
+      "price_cny": 210000,
+      "search_price_cny": 210000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 21 万 ¥218000",
+      "detail_title_match": false,
+      "seller": "上海",
+      "area": "上海",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1057948713994&categoryId=126916028",
+      "image_url": "//img.alicdn.com/bao/uploaded/i4/2219314062739/O1CN01o3odUj1W6VyCJP41c_!!4611686018427381139-53-xy_item.heic_450x10000Q90.jpg_.webp",
+      "publish_time": null,
+      "parsed_ref": "5396R",
+      "risk_level": "low",
+      "first_seen_at": "2026-10-19T15:02:52.600158+00:00",
+      "last_seen_at": "2026-10-24T05:55:34.944418+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": false,
+        "ref": "5396R",
+        "quote_count": 0
+      },
+      "condition_label": "全新/未使用",
+      "completeness_label": "单表",
+      "year_label": "2013",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1077618239152",
+      "keyword": "百达翡丽 5396R",
+      "target_ref": "5396R",
+      "target_source": "trend-fallback",
+      "title": "百达翡丽5396R-011玫瑰金白盘 26年4月未使用全套 灯笼折叠扣 38.5mm 公价579600 上海店现货",
+      "price_cny": 350000,
+      "search_price_cny": 350000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 35 万",
+      "detail_title_match": false,
+      "seller": "上海",
+      "area": "上海",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1077618239152&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "5396R",
+      "risk_level": "low",
+      "first_seen_at": "2026-10-23T09:00:38.354266+00:00",
+      "last_seen_at": "2026-10-24T05:55:34.944418+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": false,
+        "ref": "5396R",
+        "quote_count": 0
+      },
+      "condition_label": "全新/未使用",
+      "completeness_label": "全套",
+      "year_label": "2026",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1087898594600",
+      "keyword": "百达翡丽 5396R",
+      "target_ref": "5396R",
+      "target_source": "trend-fallback",
+      "title": "百达翡丽复杂功能时计系列5396R 38.5表径 蓝盘 百达翡丽复杂功能时计系列5396R38.5表径 蓝盘 双P印记19年保卡 全套现货好价",
+      "price_cny": 310000,
+      "search_price_cny": 310000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 31 万",
+      "detail_title_match": false,
+      "seller": "广东 卖家信用优秀",
+      "area": "广东",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1087898594600&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "5396R",
+      "risk_level": "low",
+      "first_seen_at": "2026-10-19T08:09:38.971494+00:00",
+      "last_seen_at": "2026-10-24T05:55:34.944418+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": false,
+        "ref": "5396R",
+        "quote_count": 0
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "全套",
+      "year_label": "2019",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1094289768111",
+      "keyword": "百达翡丽 5396R",
+      "target_ref": "5396R",
+      "target_source": "trend-fallback",
+      "title": "【2020年全套】百达翡丽5396R-012白盘 复杂功能时计系列 大月相白盘 38.5表径 玫瑰金材质 现货好价",
+      "price_cny": 240000,
+      "search_price_cny": 240000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 24 万 累计降价99%",
+      "detail_title_match": false,
+      "seller": "广东",
+      "area": "广东",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1094289768111&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "5396R",
+      "risk_level": "low",
+      "first_seen_at": "2026-10-19T14:07:05.421397+00:00",
+      "last_seen_at": "2026-10-24T05:55:34.944418+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": false,
+        "ref": "5396R",
+        "quote_count": 0
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "全套",
+      "year_label": "2020",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1075438834774",
+      "keyword": "百达翡丽 5396R",
+      "target_ref": "5396R",
+      "target_source": "trend-fallback",
+      "title": "百达翡丽复杂功能时计系列5396R-011白盘 38.5mm表径 自动机械 18k玫瑰金材质 16年新卡极品全套 价格不错 现货秒发",
+      "price_cny": 220000,
+      "search_price_cny": 220000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 22 万 累计降价5000.00元",
+      "detail_title_match": false,
+      "seller": "上海",
+      "area": "上海",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1075438834774&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "5396R",
+      "risk_level": "low",
+      "first_seen_at": "2026-10-20T02:58:09.964118+00:00",
+      "last_seen_at": "2026-10-24T05:55:34.944418+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": false,
+        "ref": "5396R",
+        "quote_count": 0
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "全套",
+      "year_label": "2016",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "1087911602711",
+      "keyword": "百达翡丽 5396R",
+      "target_ref": "5396R",
+      "target_source": "trend-fallback",
+      "title": "百达翡丽复杂功能时计系列5396R-011白盘 16年新卡极品全套二手 38.5mm表径 18k玫瑰金材质 背透自动机械 日期星期月份年份显示 月相 功能价格不错 现货秒发",
+      "price_cny": 220000,
+      "search_price_cny": 220000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 22 万 1人想要",
+      "detail_title_match": false,
+      "seller": "上海",
+      "area": "上海",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=1087911602711&categoryId=126916028",
+      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
+      "publish_time": null,
+      "parsed_ref": "5396R",
+      "risk_level": "low",
+      "first_seen_at": "2026-10-20T16:58:29.704668+00:00",
+      "last_seen_at": "2026-10-24T05:55:34.944418+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": false,
+        "ref": "5396R",
+        "quote_count": 0
+      },
+      "condition_label": "二手/自用",
+      "completeness_label": "全套",
+      "year_label": "2016",
+      "warning_keywords": [],
+      "suspicious_keyword": null,
+      "ref_source": "keyword_or_title_repair"
+    },
+    {
+      "item_id": "735810851505",
+      "keyword": "百达翡丽 5065/1A",
+      "target_ref": "5065/1A",
+      "target_source": "trend-fallback",
+      "title": "百达翡丽 Aquanaut系列 Ref.5065-1A-001余文乐同款 自动机械 精钢 38mm 2005年全套 国内唯一有两条原装表带的全套现货。",
+      "price_cny": 360000,
+      "search_price_cny": 360000,
+      "price_verified": false,
+      "price_source": "search_card_unverified",
+      "price_raw_text": "¥ 36 万 27人想要",
+      "detail_title_match": false,
+      "seller": "上海 卖家信用优秀",
+      "area": "上海",
+      "badge": "",
+      "item_url": "https://www.goofish.com/item?id=735810851505&categoryId=126916028",
+      "image_url": "//img.alicdn.com/bao/uploaded/i2/O1CN01yrXHvX22LE7suRyLn_!!53-fleamarket.heic_450x10000Q90.jpg_.webp",
+      "publish_time": null,
+      "parsed_ref": "5065",
+      "risk_level": "low",
+      "first_seen_at": "2026-10-13T06:54:20.542389+00:00",
+      "last_seen_at": "2026-10-24T05:55:31.303899+00:00",
+      "seen_in_latest_scan": true,
+      "jp_compare": {
+        "matched": false,
+        "ref": "5065",
+        "quote_count": 0
+      },
+      "condition_label": "成色未注明",
+      "completeness_label": "全套",
+      "year_label": "2005",
       "warning_keywords": [],
       "suspicious_keyword": null,
       "ref_source": "keyword_or_title_repair"
@@ -177,356 +632,6 @@
       "suspicious_keyword": null
     },
     {
-      "item_id": "1045415647911",
-      "keyword": "百达翡丽 5396R",
-      "target_ref": "5396R",
-      "target_source": "trend-fallback",
-      "title": "百达翡丽5396r白盘 2025年库存未使用全新现货",
-      "price_cny": 340000,
-      "search_price_cny": 340000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 34 万 累计降价10000.00元",
-      "detail_title_match": false,
-      "seller": "广东 百分百好评",
-      "area": "广东",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1045415647911&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "5396R",
-      "risk_level": "low",
-      "first_seen_at": "2026-10-19T17:53:58.721598+00:00",
-      "last_seen_at": "2026-10-24T03:58:29.396522+00:00",
-      "seen_in_latest_scan": false,
-      "jp_compare": {
-        "matched": false,
-        "ref": "5396R",
-        "quote_count": 0
-      },
-      "condition_label": "全新/未使用",
-      "completeness_label": "附件未注明",
-      "year_label": "2025",
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
-      "item_id": "1095521568246",
-      "keyword": "百达翡丽 5396R",
-      "target_ref": "5396R",
-      "target_source": "trend-fallback",
-      "title": "百达翡丽/复杂功能时计系列 5396R-016 /26年5月 全套未使用#Patek Philippe/百达翡丽 #热销男表大集合 #经典名表换新",
-      "price_cny": 360000,
-      "search_price_cny": 360000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 36 万",
-      "detail_title_match": false,
-      "seller": "北京 百分百好评",
-      "area": "北京",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1095521568246&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "5396R",
-      "risk_level": "low",
-      "first_seen_at": "2026-10-23T19:06:02.156697+00:00",
-      "last_seen_at": "2026-10-24T03:58:29.396522+00:00",
-      "seen_in_latest_scan": false,
-      "jp_compare": {
-        "matched": false,
-        "ref": "5396R",
-        "quote_count": 0
-      },
-      "condition_label": "全新/未使用",
-      "completeness_label": "全套",
-      "year_label": "2026",
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
-      "item_id": "1091663302699",
-      "keyword": "百达翡丽 5396R",
-      "target_ref": "5396R",
-      "target_source": "trend-fallback",
-      "title": "百达翡丽5396R，满足百达翡丽正装款基本需求，深邃蓝面 T 钻刻度，盘面布局均匀，标志性灯笼扣 ，二手单表，品相完美状态，好价",
-      "price_cny": 300000,
-      "search_price_cny": 300000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 30 万 2人想要",
-      "detail_title_match": false,
-      "seller": "广东 回复超快",
-      "area": "广东",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1091663302699&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "5396R",
-      "risk_level": "low",
-      "first_seen_at": "2026-10-19T08:09:38.971494+00:00",
-      "last_seen_at": "2026-10-24T03:58:29.396522+00:00",
-      "seen_in_latest_scan": false,
-      "jp_compare": {
-        "matched": false,
-        "ref": "5396R",
-        "quote_count": 0
-      },
-      "condition_label": "二手/自用",
-      "completeness_label": "单表",
-      "year_label": null,
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
-      "item_id": "1085047703020",
-      "keyword": "百达翡丽 5396R",
-      "target_ref": "5396R",
-      "target_source": "trend-fallback",
-      "title": "百达翡丽5396R-011复杂功能时计，18K玫瑰金白盘面， 38.5mm表径。自动机械机芯，324S石英机芯，日期、星期、月份、年历加月相显示，专柜公价579600。 二手百达翡丽5396r白盘 23年卡 极品成色 38.5mm表径 18k玫瑰金 5396R-011 好价分享 一手现货秒发 支持...",
-      "price_cny": 310000,
-      "search_price_cny": 310000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 31 万 5人想要",
-      "detail_title_match": false,
-      "seller": "广东 百分百好评",
-      "area": "广东",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1085047703020&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "5396R",
-      "risk_level": "low",
-      "first_seen_at": "2026-10-19T10:02:08.333865+00:00",
-      "last_seen_at": "2026-10-24T03:58:29.396522+00:00",
-      "seen_in_latest_scan": false,
-      "jp_compare": {
-        "matched": false,
-        "ref": "5396R",
-        "quote_count": 0
-      },
-      "condition_label": "二手/自用",
-      "completeness_label": "附件未注明",
-      "year_label": "2023",
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
-      "item_id": "1077465719490",
-      "keyword": "百达翡丽 5396R",
-      "target_ref": "5396R",
-      "target_source": "trend-fallback",
-      "title": "百达翡丽5396R-011玫瑰金白盘 26年4月未使用全套 灯笼折叠扣 38.5mm 公价579600 上海店现货",
-      "price_cny": 350000,
-      "search_price_cny": 350000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 35 万",
-      "detail_title_match": false,
-      "seller": "上海 百分百好评",
-      "area": "上海",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1077465719490&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "5396R",
-      "risk_level": "low",
-      "first_seen_at": "2026-10-23T08:02:52.489171+00:00",
-      "last_seen_at": "2026-10-24T03:58:29.396522+00:00",
-      "seen_in_latest_scan": false,
-      "jp_compare": {
-        "matched": false,
-        "ref": "5396R",
-        "quote_count": 0
-      },
-      "condition_label": "全新/未使用",
-      "completeness_label": "全套",
-      "year_label": "2026",
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
-      "item_id": "1057948713994",
-      "keyword": "百达翡丽 5396R",
-      "target_ref": "5396R",
-      "target_source": "trend-fallback",
-      "title": "百达翡丽5396R-011，18K玫瑰金表壳，38.5mm表 径，自动机械机芯 乳白色表盘，星期、日期、月相、年历功能 单表，保存很好，成色几乎全新，走时精准 附件：13年全套 Patek Philippe/百达翡丽 热销男表大集合",
-      "price_cny": 210000,
-      "search_price_cny": 210000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 21 万 ¥218000",
-      "detail_title_match": false,
-      "seller": "上海",
-      "area": "上海",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1057948713994&categoryId=126916028",
-      "image_url": "//img.alicdn.com/bao/uploaded/i4/2219314062739/O1CN01o3odUj1W6VyCJP41c_!!4611686018427381139-53-xy_item.heic_450x10000Q90.jpg_.webp",
-      "publish_time": null,
-      "parsed_ref": "5396R",
-      "risk_level": "low",
-      "first_seen_at": "2026-10-19T15:02:52.600158+00:00",
-      "last_seen_at": "2026-10-24T03:58:29.396522+00:00",
-      "seen_in_latest_scan": false,
-      "jp_compare": {
-        "matched": false,
-        "ref": "5396R",
-        "quote_count": 0
-      },
-      "condition_label": "全新/未使用",
-      "completeness_label": "单表",
-      "year_label": "2013",
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
-      "item_id": "1077618239152",
-      "keyword": "百达翡丽 5396R",
-      "target_ref": "5396R",
-      "target_source": "trend-fallback",
-      "title": "百达翡丽5396R-011玫瑰金白盘 26年4月未使用全套 灯笼折叠扣 38.5mm 公价579600 上海店现货",
-      "price_cny": 350000,
-      "search_price_cny": 350000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 35 万",
-      "detail_title_match": false,
-      "seller": "上海",
-      "area": "上海",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1077618239152&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "5396R",
-      "risk_level": "low",
-      "first_seen_at": "2026-10-23T09:00:38.354266+00:00",
-      "last_seen_at": "2026-10-24T03:58:29.396522+00:00",
-      "seen_in_latest_scan": false,
-      "jp_compare": {
-        "matched": false,
-        "ref": "5396R",
-        "quote_count": 0
-      },
-      "condition_label": "全新/未使用",
-      "completeness_label": "全套",
-      "year_label": "2026",
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
-      "item_id": "1087898594600",
-      "keyword": "百达翡丽 5396R",
-      "target_ref": "5396R",
-      "target_source": "trend-fallback",
-      "title": "百达翡丽复杂功能时计系列5396R 38.5表径 蓝盘 百达翡丽复杂功能时计系列5396R38.5表径 蓝盘 双P印记19年保卡 全套现货好价",
-      "price_cny": 310000,
-      "search_price_cny": 310000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 31 万",
-      "detail_title_match": false,
-      "seller": "广东 卖家信用优秀",
-      "area": "广东",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1087898594600&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "5396R",
-      "risk_level": "low",
-      "first_seen_at": "2026-10-19T08:09:38.971494+00:00",
-      "last_seen_at": "2026-10-24T03:58:29.396522+00:00",
-      "seen_in_latest_scan": false,
-      "jp_compare": {
-        "matched": false,
-        "ref": "5396R",
-        "quote_count": 0
-      },
-      "condition_label": "成色未注明",
-      "completeness_label": "全套",
-      "year_label": "2019",
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
-      "item_id": "1094289768111",
-      "keyword": "百达翡丽 5396R",
-      "target_ref": "5396R",
-      "target_source": "trend-fallback",
-      "title": "【2020年全套】百达翡丽5396R-012白盘 复杂功能时计系列 大月相白盘 38.5表径 玫瑰金材质 现货好价",
-      "price_cny": 240000,
-      "search_price_cny": 240000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 24 万 累计降价99%",
-      "detail_title_match": false,
-      "seller": "广东",
-      "area": "广东",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1094289768111&categoryId=126916028",
-      "image_url": "//img.alicdn.com/bao/uploaded/i3/2223223376064/O1CN01qrdLMNyRKYJ2vmNw_!!4611686018427381952-0-xy_item.jpg_450x10000Q90.jpg_.webp",
-      "publish_time": null,
-      "parsed_ref": "5396R",
-      "risk_level": "low",
-      "first_seen_at": "2026-10-19T14:07:05.421397+00:00",
-      "last_seen_at": "2026-10-24T03:58:29.396522+00:00",
-      "seen_in_latest_scan": false,
-      "jp_compare": {
-        "matched": false,
-        "ref": "5396R",
-        "quote_count": 0
-      },
-      "condition_label": "成色未注明",
-      "completeness_label": "全套",
-      "year_label": "2020",
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
-      "item_id": "1075438834774",
-      "keyword": "百达翡丽 5396R",
-      "target_ref": "5396R",
-      "target_source": "trend-fallback",
-      "title": "百达翡丽复杂功能时计系列5396R-011白盘 38.5mm表径 自动机械 18k玫瑰金材质 16年新卡极品全套 价格不错 现货秒发",
-      "price_cny": 220000,
-      "search_price_cny": 220000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 22 万 累计降价5000.00元",
-      "detail_title_match": false,
-      "seller": "上海",
-      "area": "上海",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1075438834774&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "5396R",
-      "risk_level": "low",
-      "first_seen_at": "2026-10-20T02:58:09.964118+00:00",
-      "last_seen_at": "2026-10-24T03:58:29.396522+00:00",
-      "seen_in_latest_scan": false,
-      "jp_compare": {
-        "matched": false,
-        "ref": "5396R",
-        "quote_count": 0
-      },
-      "condition_label": "成色未注明",
-      "completeness_label": "全套",
-      "year_label": "2016",
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
       "item_id": "1090117707889",
       "keyword": "百达翡丽 5396R",
       "target_ref": "5396R",
@@ -557,41 +662,6 @@
       "condition_label": "成色未注明",
       "completeness_label": "单表",
       "year_label": null,
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
-      "item_id": "735810851505",
-      "keyword": "百达翡丽 5065/1A",
-      "target_ref": "5065/1A",
-      "target_source": "trend-fallback",
-      "title": "百达翡丽 Aquanaut系列 Ref.5065-1A-001余文乐同款 自动机械 精钢 38mm 2005年全套 国内唯一有两条原装表带的全套现货。",
-      "price_cny": 360000,
-      "search_price_cny": 360000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 36 万 27人想要",
-      "detail_title_match": false,
-      "seller": "上海 卖家信用优秀",
-      "area": "上海",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=735810851505&categoryId=126916028",
-      "image_url": "//img.alicdn.com/bao/uploaded/i2/O1CN01yrXHvX22LE7suRyLn_!!53-fleamarket.heic_450x10000Q90.jpg_.webp",
-      "publish_time": null,
-      "parsed_ref": "5065",
-      "risk_level": "low",
-      "first_seen_at": "2026-10-13T06:54:20.542389+00:00",
-      "last_seen_at": "2026-10-24T03:58:25.709548+00:00",
-      "seen_in_latest_scan": false,
-      "jp_compare": {
-        "matched": false,
-        "ref": "5065",
-        "quote_count": 0
-      },
-      "condition_label": "成色未注明",
-      "completeness_label": "全套",
-      "year_label": "2005",
       "warning_keywords": [],
       "suspicious_keyword": null,
       "ref_source": "keyword_or_title_repair"
@@ -1394,41 +1464,6 @@
       "condition_label": "成色未注明",
       "completeness_label": "单表",
       "year_label": null,
-      "warning_keywords": [],
-      "suspicious_keyword": null,
-      "ref_source": "keyword_or_title_repair"
-    },
-    {
-      "item_id": "1087911602711",
-      "keyword": "百达翡丽 5396R",
-      "target_ref": "5396R",
-      "target_source": "trend-fallback",
-      "title": "百达翡丽复杂功能时计系列5396R-011白盘 16年新卡极品全套二手 38.5mm表径 18k玫瑰金材质 背透自动机械 日期星期月份年份显示 月相 功能价格不错 现货秒发",
-      "price_cny": 220000,
-      "search_price_cny": 220000,
-      "price_verified": false,
-      "price_source": "search_card_unverified",
-      "price_raw_text": "¥ 22 万 1人想要",
-      "detail_title_match": false,
-      "seller": "上海",
-      "area": "上海",
-      "badge": "",
-      "item_url": "https://www.goofish.com/item?id=1087911602711&categoryId=126916028",
-      "image_url": "https://img.alicdn.com/imgextra/i4/O1CN01CYtPWu1MUBqQAUK9D_!!6000000001437-2-tps-2-2.png",
-      "publish_time": null,
-      "parsed_ref": "5396R",
-      "risk_level": "low",
-      "first_seen_at": "2026-10-20T16:58:29.704668+00:00",
-      "last_seen_at": "2026-10-22T13:13:33.190597+00:00",
-      "seen_in_latest_scan": false,
-      "jp_compare": {
-        "matched": false,
-        "ref": "5396R",
-        "quote_count": 0
-      },
-      "condition_label": "二手/自用",
-      "completeness_label": "全套",
-      "year_label": "2016",
       "warning_keywords": [],
       "suspicious_keyword": null,
       "ref_source": "keyword_or_title_repair"
@@ -8839,7 +8874,7 @@
         "ref": "126334",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
+        "conservative_jpy": 3200000,
         "best_jpy": 21787500,
         "sources": [
           "ブラリバ",
@@ -12240,7 +12275,7 @@
         "ref": "126334",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
+        "conservative_jpy": 3200000,
         "best_jpy": 21787500,
         "sources": [
           "ブラリバ",
@@ -30317,7 +30352,7 @@
         "ref": "126334",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
+        "conservative_jpy": 3200000,
         "best_jpy": 21787500,
         "sources": [
           "ブラリバ",
@@ -30426,7 +30461,7 @@
         "ref": "126334",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
+        "conservative_jpy": 3200000,
         "best_jpy": 21787500,
         "sources": [
           "ブラリバ",
@@ -30570,7 +30605,7 @@
         "ref": "126334",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
+        "conservative_jpy": 3200000,
         "best_jpy": 21787500,
         "sources": [
           "ブラリバ",
@@ -30607,7 +30642,7 @@
         "ref": "126334",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
+        "conservative_jpy": 3200000,
         "best_jpy": 21787500,
         "sources": [
           "ブラリバ",
@@ -30752,7 +30787,7 @@
         "ref": "126334",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
+        "conservative_jpy": 3200000,
         "best_jpy": 21787500,
         "sources": [
           "ブラリバ",
@@ -30789,7 +30824,7 @@
         "ref": "126334",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
+        "conservative_jpy": 3200000,
         "best_jpy": 21787500,
         "sources": [
           "ブラリバ",
@@ -30862,7 +30897,7 @@
         "ref": "126334",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
+        "conservative_jpy": 3200000,
         "best_jpy": 21787500,
         "sources": [
           "ブラリバ",
@@ -30899,7 +30934,7 @@
         "ref": "126334",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
+        "conservative_jpy": 3200000,
         "best_jpy": 21787500,
         "sources": [
           "ブラリバ",
@@ -30936,7 +30971,7 @@
         "ref": "126334",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
+        "conservative_jpy": 3200000,
         "best_jpy": 21787500,
         "sources": [
           "ブラリバ",
@@ -31009,7 +31044,7 @@
         "ref": "126334",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
+        "conservative_jpy": 3200000,
         "best_jpy": 21787500,
         "sources": [
           "ブラリバ",
@@ -31046,7 +31081,7 @@
         "ref": "126334",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
+        "conservative_jpy": 3200000,
         "best_jpy": 21787500,
         "sources": [
           "ブラリバ",
@@ -31083,7 +31118,7 @@
         "ref": "126334",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
+        "conservative_jpy": 3200000,
         "best_jpy": 21787500,
         "sources": [
           "ブラリバ",
@@ -31120,7 +31155,7 @@
         "ref": "126334",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
+        "conservative_jpy": 3200000,
         "best_jpy": 21787500,
         "sources": [
           "ブラリバ",
@@ -31157,7 +31192,7 @@
         "ref": "126334",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
+        "conservative_jpy": 3200000,
         "best_jpy": 21787500,
         "sources": [
           "ブラリバ",
@@ -31194,7 +31229,7 @@
         "ref": "126334",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
+        "conservative_jpy": 3200000,
         "best_jpy": 21787500,
         "sources": [
           "ブラリバ",
@@ -31231,7 +31266,7 @@
         "ref": "126334",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
+        "conservative_jpy": 3200000,
         "best_jpy": 21787500,
         "sources": [
           "ブラリバ",
@@ -31303,7 +31338,7 @@
         "ref": "126334",
         "quote_count": 2,
         "basis": "used",
-        "conservative_jpy": 2000000,
+        "conservative_jpy": 3200000,
         "best_jpy": 21787500,
         "sources": [
           "ブラリバ",
@@ -36334,7 +36369,7 @@
       "condition_label": "中古（使用感少）",
       "condition_rank": null,
       "source_url": "https://komehyo.jp/kaitori/watch/",
-      "observed_at": "2026-10-24T04:53:52.823860+00:00"
+      "observed_at": "2026-10-24T05:53:45.986612+00:00"
     },
     {
       "source": "大黒屋",
@@ -36347,7 +36382,7 @@
       "condition_label": "中古",
       "condition_rank": null,
       "source_url": "https://kaitori.e-daikoku.com/brand/shop/ikebukuro-higashiguchi/",
-      "observed_at": "2026-10-24T04:54:00.216908+00:00"
+      "observed_at": "2026-10-24T05:53:53.287876+00:00"
     },
     {
       "source": "大黒屋",
@@ -36360,7 +36395,7 @@
       "condition_label": "中古",
       "condition_rank": null,
       "source_url": "https://kaitori.e-daikoku.com/brand/shop/ikebukuro-higashiguchi/",
-      "observed_at": "2026-10-24T04:54:00.217012+00:00"
+      "observed_at": "2026-10-24T05:53:53.288039+00:00"
     },
     {
       "source": "RASIN",
@@ -36373,7 +36408,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-24T04:54:03.973612+00:00"
+      "observed_at": "2026-10-24T05:53:56.889613+00:00"
     },
     {
       "source": "RASIN",
@@ -36386,7 +36421,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-24T04:54:03.973729+00:00"
+      "observed_at": "2026-10-24T05:53:56.889759+00:00"
     },
     {
       "source": "RASIN",
@@ -36399,7 +36434,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-24T04:54:03.973830+00:00"
+      "observed_at": "2026-10-24T05:53:56.889895+00:00"
     },
     {
       "source": "RASIN",
@@ -36412,7 +36447,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-24T04:54:03.973910+00:00"
+      "observed_at": "2026-10-24T05:53:56.890023+00:00"
     },
     {
       "source": "RASIN",
@@ -36425,7 +36460,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-24T04:54:03.973975+00:00"
+      "observed_at": "2026-10-24T05:53:56.890128+00:00"
     },
     {
       "source": "RASIN",
@@ -36438,7 +36473,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-24T04:54:03.974039+00:00"
+      "observed_at": "2026-10-24T05:53:56.890236+00:00"
     },
     {
       "source": "RASIN",
@@ -36451,7 +36486,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-10-24T04:54:03.974177+00:00"
+      "observed_at": "2026-10-24T05:53:56.890463+00:00"
     },
     {
       "source": "RASIN",
@@ -36464,7 +36499,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/audemarspiguet_price/",
-      "observed_at": "2026-10-24T04:54:06.295322+00:00"
+      "observed_at": "2026-10-24T05:53:59.125028+00:00"
     },
     {
       "source": "RASIN",
@@ -36477,7 +36512,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/audemarspiguet_price/",
-      "observed_at": "2026-10-24T04:54:06.295463+00:00"
+      "observed_at": "2026-10-24T05:53:59.125254+00:00"
     },
     {
       "source": "RASIN",
@@ -36490,7 +36525,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/audemarspiguet_price/",
-      "observed_at": "2026-10-24T04:54:06.295535+00:00"
+      "observed_at": "2026-10-24T05:53:59.125369+00:00"
     },
     {
       "source": "RASIN",
@@ -36503,7 +36538,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/omega_price/",
-      "observed_at": "2026-10-24T04:54:12.148101+00:00"
+      "observed_at": "2026-10-24T05:54:04.952163+00:00"
     },
     {
       "source": "なんぼや",
@@ -36516,7 +36551,7 @@
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-10-24T04:54:14.497214+00:00"
+      "observed_at": "2026-10-24T05:54:07.221637+00:00"
     },
     {
       "source": "なんぼや",
@@ -36529,7 +36564,7 @@
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-10-24T04:54:14.497291+00:00"
+      "observed_at": "2026-10-24T05:54:07.221761+00:00"
     },
     {
       "source": "なんぼや",
@@ -36542,7 +36577,7 @@
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-10-24T04:54:14.497323+00:00"
+      "observed_at": "2026-10-24T05:54:07.221812+00:00"
     },
     {
       "source": "なんぼや",
@@ -36555,7 +36590,7 @@
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-10-24T04:54:14.497391+00:00"
+      "observed_at": "2026-10-24T05:54:07.221935+00:00"
     },
     {
       "source": "ブラリバ",
@@ -36568,7 +36603,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/purchase-watch/rolex",
-      "observed_at": "2026-10-24T04:54:22.146371+00:00"
+      "observed_at": "2026-10-24T05:54:13.996098+00:00"
     },
     {
       "source": "ブラリバ",
@@ -36581,7 +36616,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/purchase-watch/rolex",
-      "observed_at": "2026-10-24T04:54:22.146461+00:00"
+      "observed_at": "2026-10-24T05:54:13.996218+00:00"
     },
     {
       "source": "ブラリバ",
@@ -36594,7 +36629,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/purchase-watch/rolex",
-      "observed_at": "2026-10-24T04:54:22.146519+00:00"
+      "observed_at": "2026-10-24T05:54:13.996308+00:00"
     },
     {
       "source": "ブラリバ",
@@ -36607,7 +36642,7 @@
       "condition_label": "実績ランクS",
       "condition_rank": "S",
       "source_url": "https://brandrevalue.com/cat/watch/purchase-watch/rolex",
-      "observed_at": "2026-10-24T04:54:22.146615+00:00"
+      "observed_at": "2026-10-24T05:54:13.996451+00:00"
     },
     {
       "source": "ブラリバ",
@@ -36620,7 +36655,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/patek-philippe",
-      "observed_at": "2026-10-24T04:54:25.164437+00:00"
+      "observed_at": "2026-10-24T05:54:16.758448+00:00"
     },
     {
       "source": "ブラリバ",
@@ -36633,7 +36668,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/patek-philippe",
-      "observed_at": "2026-10-24T04:54:25.164514+00:00"
+      "observed_at": "2026-10-24T05:54:16.758564+00:00"
     },
     {
       "source": "ブラリバ",
@@ -36646,7 +36681,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/patek-philippe",
-      "observed_at": "2026-10-24T04:54:25.164576+00:00"
+      "observed_at": "2026-10-24T05:54:16.758666+00:00"
     },
     {
       "source": "ブラリバ",
@@ -36659,7 +36694,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/omega",
-      "observed_at": "2026-10-24T04:54:26.525454+00:00"
+      "observed_at": "2026-10-24T05:54:18.122162+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -36672,7 +36707,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/daytona/ref_126500LN/",
-      "observed_at": "2026-10-24T04:54:40.492076+00:00"
+      "observed_at": "2026-10-24T05:54:33.604421+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -36685,7 +36720,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/daytona/ref_116500LN/",
-      "observed_at": "2026-10-24T04:54:42.691171+00:00"
+      "observed_at": "2026-10-24T05:54:35.771611+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -36698,7 +36733,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/submariner/ref_126610LN/",
-      "observed_at": "2026-10-24T04:54:46.213061+00:00"
+      "observed_at": "2026-10-24T05:54:39.434066+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -36711,7 +36746,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/submariner/ref_126610LV/",
-      "observed_at": "2026-10-24T04:54:49.526761+00:00"
+      "observed_at": "2026-10-24T05:54:42.687136+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -36724,7 +36759,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/submariner/ref_124060/",
-      "observed_at": "2026-10-24T04:54:52.261563+00:00"
+      "observed_at": "2026-10-24T05:54:44.909403+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -36732,12 +36767,12 @@
       "variant": "白 黑",
       "label": "126334",
       "new_price": 1500000,
-      "used_price": 2000000,
+      "used_price": 3200000,
       "quote_type": "public_buyback",
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/datejust/ref_126334/",
-      "observed_at": "2026-10-24T04:54:57.108551+00:00"
+      "observed_at": "2026-10-24T05:54:49.712816+00:00"
     }
   ],
   "jp_source_summary": {
@@ -36748,21 +36783,19 @@
     "ブラリバ": 8,
     "PREMIER VALUE": 6
   },
-  "errors": [
-    "goofish target 劳力士 126500LN: GOOFISH_LOGIN_EXPIRED"
-  ],
+  "errors": [],
   "goofish_scan": {
     "strategy": "board_refs_only",
     "targets_planned": 11,
-    "targets_searched": 0,
-    "current_scan_items": 0,
-    "saved_recent_items": 1061,
+    "targets_searched": 11,
+    "current_scan_items": 17,
+    "saved_recent_items": 1062,
     "min_price_cny": 30000,
     "retention_days": 14,
     "detail_verify_limit": 140,
     "detail_verified_items": 0,
-    "detail_unverified_items": 0,
-    "items_with_area": 0,
+    "detail_unverified_items": 17,
+    "items_with_area": 17,
     "priority_refs": [
       "126500LN",
       "214270",
@@ -36800,9 +36833,9 @@
     "brand_only_queries": 0
   },
   "goofish_ref_repair": {
-    "repaired_items": 602,
-    "items_with_ref": 682,
-    "total_items": 1061
+    "repaired_items": 603,
+    "items_with_ref": 683,
+    "total_items": 1062
   },
   "manual_inquiry_queue": [
     {
@@ -37441,7 +37474,7 @@
     "require_ref_in_title": true,
     "exclude_collection_floor_price": true,
     "send_status": "draft_only_until_channel_connected",
-    "generated_at": "2026-10-24T04:55:14.778532+00:00",
+    "generated_at": "2026-10-24T05:56:03.734139+00:00",
     "fx_jpy_to_cny": 0.04261
   }
 }
