@@ -3693,7 +3693,7 @@
     "brand_only_queries": 0
   },
   "goofish_ref_repair": {
-    "repaired_items": 80,
+    "repaired_items": 0,
     "items_with_ref": 86,
     "total_items": 90
   },
@@ -3730,7 +3730,7 @@
     "require_ref_in_title": true,
     "exclude_collection_floor_price": true,
     "send_status": "draft_only_until_channel_connected",
-    "generated_at": "2026-10-31T21:56:45.095276+00:00",
+    "generated_at": "2026-10-31T23:39:58.671660+00:00",
     "fx_jpy_to_cny": 0.042311
   }
 }
