@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T01:32:01.487855+00:00",
+  "generated_at": "2026-11-04T03:14:09.684007+00:00",
   "runner": "github-actions-home-exit-targeted",
   "goofish_status": "ok",
   "items": [
@@ -24,7 +24,7 @@
       "parsed_ref": "5065",
       "risk_level": "low",
       "first_seen_at": "2026-10-13T06:54:20.542389+00:00",
-      "last_seen_at": "2026-11-04T01:31:49.164855+00:00",
+      "last_seen_at": "2026-11-04T03:13:57.235100+00:00",
       "seen_in_latest_scan": true,
       "jp_compare": {
         "matched": false,
@@ -2794,46 +2794,7 @@
       "condition_label": "中古（使用感少）",
       "condition_rank": null,
       "source_url": "https://komehyo.jp/kaitori/watch/",
-      "observed_at": "2026-11-04T01:30:16.192598+00:00"
-    },
-    {
-      "source": "QUARK",
-      "ref": "126610LN",
-      "variant": "银",
-      "label": "126610LN",
-      "new_price": null,
-      "used_price": 2210000,
-      "quote_type": "public_buyback",
-      "condition_label": "中古",
-      "condition_rank": null,
-      "source_url": "https://www.909.co.jp/rolex_buy.html",
-      "observed_at": "2026-11-04T01:30:19.158803+00:00"
-    },
-    {
-      "source": "QUARK",
-      "ref": "116500LN",
-      "variant": "银",
-      "label": "116500LN",
-      "new_price": null,
-      "used_price": 2210000,
-      "quote_type": "public_buyback",
-      "condition_label": "中古",
-      "condition_rank": null,
-      "source_url": "https://www.909.co.jp/rolex_buy.html",
-      "observed_at": "2026-11-04T01:30:19.158902+00:00"
-    },
-    {
-      "source": "QUARK",
-      "ref": "214270",
-      "variant": "银",
-      "label": "214270",
-      "new_price": null,
-      "used_price": 2210000,
-      "quote_type": "public_buyback",
-      "condition_label": "中古",
-      "condition_rank": null,
-      "source_url": "https://www.909.co.jp/rolex_buy.html",
-      "observed_at": "2026-11-04T01:30:19.159043+00:00"
+      "observed_at": "2026-11-04T03:12:14.131638+00:00"
     },
     {
       "source": "大黒屋",
@@ -2846,7 +2807,7 @@
       "condition_label": "中古",
       "condition_rank": null,
       "source_url": "https://kaitori.e-daikoku.com/brand/shop/ikebukuro-higashiguchi/",
-      "observed_at": "2026-11-04T01:30:22.499846+00:00"
+      "observed_at": "2026-11-04T03:12:21.133360+00:00"
     },
     {
       "source": "大黒屋",
@@ -2859,7 +2820,7 @@
       "condition_label": "中古",
       "condition_rank": null,
       "source_url": "https://kaitori.e-daikoku.com/brand/shop/ikebukuro-higashiguchi/",
-      "observed_at": "2026-11-04T01:30:22.499992+00:00"
+      "observed_at": "2026-11-04T03:12:21.133483+00:00"
     },
     {
       "source": "RASIN",
@@ -2872,7 +2833,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-11-04T01:30:25.261663+00:00"
+      "observed_at": "2026-11-04T03:12:24.644650+00:00"
     },
     {
       "source": "RASIN",
@@ -2885,7 +2846,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-11-04T01:30:25.261775+00:00"
+      "observed_at": "2026-11-04T03:12:24.644768+00:00"
     },
     {
       "source": "RASIN",
@@ -2898,7 +2859,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-11-04T01:30:25.261886+00:00"
+      "observed_at": "2026-11-04T03:12:24.644874+00:00"
     },
     {
       "source": "RASIN",
@@ -2911,7 +2872,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-11-04T01:30:25.262001+00:00"
+      "observed_at": "2026-11-04T03:12:24.644976+00:00"
     },
     {
       "source": "RASIN",
@@ -2924,7 +2885,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-11-04T01:30:25.262089+00:00"
+      "observed_at": "2026-11-04T03:12:24.645092+00:00"
     },
     {
       "source": "RASIN",
@@ -2937,7 +2898,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-11-04T01:30:25.262187+00:00"
+      "observed_at": "2026-11-04T03:12:24.645229+00:00"
     },
     {
       "source": "RASIN",
@@ -2950,7 +2911,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-11-04T01:30:25.262370+00:00"
+      "observed_at": "2026-11-04T03:12:24.645493+00:00"
     },
     {
       "source": "RASIN",
@@ -2963,7 +2924,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/audemarspiguet_price/",
-      "observed_at": "2026-11-04T01:30:27.044721+00:00"
+      "observed_at": "2026-11-04T03:12:26.982520+00:00"
     },
     {
       "source": "RASIN",
@@ -2976,7 +2937,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/audemarspiguet_price/",
-      "observed_at": "2026-11-04T01:30:27.044895+00:00"
+      "observed_at": "2026-11-04T03:12:26.982698+00:00"
     },
     {
       "source": "RASIN",
@@ -2989,7 +2950,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/audemarspiguet_price/",
-      "observed_at": "2026-11-04T01:30:27.045004+00:00"
+      "observed_at": "2026-11-04T03:12:26.982789+00:00"
     },
     {
       "source": "RASIN",
@@ -3002,7 +2963,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/omega_price/",
-      "observed_at": "2026-11-04T01:30:31.437167+00:00"
+      "observed_at": "2026-11-04T03:12:32.701314+00:00"
     },
     {
       "source": "なんぼや",
@@ -3015,7 +2976,7 @@
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-11-04T01:30:33.397920+00:00"
+      "observed_at": "2026-11-04T03:12:34.933360+00:00"
     },
     {
       "source": "なんぼや",
@@ -3028,7 +2989,7 @@
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-11-04T01:30:33.398041+00:00"
+      "observed_at": "2026-11-04T03:12:34.933485+00:00"
     },
     {
       "source": "なんぼや",
@@ -3041,7 +3002,7 @@
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-11-04T01:30:33.398080+00:00"
+      "observed_at": "2026-11-04T03:12:34.933542+00:00"
     },
     {
       "source": "なんぼや",
@@ -3054,7 +3015,7 @@
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-11-04T01:30:33.398190+00:00"
+      "observed_at": "2026-11-04T03:12:34.933662+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -3067,7 +3028,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/daytona/ref_126500LN/",
-      "observed_at": "2026-11-04T01:30:56.587957+00:00"
+      "observed_at": "2026-11-04T03:12:59.283595+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -3080,7 +3041,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/daytona/ref_116500LN/",
-      "observed_at": "2026-11-04T01:30:58.710493+00:00"
+      "observed_at": "2026-11-04T03:13:01.451808+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -3093,7 +3054,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/submariner/ref_126610LN/",
-      "observed_at": "2026-11-04T01:31:02.038279+00:00"
+      "observed_at": "2026-11-04T03:13:05.225841+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -3106,7 +3067,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/submariner/ref_126610LV/",
-      "observed_at": "2026-11-04T01:31:05.076967+00:00"
+      "observed_at": "2026-11-04T03:13:08.441840+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -3119,7 +3080,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/submariner/ref_124060/",
-      "observed_at": "2026-11-04T01:31:07.049691+00:00"
+      "observed_at": "2026-11-04T03:13:10.458393+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -3132,12 +3093,11 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/datejust/ref_126334/",
-      "observed_at": "2026-11-04T01:31:11.799599+00:00"
+      "observed_at": "2026-11-04T03:13:14.972921+00:00"
     }
   ],
   "jp_source_summary": {
     "KOMEHYO": 1,
-    "QUARK": 3,
     "大黒屋": 2,
     "RASIN": 11,
     "なんぼや": 4,
@@ -3236,7 +3196,7 @@
     "require_ref_in_title": true,
     "exclude_collection_floor_price": true,
     "send_status": "draft_only_until_channel_connected",
-    "generated_at": "2026-11-04T01:32:01.710408+00:00",
+    "generated_at": "2026-11-04T03:14:09.853385+00:00",
     "fx_jpy_to_cny": 0.042166
   }
 }
