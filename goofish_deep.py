@@ -15,7 +15,8 @@ from urllib.parse import quote
 import goofish_home as base
 
 MIN_PRICE = 30000
-MAX_PAGES = 6
+MAX_PAGES = 5
+SEARCH_PAGE_CAP = 70   # 每轮最多翻的搜索结果页，防止触发闲鱼风控
 DETAIL_REFRESH_DAYS = 3
 
 # 常见昵称：只用来多搜一轮，最终型号仍以详情描述里的编号为准
@@ -171,6 +172,7 @@ def goto_page(page, n: int) -> bool:
 
 
 _QUERY_CACHE: dict[str, list[dict]] = {}
+_STATE = {"pages": 0, "empty_streak": 0}
 
 
 def search_query(page, q: str, pages: int, apply_min_price, check_page, num: str | None = None) -> list[dict]:
@@ -187,19 +189,34 @@ def _search_query(page, q: str, pages: int, apply_min_price, check_page, num: st
     page.goto("https://www.goofish.com/search?q=" + quote(q), wait_until="domcontentloaded", timeout=45000)
     page.wait_for_timeout(pause(1.2, 2.0))
     check_page(page)
+    if _STATE["pages"] >= SEARCH_PAGE_CAP:
+        log("SEARCH_PAGE_CAP", q)
+        return []
     if not page.query_selector('a[href*="/item?id="]'):
-        # 偶尔整页空白：等一会儿重载一次，并记下页面开头便于排查
-        log("EMPTY_RESULTS", q, (page.locator("body").inner_text(timeout=5000) or "")[:80].replace("\n", " "))
+        page.wait_for_timeout(pause(3, 5))
+    if not page.query_selector('a[href*="/item?id="]'):
+        # 整页空白：等一会儿重载一次；连续 3 个词都空白说明被闲鱼限流了，整轮停止搜索
+        log("EMPTY_RESULTS", q)
         page.wait_for_timeout(pause(15, 25))
         page.reload(wait_until="domcontentloaded", timeout=45000)
-        page.wait_for_timeout(pause(1.2, 2.0))
+        page.wait_for_timeout(pause(3, 5))
         check_page(page)
+        if not page.query_selector('a[href*="/item?id="]'):
+            _STATE["empty_streak"] += 1
+            if _STATE["empty_streak"] >= 3:
+                raise RuntimeError("GOOFISH_THROTTLED: search results empty 3 times in a row")
+            return []
+    _STATE["empty_streak"] = 0
     if not apply_min_price(page):
         log("PRICE_FILTER_NOT_APPLIED", q)
     out, seen = [], set()
     for n in range(1, pages + 1):
+        if _STATE["pages"] >= SEARCH_PAGE_CAP:
+            log("SEARCH_PAGE_CAP", q)
+            break
         if n > 1 and not goto_page(page, n):
             break
+        _STATE["pages"] += 1
         for _ in range(3):
             page.mouse.wheel(0, 2400)
             page.wait_for_timeout(350)
@@ -287,6 +304,7 @@ def read_detail(page, item: dict, target: dict) -> dict:
         "warning_keywords": warnings,
         "suspicious_keyword": warnings[0] if warnings else None,
         "desc_snippet": desc[:220],
+        "detail_price_found": bool(price),
     })
     if price:
         y["search_price_cny"] = y.get("search_price_cny") or y.get("price_cny")

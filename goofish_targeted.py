@@ -22,7 +22,7 @@ STATE_FILE = Path("/tmp/goofish_state.json")
 MIN_PRICE = 30000
 MAX_TARGETS = 58
 ROTATING_MARKET_REFS = 26
-DETAIL_VERIFY_LIMIT = int(os.environ.get("GOOFISH_DETAIL_BUDGET", "220"))
+DETAIL_VERIFY_LIMIT = int(os.environ.get("GOOFISH_DETAIL_BUDGET", "150"))
 
 # These are the watches that currently appear in the external trend/ranking layer.
 # They are always searched explicitly instead of hoping a broad brand search surfaces them.
@@ -446,7 +446,7 @@ def main():
             except Exception as e:
                 errors.append(f"goofish target {target['query']}: {e}")
                 log("target ERROR", target["query"], e)
-                if "LOGIN_EXPIRED" in str(e) or "SECURITY" in str(e):
+                if "LOGIN_EXPIRED" in str(e) or "SECURITY" in str(e) or "THROTTLED" in str(e):
                     stop = True
 
         # 详情页：新商品优先，其次价格变了的；3 天内核对过且价格没变的直接复用
@@ -460,6 +460,7 @@ def main():
         order = [lane[i] for i in range(max((len(l) for l in lanes), default=0)) for lane in lanes if i < len(lane)]
         detail_page = ctx.new_page()
         budget, verified_count, reused, mismatched, blocked = DETAIL_VERIFY_LIMIT, 0, 0, 0, stop
+        no_price_streak = 0
         unique_current = []
         for item, target in order:
             prev = prev_by_id.get(item["item_id"])
@@ -483,6 +484,12 @@ def main():
                 y = item
             except Exception as e:
                 y = dict(item, price_verify_error=type(e).__name__)
+            # 连续 20 个详情页都读不到价格，多半是被限流：停止打开详情页，剩下的保留搜索卡片信息
+            no_price_streak = 0 if y.get("detail_price_found") else no_price_streak + 1
+            if no_price_streak >= 20 and not blocked:
+                errors.append("goofish detail verify: DETAIL_THROTTLED no price on 20 pages in a row, stopped")
+                log("DETAIL_THROTTLED stop")
+                blocked = True
             if y.get("ref_source") == "other_model":
                 mismatched += 1
                 continue
@@ -491,7 +498,7 @@ def main():
             unique_current.append(y)
             if (DETAIL_VERIFY_LIMIT - budget) % 25 == 0:
                 log("detail", DETAIL_VERIFY_LIMIT - budget, "verified", verified_count, "reused", reused, "other_model", mismatched)
-            detail_page.wait_for_timeout(deep.pause(0.8, 1.6))
+            detail_page.wait_for_timeout(deep.pause(1.5, 3.0))
         detail_page.close()
         log("detail done: opened", DETAIL_VERIFY_LIMIT - budget, "verified", verified_count, "reused", reused, "other_model_dropped", mismatched, "candidates", len(candidates))
         login_expired = any("LOGIN_EXPIRED" in e for e in errors)
@@ -509,6 +516,7 @@ def main():
         "source": SESSION_SOURCE,
         "login_expired": login_expired,
         "security_verification": any("SECURITY" in e for e in errors),
+        "throttled": any("THROTTLED" in e for e in errors),
         "renewed": session_saved,
         "checked_at": datetime.now(timezone.utc).isoformat(),
     }
