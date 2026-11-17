@@ -30,9 +30,9 @@ jobs:
             -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
             -o HostKeyAlgorithms=+ssh-rsa \
             -o ConnectTimeout=15 \
-            root@"$host" true 2>&1)"
+            root@"$host" true 2>&1 || true)"
           echo "--- SSH (port 40222) ---"
-          echo "$out" | grep -E "Remote protocol version|Authentications that can continue|Permission denied|Authenticated to|Connection (refused|timed out)" | scrub
+          echo "$out" | grep -E "Remote protocol version|Authentications that can continue|Permission denied|Authenticated to|Connection (refused|timed out)" | scrub || true
 
           echo "--- Ports reachable from the internet ---"
           for p in 22 23 80 443 8080 8443 8098 40222; do
