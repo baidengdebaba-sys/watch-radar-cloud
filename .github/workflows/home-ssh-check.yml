@@ -1,0 +1,40 @@
+name: Home router exposure check
+
+# 手动运行：从外网看家里路由器接受哪些 SSH 登录方式、开着哪些端口。
+# 不带私钥、不发密码，不会登录或改动路由器；日志里不出现 IP。
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Ask the router which SSH login methods it accepts
+        env:
+          HOME_SSH_HOST: ${{ secrets.HOME_SSH_HOST }}
+        run: |
+          host="$(printf '%s' "$HOME_SSH_HOST" | sed 's/^\xEF\xBB\xBF//' | tr -d '\r\n ' )"
+          ip="$(getent ahostsv4 "$host" | awk 'NR==1{print $1}')"
+          [ -n "$ip" ] && echo "::add-mask::$ip"
+          scrub() { sed -E 's/[0-9]{1,3}(\.[0-9]{1,3}){3}/<ip>/g; s/root@[^ :]+/root@<host>/g'; }
+
+          out="$(ssh -v -p 40222 \
+            -o BatchMode=yes \
+            -o PubkeyAuthentication=no \
+            -o PreferredAuthentications=none \
+            -o NumberOfPasswordPrompts=0 \
+            -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
+            -o HostKeyAlgorithms=+ssh-rsa \
+            -o ConnectTimeout=15 \
+            root@"$host" true 2>&1)"
+          echo "--- SSH (port 40222) ---"
+          echo "$out" | grep -E "Remote protocol version|Authentications that can continue|Permission denied|Authenticated to|Connection (refused|timed out)" | scrub
+
+          echo "--- Ports reachable from the internet ---"
+          for p in 22 23 80 443 8080 8443 8098 40222; do
+            if timeout 5 bash -c "</dev/tcp/$host/$p" 2>/dev/null; then echo "port $p open"; else echo "port $p closed"; fi
+          done
