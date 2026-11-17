@@ -265,7 +265,12 @@ def verify_detail_price(page, item):
     result["detail_title_match"]=False
     try:
         page.goto(result["item_url"],wait_until="domcontentloaded",timeout=25000)
-        page.wait_for_timeout(500)
+        # 详情页是前端渲染的，500ms 时价格和标题经常还没出来，导致核验率为 0
+        try:
+            page.wait_for_selector('[class*="price--"]',timeout=8000)
+        except Exception:
+            pass
+        page.wait_for_timeout(600)
         body=page.locator("body").inner_text(timeout=8000) or ""
         if re.search(r"验证码|安全验证|异常访问|非法访问",body):
             raise RuntimeError("GOOFISH_SECURITY_VERIFICATION")
