@@ -27,6 +27,19 @@ NICKNAMES = {
     "126710BLNR": ["蝙蝠侠 126710"],
     "126720VTNR": ["雪碧圈"],
 }
+# 卡片上没写编号时，必须同时出现品牌和这些系列词才进候选，再由详情描述确认型号
+SERIES_HINTS = {
+    "126500": ["迪通拿", "熊猫"], "116500": ["迪通拿", "熊猫"],
+    "214270": ["探险家"], "124270": ["探险家"],
+    "126334": ["日志"], "126300": ["日志"],
+    "126610": ["水鬼", "潜航者"], "124060": ["水鬼", "潜航者"],
+    "126710": ["格林尼治", "百事", "蝙蝠"], "126720": ["格林尼治", "雪碧"],
+    "5711": ["鹦鹉螺", "NAUTILUS"], "5712": ["鹦鹉螺", "NAUTILUS"], "5990": ["鹦鹉螺", "NAUTILUS"],
+    "5167": ["手雷", "AQUANAUT"], "5168": ["手雷", "AQUANAUT"], "5066": ["手雷", "AQUANAUT"], "5065": ["手雷", "AQUANAUT"],
+    "5396": ["年历"], "5205": ["年历"],
+    "15510": ["皇家橡树"], "15500": ["皇家橡树"], "15400": ["皇家橡树"], "15202": ["皇家橡树"],
+    "26240": ["皇家橡树"], "26331": ["皇家橡树"], "15550": ["皇家橡树"],
+}
 # 只有数字时用描述里的关键词补后缀；补不出来就保持无后缀（不参与日本比价）
 ROLEX_SUFFIX = {
     "126500": [("LN", r".")],
@@ -80,9 +93,9 @@ def queries_for(target: dict) -> list[dict]:
     num = ref_number(ref)
     out = []
     if num and len(num) >= 5:
-        out.append({"q": num, "pages": MAX_PAGES})
+        out.append({"q": num, "pages": MAX_PAGES, "num": num})
     elif num:
-        out.append({"q": f"{brand} {num}".strip(), "pages": MAX_PAGES})
+        out.append({"q": f"{brand} {num}".strip(), "pages": MAX_PAGES, "num": num})
     else:
         out.append({"q": f"{brand} {ref}".strip(), "pages": 2})
     for nick in NICKNAMES.get(base.normalize_ref(ref) or ref, []):
@@ -160,20 +173,27 @@ def goto_page(page, n: int) -> bool:
 _QUERY_CACHE: dict[str, list[dict]] = {}
 
 
-def search_query(page, q: str, pages: int, apply_min_price, check_page) -> list[dict]:
+def search_query(page, q: str, pages: int, apply_min_price, check_page, num: str | None = None) -> list[dict]:
     """Same query for two targets (126610LN/LV, 126710BLRO/BLNR) is searched once per run."""
     if q in _QUERY_CACHE:
         log("search", q, "cached", len(_QUERY_CACHE[q]))
         return _QUERY_CACHE[q]
-    out = _search_query(page, q, pages, apply_min_price, check_page)
+    out = _search_query(page, q, pages, apply_min_price, check_page, num)
     _QUERY_CACHE[q] = out
     return out
 
 
-def _search_query(page, q: str, pages: int, apply_min_price, check_page) -> list[dict]:
+def _search_query(page, q: str, pages: int, apply_min_price, check_page, num: str | None = None) -> list[dict]:
     page.goto("https://www.goofish.com/search?q=" + quote(q), wait_until="domcontentloaded", timeout=45000)
     page.wait_for_timeout(pause(1.2, 2.0))
     check_page(page)
+    if not page.query_selector('a[href*="/item?id="]'):
+        # 偶尔整页空白：等一会儿重载一次，并记下页面开头便于排查
+        log("EMPTY_RESULTS", q, (page.locator("body").inner_text(timeout=5000) or "")[:80].replace("\n", " "))
+        page.wait_for_timeout(pause(15, 25))
+        page.reload(wait_until="domcontentloaded", timeout=45000)
+        page.wait_for_timeout(pause(1.2, 2.0))
+        check_page(page)
     if not apply_min_price(page):
         log("PRICE_FILTER_NOT_APPLIED", q)
     out, seen = [], set()
@@ -189,21 +209,34 @@ def _search_query(page, q: str, pages: int, apply_min_price, check_page) -> list
             seen.add(r["href"])
         good = [r for r in rows if (base.parse_price(r["price"]) or 0) >= MIN_PRICE]
         out.extend(good)
-        log("search", q, "page", n, "cards", len(rows), ">=min", len(good))
-        if len(good) < 6:
+        hits = sum(1 for r in good if token_in(f"{r['title']} {r['text']}", num)) if num else len(good)
+        log("search", q, "page", n, "cards", len(rows), ">=min", len(good), "with_ref", hits)
+        # 结果开始偏到别的型号（页内带这个编号的不足 5 条）就不再往后翻
+        if len(good) < 6 or hits < 5:
             break
     return out
 
 
 def loose_match(card: dict, target: dict) -> bool:
+    """Candidate for this target: the number is on the card, or brand + series word with no other number."""
     text = f"{card.get('title', '')} {card.get('text', '')}"
     if REPLICA_RE.search(text):
         return False
-    num = ref_number(target["ref"])
+    ref = str(target["ref"] or "")
+    num = ref_number(ref)
     if num and token_in(text, num):
         return True
+    if not num:
+        key = re.sub(r"[^0-9A-Z]", "", ref.upper())
+        if key and key in re.sub(r"[^0-9A-Z]", "", text.upper()):
+            return True
     brand = target.get("brand") or ""
-    return bool(brand and brand in text)
+    hints = SERIES_HINTS.get(num or "", [])
+    if not (brand and brand in text and any(h in text.upper() for h in hints)):
+        return False
+    # 卡片上写了别的 5–6 位编号（如 224270），就不是这个型号
+    rx = r"(?<![0-9.])([3-7][0-9]{3})(?![0-9.]|元)" if num and len(num) == 4 else r"(?<![0-9.])([12][0-9]{4,5})(?![0-9.]|元)"
+    return not [n for n in re.findall(rx, text) if n != num and not n.startswith("20")]
 
 
 def detail_description(body: str) -> str:

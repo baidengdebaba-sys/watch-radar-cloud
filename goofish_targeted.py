@@ -434,11 +434,11 @@ def main():
             got = 0
             try:
                 for qv in deep.queries_for(target):
-                    for c in deep.search_query(page, qv["q"], qv["pages"], apply_min_price, check_page):
+                    for c in deep.search_query(page, qv["q"], qv["pages"], apply_min_price, check_page, qv.get("num")):
                         iid = base.item_id(c["href"])
                         if not iid or iid in candidates or not deep.loose_match(c, target):
                             continue
-                        candidates[iid] = (card_item(c, iid, target, qv["q"], quotes, now), target)
+                        candidates[iid] = (card_item(c, iid, target, qv["q"], quotes, now), target, idx, len(candidates))
                         got += 1
                     page.wait_for_timeout(deep.pause())
                 searched += 1
@@ -450,7 +450,14 @@ def main():
                     stop = True
 
         # 详情页：新商品优先，其次价格变了的；3 天内核对过且价格没变的直接复用
-        order = sorted(candidates.values(), key=lambda it: (0 if it[0]["item_id"] not in prev_by_id else 1, -(it[0].get("price_cny") or 0)))
+        # 每个型号轮流排：新商品优先，其次标题里带编号的，再按搜索结果顺序；避免一个热门型号吃掉全部名额
+        groups = {}
+        for item, target, tidx, seq in candidates.values():
+            fresh = 0 if item["item_id"] not in prev_by_id else 1
+            titled = 0 if title_matches_target(item.get("title") or "", target["ref"], target.get("brand") or "") else 1
+            groups.setdefault(tidx, []).append(((fresh, titled, seq), item, target))
+        lanes = [[(it, tg) for _, it, tg in sorted(g, key=lambda x: x[0])] for _, g in sorted(groups.items())]
+        order = [lane[i] for i in range(max((len(l) for l in lanes), default=0)) for lane in lanes if i < len(lane)]
         detail_page = ctx.new_page()
         budget, verified_count, reused, mismatched, blocked = DETAIL_VERIFY_LIMIT, 0, 0, 0, stop
         unique_current = []

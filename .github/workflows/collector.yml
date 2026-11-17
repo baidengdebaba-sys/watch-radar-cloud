@@ -147,7 +147,8 @@ jobs:
         run: python inquiry_queue.py
 
       - name: Publish latest data
-        if: always()
+        # 被新一轮取消的运行不发布，免得半截数据覆盖、和新一轮抢着推送
+        if: success() || failure()
         run: |
           git config user.name "Watch Radar Cloud"
           git config user.email "watch-radar@users.noreply.github.com"
@@ -156,6 +157,10 @@ jobs:
             echo "No data changes"
           else
             git commit -m "Update market data $(date -u +'%Y-%m-%dT%H:%MZ')"
-            git pull --rebase -q origin main || true
-            git push
+            # data/latest.json 冲突时保留这一轮刚抓的版本
+            for i in 1 2 3; do
+              if git pull --rebase -X theirs -q origin main && git push; then break; fi
+              git rebase --abort 2>/dev/null || true
+              sleep 5
+            done
           fi
