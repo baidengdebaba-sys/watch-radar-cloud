@@ -106,16 +106,26 @@ def frame_text(frame):
         return ""
 
 
-def security_check_present(page) -> bool:
+def security_check_present(page) -> str | None:
+    """Only a *visible* slider/captcha counts; Goofish preloads hidden anti-bot frames on every page."""
     for f in page.frames:
-        if re.search(r"punish|_____tmd_____|captcha", f.url or "", re.I):
-            return True
+        url = f.url or ""
+        if f is not page.main_frame and re.search(r"punish|_____tmd_____|captcha", url, re.I):
+            try:
+                el = f.frame_element()
+                box = el.bounding_box() if el.is_visible() else None
+                if box and box["width"] > 120 and box["height"] > 80:
+                    return "frame:" + url.split("?")[0][:80]
+            except Exception:
+                pass
         try:
-            if f.locator(SECURITY_SELECTORS).count():
-                return True
+            loc = f.locator(SECURITY_SELECTORS)
+            for i in range(min(loc.count(), 5)):
+                if loc.nth(i).is_visible():
+                    return "element:" + SECURITY_SELECTORS
         except Exception:
             pass
-    return False
+    return None
 
 
 def qr_png(frame):
@@ -162,6 +172,7 @@ def main():
         page = ctx.new_page()
         try:
             frame = open_login(page)
+            log("LOGIN_FRAME", (frame.url or "").split("?")[0], "frames:", [ (f.url or "").split("?")[0][:70] for f in page.frames ])
         except Exception as e:
             publish("error", f"登录页没有出现二维码：{type(e).__name__}")
             return 3
@@ -170,7 +181,9 @@ def main():
         while time.time() < deadline:
             if gs.is_logged_in(ctx):
                 break
-            if security_check_present(page):
+            hit = security_check_present(page)
+            if hit:
+                log("SECURITY_CHECK", hit)
                 publish("security", "闲鱼要求安全验证（滑块等）。为避免风控，云端不会自动处理，请过一段时间再试。")
                 return 4
             text = frame_text(frame)
