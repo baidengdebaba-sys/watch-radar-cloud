@@ -103,7 +103,8 @@ jobs:
           sleep 2
           EXIT_IP="$(curl -fsS --max-time 15 --socks5-hostname 127.0.0.1:1080 https://api.ipify.org)"
           if [ -n "$EXIT_IP" ]; then
-            echo "Home exit IP: $EXIT_IP"
+            echo "::add-mask::$EXIT_IP"
+            echo "Home exit OK"
             echo "available=true" >> "$GITHUB_OUTPUT"
           else
             echo "available=false" >> "$GITHUB_OUTPUT"
