@@ -230,18 +230,27 @@ def detect_seller(card):
     return ""
 
 
+PRICE_FILTER_JS = """(v) => {
+  const ins = [...document.querySelectorAll('input[class*="search-price-input"]')];
+  const btn = document.querySelector('[class*="search-price-confirm-button"]');
+  if (!ins.length || !btn) return false;
+  const set = Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value').set;
+  set.call(ins[0], String(v));
+  ins[0].dispatchEvent(new Event('input', { bubbles: true }));
+  ins[0].dispatchEvent(new Event('change', { bubbles: true }));
+  btn.click();
+  return true;
+}"""
+
+
 def apply_min_price(page, min_price=MIN_PRICE):
-    """Use the search page's own price filter; without it the first page is mostly accessories and replicas."""
+    """Use the search page's own price filter; without it the first page is mostly accessories and replicas.
+    The inputs sit in a collapsed dropdown, so set them through the DOM instead of typing."""
     try:
-        boxes = page.locator('input[class*="search-price-input"]')
-        if not boxes.count():
-            return False
-        boxes.first.fill(str(min_price))
-        btn = page.locator('[class*="search-price-confirm-button"]')
-        if btn.count():
-            btn.first.click(timeout=3000)
-            page.wait_for_timeout(2000)
+        if page.evaluate(PRICE_FILTER_JS, min_price):
+            page.wait_for_timeout(2500)
             return True
+        log("PRICE_FILTER_MISSING")
     except Exception as e:
         log("PRICE_FILTER_WARNING", type(e).__name__)
     return False
