@@ -11,6 +11,7 @@ import base64
 import hashlib
 import json
 import os
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -50,12 +51,15 @@ def load_into(state_file: Path) -> str | None:
     return None
 
 
-def is_logged_in(ctx) -> bool:
+def cookie_names(ctx) -> set:
     try:
-        names = {c.get("name") for c in ctx.cookies("https://www.goofish.com")}
+        return {c.get("name") for c in ctx.cookies() if re.search(r"goofish|taobao|tmall", c.get("domain", ""))}
     except Exception:
-        return False
-    return LOGIN_COOKIES.issubset(names)
+        return set()
+
+
+def is_logged_in(ctx) -> bool:
+    return LOGIN_COOKIES.issubset(cookie_names(ctx))
 
 
 def save_from_context(ctx) -> bool:

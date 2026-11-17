@@ -178,9 +178,34 @@ def main():
             return 3
         deadline = time.time() + WAIT_SECONDS
         last_png, scanned, refreshes = None, False, 0
+        scanned_at, reloaded, last_dbg = 0.0, False, 0.0
         while time.time() < deadline:
             if gs.is_logged_in(ctx):
                 break
+            if time.time() - last_dbg > 10:
+                last_dbg = time.time()
+                names = gs.cookie_names(ctx)
+                log("WAIT", "scanned" if scanned else "qr", "cookies:", len(names), "unb" in names, "tracknick" in names,
+                    "page:", (page.url or "").split("?")[0][:60], "frames:", [(f.url or "").split("?")[0][-40:] for f in page.frames][:6],
+                    "text:", re.sub(r"\s+", " ", frame_text(frame))[:80])
+            # 扫码确认后，登录结果有时只在父页面刷新后才落到 goofish.com 的 cookie 上
+            if scanned and not reloaded and time.time() - scanned_at > 25:
+                reloaded = True
+                try:
+                    page.goto(HOME_URL, wait_until="domcontentloaded", timeout=45000)
+                    page.wait_for_timeout(3000)
+                except Exception:
+                    pass
+                if gs.is_logged_in(ctx):
+                    break
+                log("RELOAD_NOT_LOGGED_IN", "will show a fresh QR")
+                frame = login_frame(page)
+                if not frame:
+                    try:
+                        frame = open_login(page)
+                    except Exception:
+                        frame = page.main_frame
+                scanned, last_png = False, None
             hit = security_check_present(page)
             if hit:
                 log("SECURITY_CHECK", hit)
@@ -190,7 +215,7 @@ def main():
             if re.search(r"扫码成功|扫描成功|手机上确认|请在手机", text):
                 if not scanned:
                     publish("scanned", "已扫码，请在手机上点“确认登录”")
-                    scanned = True
+                    scanned, scanned_at = True, time.time()
             elif re.search(r"已失效|已过期|刷新", text):
                 if refreshes >= 4:
                     break
