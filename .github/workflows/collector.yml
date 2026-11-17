@@ -155,5 +155,6 @@ jobs:
             echo "No data changes"
           else
             git commit -m "Update market data $(date -u +'%Y-%m-%dT%H:%MZ')"
+            git pull --rebase -q origin main || true
             git push
           fi

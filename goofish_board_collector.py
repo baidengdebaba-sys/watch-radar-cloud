@@ -69,6 +69,8 @@ def board_fallback():
         "W62054V3", "W6206006", "W62017V3", "126334", "214270",
     }
     fixed = [(r, b, "trend-fallback") for r, b in collector.PRIORITY_TARGETS if r in positive_trend_refs]
+    # 私有站点的榜单接口在云端访问不到时，至少覆盖核心拿货型号（与每日汇总的重点型号一致）
+    fixed.extend((r, b, "core-fallback") for r, b in collector.CORE_TARGETS)
     market = collector.fetch_catamap_targets()
     take = []
     for ref, brand, label in market:

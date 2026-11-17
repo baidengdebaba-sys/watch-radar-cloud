@@ -41,6 +41,8 @@ CORE_TARGETS = [
     ("126710BLNR", "劳力士"), ("116500LN", "劳力士"), ("124060", "劳力士"),
     ("15510ST", "爱彼"), ("15500ST", "爱彼"), ("26240ST", "爱彼"),
     ("5167A", "百达翡丽"), ("310.30.42.50.01.002", "欧米茄"),
+    ("126720VTNR", "劳力士"), ("124270", "劳力士"), ("126300", "劳力士"), ("126334", "劳力士"),
+    ("126500LN", "劳力士"), ("5711/1A", "百达翡丽"), ("310.30.42.50.01.001", "欧米茄"),
 ]
 
 DISCOVERY_QUERIES = ["劳力士", "百达翡丽", "爱彼", "欧米茄", "卡地亚", "江诗丹顿"]
@@ -228,10 +230,28 @@ def detect_seller(card):
     return ""
 
 
+def apply_min_price(page, min_price=MIN_PRICE):
+    """Use the search page's own price filter; without it the first page is mostly accessories and replicas."""
+    try:
+        boxes = page.locator('input[class*="search-price-input"]')
+        if not boxes.count():
+            return False
+        boxes.first.fill(str(min_price))
+        btn = page.locator('[class*="search-price-confirm-button"]')
+        if btn.count():
+            btn.first.click(timeout=3000)
+            page.wait_for_timeout(2000)
+            return True
+    except Exception as e:
+        log("PRICE_FILTER_WARNING", type(e).__name__)
+    return False
+
+
 def scan_target(page, target, quotes, limit=100):
     query_text = target["query"]
     page.goto("https://www.goofish.com/search?q=" + quote(query_text), wait_until="domcontentloaded", timeout=45000)
     page.wait_for_timeout(1200)
+    apply_min_price(page)
     for _ in range(4):
         page.mouse.wheel(0, 2400)
         page.wait_for_timeout(450)
