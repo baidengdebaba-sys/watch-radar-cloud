@@ -15,7 +15,7 @@ from urllib.parse import quote
 import goofish_home as base
 
 MIN_PRICE = 30000
-MAX_PAGES = 4
+MAX_PAGES = 6
 DETAIL_REFRESH_DAYS = 3
 
 # 常见昵称：只用来多搜一轮，最终型号仍以详情描述里的编号为准
@@ -157,7 +157,20 @@ def goto_page(page, n: int) -> bool:
     return bool(ok)
 
 
+_QUERY_CACHE: dict[str, list[dict]] = {}
+
+
 def search_query(page, q: str, pages: int, apply_min_price, check_page) -> list[dict]:
+    """Same query for two targets (126610LN/LV, 126710BLRO/BLNR) is searched once per run."""
+    if q in _QUERY_CACHE:
+        log("search", q, "cached", len(_QUERY_CACHE[q]))
+        return _QUERY_CACHE[q]
+    out = _search_query(page, q, pages, apply_min_price, check_page)
+    _QUERY_CACHE[q] = out
+    return out
+
+
+def _search_query(page, q: str, pages: int, apply_min_price, check_page) -> list[dict]:
     page.goto("https://www.goofish.com/search?q=" + quote(q), wait_until="domcontentloaded", timeout=45000)
     page.wait_for_timeout(pause(1.2, 2.0))
     check_page(page)
