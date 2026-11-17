@@ -99,6 +99,20 @@ def open_login(page):
     return page.main_frame
 
 
+def identity_frame(page):
+    for f in page.frames:
+        if "identity_verify" in (f.url or ""):
+            return f
+    return None
+
+
+def frame_png(frame):
+    try:
+        return frame.frame_element().screenshot(type="png")
+    except Exception:
+        return None
+
+
 def frame_text(frame):
     try:
         return frame.locator("body").inner_text(timeout=3000) or ""
@@ -179,9 +193,23 @@ def main():
         deadline = time.time() + WAIT_SECONDS
         last_png, scanned, refreshes = None, False, 0
         scanned_at, reloaded, last_dbg = 0.0, False, 0.0
+        verify_png, verifying = None, False
         while time.time() < deadline:
             if gs.is_logged_in(ctx):
                 break
+            # 新设备登录时闲鱼会要求账号本人再扫一个码、按提示刷脸确认；把这个码原样转给本人
+            idf = identity_frame(page)
+            if idf:
+                if not verifying:
+                    log("IDENTITY_VERIFY", re.sub(r"\s+", " ", frame_text(idf))[:80])
+                    verifying = True
+                    deadline = max(deadline, time.time() + 300)
+                png = frame_png(idf)
+                if png and png != verify_png:
+                    publish("verify_identity", "闲鱼要求本人验证：请用闲鱼App再扫这个码，按提示完成刷脸（闲鱼对新设备登录的安全确认）", png)
+                    verify_png = png
+                page.wait_for_timeout(3000)
+                continue
             if time.time() - last_dbg > 10:
                 last_dbg = time.time()
                 names = gs.cookie_names(ctx)
@@ -189,7 +217,7 @@ def main():
                     "page:", (page.url or "").split("?")[0][:60], "frames:", [(f.url or "").split("?")[0][-40:] for f in page.frames][:6],
                     "text:", re.sub(r"\s+", " ", frame_text(frame))[:80])
             # 扫码确认后，登录结果有时只在父页面刷新后才落到 goofish.com 的 cookie 上
-            if scanned and not reloaded and time.time() - scanned_at > 25:
+            if scanned and not verifying and not reloaded and time.time() - scanned_at > 60:
                 reloaded = True
                 try:
                     page.goto(HOME_URL, wait_until="domcontentloaded", timeout=45000)
