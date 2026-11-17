@@ -310,6 +310,12 @@ def verify_detail_price(page, item):
 
 def reannotate_item(x, quotes):
     y=dict(x)
+    if y.get("detail_checked_at"):
+        # 详情页全文解析过：保留描述里得到的型号、表盘、成色、附件、风险词
+        y["jp_compare"]=jp_compare_for(y.get("parsed_ref"),y.get("condition_label"),quotes)
+        if y.get("price_verified") is not True:
+            y["price_verified"]=False
+        return y
     title=str(y.get("title") or "")
     meta=annotate(title)
     y.update(meta)

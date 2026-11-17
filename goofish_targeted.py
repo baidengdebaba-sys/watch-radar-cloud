@@ -14,6 +14,7 @@ from playwright.sync_api import sync_playwright
 
 import goofish_home as base
 import goofish_session as session
+import goofish_deep as deep
 
 OUT = Path("data/latest.json")
 PREV = Path(os.environ.get("WATCH_PREVIOUS_DATA", "/tmp/watchradar_previous.json"))
@@ -21,7 +22,7 @@ STATE_FILE = Path("/tmp/goofish_state.json")
 MIN_PRICE = 30000
 MAX_TARGETS = 58
 ROTATING_MARKET_REFS = 26
-DETAIL_VERIFY_LIMIT = 140
+DETAIL_VERIFY_LIMIT = int(os.environ.get("GOOFISH_DETAIL_BUDGET", "220"))
 
 # These are the watches that currently appear in the external trend/ranking layer.
 # They are always searched explicitly instead of hoping a broad brand search surfaces them.
@@ -354,6 +355,31 @@ def scan_target(page, target, quotes, limit=100):
     return base.dedupe_best(out)
 
 
+def check_page(page):
+    body = page.locator("body").inner_text(timeout=10000) or ""
+    if re.search(r"验证码|安全验证|异常访问|非法访问", body[:4000]):
+        raise RuntimeError("GOOFISH_SECURITY_VERIFICATION")
+    if page.locator('a[href*="/item?id="]').count() == 0 and re.search(r"请先登录|登录后", body):
+        raise RuntimeError("GOOFISH_LOGIN_EXPIRED")
+
+
+def card_item(c, iid, target, query, quotes, now):
+    title = c.get("title") or c.get("text") or ""
+    price = base.parse_price(c.get("price") or "")
+    parsed = base.ref_from_text(title)
+    meta = base.annotate(title)
+    return {
+        "item_id": iid, "keyword": query, "target_ref": target["ref"], "target_source": target.get("source"),
+        "title": title, "price_cny": price, "search_price_cny": price, "price_verified": False,
+        "price_source": "search_card", "price_raw_text": c.get("price") or "", "detail_title_match": False,
+        "seller": "", "area": clean_area(c.get("area") or ""), "badge": "",
+        "item_url": f"https://www.goofish.com/item?id={iid}", "image_url": c.get("image") or "", "publish_time": None,
+        "parsed_ref": parsed, "risk_level": "high" if meta["warning_keywords"] else ("low" if parsed else "medium"),
+        "first_seen_at": now, "last_seen_at": now, "seen_in_latest_scan": True,
+        "jp_compare": base.jp_compare_for(parsed, meta["condition_label"], quotes), **meta,
+    }
+
+
 SESSION_SOURCE = None
 
 
@@ -398,37 +424,69 @@ def main():
         except Exception as e:
             errors.append(f"goofish proxy check: {type(e).__name__}")
 
+        now = datetime.now(timezone.utc).isoformat()
+        prev_by_id = {str(x.get("item_id")): x for x in (previous_items or []) if x.get("item_id")}
+        candidates = {}
+        stop = False
         for idx, target in enumerate(targets, 1):
+            if stop or not target.get("ref"):
+                continue
+            got = 0
             try:
-                rows = scan_target(page, target, quotes)
-                all_items.extend(rows)
+                for qv in deep.queries_for(target):
+                    for c in deep.search_query(page, qv["q"], qv["pages"], apply_min_price, check_page):
+                        iid = base.item_id(c["href"])
+                        if not iid or iid in candidates or not deep.loose_match(c, target):
+                            continue
+                        candidates[iid] = (card_item(c, iid, target, qv["q"], quotes, now), target)
+                        got += 1
+                    page.wait_for_timeout(deep.pause())
                 searched += 1
-                log("target", idx, target["query"], len(rows))
+                log("target", idx, target["query"], "candidates", got)
             except Exception as e:
                 errors.append(f"goofish target {target['query']}: {e}")
                 log("target ERROR", target["query"], e)
                 if "LOGIN_EXPIRED" in str(e) or "SECURITY" in str(e):
-                    break
+                    stop = True
 
-        unique_current = base.dedupe_best(all_items)
-        order = sorted(unique_current, key=lambda x: (0 if x.get("target_ref") else 1, 0 if x.get("parsed_ref") else 1, -base.candidate_score(x)))
+        # 详情页：新商品优先，其次价格变了的；3 天内核对过且价格没变的直接复用
+        order = sorted(candidates.values(), key=lambda it: (0 if it[0]["item_id"] not in prev_by_id else 1, -(it[0].get("price_cny") or 0)))
         detail_page = ctx.new_page()
-        verified_by_id = {}
-        verified_count = 0
-        for idx, item in enumerate(order[:DETAIL_VERIFY_LIMIT], 1):
+        budget, verified_count, reused, mismatched, blocked = DETAIL_VERIFY_LIMIT, 0, 0, 0, stop
+        unique_current = []
+        for item, target in order:
+            prev = prev_by_id.get(item["item_id"])
+            if deep.reusable(prev, item.get("price_cny")):
+                y = dict(prev)
+                y.update({"last_seen_at": now, "seen_in_latest_scan": True, "keyword": item.get("keyword")})
+                unique_current.append(y)
+                reused += 1
+                continue
+            if blocked or budget <= 0:
+                if title_matches_target(item.get("title") or "", target["ref"], target.get("brand") or ""):
+                    unique_current.append(item)
+                continue
+            budget -= 1
             try:
-                y = base.verify_detail_price(detail_page, item)
-                verified_by_id[y["item_id"]] = y
-                if y.get("price_verified"):
-                    verified_count += 1
-                if idx % 25 == 0:
-                    log("detail_verify", idx, "verified", verified_count)
+                y = deep.read_detail(detail_page, item, target)
             except RuntimeError as e:
                 if "SECURITY" in str(e):
                     errors.append("goofish detail verify: SECURITY_VERIFICATION")
-                    break
+                    blocked = True
+                y = item
+            except Exception as e:
+                y = dict(item, price_verify_error=type(e).__name__)
+            if y.get("ref_source") == "other_model":
+                mismatched += 1
+                continue
+            if y.get("price_verified"):
+                verified_count += 1
+            unique_current.append(y)
+            if (DETAIL_VERIFY_LIMIT - budget) % 25 == 0:
+                log("detail", DETAIL_VERIFY_LIMIT - budget, "verified", verified_count, "reused", reused, "other_model", mismatched)
+            detail_page.wait_for_timeout(deep.pause(0.8, 1.6))
         detail_page.close()
-        unique_current = [verified_by_id.get(x["item_id"], x) for x in unique_current]
+        log("detail done: opened", DETAIL_VERIFY_LIMIT - budget, "verified", verified_count, "reused", reused, "other_model_dropped", mismatched, "candidates", len(candidates))
         login_expired = any("LOGIN_EXPIRED" in e for e in errors)
         session_saved = False
         if searched and not login_expired:
@@ -448,7 +506,7 @@ def main():
         "checked_at": datetime.now(timezone.utc).isoformat(),
     }
     data["goofish_scan"] = {
-        "strategy": "ranking_targeted_v2",
+        "strategy": "deep_v3_pages_description",
         "targets_planned": len(targets),
         "targets_searched": searched,
         "current_scan_items": len(unique_current),
@@ -456,6 +514,8 @@ def main():
         "min_price_cny": MIN_PRICE,
         "retention_days": base.RETENTION_DAYS,
         "detail_verify_limit": DETAIL_VERIFY_LIMIT,
+        "max_pages": deep.MAX_PAGES,
+        "items_ref_from_description": sum(1 for x in unique_current if str(x.get("ref_source", "")).startswith("description")),
         "detail_verified_items": sum(1 for x in unique_current if x.get("price_verified") is True),
         "detail_unverified_items": sum(1 for x in unique_current if x.get("price_verified") is not True),
         "items_with_area": sum(1 for x in unique_current if x.get("area")),

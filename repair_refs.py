@@ -148,6 +148,9 @@ def main():
     repaired = 0
     changed = 0
     for item in items:
+        # 详情页描述里已经确认过型号的，不再用标题覆盖
+        if item.get("detail_checked_at") and item.get("ref_source") in ("description", "description+hint", "number_only"):
+            continue
         old = normalize_ref(item.get("parsed_ref"))
         new = ref_from_title(item.get("title") or "", item.get("keyword"))
         if new and new != old:
