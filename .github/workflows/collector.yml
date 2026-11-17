@@ -31,7 +31,7 @@ jobs:
       - name: Install Playwright
         run: |
           python -m pip install --upgrade pip
-          pip install playwright
+          pip install playwright cryptography
           python -m playwright install --with-deps chromium
 
       - name: Preserve previous market snapshot
@@ -110,12 +110,28 @@ jobs:
             echo "SOCKS tunnel opened but proxy check failed."
           fi
 
+      - name: Restore self-renewing Goofish session
+        if: steps.home.outputs.available == 'true'
+        uses: actions/cache/restore@v4
+        with:
+          path: .goofish_state
+          key: goofish-state-${{ github.run_id }}
+          restore-keys: goofish-state-
+
       - name: Collect Goofish through home residential exit
         if: steps.home.outputs.available == 'true'
         env:
           GOOFISH_STORAGE_STATE_B64: ${{ secrets.GOOFISH_STORAGE_STATE_B64 }}
+          GOOFISH_STATE_KEY_MATERIAL: ${{ secrets.HOME_SSH_PRIVATE_KEY }}
           WATCH_SOCKS_PROXY: socks5://127.0.0.1:1080
         run: xvfb-run -a python goofish_board_collector.py
+
+      - name: Save renewed Goofish session
+        if: always() && hashFiles('.goofish_state/ok') != ''
+        uses: actions/cache/save@v4
+        with:
+          path: .goofish_state
+          key: goofish-state-${{ github.run_id }}
 
       - name: Restore previous items if home exit unavailable
         if: steps.home.outputs.available != 'true'

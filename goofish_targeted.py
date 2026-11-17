@@ -13,6 +13,7 @@ from urllib.parse import quote
 from playwright.sync_api import sync_playwright
 
 import goofish_home as base
+import goofish_session as session
 
 OUT = Path("data/latest.json")
 PREV = Path(os.environ.get("WATCH_PREVIOUS_DATA", "/tmp/watchradar_previous.json"))
@@ -324,15 +325,14 @@ def scan_target(page, target, quotes, limit=100):
     return base.dedupe_best(out)
 
 
+SESSION_SOURCE = None
+
+
 def load_state():
-    raw = os.environ.get("GOOFISH_STORAGE_STATE_B64", "").strip()
-    if not raw:
-        return False
-    try:
-        STATE_FILE.write_bytes(base64.b64decode(raw))
-        return True
-    except Exception:
-        return False
+    """Prefer the self-renewing encrypted session from the Actions cache, then the legacy secret."""
+    global SESSION_SOURCE
+    SESSION_SOURCE = session.load_into(STATE_FILE)
+    return SESSION_SOURCE is not None
 
 
 def main():
@@ -400,10 +400,24 @@ def main():
                     break
         detail_page.close()
         unique_current = [verified_by_id.get(x["item_id"], x) for x in unique_current]
+        login_expired = any("LOGIN_EXPIRED" in e for e in errors)
+        session_saved = False
+        if searched and not login_expired:
+            try:
+                session_saved = session.save_from_context(ctx)
+            except Exception as e:
+                log("SESSION_SAVE_WARNING", type(e).__name__)
         browser.close()
 
     data["items"] = base.merge_recent(unique_current, previous_items, quotes)
     data["goofish_status"] = "ok" if unique_current else ("blocked_or_expired" if errors else "empty")
+    data["goofish_session"] = {
+        "source": SESSION_SOURCE,
+        "login_expired": login_expired,
+        "security_verification": any("SECURITY" in e for e in errors),
+        "renewed": session_saved,
+        "checked_at": datetime.now(timezone.utc).isoformat(),
+    }
     data["goofish_scan"] = {
         "strategy": "ranking_targeted_v2",
         "targets_planned": len(targets),

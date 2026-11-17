@@ -1,0 +1,114 @@
+name: Goofish Cloud QR Login
+
+# 手动启动：云端浏览器打开闲鱼登录页，二维码发布到 goofish-login 分支，
+# Watch Radar 网站读取后显示；用闲鱼 App 扫码确认即可。成功后登录态加密存入 Actions cache。
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: goofish-login
+  cancel-in-progress: true
+
+jobs:
+  login:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Playwright
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright cryptography
+          python -m playwright install --with-deps chromium
+
+      - name: Start home SOCKS tunnel
+        id: home
+        env:
+          HOME_SSH_HOST: ${{ secrets.HOME_SSH_HOST }}
+          HOME_SSH_PRIVATE_KEY: ${{ secrets.HOME_SSH_PRIVATE_KEY }}
+          HOME_SSH_KNOWN_HOSTS: ${{ secrets.HOME_SSH_KNOWN_HOSTS }}
+        shell: bash
+        run: |
+          set +e
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          home = Path.home() / ".ssh"
+          key = os.environ.get("HOME_SSH_PRIVATE_KEY", "").lstrip("\ufeff")
+          key = key.replace("\r\n", "\n").replace("\r", "\n").strip("\n") + "\n"
+          known = os.environ.get("HOME_SSH_KNOWN_HOSTS", "").lstrip("\ufeff")
+          known = known.replace("\r\n", "\n").replace("\r", "\n").strip("\n") + "\n"
+          (home / "be3600_watchradar").write_text(key, encoding="utf-8")
+          (home / "known_hosts").write_text(known, encoding="utf-8")
+          PY
+
+          chmod 600 ~/.ssh/be3600_watchradar ~/.ssh/known_hosts
+          HOME_HOST="$(python - <<'PY'
+          import os
+          print(os.environ.get('HOME_SSH_HOST','').lstrip('\ufeff').strip())
+          PY
+          )"
+
+          if [ -z "$HOME_HOST" ]; then
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            echo "HOME_SSH_HOST is empty"
+            exit 0
+          fi
+
+          ssh -fNT \
+            -D 127.0.0.1:1080 \
+            -p 40222 \
+            -i ~/.ssh/be3600_watchradar \
+            -o BatchMode=yes \
+            -o PasswordAuthentication=no \
+            -o HostKeyAlgorithms=+ssh-rsa \
+            -o PubkeyAcceptedAlgorithms=+ssh-rsa \
+            -o StrictHostKeyChecking=yes \
+            -o UserKnownHostsFile=~/.ssh/known_hosts \
+            -o ExitOnForwardFailure=yes \
+            -o ConnectTimeout=15 \
+            -o ServerAliveInterval=30 \
+            -o ServerAliveCountMax=3 \
+            root@"$HOME_HOST"
+
+          rc=$?
+          if [ "$rc" -ne 0 ]; then
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            echo "Home SSH tunnel failed; JP collection will still publish."
+            exit 0
+          fi
+
+          sleep 2
+          EXIT_IP="$(curl -fsS --max-time 15 --socks5-hostname 127.0.0.1:1080 https://api.ipify.org)"
+          if [ -n "$EXIT_IP" ]; then
+            echo "Home exit IP: $EXIT_IP"
+            echo "available=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            echo "SOCKS tunnel opened but proxy check failed."
+          fi
+
+      - name: Wait for QR scan
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GOOFISH_STATE_KEY_MATERIAL: ${{ secrets.HOME_SSH_PRIVATE_KEY }}
+          WATCH_SOCKS_PROXY: ${{ steps.home.outputs.available == 'true' && 'socks5://127.0.0.1:1080' || '' }}
+        run: xvfb-run -a python goofish_qr_login.py
+
+      - name: Save Goofish session
+        if: always() && hashFiles('.goofish_state/ok') != ''
+        uses: actions/cache/save@v4
+        with:
+          path: .goofish_state
+          key: goofish-state-${{ github.run_id }}
