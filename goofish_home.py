@@ -60,6 +60,9 @@ def parse_price(s: str):
     raw=(s or "").replace(",","").replace("，","").replace("￥","¥").strip()
     if not raw:
         return None
+    # Search cards render "¥ 24 .60 万" as separate spans; rejoin the decimal before matching,
+    # otherwise it reads as ¥24 and the card is dropped by the minimum-price check.
+    raw=re.sub(r"(?<=[0-9])\s*\.\s*(?=[0-9])", ".", raw)
     m=re.search(r"¥\s*([0-9]+(?:\.[0-9]+)?)\s*(万)?", raw)
     if not m:
         m=re.search(r"(?<![0-9])([0-9]+(?:\.[0-9]+)?)\s*(万)\s*(?:元)?", raw)
