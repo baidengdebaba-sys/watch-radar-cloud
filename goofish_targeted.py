@@ -408,6 +408,10 @@ def main():
 
     targets = build_targets()
     log("targeted search targets", len(targets), ", ".join(t["query"] for t in targets[:20]))
+    # 每轮搜索页总数有上限：按搜索词平均分配页数，别让前面几个型号把额度用光
+    n_queries = len({q["q"] for t in targets if t.get("ref") for q in deep.queries_for(t)}) or 1
+    deep.MAX_PAGES = max(1, min(5, deep.SEARCH_PAGE_CAP // n_queries))
+    log("pages per query", deep.MAX_PAGES, "queries", n_queries)
     all_items = []
     errors = []
     searched = 0
