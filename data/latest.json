@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T00:08:50.432357+00:00",
+  "generated_at": "2026-11-28T13:17:22.575428+00:00",
   "runner": "github-actions-home-exit-targeted",
   "goofish_status": "blocked_or_expired",
   "items": [
@@ -817,7 +817,7 @@
         "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 2050000,
-        "best_jpy": 2382000,
+        "best_jpy": 2390000,
         "sources": [
           "QUARK",
           "なんぼや"
@@ -3704,8 +3704,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 4422000,
-        "best_jpy": 4422000,
+        "conservative_jpy": 4424000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや"
         ]
@@ -3777,12 +3777,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -3904,12 +3903,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -4080,12 +4078,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -4288,9 +4285,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -4384,12 +4381,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 2,
+        "quote_count": 1,
         "basis": "used",
         "conservative_jpy": 1500000,
-        "best_jpy": 2300000,
+        "best_jpy": 1500000,
         "sources": [
-          "QUARK",
           "RASIN"
         ]
       },
@@ -4433,8 +4429,8 @@
         "ref": "126710BLRO",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 13000000,
-        "best_jpy": 13000000,
+        "conservative_jpy": 11000000,
+        "best_jpy": 11000000,
         "sources": [
           "RASIN"
         ]
@@ -4480,7 +4476,7 @@
         "quote_count": 4,
         "basis": "new",
         "conservative_jpy": 4700000,
-        "best_jpy": 14000000,
+        "best_jpy": 12500000,
         "sources": [
           "RASIN",
           "PREMIER VALUE"
@@ -4524,12 +4520,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -4575,7 +4570,7 @@
         "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
-        "best_jpy": 5510000,
+        "best_jpy": 5507000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -4878,7 +4873,7 @@
         "quote_count": 3,
         "basis": "new",
         "conservative_jpy": 1620000,
-        "best_jpy": 4422000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや",
           "WATCHNIAN",
@@ -5007,8 +5002,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 4422000,
-        "best_jpy": 4422000,
+        "conservative_jpy": 4424000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや"
         ]
@@ -5196,12 +5191,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -5444,9 +5438,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -5540,12 +5534,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 2,
+        "quote_count": 1,
         "basis": "used",
         "conservative_jpy": 1500000,
-        "best_jpy": 2300000,
+        "best_jpy": 1500000,
         "sources": [
-          "QUARK",
           "RASIN"
         ]
       },
@@ -5587,12 +5580,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 2,
+        "quote_count": 1,
         "basis": "used",
         "conservative_jpy": 1500000,
-        "best_jpy": 2300000,
+        "best_jpy": 1500000,
         "sources": [
-          "QUARK",
           "RASIN"
         ]
       },
@@ -5637,7 +5629,7 @@
         "quote_count": 4,
         "basis": "new",
         "conservative_jpy": 4700000,
-        "best_jpy": 14000000,
+        "best_jpy": 12500000,
         "sources": [
           "RASIN",
           "PREMIER VALUE"
@@ -5684,7 +5676,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -5731,7 +5723,7 @@
         "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
-        "best_jpy": 5510000,
+        "best_jpy": 5507000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -6025,9 +6017,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -6077,8 +6069,8 @@
         "ref": "126710BLRO",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 13000000,
-        "best_jpy": 13000000,
+        "conservative_jpy": 11000000,
+        "best_jpy": 11000000,
         "sources": [
           "RASIN"
         ]
@@ -6123,8 +6115,8 @@
         "ref": "126710BLRO",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 13000000,
-        "best_jpy": 13000000,
+        "conservative_jpy": 11000000,
+        "best_jpy": 11000000,
         "sources": [
           "RASIN"
         ]
@@ -6300,12 +6292,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -6551,7 +6542,7 @@
         "quote_count": 3,
         "basis": "new",
         "conservative_jpy": 1620000,
-        "best_jpy": 4422000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや",
           "WATCHNIAN",
@@ -6643,12 +6634,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 2,
+        "quote_count": 1,
         "basis": "used",
         "conservative_jpy": 1500000,
-        "best_jpy": 2300000,
+        "best_jpy": 1500000,
         "sources": [
-          "QUARK",
           "RASIN"
         ]
       },
@@ -6692,8 +6682,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 4422000,
-        "best_jpy": 4422000,
+        "conservative_jpy": 4424000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや"
         ]
@@ -6786,7 +6776,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -6833,7 +6823,7 @@
         "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
-        "best_jpy": 5510000,
+        "best_jpy": 5507000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -7127,9 +7117,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -7177,12 +7167,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 2,
+        "quote_count": 1,
         "basis": "used",
         "conservative_jpy": 1500000,
-        "best_jpy": 2300000,
+        "best_jpy": 1500000,
         "sources": [
-          "QUARK",
           "RASIN"
         ]
       },
@@ -7226,8 +7215,8 @@
         "ref": "126710BLRO",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 13000000,
-        "best_jpy": 13000000,
+        "conservative_jpy": 11000000,
+        "best_jpy": 11000000,
         "sources": [
           "RASIN"
         ]
@@ -7273,7 +7262,7 @@
         "quote_count": 4,
         "basis": "new",
         "conservative_jpy": 4700000,
-        "best_jpy": 14000000,
+        "best_jpy": 12500000,
         "sources": [
           "RASIN",
           "PREMIER VALUE"
@@ -7320,7 +7309,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -7664,8 +7653,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 4422000,
-        "best_jpy": 4422000,
+        "conservative_jpy": 4424000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや"
         ]
@@ -7755,12 +7744,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -7806,7 +7794,7 @@
         "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
-        "best_jpy": 5510000,
+        "best_jpy": 5507000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -7856,7 +7844,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2530000,
-        "best_jpy": 13000000,
+        "best_jpy": 11000000,
         "sources": [
           "RASIN",
           "WATCHNIAN"
@@ -8200,8 +8188,8 @@
         "ref": "126710BLRO",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 13000000,
-        "best_jpy": 13000000,
+        "conservative_jpy": 11000000,
+        "best_jpy": 11000000,
         "sources": [
           "RASIN"
         ]
@@ -8246,8 +8234,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 4422000,
-        "best_jpy": 4422000,
+        "conservative_jpy": 4424000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや"
         ]
@@ -8293,7 +8281,7 @@
         "quote_count": 4,
         "basis": "new",
         "conservative_jpy": 4700000,
-        "best_jpy": 14000000,
+        "best_jpy": 12500000,
         "sources": [
           "RASIN",
           "PREMIER VALUE"
@@ -8337,12 +8325,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -8483,12 +8470,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -8731,9 +8717,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -8830,8 +8816,8 @@
         "ref": "126710BLRO",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 13000000,
-        "best_jpy": 13000000,
+        "conservative_jpy": 11000000,
+        "best_jpy": 11000000,
         "sources": [
           "RASIN"
         ]
@@ -8877,7 +8863,7 @@
         "quote_count": 4,
         "basis": "new",
         "conservative_jpy": 4700000,
-        "best_jpy": 14000000,
+        "best_jpy": 12500000,
         "sources": [
           "RASIN",
           "PREMIER VALUE"
@@ -8921,12 +8907,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -8972,7 +8957,7 @@
         "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
-        "best_jpy": 5510000,
+        "best_jpy": 5507000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -9022,7 +9007,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2530000,
-        "best_jpy": 13000000,
+        "best_jpy": 11000000,
         "sources": [
           "RASIN",
           "WATCHNIAN"
@@ -9066,12 +9051,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -9314,12 +9298,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 2,
+        "quote_count": 1,
         "basis": "used",
         "conservative_jpy": 1500000,
-        "best_jpy": 2300000,
+        "best_jpy": 1500000,
         "sources": [
-          "QUARK",
           "RASIN"
         ]
       },
@@ -9363,8 +9346,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 4422000,
-        "best_jpy": 4422000,
+        "conservative_jpy": 4424000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや"
         ]
@@ -9454,12 +9437,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -9549,12 +9531,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -9720,7 +9701,7 @@
         "quote_count": 3,
         "basis": "new",
         "conservative_jpy": 1620000,
-        "best_jpy": 4422000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや",
           "WATCHNIAN",
@@ -9909,12 +9890,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -9954,7 +9934,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2530000,
-        "best_jpy": 13000000,
+        "best_jpy": 11000000,
         "sources": [
           "RASIN",
           "WATCHNIAN"
@@ -9993,12 +9973,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -10321,12 +10300,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -10412,7 +10390,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2530000,
-        "best_jpy": 13000000,
+        "best_jpy": 11000000,
         "sources": [
           "RASIN",
           "WATCHNIAN"
@@ -10456,12 +10434,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -10641,7 +10618,7 @@
         "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 2050000,
-        "best_jpy": 2382000,
+        "best_jpy": 2390000,
         "sources": [
           "QUARK",
           "なんぼや"
@@ -10715,12 +10692,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -10835,12 +10811,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -11087,12 +11062,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -11172,12 +11146,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -11354,12 +11327,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -11692,7 +11664,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -11808,12 +11780,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -12060,12 +12031,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -12144,12 +12114,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -12732,7 +12701,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -13056,12 +13025,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -13176,12 +13144,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -13500,7 +13467,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -13577,7 +13544,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2530000,
-        "best_jpy": 13000000,
+        "best_jpy": 11000000,
         "sources": [
           "RASIN",
           "WATCHNIAN"
@@ -13616,12 +13583,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -13867,12 +13833,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -13987,12 +13952,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -14353,8 +14317,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 4422000,
-        "best_jpy": 4422000,
+        "conservative_jpy": 4424000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや"
         ]
@@ -14427,12 +14391,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -14508,7 +14471,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2530000,
-        "best_jpy": 13000000,
+        "best_jpy": 11000000,
         "sources": [
           "RASIN",
           "WATCHNIAN"
@@ -14755,12 +14718,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -14840,12 +14802,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -15025,8 +14986,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 4422000,
-        "best_jpy": 4422000,
+        "conservative_jpy": 4424000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや"
         ]
@@ -15101,7 +15062,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -15217,12 +15178,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -15333,7 +15293,7 @@
         "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 2050000,
-        "best_jpy": 2382000,
+        "best_jpy": 2390000,
         "sources": [
           "QUARK",
           "なんぼや"
@@ -15375,7 +15335,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -15598,8 +15558,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 4422000,
-        "best_jpy": 4422000,
+        "conservative_jpy": 4424000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや"
         ]
@@ -15675,7 +15635,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -15756,12 +15716,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -15907,7 +15866,7 @@
         "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 2050000,
-        "best_jpy": 2382000,
+        "best_jpy": 2390000,
         "sources": [
           "QUARK",
           "なんぼや"
@@ -15980,12 +15939,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -16284,7 +16242,7 @@
         "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 2050000,
-        "best_jpy": 2382000,
+        "best_jpy": 2390000,
         "sources": [
           "QUARK",
           "なんぼや"
@@ -16361,7 +16319,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -16438,7 +16396,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2530000,
-        "best_jpy": 13000000,
+        "best_jpy": 11000000,
         "sources": [
           "RASIN",
           "WATCHNIAN"
@@ -16590,8 +16548,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 4422000,
-        "best_jpy": 4422000,
+        "conservative_jpy": 4424000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや"
         ]
@@ -16663,12 +16621,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -16782,12 +16739,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -17037,7 +16993,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -17153,12 +17109,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -17370,12 +17325,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -17490,12 +17444,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -17707,12 +17660,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -17792,12 +17744,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -17978,7 +17929,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -18094,12 +18045,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -18312,12 +18262,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -18431,12 +18380,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -18581,8 +18529,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 4422000,
-        "best_jpy": 4422000,
+        "conservative_jpy": 4424000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや"
         ]
@@ -18879,8 +18827,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 4422000,
-        "best_jpy": 4422000,
+        "conservative_jpy": 4424000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや"
         ]
@@ -18953,12 +18901,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -19250,7 +19197,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -19509,7 +19456,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -19774,7 +19721,7 @@
         "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 2050000,
-        "best_jpy": 2382000,
+        "best_jpy": 2390000,
         "sources": [
           "QUARK",
           "なんぼや"
@@ -19851,7 +19798,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -19932,12 +19879,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -20047,8 +19993,8 @@
         "ref": "126710BLRO",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 13000000,
-        "best_jpy": 13000000,
+        "conservative_jpy": 11000000,
+        "best_jpy": 11000000,
         "sources": [
           "RASIN"
         ]
@@ -20123,7 +20069,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -20239,12 +20185,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -20387,12 +20332,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 2,
+        "quote_count": 1,
         "basis": "used",
         "conservative_jpy": 1500000,
-        "best_jpy": 2300000,
+        "best_jpy": 1500000,
         "sources": [
-          "QUARK",
           "RASIN"
         ]
       },
@@ -20464,12 +20408,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -20584,12 +20527,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -20732,12 +20674,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 2,
+        "quote_count": 1,
         "basis": "used",
         "conservative_jpy": 1500000,
-        "best_jpy": 2300000,
+        "best_jpy": 1500000,
         "sources": [
-          "QUARK",
           "RASIN"
         ]
       },
@@ -20811,7 +20752,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -21038,12 +20979,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 2,
+        "quote_count": 1,
         "basis": "used",
         "conservative_jpy": 1500000,
-        "best_jpy": 2300000,
+        "best_jpy": 1500000,
         "sources": [
-          "QUARK",
           "RASIN"
         ]
       },
@@ -21080,12 +21020,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -21200,12 +21139,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -21313,12 +21251,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 2,
+        "quote_count": 1,
         "basis": "used",
         "conservative_jpy": 1500000,
-        "best_jpy": 2300000,
+        "best_jpy": 1500000,
         "sources": [
-          "QUARK",
           "RASIN"
         ]
       },
@@ -21355,12 +21292,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -21475,12 +21411,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -21660,7 +21595,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -21702,7 +21637,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2530000,
-        "best_jpy": 13000000,
+        "best_jpy": 11000000,
         "sources": [
           "RASIN",
           "WATCHNIAN"
@@ -21741,12 +21676,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -21889,12 +21823,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 2,
+        "quote_count": 1,
         "basis": "used",
         "conservative_jpy": 1500000,
-        "best_jpy": 2300000,
+        "best_jpy": 1500000,
         "sources": [
-          "QUARK",
           "RASIN"
         ]
       },
@@ -21966,12 +21899,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -22086,12 +22018,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -22268,12 +22199,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -22387,12 +22317,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -22572,7 +22501,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -22830,7 +22759,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -23057,12 +22986,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -23142,12 +23070,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -23290,12 +23217,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 2,
+        "quote_count": 1,
         "basis": "used",
         "conservative_jpy": 1500000,
-        "best_jpy": 2300000,
+        "best_jpy": 1500000,
         "sources": [
-          "QUARK",
           "RASIN"
         ]
       },
@@ -23370,7 +23296,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -23593,8 +23519,8 @@
         "ref": "126710BLRO",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 13000000,
-        "best_jpy": 13000000,
+        "conservative_jpy": 11000000,
+        "best_jpy": 11000000,
         "sources": [
           "RASIN"
         ]
@@ -23670,7 +23596,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -23926,12 +23852,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -24011,12 +23936,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -24375,12 +24299,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -24641,12 +24564,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -24726,12 +24648,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -24874,12 +24795,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -25038,7 +24958,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -25154,12 +25074,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -25270,7 +25189,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -25351,12 +25270,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -25501,7 +25419,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -25655,7 +25573,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -25806,12 +25724,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -25964,7 +25881,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -26156,12 +26073,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -26346,12 +26262,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -26431,12 +26346,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -26477,7 +26391,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -26558,12 +26472,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -26674,7 +26587,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -26755,12 +26668,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -26836,7 +26748,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -26961,7 +26873,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -27150,7 +27062,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -27342,12 +27254,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -27497,12 +27408,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -27661,7 +27571,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -27818,12 +27728,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -27906,7 +27815,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -28028,12 +27937,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -28112,12 +28020,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -28197,12 +28104,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -28275,12 +28181,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -28395,9 +28300,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -28440,12 +28345,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -28525,12 +28429,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -28571,7 +28474,7 @@
         "quote_count": 3,
         "basis": "new",
         "conservative_jpy": 1620000,
-        "best_jpy": 4422000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや",
           "WATCHNIAN",
@@ -28610,12 +28513,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -28694,12 +28596,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -28820,9 +28721,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -28942,12 +28843,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -28987,7 +28887,7 @@
         "quote_count": 3,
         "basis": "new",
         "conservative_jpy": 1620000,
-        "best_jpy": 4422000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや",
           "WATCHNIAN",
@@ -29112,7 +29012,7 @@
         "quote_count": 3,
         "basis": "new",
         "conservative_jpy": 1620000,
-        "best_jpy": 4422000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや",
           "WATCHNIAN",
@@ -29194,9 +29094,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -29239,12 +29139,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -29362,7 +29261,7 @@
         "quote_count": 3,
         "basis": "new",
         "conservative_jpy": 1620000,
-        "best_jpy": 4422000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや",
           "WATCHNIAN",
@@ -29401,12 +29300,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -29530,7 +29428,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -29614,7 +29512,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -29698,7 +29596,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -29814,12 +29712,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -29857,9 +29754,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -29943,12 +29840,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -30028,12 +29924,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -30074,7 +29969,7 @@
         "quote_count": 3,
         "basis": "new",
         "conservative_jpy": 1620000,
-        "best_jpy": 4422000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや",
           "WATCHNIAN",
@@ -30114,12 +30009,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -30243,7 +30137,7 @@
         "quote_count": 3,
         "basis": "new",
         "conservative_jpy": 1620000,
-        "best_jpy": 4422000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや",
           "WATCHNIAN",
@@ -30283,12 +30177,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -30403,12 +30296,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -30567,7 +30459,7 @@
         "quote_count": 3,
         "basis": "new",
         "conservative_jpy": 1620000,
-        "best_jpy": 4422000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや",
           "WATCHNIAN",
@@ -30609,7 +30501,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -30725,12 +30617,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -30771,7 +30662,7 @@
         "quote_count": 3,
         "basis": "new",
         "conservative_jpy": 1620000,
-        "best_jpy": 4422000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや",
           "WATCHNIAN",
@@ -30814,7 +30705,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -30941,12 +30832,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -30987,7 +30877,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -31112,7 +31002,7 @@
         "quote_count": 3,
         "basis": "new",
         "conservative_jpy": 1620000,
-        "best_jpy": 4422000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや",
           "WATCHNIAN",
@@ -31155,7 +31045,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -31197,7 +31087,7 @@
         "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
-        "best_jpy": 5510000,
+        "best_jpy": 5507000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -31360,7 +31250,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -31482,9 +31372,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -31530,7 +31420,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -31611,12 +31501,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -31696,12 +31585,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -31826,12 +31714,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -31911,12 +31798,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -31996,12 +31882,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -32081,12 +31966,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -32169,7 +32053,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -32293,7 +32177,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -32416,12 +32300,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -32459,12 +32342,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -32584,12 +32466,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -32672,7 +32553,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -32752,12 +32633,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -32795,12 +32675,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -32880,12 +32759,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -32968,7 +32846,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -33052,7 +32930,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -33216,12 +33094,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -33301,12 +33178,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -33344,12 +33220,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -33387,12 +33262,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -33430,12 +33304,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -33473,12 +33346,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -33558,12 +33430,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -33604,7 +33475,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -33687,7 +33558,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -33768,12 +33639,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -33893,12 +33763,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -33936,12 +33805,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -34063,12 +33931,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -34106,12 +33973,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -34194,7 +34060,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -34236,7 +34102,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -34275,12 +34141,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -34359,12 +34224,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -34402,12 +34266,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -34571,12 +34434,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -34614,12 +34476,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -34657,12 +34518,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -34700,12 +34560,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -34746,7 +34605,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -34785,12 +34644,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -34831,7 +34689,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -34870,12 +34728,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -34954,9 +34811,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -35314,7 +35171,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2530000,
-        "best_jpy": 13000000,
+        "best_jpy": 11000000,
         "sources": [
           "RASIN",
           "WATCHNIAN"
@@ -35610,9 +35467,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -35707,12 +35564,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 2,
+        "quote_count": 1,
         "basis": "used",
         "conservative_jpy": 1500000,
-        "best_jpy": 2300000,
+        "best_jpy": 1500000,
         "sources": [
-          "QUARK",
           "RASIN"
         ]
       },
@@ -35757,7 +35613,7 @@
         "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 2050000,
-        "best_jpy": 2382000,
+        "best_jpy": 2390000,
         "sources": [
           "QUARK",
           "なんぼや"
@@ -35851,7 +35707,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -35898,7 +35754,7 @@
         "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
-        "best_jpy": 5510000,
+        "best_jpy": 5507000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -35948,7 +35804,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2530000,
-        "best_jpy": 13000000,
+        "best_jpy": 11000000,
         "sources": [
           "RASIN",
           "WATCHNIAN"
@@ -35992,12 +35848,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -36246,9 +36101,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -36343,12 +36198,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 2,
+        "quote_count": 1,
         "basis": "used",
         "conservative_jpy": 1500000,
-        "best_jpy": 2300000,
+        "best_jpy": 1500000,
         "sources": [
-          "QUARK",
           "RASIN"
         ]
       },
@@ -36392,8 +36246,8 @@
         "ref": "126710BLRO",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 13000000,
-        "best_jpy": 13000000,
+        "conservative_jpy": 11000000,
+        "best_jpy": 11000000,
         "sources": [
           "RASIN"
         ]
@@ -36486,7 +36340,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -36584,7 +36438,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2530000,
-        "best_jpy": 13000000,
+        "best_jpy": 11000000,
         "sources": [
           "RASIN",
           "WATCHNIAN"
@@ -36628,12 +36482,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -36876,9 +36729,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -36974,8 +36827,8 @@
         "ref": "126710BLRO",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 13000000,
-        "best_jpy": 13000000,
+        "conservative_jpy": 11000000,
+        "best_jpy": 11000000,
         "sources": [
           "RASIN"
         ]
@@ -37020,8 +36873,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 4422000,
-        "best_jpy": 4422000,
+        "conservative_jpy": 4424000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや"
         ]
@@ -37067,7 +36920,7 @@
         "quote_count": 4,
         "basis": "new",
         "conservative_jpy": 4700000,
-        "best_jpy": 14000000,
+        "best_jpy": 12500000,
         "sources": [
           "RASIN",
           "PREMIER VALUE"
@@ -37111,12 +36964,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -37598,8 +37450,8 @@
         "ref": "126710BLRO",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 13000000,
-        "best_jpy": 13000000,
+        "conservative_jpy": 11000000,
+        "best_jpy": 11000000,
         "sources": [
           "RASIN"
         ]
@@ -37644,8 +37496,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 4422000,
-        "best_jpy": 4422000,
+        "conservative_jpy": 4424000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや"
         ]
@@ -37738,7 +37590,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -37836,7 +37688,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2530000,
-        "best_jpy": 13000000,
+        "best_jpy": 11000000,
         "sources": [
           "RASIN",
           "WATCHNIAN"
@@ -38126,9 +37978,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -38222,12 +38074,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 2,
+        "quote_count": 1,
         "basis": "used",
         "conservative_jpy": 1500000,
-        "best_jpy": 2300000,
+        "best_jpy": 1500000,
         "sources": [
-          "QUARK",
           "RASIN"
         ]
       },
@@ -38312,7 +38163,7 @@
         "quote_count": 4,
         "basis": "new",
         "conservative_jpy": 4700000,
-        "best_jpy": 14000000,
+        "best_jpy": 12500000,
         "sources": [
           "RASIN",
           "PREMIER VALUE"
@@ -38359,7 +38210,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -38406,7 +38257,7 @@
         "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
-        "best_jpy": 5510000,
+        "best_jpy": 5507000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -38746,9 +38597,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -38842,12 +38693,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 2,
+        "quote_count": 1,
         "basis": "used",
         "conservative_jpy": 1500000,
-        "best_jpy": 2300000,
+        "best_jpy": 1500000,
         "sources": [
-          "QUARK",
           "RASIN"
         ]
       },
@@ -38891,8 +38741,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 4422000,
-        "best_jpy": 4422000,
+        "conservative_jpy": 4424000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや"
         ]
@@ -38985,7 +38835,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -39376,7 +39226,7 @@
         "quote_count": 3,
         "basis": "new",
         "conservative_jpy": 1620000,
-        "best_jpy": 4422000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや",
           "WATCHNIAN",
@@ -39467,12 +39317,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 2,
+        "quote_count": 1,
         "basis": "used",
         "conservative_jpy": 1500000,
-        "best_jpy": 2300000,
+        "best_jpy": 1500000,
         "sources": [
-          "QUARK",
           "RASIN"
         ]
       },
@@ -39516,8 +39365,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 4422000,
-        "best_jpy": 4422000,
+        "conservative_jpy": 4424000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや"
         ]
@@ -39607,12 +39456,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -39658,7 +39506,7 @@
         "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
-        "best_jpy": 5510000,
+        "best_jpy": 5507000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -39752,12 +39600,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -40093,12 +39940,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 2,
+        "quote_count": 1,
         "basis": "used",
         "conservative_jpy": 1500000,
-        "best_jpy": 2300000,
+        "best_jpy": 1500000,
         "sources": [
-          "QUARK",
           "RASIN"
         ]
       },
@@ -40142,8 +39988,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 4422000,
-        "best_jpy": 4422000,
+        "conservative_jpy": 4424000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや"
         ]
@@ -40239,7 +40085,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -40337,7 +40183,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2530000,
-        "best_jpy": 13000000,
+        "best_jpy": 11000000,
         "sources": [
           "RASIN",
           "WATCHNIAN"
@@ -40636,7 +40482,7 @@
         "quote_count": 3,
         "basis": "new",
         "conservative_jpy": 1620000,
-        "best_jpy": 4422000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや",
           "WATCHNIAN",
@@ -40729,8 +40575,8 @@
         "ref": "126710BLRO",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 13000000,
-        "best_jpy": 13000000,
+        "conservative_jpy": 11000000,
+        "best_jpy": 11000000,
         "sources": [
           "RASIN"
         ]
@@ -40816,7 +40662,7 @@
         "quote_count": 4,
         "basis": "new",
         "conservative_jpy": 4700000,
-        "best_jpy": 14000000,
+        "best_jpy": 12500000,
         "sources": [
           "RASIN",
           "PREMIER VALUE"
@@ -40863,7 +40709,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -40910,7 +40756,7 @@
         "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
-        "best_jpy": 5510000,
+        "best_jpy": 5507000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -40957,12 +40803,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -41208,7 +41053,7 @@
         "quote_count": 3,
         "basis": "new",
         "conservative_jpy": 1620000,
-        "best_jpy": 4422000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや",
           "WATCHNIAN",
@@ -41302,8 +41147,8 @@
         "ref": "126710BLNR",
         "quote_count": 1,
         "basis": "new",
-        "conservative_jpy": 4422000,
-        "best_jpy": 4422000,
+        "conservative_jpy": 4424000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや"
         ]
@@ -41346,12 +41191,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 2,
+        "quote_count": 1,
         "basis": "used",
         "conservative_jpy": 1500000,
-        "best_jpy": 2300000,
+        "best_jpy": 1500000,
         "sources": [
-          "QUARK",
           "RASIN"
         ]
       },
@@ -41443,7 +41287,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -41538,12 +41382,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -41786,9 +41629,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -41917,12 +41760,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -41995,12 +41837,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -42177,12 +42018,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -42255,12 +42095,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -42447,12 +42286,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -42525,12 +42363,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -42683,7 +42520,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -42912,7 +42749,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -42986,12 +42823,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -43140,12 +42976,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -43218,12 +43053,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -43331,12 +43165,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -43487,7 +43320,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -43637,12 +43470,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -43715,12 +43547,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -43796,7 +43627,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -43870,12 +43701,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -43948,12 +43778,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -44025,12 +43854,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -44106,7 +43934,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -44259,7 +44087,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -44333,12 +44161,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -44411,12 +44238,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -44489,12 +44315,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -44567,12 +44392,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -44644,12 +44468,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -44722,12 +44545,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -44800,12 +44622,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -44846,7 +44667,7 @@
         "quote_count": 3,
         "basis": "new",
         "conservative_jpy": 1620000,
-        "best_jpy": 4422000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや",
           "WATCHNIAN",
@@ -44921,12 +44742,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -44964,9 +44784,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -45044,12 +44864,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -45156,12 +44975,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -45202,7 +45020,7 @@
         "quote_count": 3,
         "basis": "new",
         "conservative_jpy": 1620000,
-        "best_jpy": 4422000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや",
           "WATCHNIAN",
@@ -45277,12 +45095,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -45320,9 +45137,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -45400,12 +45217,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -45443,9 +45259,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -45523,12 +45339,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -45566,9 +45381,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -45646,12 +45461,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -45689,9 +45503,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -45768,12 +45582,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -45811,9 +45624,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -45891,12 +45704,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -45933,9 +45745,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -46013,12 +45825,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -46056,9 +45867,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -46138,12 +45949,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -46181,9 +45991,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -46261,12 +46071,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -46338,12 +46147,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -46416,12 +46224,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -46504,12 +46311,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -46550,7 +46356,7 @@
         "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
-        "best_jpy": 5510000,
+        "best_jpy": 5507000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -46592,12 +46398,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -46681,12 +46486,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -46765,12 +46569,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -46808,12 +46611,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -46851,12 +46653,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -46893,12 +46694,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -46936,12 +46736,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -46979,12 +46778,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -47063,12 +46861,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -47106,12 +46903,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -47230,12 +47026,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -47273,12 +47068,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -48016,12 +47810,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -48160,7 +47953,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -48204,12 +47997,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -48299,12 +48091,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -48347,9 +48138,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -48443,12 +48234,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 2,
+        "quote_count": 1,
         "basis": "used",
         "conservative_jpy": 1500000,
-        "best_jpy": 2300000,
+        "best_jpy": 1500000,
         "sources": [
-          "QUARK",
           "RASIN"
         ]
       },
@@ -48536,12 +48326,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 2,
+        "quote_count": 1,
         "basis": "used",
         "conservative_jpy": 1500000,
-        "best_jpy": 2300000,
+        "best_jpy": 1500000,
         "sources": [
-          "QUARK",
           "RASIN"
         ]
       },
@@ -48583,9 +48372,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -49437,7 +49226,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -49476,12 +49265,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -49589,12 +49377,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -49890,12 +49677,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -49968,12 +49754,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -50121,12 +49906,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -50427,12 +50211,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -50904,7 +50687,7 @@
         "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 2050000,
-        "best_jpy": 2382000,
+        "best_jpy": 2390000,
         "sources": [
           "QUARK",
           "なんぼや"
@@ -50981,7 +50764,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -51055,12 +50838,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -51212,7 +50994,7 @@
         "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 2050000,
-        "best_jpy": 2382000,
+        "best_jpy": 2390000,
         "sources": [
           "QUARK",
           "なんぼや"
@@ -51671,12 +51453,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -51784,12 +51565,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 2,
+        "quote_count": 1,
         "basis": "used",
         "conservative_jpy": 1500000,
-        "best_jpy": 2300000,
+        "best_jpy": 1500000,
         "sources": [
-          "QUARK",
           "RASIN"
         ]
       },
@@ -51861,12 +51641,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -51903,12 +51682,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -51946,12 +51724,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126710BLRO",
-        "quote_count": 2,
+        "quote_count": 1,
         "basis": "used",
         "conservative_jpy": 1500000,
-        "best_jpy": 2300000,
+        "best_jpy": 1500000,
         "sources": [
-          "QUARK",
           "RASIN"
         ]
       },
@@ -52058,12 +51835,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -52562,12 +52338,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -52855,12 +52630,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -53038,12 +52812,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -53571,12 +53344,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -54297,12 +54069,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -54410,12 +54181,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -54453,9 +54223,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -54532,12 +54302,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -54575,12 +54344,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -54653,12 +54421,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -54731,12 +54498,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -54774,12 +54540,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -54855,7 +54620,7 @@
         "quote_count": 3,
         "basis": "new",
         "conservative_jpy": 1620000,
-        "best_jpy": 4422000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや",
           "WATCHNIAN",
@@ -54971,9 +54736,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -55051,12 +54816,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -55094,9 +54858,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -55141,7 +54905,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -55215,12 +54979,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -55261,7 +55024,7 @@
         "quote_count": 3,
         "basis": "new",
         "conservative_jpy": 1620000,
-        "best_jpy": 4422000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや",
           "WATCHNIAN",
@@ -55371,12 +55134,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -55417,7 +55179,7 @@
         "quote_count": 3,
         "basis": "new",
         "conservative_jpy": 1620000,
-        "best_jpy": 4422000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや",
           "WATCHNIAN",
@@ -55460,7 +55222,7 @@
         "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
-        "best_jpy": 5510000,
+        "best_jpy": 5507000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -55501,12 +55263,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -55544,12 +55305,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -55665,7 +55425,7 @@
         "quote_count": 3,
         "basis": "new",
         "conservative_jpy": 1620000,
-        "best_jpy": 4422000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや",
           "WATCHNIAN",
@@ -55754,7 +55514,7 @@
         "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
-        "best_jpy": 5510000,
+        "best_jpy": 5507000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -55799,7 +55559,7 @@
         "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
-        "best_jpy": 5510000,
+        "best_jpy": 5507000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -55841,12 +55601,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -55887,7 +55646,7 @@
         "quote_count": 3,
         "basis": "new",
         "conservative_jpy": 1620000,
-        "best_jpy": 4422000,
+        "best_jpy": 4424000,
         "sources": [
           "なんぼや",
           "WATCHNIAN",
@@ -55930,7 +55689,7 @@
         "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
-        "best_jpy": 5510000,
+        "best_jpy": 5507000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -55972,12 +55731,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -56015,12 +55773,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -56134,12 +55891,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -56177,12 +55933,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -56220,12 +55975,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -56263,12 +56017,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -56306,12 +56059,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -56391,12 +56143,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -56437,7 +56188,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -56476,12 +56227,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -56519,12 +56269,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -56562,12 +56311,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -56605,12 +56353,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -56648,12 +56395,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -56691,12 +56437,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -56779,7 +56524,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -56901,12 +56646,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -56944,12 +56688,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -56987,12 +56730,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -57196,12 +56938,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -57322,12 +57063,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -57368,7 +57108,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2530000,
-        "best_jpy": 13000000,
+        "best_jpy": 11000000,
         "sources": [
           "RASIN",
           "WATCHNIAN"
@@ -57407,12 +57147,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -57450,12 +57189,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -57493,12 +57231,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -57578,12 +57315,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -57621,12 +57357,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -57705,12 +57440,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -57790,12 +57524,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -57833,12 +57566,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -57879,7 +57611,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -57918,12 +57650,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -57964,7 +57695,7 @@
         "quote_count": 2,
         "basis": "new",
         "conservative_jpy": 2000000,
-        "best_jpy": 4650000,
+        "best_jpy": 4550000,
         "sources": [
           "大黒屋",
           "PREMIER VALUE"
@@ -58003,12 +57734,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -86606,9 +86336,9 @@
       "jp_compare": {
         "matched": true,
         "ref": "126610LN",
-        "quote_count": 6,
+        "quote_count": 7,
         "basis": "used",
-        "conservative_jpy": 997000,
+        "conservative_jpy": 750000,
         "best_jpy": 2530000,
         "sources": [
           "QUARK",
@@ -86883,12 +86613,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "126334",
-        "quote_count": 4,
+        "quote_count": 3,
         "basis": "used",
         "conservative_jpy": 2000000,
         "best_jpy": 5710300,
         "sources": [
-          "QUARK",
           "ブラリバ",
           "PREMIER VALUE"
         ]
@@ -86925,12 +86654,11 @@
       "jp_compare": {
         "matched": true,
         "ref": "124060",
-        "quote_count": 3,
+        "quote_count": 2,
         "basis": "used",
         "conservative_jpy": 1850000,
-        "best_jpy": 4350000,
+        "best_jpy": 4200000,
         "sources": [
-          "QUARK",
           "大黒屋",
           "PREMIER VALUE"
         ]
@@ -86970,7 +86698,7 @@
         "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
-        "best_jpy": 5510000,
+        "best_jpy": 5507000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -87015,7 +86743,7 @@
         "quote_count": 7,
         "basis": "new",
         "conservative_jpy": 770000,
-        "best_jpy": 5510000,
+        "best_jpy": 5507000,
         "sources": [
           "KOMEHYO",
           "大黒屋",
@@ -87190,7 +86918,7 @@
       "condition_label": "中古（使用感少）",
       "condition_rank": null,
       "source_url": "https://komehyo.jp/kaitori/watch/",
-      "observed_at": "2026-11-28T00:07:28.553200+00:00"
+      "observed_at": "2026-11-28T13:16:10.293597+00:00"
     },
     {
       "source": "QUARK",
@@ -87198,25 +86926,25 @@
       "variant": "黑 蓝",
       "label": "126610LN",
       "new_price": null,
-      "used_price": 2030000,
+      "used_price": 1030000,
       "quote_type": "public_buyback",
       "condition_label": "中古",
       "condition_rank": null,
       "source_url": "https://www.909.co.jp/rolex_buy.html",
-      "observed_at": "2026-11-28T00:07:32.074637+00:00"
+      "observed_at": "2026-11-28T13:16:12.833489+00:00"
     },
     {
       "source": "QUARK",
-      "ref": "126710BLRO",
-      "variant": "黑 银",
-      "label": "126710BLRO",
+      "ref": "126610LN",
+      "variant": "银",
+      "label": "126610LN",
       "new_price": null,
-      "used_price": 2300000,
+      "used_price": 750000,
       "quote_type": "public_buyback",
       "condition_label": "中古",
       "condition_rank": null,
       "source_url": "https://www.909.co.jp/rolex_buy.html",
-      "observed_at": "2026-11-28T00:07:32.074780+00:00"
+      "observed_at": "2026-11-28T13:16:12.833614+00:00"
     },
     {
       "source": "QUARK",
@@ -87229,59 +86957,33 @@
       "condition_label": "中古",
       "condition_rank": null,
       "source_url": "https://www.909.co.jp/rolex_buy.html",
-      "observed_at": "2026-11-28T00:07:32.074895+00:00"
-    },
-    {
-      "source": "QUARK",
-      "ref": "124060",
-      "variant": "黑 银",
-      "label": "124060",
-      "new_price": null,
-      "used_price": 2300000,
-      "quote_type": "public_buyback",
-      "condition_label": "中古",
-      "condition_rank": null,
-      "source_url": "https://www.909.co.jp/rolex_buy.html",
-      "observed_at": "2026-11-28T00:07:32.075030+00:00"
-    },
-    {
-      "source": "QUARK",
-      "ref": "126334",
-      "variant": "银",
-      "label": "126334",
-      "new_price": null,
-      "used_price": 2300000,
-      "quote_type": "public_buyback",
-      "condition_label": "中古",
-      "condition_rank": null,
-      "source_url": "https://www.909.co.jp/rolex_buy.html",
-      "observed_at": "2026-11-28T00:07:32.075194+00:00"
+      "observed_at": "2026-11-28T13:16:12.833765+00:00"
     },
     {
       "source": "大黒屋",
       "ref": "126500LN",
       "variant": "白 黑",
       "label": "126500LN",
-      "new_price": 4650000,
-      "used_price": 4350000,
+      "new_price": 4550000,
+      "used_price": 4200000,
       "quote_type": "public_buyback",
       "condition_label": "中古",
       "condition_rank": null,
       "source_url": "https://kaitori.e-daikoku.com/brand/shop/ikebukuro-higashiguchi/",
-      "observed_at": "2026-11-28T00:07:36.195677+00:00"
+      "observed_at": "2026-11-28T13:16:16.215065+00:00"
     },
     {
       "source": "大黒屋",
       "ref": "124060",
       "variant": "白 黑",
       "label": "124060",
-      "new_price": 4650000,
-      "used_price": 4350000,
+      "new_price": 4550000,
+      "used_price": 4200000,
       "quote_type": "public_buyback",
       "condition_label": "中古",
       "condition_rank": null,
       "source_url": "https://kaitori.e-daikoku.com/brand/shop/ikebukuro-higashiguchi/",
-      "observed_at": "2026-11-28T00:07:36.195954+00:00"
+      "observed_at": "2026-11-28T13:16:16.215300+00:00"
     },
     {
       "source": "RASIN",
@@ -87294,7 +86996,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-11-28T00:07:40.382128+00:00"
+      "observed_at": "2026-11-28T13:16:19.820051+00:00"
     },
     {
       "source": "RASIN",
@@ -87307,46 +87009,46 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-11-28T00:07:40.382305+00:00"
+      "observed_at": "2026-11-28T13:16:19.820184+00:00"
     },
     {
       "source": "RASIN",
       "ref": "126710BLRO",
       "variant": "白 黑",
       "label": "126710BLRO",
-      "new_price": 13000000,
+      "new_price": 11000000,
       "used_price": 1500000,
       "quote_type": "public_buyback",
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-11-28T00:07:40.382473+00:00"
+      "observed_at": "2026-11-28T13:16:19.820314+00:00"
     },
     {
       "source": "RASIN",
       "ref": "116500LN",
       "variant": "白 黑",
       "label": "116500LN",
-      "new_price": 13000000,
+      "new_price": 11000000,
       "used_price": 1500000,
       "quote_type": "public_buyback",
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-11-28T00:07:40.382624+00:00"
+      "observed_at": "2026-11-28T13:16:19.820434+00:00"
     },
     {
       "source": "RASIN",
       "ref": "116500LN",
       "variant": "白 黑",
       "label": "116500LN",
-      "new_price": 14000000,
+      "new_price": 12500000,
       "used_price": 7200000,
       "quote_type": "public_buyback",
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-11-28T00:07:40.382757+00:00"
+      "observed_at": "2026-11-28T13:16:19.820543+00:00"
     },
     {
       "source": "RASIN",
@@ -87359,20 +87061,20 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-11-28T00:07:40.382893+00:00"
+      "observed_at": "2026-11-28T13:16:19.820648+00:00"
     },
     {
       "source": "RASIN",
       "ref": "214270",
       "variant": "白 黑",
       "label": "214270",
-      "new_price": 13000000,
+      "new_price": 11000000,
       "used_price": 1500000,
       "quote_type": "public_buyback",
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/rolex_price/",
-      "observed_at": "2026-11-28T00:07:40.383203+00:00"
+      "observed_at": "2026-11-28T13:16:19.820869+00:00"
     },
     {
       "source": "RASIN",
@@ -87385,7 +87087,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/audemarspiguet_price/",
-      "observed_at": "2026-11-28T00:07:42.839775+00:00"
+      "observed_at": "2026-11-28T13:16:21.732786+00:00"
     },
     {
       "source": "RASIN",
@@ -87398,7 +87100,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/audemarspiguet_price/",
-      "observed_at": "2026-11-28T00:07:42.840277+00:00"
+      "observed_at": "2026-11-28T13:16:21.732997+00:00"
     },
     {
       "source": "RASIN",
@@ -87411,7 +87113,7 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/audemarspiguet_price/",
-      "observed_at": "2026-11-28T00:07:42.840531+00:00"
+      "observed_at": "2026-11-28T13:16:21.733135+00:00"
     },
     {
       "source": "RASIN",
@@ -87424,59 +87126,59 @@
       "condition_label": "中古（定額買取条件準拠）",
       "condition_rank": null,
       "source_url": "https://www.kaitori-ginza.com/teigaku/omega_price/",
-      "observed_at": "2026-11-28T00:07:49.081435+00:00"
+      "observed_at": "2026-11-28T13:16:26.302729+00:00"
     },
     {
       "source": "なんぼや",
       "ref": "126500LN",
       "variant": "白 黑",
       "label": "126500LN",
-      "new_price": 4422000,
-      "used_price": 2382000,
+      "new_price": 4424000,
+      "used_price": 2390000,
       "quote_type": "public_buyback",
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-11-28T00:07:51.513072+00:00"
+      "observed_at": "2026-11-28T13:16:28.818708+00:00"
     },
     {
       "source": "なんぼや",
       "ref": "126500LN",
       "variant": "白 黑",
       "label": "126500LN",
-      "new_price": 5510000,
-      "used_price": 5510000,
+      "new_price": 5507000,
+      "used_price": 5507000,
       "quote_type": "public_buyback",
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-11-28T00:07:51.513242+00:00"
+      "observed_at": "2026-11-28T13:16:28.818839+00:00"
     },
     {
       "source": "なんぼや",
       "ref": "126610LN",
       "variant": "白 黑",
       "label": "126610LN",
-      "new_price": 4422000,
-      "used_price": 2382000,
+      "new_price": 4424000,
+      "used_price": 2390000,
       "quote_type": "public_buyback",
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-11-28T00:07:51.513311+00:00"
+      "observed_at": "2026-11-28T13:16:28.818915+00:00"
     },
     {
       "source": "なんぼや",
       "ref": "126710BLNR",
       "variant": "白 黑",
       "label": "126710BLNR",
-      "new_price": 4422000,
-      "used_price": 2382000,
+      "new_price": 4424000,
+      "used_price": 2390000,
       "quote_type": "public_buyback",
       "condition_label": "中古品（同社条件準拠）",
       "condition_rank": null,
       "source_url": "https://nanboya.com/tokei-kaitori/rolex/",
-      "observed_at": "2026-11-28T00:07:51.513454+00:00"
+      "observed_at": "2026-11-28T13:16:28.819104+00:00"
     },
     {
       "source": "ブラリバ",
@@ -87489,7 +87191,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/purchase-watch/rolex",
-      "observed_at": "2026-11-28T00:07:59.532084+00:00"
+      "observed_at": "2026-11-28T13:16:36.139835+00:00"
     },
     {
       "source": "ブラリバ",
@@ -87502,7 +87204,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/purchase-watch/rolex",
-      "observed_at": "2026-11-28T00:07:59.532272+00:00"
+      "observed_at": "2026-11-28T13:16:36.139955+00:00"
     },
     {
       "source": "ブラリバ",
@@ -87515,7 +87217,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/purchase-watch/rolex",
-      "observed_at": "2026-11-28T00:07:59.532384+00:00"
+      "observed_at": "2026-11-28T13:16:36.140066+00:00"
     },
     {
       "source": "ブラリバ",
@@ -87528,7 +87230,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/purchase-watch/rolex",
-      "observed_at": "2026-11-28T00:07:59.532512+00:00"
+      "observed_at": "2026-11-28T13:16:36.140169+00:00"
     },
     {
       "source": "ブラリバ",
@@ -87541,7 +87243,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/purchase-watch/rolex",
-      "observed_at": "2026-11-28T00:07:59.532679+00:00"
+      "observed_at": "2026-11-28T13:16:36.140340+00:00"
     },
     {
       "source": "ブラリバ",
@@ -87554,7 +87256,7 @@
       "condition_label": "実績ランクA",
       "condition_rank": "A",
       "source_url": "https://brandrevalue.com/cat/watch/purchase-watch/rolex",
-      "observed_at": "2026-11-28T00:07:59.532791+00:00"
+      "observed_at": "2026-11-28T13:16:36.140454+00:00"
     },
     {
       "source": "ブラリバ",
@@ -87567,7 +87269,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/patek-philippe",
-      "observed_at": "2026-11-28T00:08:02.893774+00:00"
+      "observed_at": "2026-11-28T13:16:39.142843+00:00"
     },
     {
       "source": "ブラリバ",
@@ -87580,7 +87282,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/patek-philippe",
-      "observed_at": "2026-11-28T00:08:02.893926+00:00"
+      "observed_at": "2026-11-28T13:16:39.143029+00:00"
     },
     {
       "source": "ブラリバ",
@@ -87593,7 +87295,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/patek-philippe",
-      "observed_at": "2026-11-28T00:08:02.894065+00:00"
+      "observed_at": "2026-11-28T13:16:39.143184+00:00"
     },
     {
       "source": "ブラリバ",
@@ -87606,7 +87308,7 @@
       "condition_label": "実績ランクB",
       "condition_rank": "B",
       "source_url": "https://brandrevalue.com/cat/watch/omega",
-      "observed_at": "2026-11-28T00:08:04.332386+00:00"
+      "observed_at": "2026-11-28T13:16:40.577297+00:00"
     },
     {
       "source": "WATCHNIAN",
@@ -87619,7 +87321,7 @@
       "condition_label": "中古",
       "condition_rank": null,
       "source_url": "https://watchnian.com/buy/categories/item_watch/brand_rolex/",
-      "observed_at": "2026-11-28T00:08:11.032813+00:00"
+      "observed_at": "2026-11-28T13:16:46.151095+00:00"
     },
     {
       "source": "WATCHNIAN",
@@ -87632,7 +87334,7 @@
       "condition_label": "中古",
       "condition_rank": null,
       "source_url": "https://watchnian.com/buy/categories/item_watch/brand_rolex/",
-      "observed_at": "2026-11-28T00:08:11.033517+00:00"
+      "observed_at": "2026-11-28T13:16:46.151460+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -87645,7 +87347,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/daytona/ref_126500LN/",
-      "observed_at": "2026-11-28T00:08:19.819676+00:00"
+      "observed_at": "2026-11-28T13:16:54.026317+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -87658,7 +87360,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/daytona/ref_116500LN/",
-      "observed_at": "2026-11-28T00:08:22.128569+00:00"
+      "observed_at": "2026-11-28T13:16:56.169792+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -87671,7 +87373,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/submariner/ref_126610LN/",
-      "observed_at": "2026-11-28T00:08:25.539456+00:00"
+      "observed_at": "2026-11-28T13:16:59.713118+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -87684,7 +87386,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/submariner/ref_126610LV/",
-      "observed_at": "2026-11-28T00:08:29.429139+00:00"
+      "observed_at": "2026-11-28T13:17:03.029669+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -87697,7 +87399,7 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/submariner/ref_124060/",
-      "observed_at": "2026-11-28T00:08:31.635276+00:00"
+      "observed_at": "2026-11-28T13:17:05.029162+00:00"
     },
     {
       "source": "PREMIER VALUE",
@@ -87710,12 +87412,12 @@
       "condition_label": "新品/中古（月次相場）",
       "condition_rank": null,
       "source_url": "https://premiervalue.jp/rolex/datejust/ref_126334/",
-      "observed_at": "2026-11-28T00:08:36.344871+00:00"
+      "observed_at": "2026-11-28T13:17:09.727347+00:00"
     }
   ],
   "jp_source_summary": {
     "KOMEHYO": 1,
-    "QUARK": 5,
+    "QUARK": 3,
     "大黒屋": 2,
     "RASIN": 11,
     "なんぼや": 4,
@@ -87732,7 +87434,7 @@
     "security_verification": false,
     "throttled": false,
     "renewed": false,
-    "checked_at": "2026-11-28T00:08:50.432322+00:00"
+    "checked_at": "2026-11-28T13:17:22.575396+00:00"
   },
   "goofish_scan": {
     "strategy": "board_refs_only",
@@ -88477,7 +88179,7 @@
     "require_ref_in_title": true,
     "exclude_collection_floor_price": true,
     "send_status": "draft_only_until_channel_connected",
-    "generated_at": "2026-11-28T00:08:51.423416+00:00",
+    "generated_at": "2026-11-28T13:17:23.586864+00:00",
     "fx_jpy_to_cny": 0.041797
   }
 }
